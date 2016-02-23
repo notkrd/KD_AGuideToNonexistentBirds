@@ -1,0 +1,9716 @@
+# KD_AGuideToNonexistentBirds
+
+*********************************************************************
+
+  SIBLEY AND MONROE'S WORLD LIST OF BIRDS (1990, with corrections of 1993)
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+  1    1 Struthio camelus                     Ostrich
+  2    2 Rhea americana                       Greater Rhea
+  2    3 Rhea pennata                         Lesser Rhea
+  3    4 Casuarius casuarius                  Southern Cassowary
+  3    5 Casuarius bennetti                   Dwarf Cassowary
+  3    6 Casuarius unappendiculatus           Northern Cassowary
+  3    7 Dromaius novaehollandiae             Emu
+  4    8 Apteryx australis                    Brown Kiwi
+  4    9 Apteryx owenii                       Little Spotted Kiwi
+  4   10 Apteryx haastii                      Great Spotted Kiwi
+  5   11 Tinamus tao                          Grey Tinamou
+  5   12 Tinamus solitarius                   Solitary Tinamou
+  5   13 Tinamus osgoodi                      Black Tinamou
+  5   14 Tinamus major                        Great Tinamou
+  5   15 Tinamus guttatus                     White-throated Tinamou
+  5   16 Nothocercus bonapartei               Highland Tinamou
+  5   17 Nothocercus julius                   Tawny-breasted Tinamou
+  5   18 Nothocercus nigrocapillus            Hooded Tinamou
+  5   19 Crypturellus berlepschi              Berlepsch's Tinamou
+  5   20 Crypturellus cinereus                Cinereous Tinamou
+  5   21 Crypturellus soui                    Little Tinamou
+  5   22 Crypturellus ptaritepui              Tepui Tinamou
+  5   23 Crypturellus obsoletus               Brown Tinamou
+  5   24 Crypturellus cinnamomeus             Thicket Tinamou
+  5   25 Crypturellus undulatus               Undulated Tinamou
+  5   26 Crypturellus transfasciatus          Pale-browed Tinamou
+  5   27 Crypturellus strigulosus             Brazilian Tinamou
+  5   28 Crypturellus boucardi                Slaty-breasted Tinamou
+  5   29 Crypturellus kerriae                 Choco Tinamou
+  5   30 Crypturellus erythropus              Red-legged Tinamou
+  5   31 Crypturellus duidae                  Grey-legged Tinamou
+  5   32 Crypturellus noctivagus              Yellow-legged Tinamou
+  5   33 Crypturellus atrocapillus            Black-capped Tinamou
+  5   34 Crypturellus variegatus              Variegated Tinamou
+  5   35 Crypturellus brevirostris            Rusty Tinamou
+  5   36 Crypturellus bartletti               Bartlett's Tinamou
+  5   37 Crypturellus parvirostris            Small-billed Tinamou
+  5   38 Crypturellus casiquiare              Barred Tinamou
+  5   39 Crypturellus tataupa                 Tataupa Tinamou
+  5   40 Rhynchotus rufescens                 Red-winged Tinamou
+  5   41 Nothoprocta taczanowskii             Taczanowski's Tinamou
+  5   42 Nothoprocta kalinowskii              Kalinowski's Tinamou
+  5   43 Nothoprocta ornata                   Ornate Tinamou
+  5   44 Nothoprocta pentlandii               Andean Tinamou
+  5   45 Nothoprocta cinerascens              Brushland Tinamou
+  5   46 Nothoprocta perdicaria               Chilean Tinamou
+  5   47 Nothoprocta curvirostris             Curve-billed Tinamou
+  5   48 Nothura darwinii                     Darwin's Nothura
+  5   49 Nothura chacoensis                   Chaco Nothura
+  5   50 Nothura maculosa                     Spotted Nothura
+  5   51 Nothura minor                        Lesser Nothura
+  5   52 Nothura boraquira                    White-bellied Nothura
+  5   53 Taoniscus nanus                      Dwarf Tinamou
+  5   54 Eudromia elegans                     Elegant Crested-Tinamou
+  5   55 Eudromia formosa                     Quebracho Crested-Tinamou
+  5   56 Tinamotis pentlandii                 Puna Tinamou
+  5   57 Tinamotis ingoufi                    Patagonian Tinamou
+  6   58 Ortalis vetula                       Plain Chachalaca
+  6   59 Ortalis cinereiceps                  Grey-headed Chachalaca
+  6   60 Ortalis garrula                      Chestnut-winged Chachalaca
+  6   61 Ortalis ruficauda                    Rufous-vented Chachalaca
+  6   62 Ortalis erythroptera                 Rufous-headed Chachalaca
+  6   63 Ortalis wagleri                      Rufous-bellied Chachalaca
+  6   64 Ortalis poliocephala                 West Mexican Chachalaca
+  6   65 Ortalis canicollis                   Chaco Chachalaca
+  6   66 Ortalis leucogastra                  White-bellied Chachalaca
+  6   67 Ortalis guttata                      Speckled Chachalaca
+  6   68 Ortalis motmot                       Little Chachalaca
+  6   69 Ortalis superciliaris                Buff-browed Chachalaca
+  6   70 Penelope argyrotis                   Band-tailed Guan
+  6   71 Penelope barbata                     Bearded Guan
+  6   72 Penelope ortoni                      Baudo Guan
+  6   73 Penelope montagnii                   Andean Guan
+  6   74 Penelope marail                      Marail Guan
+  6   75 Penelope superciliaris               Rusty-margined Guan
+  6   76 Penelope dabbenei                    Red-faced Guan
+  6   77 Penelope purpurascens                Crested Guan
+  6   78 Penelope perspicax                   Cauca Guan
+  6   79 Penelope albipennis                  White-winged Guan
+  6   80 Penelope jacquacu                    Spix's Guan
+  6   81 Penelope obscura                     Dusky-legged Guan
+  6   82 Penelope pileata                     White-crested Guan
+  6   83 Penelope ochrogaster                 Chestnut-bellied Guan
+  6   84 Penelope jacucaca                    White-browed Guan
+  6   85 Pipile pipile                        Trinidad Piping-Guan
+  6   86 Pipile cumanensis                    Blue-throated Piping-Guan
+  6   87 Pipile cujubi                        Red-throated Piping-Guan
+  6   88 Pipile jacutinga                     Black-fronted Piping-Guan
+  6   89 Aburria aburri                       Wattled Guan
+  6   90 Chamaepetes unicolor                 Black Guan
+  6   91 Chamaepetes goudotii                 Sickle-winged Guan
+  6   92 Penelopina nigra                     Highland Guan
+  6   93 Oreophasis derbianus                 Horned Guan
+  6   94 Nothocrax urumutum                   Nocturnal Curassow
+  6   95 Mitu tomentosa                       Crestless Curassow
+  6   96 Mitu salvini                         Salvin's Curassow
+  6   97 Mitu tuberosa                        Razor-billed Curassow
+  6   98 Mitu mitu                            Alagoas Curassow
+  6   99 Pauxi pauxi                          Helmeted Curassow
+  6  100 Pauxi unicornis                      Horned Curassow
+  6  101 Crax rubra                           Great Curassow
+  6  102 Crax alberti                         Blue-knobbed Curassow
+  6  103 Crax daubentoni                      Yellow-knobbed Curassow
+  6  104 Crax alector                         Black Curassow
+  6  105 Crax globulosa                       Wattled Curassow
+  6  106 Crax fasciolata                      Bare-faced Curassow
+  6  107 Crax blumenbachii                    Red-billed Curassow
+  7  108 Alectura lathami                     Australian Brush-turkey
+  7  109 Aepypodius arfakianus                Wattled Brush-turkey
+  7  110 Aepypodius bruijnii                  Bruijn's Brush-turkey
+  7  111 Talegalla cuvieri                    Red-billed Brush-turkey
+  7  112 Talegalla fuscirostris               Black-billed Brush-turkey
+  7  113 Talegalla jobiensis                  Brown-collared Brush-turkey
+  7  114 Macrocephalon maleo                  Maleo
+  7  115 Megapodius nicobariensis             Nicobar Scrubfowl
+  7  116 Megapodius cumingii                  Tabon Scrubfowl
+  7  117 Megapodius bernsteinii               Sula Scrubfowl
+  7  118 Megapodius reinwardt                 Orange-footed Scrubfowl
+  7  119 Megapodius freycinet                 Dusky Scrubfowl
+  7  120 Megapodius affinis                   New Guinea Scrubfowl
+  7  121 Megapodius eremita                   Melanesian Scrubfowl
+  7  122 Megapodius layardi                   Vanuatu Scrubfowl
+  7  123 Megapodius laperouse                 Micronesian Scrubfowl
+  7  124 Megapodius pritchardii               Niaufoou Scrubfowl
+  7  125 Megapodius wallacei                  Moluccan Scrubfowl
+  7  126 Leipoa ocellata                      Malleefowl
+  8  127 Lerwa lerwa                          Snow Partridge
+  8  128 Ammoperdix griseogularis             See-see Partridge
+  8  129 Ammoperdix heyi                      Sand Partridge
+  8  130 Tetraogallus caucasicus              Caucasian Snowcock
+  8  131 Tetraogallus caspius                 Caspian Snowcock
+  8  132 Tetraogallus tibetanus               Tibetan Snowcock
+  8  133 Tetraogallus altaicus                Altai Snowcock
+  8  134 Tetraogallus himalayensis            Himalayan Snowcock
+  8  135 Tetraophasis obscurus                Chestnut-throated Partridge
+  8  136 Tetraophasis szechenyii              Buff-throated Partridge
+  8  137 Alectoris graeca                     Rock Partridge
+  8  138 Alectoris chukar                     Chukar
+  8  139 Alectoris philbyi                    Philby's Partridge
+  8  140 Alectoris magna                      Rusty-necklaced Partridge
+  8  141 Alectoris barbara                    Barbary Partridge
+  8  142 Alectoris rufa                       Red-legged Partridge
+  8  143 Alectoris melanocephala              Arabian Partridge
+  8  144 Francolinus francolinus              Black Francolin
+  8  145 Francolinus pictus                   Painted Francolin
+  8  146 Francolinus pintadeanus              Chinese Francolin
+  8  147 Francolinus pondicerianus            Grey Francolin
+  8  148 Francolinus gularis                  Swamp Francolin
+  8  149 Francolinus coqui                    Coqui Francolin
+  8  150 Francolinus albogularis              White-throated Francolin
+  8  151 Francolinus schlegelii               Schlegel's Francolin
+  8  152 Francolinus lathami                  Forest Francolin
+  8  153 Francolinus sephaena                 Crested Francolin
+  8  154 Francolinus streptophorus            Ring-necked Francolin
+  8  155 Francolinus finschi                  Finsch's Francolin
+  8  156 Francolinus africanus                Grey-winged Francolin
+  8  157 Francolinus levaillantii             Red-winged Francolin
+  8  158 Francolinus psilolaemus              Moorland Francolin
+  8  159 Francolinus shelleyi                 Shelley's Francolin
+  8  160 Francolinus levaillantoides          OrangeRiver Francolin
+  8  161 Francolinus nahani                   Nahan's Francolin
+  8  162 Francolinus hartlaubi                Hartlaub's Francolin
+  8  163 Francolinus bicalcaratus             Double-spurred Francolin
+  8  164 Francolinus clappertoni              Clapperton's Francolin
+  8  165 Francolinus icterorhynchus           Heuglin's Francolin
+  8  166 Francolinus harwoodi                 Harwood's Francolin
+  8  167 Francolinus adspersus                Red-billed Francolin
+  8  168 Francolinus capensis                 Cape Francolin
+  8  169 Francolinus hildebrandti             Hildebrandt's Francolin
+  8  170 Francolinus natalensis               Natal Francolin
+  8  171 Francolinus ahantensis               Ahanta Francolin
+  8  172 Francolinus squamatus                Scaly Francolin
+  8  173 Francolinus griseostriatus           Grey-striped Francolin
+  8  174 Francolinus leucoscepus              Yellow-necked Spurfowl
+  8  175 Francolinus rufopictus               Grey-breasted Spurfowl
+  8  176 Francolinus afer                     Red-necked Spurfowl
+  8  177 Francolinus swainsonii               Swainson's Spurfowl
+  8  178 Francolinus erckelii                 Erckel's Francolin
+  8  179 Francolinus ochropectus              Ochre-breasted Francolin
+  8  180 Francolinus castaneicollis           Chestnut-naped Francolin
+  8  181 Francolinus nobilis                  Handsome Francolin
+  8  182 Francolinus jacksoni                 Jackson's Francolin
+  8  183 Francolinus camerunensis             Cameroon Francolin
+  8  184 Francolinus swierstrai               Swierstra's Francolin
+  8  185 Perdix perdix                        Grey Partridge
+  8  186 Perdix dauurica                      Daurian Partridge
+  8  187 Perdix hodgsoniae                    Tibetan Partridge
+  8  188 Rhizothera longirostris              Long-billed Partridge
+  8  189 Margaroperdix madagascarensis        Madagascar Partridge
+  8  190 Melanoperdix nigra                   Black Partridge
+  8  191 Coturnix coturnix                    Common Quail
+  8  192 Coturnix japonica                    Japanese Quail
+  8  193 Coturnix pectoralis                  Stubble Quail
+  8  194 Coturnix novaezelandiae              New Zealand Quail
+  8  195 Coturnix coromandelica               Rain Quail
+  8  196 Coturnix delegorguei                 Harlequin Quail
+  8  197 Coturnix ypsilophora                 Brown Quail
+  8  198 Coturnix adansonii                   Blue Quail
+  8  199 Coturnix chinensis                   Blue-breasted Quail
+  8  200 Anurophasis monorthonyx              Snow Mountain Quail
+  8  201 Perdicula asiatica                   Jungle Bush-Quail
+  8  202 Perdicula argoondah                  Rock Bush-Quail
+  8  203 Perdicula erythrorhyncha             Painted Bush-Quail
+  8  204 Perdicula manipurensis               Manipur Bush-Quail
+  8  205 Arborophila torqueola                Hill Partridge
+  8  206 Arborophila rufogularis              Rufous-throated Partridge
+  8  207 Arborophila atrogularis              White-cheeked Partridge
+  8  208 Arborophila crudigularis             Taiwan Partridge
+  8  209 Arborophila mandellii                Chestnut-breasted Partridge
+  8  210 Arborophila brunneopectus            Bar-backed Partridge
+  8  211 Arborophila rufipectus               Sichuan Partridge
+  8  212 Arborophila orientalis               Grey-breasted Partridge
+  8  213 Arborophila javanica                 Chestnut-bellied Partridge
+  8  214 Arborophila hyperythra               Red-breasted Partridge
+  8  215 Arborophila gingica                  White-necklaced Partridge
+  8  216 Arborophila davidi                   Orange-necked Partridge
+  8  217 Arborophila cambodiana               Chestnut-headed Partridge
+  8  218 Arborophila rubrirostris             Red-billed Partridge
+  8  219 Arborophila ardens                   Hainan Partridge
+  8  220 Arborophila chloropus                Scaly-breasted Partridge
+  8  221 Arborophila merlini                  Annam Partridge
+  8  222 Arborophila charltonii               Chestnut-necklaced Partridge
+  8  223 Caloperdix oculea                    Ferruginous Partridge
+  8  224 Haematortyx sanguiniceps             Crimson-headed Partridge
+  8  225 Rollulus rouloul                     Crested Partridge
+  8  226 Ptilopachus petrosus                 Stone Partridge
+  8  227 Bambusicola fytchii                  Mountain Bamboo-Partridge
+  8  228 Bambusicola thoracica                Chinese Bamboo-Partridge
+  8  229 Galloperdix spadicea                 Red Spurfowl
+  8  230 Galloperdix lunulata                 Painted Spurfowl
+  8  231 Galloperdix bicalcarata              Ceylon Spurfowl
+  8  232 Ophrysia superciliosa                Himalayan Quail
+  8  233 Ithaginis cruentus                   Blood Pheasant
+  8  234 Tragopan melanocephalus              Western Tragopan
+  8  235 Tragopan satyra                      Satyr Tragopan
+  8  236 Tragopan blythii                     Blyth's Tragopan
+  8  237 Tragopan temminckii                  Temminck's Tragopan
+  8  238 Tragopan caboti                      Cabot's Tragopan
+  8  239 Pucrasia macrolopha                  Koklass Pheasant
+  8  240 Lophophorus impejanus                Himalayan Monal
+  8  241 Lophophorus sclateri                 Sclater's Monal
+  8  242 Lophophorus lhuysii                  Chinese Monal
+  8  243 Gallus gallus                        Red Junglefowl
+  8  244 Gallus sonneratii                    Grey Junglefowl
+  8  245 Gallus lafayetii                     Ceylon Junglefowl
+  8  246 Gallus varius                        Green Junglefowl
+  8  247 Lophura leucomelanos                 Kalij Pheasant
+  8  248 Lophura nycthemera                   Silver Pheasant
+  8  249 Lophura imperialis                   Imperial Pheasant
+  8  250 Lophura edwardsi                     Edwards's Pheasant
+  8  251 Lophura hatinhensis                  Vietnam Fireback
+  8  252 Lophura swinhoii                     Swinhoe's Pheasant
+  8  253 Lophura hoogerwerfi                  Sumatran Pheasant
+  8  254 Lophura inornata                     Salvadori's Pheasant
+  8  255 Lophura erythrophthalma              Crestless Fireback
+  8  256 Lophura ignita                       Crested Fireback
+  8  257 Lophura diardi                       Siamese Fireback
+  8  258 Lophura bulweri                      Bulwer's Pheasant
+  8  259 Crossoptilon harmani                 Tibetan Eared-Pheasant
+  8  260 Crossoptilon crossoptilon            White Eared-Pheasant
+  8  261 Crossoptilon mantchuricum            Brown Eared-Pheasant
+  8  262 Crossoptilon auritum                 Blue Eared-Pheasant
+  8  263 Catreus wallichi                     Cheer Pheasant
+  8  264 Syrmaticus ellioti                   Elliot's Pheasant
+  8  265 Syrmaticus humiae                    Hume's Pheasant
+  8  266 Syrmaticus mikado                    Mikado Pheasant
+  8  267 Syrmaticus soemmerringii             Copper Pheasant
+  8  268 Syrmaticus reevesii                  Reeves's Pheasant
+  8  269 Phasianus colchicus                  Common Pheasant
+  8  270 Chrysolophus pictus                  Golden Pheasant
+  8  271 Chrysolophus amherstiae              Lady Amherst's Pheasant
+  8  272 Polyplectron chalcurum               Bronze-tailed Peacock-Pheasant
+  8  273 Polyplectron inopinatum              Mountain Peacock-Pheasant
+  8  274 Polyplectron germaini                Germain's Peacock-Pheasant
+  8  275 Polyplectron bicalcaratum            Grey Peacock-Pheasant
+  8  276 Polyplectron malacense               Malayan Peacock-Pheasant
+  8  277 Polyplectron schleiermacheri         Bornean Peacock-Pheasant
+  8  278 Polyplectron emphanum                Palawan Peacock-Pheasant
+  8  279 Rheinardia ocellata                  Crested Argus
+  8  280 Argusianus argus                     Great Argus
+  8  281 Afropavo congensis                   Congo Peafowl
+  8  282 Pavo cristatus                       Indian Peafowl
+  8  283 Pavo muticus                         Green Peafowl
+  8  284 Dendragapus falcipennis              Siberian Grouse
+  8  285 Dendragapus canadensis               Spruce Grouse
+  8  286 Dendragapus obscurus                 Blue Grouse
+  8  287 Lagopus lagopus                      Willow Ptarmigan
+  8  288 Lagopus mutus                        Rock Ptarmigan
+  8  289 Lagopus leucurus                     White-tailed Ptarmigan
+  8  290 Tetrao tetrix                        Black Grouse
+  8  291 Tetrao mlokosiewiczi                 Caucasian Grouse
+  8  292 Tetrao urogallus                     Western Capercaillie
+  8  293 Tetrao parvirostris                  Black-billed Capercaillie
+  8  294 Bonasa bonasia                       Hazel Grouse
+  8  295 Bonasa sewerzowi                     Chinese Grouse
+  8  296 Bonasa umbellus                      Ruffed Grouse
+  8  297 Centrocercus urophasianus            Sage Grouse
+  8  298 Tympanuchus phasianellus             Sharp-tailed Grouse
+  8  299 Tympanuchus cupido                   Greater Prairie-chicken
+  8  300 Tympanuchus pallidicinctus           Lesser Prairie-chicken
+  8  301 Meleagris gallopavo                  Wild Turkey
+  8  302 Agriocharis ocellata                 Ocellated Turkey
+  9  303 Agelastes meleagrides                White-breasted Guineafowl
+  9  304 Agelastes niger                      Black Guineafowl
+  9  305 Numida meleagris                     Helmeted Guineafowl
+  9  306 Guttera plumifera                    Plumed Guineafowl
+  9  307 Guttera pucherani                    Crested Guineafowl
+  9  308 Acryllium vulturinum                 Vulturine Guineafowl
+ 10  309 Dendrortyx barbatus                  Bearded Wood-Partridge
+ 10  310 Dendrortyx macroura                  Long-tailed Wood-Partridge
+ 10  311 Dendrortyx leucophrys                Buffy-crowned Wood-Partridge
+ 10  312 Oreortyx pictus                      Mountain Quail
+ 10  313 Callipepla squamata                  Scaled Quail
+ 10  314 Callipepla douglasii                 Elegant Quail
+ 10  315 Callipepla californica               California Quail
+ 10  316 Callipepla gambelii                  Gambel's Quail
+ 10  317 Philortyx fasciatus                  Banded Quail
+ 10  318 Colinus virginianus                  Northern Bobwhite
+ 10  319 Colinus nigrogularis                 Black-throated Bobwhite
+ 10  320 Colinus cristatus                    Crested Bobwhite
+ 10  321 Odontophorus gujanensis              Marbled Wood-Quail
+ 10  322 Odontophorus capueira                Spot-winged Wood-Quail
+ 10  323 Odontophorus melanotis               Black-eared Wood-Quail
+ 10  324 Odontophorus erythrops               Rufous-fronted Wood-Quail
+ 10  325 Odontophorus atrifrons               Black-fronted Wood-Quail
+ 10  326 Odontophorus hyperythrus             Chestnut Wood-Quail
+ 10  327 Odontophorus melanonotus             Dark-backed Wood-Quail
+ 10  328 Odontophorus speciosus               Rufous-breasted Wood-Quail
+ 10  329 Odontophorus dialeucos               Tacarcuna Wood-Quail
+ 10  330 Odontophorus strophium               Gorgeted Wood-Quail
+ 10  331 Odontophorus columbianus             Venezuelan Wood-Quail
+ 10  332 Odontophorus leucolaemus             Black-breasted Wood-Quail
+ 10  333 Odontophorus balliviani              Stripe-faced Wood-Quail
+ 10  334 Odontophorus stellatus               Starred Wood-Quail
+ 10  335 Odontophorus guttatus                Spotted Wood-Quail
+ 10  336 Dactylortyx thoracicus               Singing Quail
+ 10  337 Cyrtonyx montezumae                  Montezuma Quail
+ 10  338 Cyrtonyx ocellatus                   Ocellated Quail
+ 10  339 Rhynchortyx cinctus                  Tawny-faced Quail
+ 11  340 Anhima cornuta                       Horned Screamer
+ 11  341 Chauna chavaria                      Northern Screamer
+ 11  342 Chauna torquata                      Southern Screamer
+ 12  343 Anseranas semipalmata                Magpie Goose
+ 13  344 Dendrocygna guttata                  Spotted Whistling-Duck
+ 13  345 Dendrocygna eytoni                   Plumed Whistling-Duck
+ 13  346 Dendrocygna bicolor                  Fulvous Whistling-Duck
+ 13  347 Dendrocygna arcuata                  Wandering Whistling-Duck
+ 13  348 Dendrocygna javanica                 Lesser Whistling-Duck
+ 13  349 Dendrocygna viduata                  White-faced Whistling-Duck
+ 13  350 Dendrocygna arborea                  West Indian Whistling-Duck
+ 13  351 Dendrocygna autumnalis               Black-bellied Whistling-Duck
+ 13  352 Thalassornis leuconotus              White-backed Duck
+ 14  353 Oxyura dominica                      Masked Duck
+ 14  354 Oxyura jamaicensis                   Ruddy Duck
+ 14  355 Oxyura ferruginea                    Andean Duck
+ 14  356 Oxyura leucocephala                  White-headed Duck
+ 14  357 Oxyura maccoa                        Maccoa Duck
+ 14  358 Oxyura vittata                       Lake Duck
+ 14  359 Oxyura australis                     Blue-billed Duck
+ 14  360 Biziura lobata                       Musk Duck
+ 14  361 Heteronetta atricapilla              Black-headed Duck
+ 14  362 Stictonetta naevosa                  Freckled Duck
+ 14  363 Cygnus olor                          Mute Swan
+ 14  364 Cygnus atratus                       Black Swan
+ 14  365 Cygnus melanocorypha                 Black-necked Swan
+ 14  366 Cygnus cygnus                        Whooper Swan
+ 14  367 Cygnus buccinator                    Trumpeter Swan
+ 14  368 Cygnus columbianus                   Tundra Swan
+ 14  369 Coscoroba coscoroba                  Coscoroba Swan
+ 14  370 Anser cygnoides                      Swan Goose
+ 14  371 Anser brachyrhynchus                 Pink-footed Goose
+ 14  372 Anser fabalis                        Bean Goose
+ 14  373 Anser albifrons                      Greater White-fronted Goose
+ 14  374 Anser erythropus                     Lesser White-fronted Goose
+ 14  375 Anser anser                          Greylag Goose
+ 14  376 Anser indicus                        Bar-headed Goose
+ 14  377 Anser caerulescens                   Snow Goose
+ 14  378 Anser rossii                         Ross's Goose
+ 14  379 Anser canagica                       Emperor Goose
+ 14  380 Branta sandvicensis                  Nene
+ 14  381 Branta canadensis                    Canada Goose
+ 14  382 Branta leucopsis                     Barnacle Goose
+ 14  383 Branta bernicla                      Brent Goose
+ 14  384 Branta ruficollis                    Red-breasted Goose
+ 14  385 Cereopsis novaehollandiae            Cape Barren Goose
+ 14  386 Cyanochen cyanopterus                Blue-winged Goose
+ 14  387 Chloephaga melanoptera               Andean Goose
+ 14  388 Chloephaga picta                     Upland Goose
+ 14  389 Chloephaga hybrida                   Kelp Goose
+ 14  390 Chloephaga poliocephala              Ashy-headed Goose
+ 14  391 Chloephaga rubidiceps                Ruddy-headed Goose
+ 14  392 Neochen jubata                       Orinoco Goose
+ 14  393 Alopochen aegyptiacus                Egyptian Goose
+ 14  394 Tadorna ferruginea                   Ruddy Shelduck
+ 14  395 Tadorna cana                         South African Shelduck
+ 14  396 Tadorna tadornoides                  Australian Shelduck
+ 14  397 Tadorna variegata                    Paradise Shelduck
+ 14  398 Tadorna cristata                     Crested Shelduck
+ 14  399 Tadorna tadorna                      Common Shelduck
+ 14  400 Tadorna radjah                       Radjah Shelduck
+ 14  401 Tachyeres pteneres                   Flightless Steamerduck
+ 14  402 Tachyeres leucocephalus              Chubut Steamerduck
+ 14  403 Tachyeres brachypterus               Falkland Steamerduck
+ 14  404 Tachyeres patachonicus               Flying Steamerduck
+ 14  405 Plectropterus gambensis              Spur-winged Goose
+ 14  406 Cairina moschata                     Muscovy Duck
+ 14  407 Cairina scutulata                    White-winged Duck
+ 14  408 Pteronetta hartlaubii                Hartlaub's Duck
+ 14  409 Sarkidiornis melanotos               Comb Duck
+ 14  410 Nettapus pulchellus                  Green Pygmy-goose
+ 14  411 Nettapus coromandelianus             Cotton Pygmy-goose
+ 14  412 Nettapus auritus                     African Pygmy-goose
+ 14  413 Callonetta leucophrys                Ringed Teal
+ 14  414 Aix sponsa                           Wood Duck
+ 14  415 Aix galericulata                     Mandarin Duck
+ 14  416 Chenonetta jubata                    Maned Duck
+ 14  417 Amazonetta brasiliensis              Brazilian Teal
+ 14  418 Merganetta armata                    Torrent Duck
+ 14  419 Hymenolaimus malacorhynchus          Blue Duck
+ 14  420 Salvadorina waigiuensis              Salvadori's Teal
+ 14  421 Anas specularioides                  Crested Duck
+ 14  422 Anas specularis                      Spectacled Duck
+ 14  423 Anas capensis                        Cape Teal
+ 14  424 Anas strepera                        Gadwall
+ 14  425 Anas falcata                         Falcated Duck
+ 14  426 Anas penelope                        Eurasian Wigeon
+ 14  427 Anas americana                       American Wigeon
+ 14  428 Anas sibilatrix                      Chiloe Wigeon
+ 14  429 Anas sparsa                          African Black Duck
+ 14  430 Anas rubripes                        American Black Duck
+ 14  431 Anas fulvigula                       Mottled Duck
+ 14  432 Anas platyrhynchos                   Mallard
+ 14  433 Anas wyvilliana                      Hawaiian Duck
+ 14  434 Anas laysanensis                     Laysan Duck
+ 14  435 Anas poecilorhyncha                  Spot-billed Duck
+ 14  436 Anas luzonica                        Philippine Duck
+ 14  437 Anas superciliosa                    Pacific Black Duck
+ 14  438 Anas undulata                        Yellow-billed Duck
+ 14  439 Anas melleri                         Meller's Duck
+ 14  440 Anas discors                         Blue-winged Teal
+ 14  441 Anas cyanoptera                      Cinnamon Teal
+ 14  442 Anas smithii                         Cape Shoveler
+ 14  443 Anas platalea                        Red Shoveler
+ 14  444 Anas rhynchotis                      Australian Shoveler
+ 14  445 Anas clypeata                        Northern Shoveler
+ 14  446 Anas bernieri                        Bernier's Teal
+ 14  447 Anas gibberifrons                    Sunda Teal
+ 14  448 Anas gracilis                        Grey Teal
+ 14  449 Anas castanea                        Chestnut Teal
+ 14  450 Anas aucklandica                     Brown Teal
+ 14  451 Anas bahamensis                      White-cheeked Pintail
+ 14  452 Anas erythrorhyncha                  Red-billed Duck
+ 14  453 Anas flavirostris                    Speckled Teal
+ 14  454 Anas acuta                           Northern Pintail
+ 14  455 Anas eatoni                          Eaton's Pintail
+ 14  456 Anas georgica                        Yellow-billed Pintail
+ 14  457 Anas querquedula                     Garganey
+ 14  458 Anas formosa                         Baikal Teal
+ 14  459 Anas crecca                          Common Teal
+ 14  460 Anas puna                            Puna Teal
+ 14  461 Anas versicolor                      Silver Teal
+ 14  462 Anas hottentota                      Hottentot Teal
+ 14  463 Malacorhynchus membranaceus          Pink-eared Duck
+ 14  464 Marmaronetta angustirostris          Marbled Teal
+ 14  465 Rhodonessa caryophyllacea            Pink-headed Duck
+ 14  466 Netta rufina                         Red-crested Pochard
+ 14  467 Netta peposaca                       Rosy-billed Pochard
+ 14  468 Netta erythrophthalma                Southern Pochard
+ 14  469 Aythya ferina                        Common Pochard
+ 14  470 Aythya valisineria                   Canvasback
+ 14  471 Aythya americana                     Redhead
+ 14  472 Aythya collaris                      Ring-necked Duck
+ 14  473 Aythya nyroca                        Ferruginous Pochard
+ 14  474 Aythya innotata                      Madagascar Pochard
+ 14  475 Aythya baeri                         Baer's Pochard
+ 14  476 Aythya australis                     Hardhead
+ 14  477 Aythya fuligula                      Tufted Duck
+ 14  478 Aythya novaeseelandiae               New Zealand Scaup
+ 14  479 Aythya marila                        Greater Scaup
+ 14  480 Aythya affinis                       Lesser Scaup
+ 14  481 Somateria mollissima                 Common Eider
+ 14  482 Somateria spectabilis                King Eider
+ 14  483 Somateria fischeri                   Spectacled Eider
+ 14  484 Polysticta stelleri                  Steller's Eider
+ 14  485 Camptorhynchus labradorius           Labrador Duck
+ 14  486 Histrionicus histrionicus            Harlequin Duck
+ 14  487 Clangula hyemalis                    Long-tailed Duck
+ 14  488 Melanitta nigra                      Black Scoter
+ 14  489 Melanitta perspicillata              Surf Scoter
+ 14  490 Melanitta fusca                      White-winged Scoter
+ 14  491 Bucephala clangula                   Common Goldeneye
+ 14  492 Bucephala islandica                  Barrow's Goldeneye
+ 14  493 Bucephala albeola                    Bufflehead
+ 14  494 Mergellus albellus                   Smew
+ 14  495 Lophodytes cucullatus                Hooded Merganser
+ 14  496 Mergus octosetaceus                  Brazilian Merganser
+ 14  497 Mergus serrator                      Red-breasted Merganser
+ 14  498 Mergus squamatus                     Scaly-sided Merganser
+ 14  499 Mergus merganser                     Common Merganser
+ 14  500 Mergus australis                     Auckland Islands Merganser
+ 15  501 Turnix sylvatica                     Small Buttonquail
+ 15  502 Turnix maculosa                      Red-backed Buttonquail
+ 15  503 Turnix nana                          Black-rumped Buttonquail
+ 15  504 Turnix hottentotta                   Hottentot Buttonquail
+ 15  505 Turnix tanki                         Yellow-legged Buttonquail
+ 15  506 Turnix ocellata                      Spotted Buttonquail
+ 15  507 Turnix suscitator                    Barred Buttonquail
+ 15  508 Turnix nigricollis                   Madagascar Buttonquail
+ 15  509 Turnix melanogaster                  Black-breasted Buttonquail
+ 15  510 Turnix castanota                     Chestnut-backed Buttonquail
+ 15  511 Turnix olivii                        Buff-breasted Buttonquail
+ 15  512 Turnix varia                         Painted Buttonquail
+ 15  513 Turnix worcesteri                    Worcester's Buttonquail
+ 15  514 Turnix everetti                      Sumba Buttonquail
+ 15  515 Turnix pyrrhothorax                  Red-chested Buttonquail
+ 15  516 Turnix velox                         Little Buttonquail
+ 15  517 Ortyxelos meiffrenii                 Lark Buttonquail
+ 16  518 Indicator maculatus                  Spotted Honeyguide
+ 16  519 Indicator variegatus                 Scaly-throated Honeyguide
+ 16  520 Indicator indicator                  Greater Honeyguide
+ 16  521 Indicator archipelagicus             Malaysian Honeyguide
+ 16  522 Indicator minor                      Lesser Honeyguide
+ 16  523 Indicator conirostris                Thick-billed Honeyguide
+ 16  524 Indicator willcocksi                 Willcocks's Honeyguide
+ 16  525 Indicator exilis                     Least Honeyguide
+ 16  526 Indicator pumilio                    Dwarf Honeyguide
+ 16  527 Indicator meliphilus                 Pallid Honeyguide
+ 16  528 Indicator xanthonotus                Yellow-rumped Honeyguide
+ 16  529 Melichneutes robustus                Lyre-tailed Honeyguide
+ 16  530 Melignomon eisentrauti               Yellow-footed Honeyguide
+ 16  531 Melignomon zenkeri                   Zenker's Honeyguide
+ 16  532 Prodotiscus insignis                 Cassin's Honeyguide
+ 16  533 Prodotiscus zambesiae                Green-backed Honeyguide
+ 16  534 Prodotiscus regulus                  Wahlberg's Honeyguide
+ 17  535 Jynx torquilla                       Eurasian Wryneck
+ 17  536 Jynx ruficollis                      Rufous-necked Wryneck
+ 17  537 Picumnus innominatus                 Speckled Piculet
+ 17  538 Picumnus aurifrons                   Bar-breasted Piculet
+ 17  539 Picumnus pumilus                     Orinoco Piculet
+ 17  540 Picumnus lafresnayi                  Lafresnaye's Piculet
+ 17  541 Picumnus exilis                      Golden-spangled Piculet
+ 17  542 Picumnus fuscus                      Rusty-necked Piculet
+ 17  543 Picumnus sclateri                    Ecuadorian Piculet
+ 17  544 Picumnus squamulatus                 Scaled Piculet
+ 17  545 Picumnus spilogaster                 White-bellied Piculet
+ 17  546 Picumnus minutissimus                Guianan Piculet
+ 17  547 Picumnus pygmaeus                    Spotted Piculet
+ 17  548 Picumnus steindachneri               Speckle-chested Piculet
+ 17  549 Picumnus varzeae                     Varzea Piculet
+ 17  550 Picumnus cirratus                    White-barred Piculet
+ 17  551 Picumnus dorbygnianus                Ocellated Piculet
+ 17  552 Picumnus temminckii                  Ochre-collared Piculet
+ 17  553 Picumnus albosquamatus               White-wedged Piculet
+ 17  554 Picumnus rufiventris                 Rufous-breasted Piculet
+ 17  555 Picumnus fulvescens                  Tawny Piculet
+ 17  556 Picumnus limae                       Ochraceous Piculet
+ 17  557 Picumnus nebulosus                   Mottled Piculet
+ 17  558 Picumnus castelnau                   Plain-breasted Piculet
+ 17  559 Picumnus subtilis                    Fine-barred Piculet
+ 17  560 Picumnus olivaceus                   Olivaceous Piculet
+ 17  561 Picumnus granadensis                 Greyish Piculet
+ 17  562 Picumnus cinnamomeus                 Chestnut Piculet
+ 17  563 Sasia africana                       African Piculet
+ 17  564 Sasia abnormis                       Rufous Piculet
+ 17  565 Sasia ochracea                       White-browed Piculet
+ 17  566 Nesoctites micromegas                Antillean Piculet
+ 17  567 Melanerpes candidus                  White Woodpecker
+ 17  568 Melanerpes lewis                     Lewis's Woodpecker
+ 17  569 Melanerpes herminieri                Guadeloupe Woodpecker
+ 17  570 Melanerpes portoricensis             Puerto Rican Woodpecker
+ 17  571 Melanerpes erythrocephalus           Red-headed Woodpecker
+ 17  572 Melanerpes formicivorus              Acorn Woodpecker
+ 17  573 Melanerpes pucherani                 Black-cheeked Woodpecker
+ 17  574 Melanerpes chrysauchen               Golden-naped Woodpecker
+ 17  575 Melanerpes cruentatus                Yellow-tufted Woodpecker
+ 17  576 Melanerpes flavifrons                Yellow-fronted Woodpecker
+ 17  577 Melanerpes cactorum                  White-fronted Woodpecker
+ 17  578 Melanerpes striatus                  Hispaniolan Woodpecker
+ 17  579 Melanerpes radiolatus                Jamaican Woodpecker
+ 17  580 Melanerpes chrysogenys               Golden-cheeked Woodpecker
+ 17  581 Melanerpes hypopolius                Grey-breasted Woodpecker
+ 17  582 Melanerpes pygmaeus                  Yucatan Woodpecker
+ 17  583 Melanerpes rubricapillus             Red-crowned Woodpecker
+ 17  584 Melanerpes uropygialis               Gila Woodpecker
+ 17  585 Melanerpes carolinus                 Red-bellied Woodpecker
+ 17  586 Melanerpes superciliaris             West Indian Woodpecker
+ 17  587 Melanerpes aurifrons                 Golden-fronted Woodpecker
+ 17  588 Melanerpes hoffmannii                Hoffmann's Woodpecker
+ 17  589 Sphyrapicus varius                   Yellow-bellied Sapsucker
+ 17  590 Sphyrapicus nuchalis                 Red-naped Sapsucker
+ 17  591 Sphyrapicus ruber                    Red-breasted Sapsucker
+ 17  592 Sphyrapicus thyroideus               Williamson's Sapsucker
+ 17  593 Xiphidiopicus percussus              Cuban Green Woodpecker
+ 17  594 Campethera punctuligera              Fine-spotted Woodpecker
+ 17  595 Campethera nubica                    Nubian Woodpecker
+ 17  596 Campethera bennettii                 Bennett's Woodpecker
+ 17  597 Campethera scriptoricauda            Reichenow's Woodpecker
+ 17  598 Campethera abingoni                  Golden-tailed Woodpecker
+ 17  599 Campethera mombassica                Mombasa Woodpecker
+ 17  600 Campethera notata                    Knysna Woodpecker
+ 17  601 Campethera maculosa                  Little Green Woodpecker
+ 17  602 Campethera cailliautii               Green-backed Woodpecker
+ 17  603 Campethera tullbergi                 Tullberg's Woodpecker
+ 17  604 Campethera nivosa                    Buff-spotted Woodpecker
+ 17  605 Campethera caroli                    Brown-eared Woodpecker
+ 17  606 Geocolaptes olivaceus                Ground Woodpecker
+ 17  607 Dendropicos elachus                  Little Grey Woodpecker
+ 17  608 Dendropicos poecilolaemus            Speckle-breasted Woodpecker
+ 17  609 Dendropicos abyssinicus              Abyssinian Woodpecker
+ 17  610 Dendropicos fuscescens               Cardinal Woodpecker
+ 17  611 Dendropicos lugubris                 Melancholy Woodpecker
+ 17  612 Dendropicos gabonensis               Gabon Woodpecker
+ 17  613 Dendropicos stierlingi               Stierling's Woodpecker
+ 17  614 Dendropicos namaquus                 Bearded Woodpecker
+ 17  615 Dendropicos pyrrhogaster             Fire-bellied Woodpecker
+ 17  616 Dendropicos xantholophus             Golden-crowned Woodpecker
+ 17  617 Dendropicos elliotii                 Elliot's Woodpecker
+ 17  618 Dendropicos goertae                  Grey Woodpecker
+ 17  619 Dendropicos spodocephalus            Grey-headed Woodpecker
+ 17  620 Dendropicos griseocephalus           Olive Woodpecker
+ 17  621 Dendropicos obsoletus                Brown-backed Woodpecker
+ 17  622 Dendrocopos temminckii               Sulawesi Woodpecker
+ 17  623 Dendrocopos maculatus                Philippine Woodpecker
+ 17  624 Dendrocopos nanus                    Brown-capped Woodpecker
+ 17  625 Dendrocopos moluccensis              Sunda Woodpecker
+ 17  626 Dendrocopos canicapillus             Grey-capped Woodpecker
+ 17  627 Dendrocopos kizuki                   Pygmy Woodpecker
+ 17  628 Dendrocopos minor                    Lesser Spotted Woodpecker
+ 17  629 Dendrocopos auriceps                 Brown-fronted Woodpecker
+ 17  630 Dendrocopos macei                    Fulvous-breasted Woodpecker
+ 17  631 Dendrocopos atratus                  Stripe-breasted Woodpecker
+ 17  632 Dendrocopos mahrattensis             Yellow-crowned Woodpecker
+ 17  633 Dendrocopos dorae                    Arabian Woodpecker
+ 17  634 Dendrocopos hyperythrus              Rufous-bellied Woodpecker
+ 17  635 Dendrocopos cathpharius              Crimson-breasted Woodpecker
+ 17  636 Dendrocopos darjellensis             Darjeeling Woodpecker
+ 17  637 Dendrocopos medius                   Middle Spotted Woodpecker
+ 17  638 Dendrocopos leucotos                 White-backed Woodpecker
+ 17  639 Dendrocopos major                    Great Spotted Woodpecker
+ 17  640 Dendrocopos syriacus                 Syrian Woodpecker
+ 17  641 Dendrocopos leucopterus              White-winged Woodpecker
+ 17  642 Dendrocopos assimilis                Sind Woodpecker
+ 17  643 Dendrocopos himalayensis             Himalayan Woodpecker
+ 17  644 Picoides lignarius                   Striped Woodpecker
+ 17  645 Picoides mixtus                      Checkered Woodpecker
+ 17  646 Picoides nuttallii                   Nuttall's Woodpecker
+ 17  647 Picoides scalaris                    Ladder-backed Woodpecker
+ 17  648 Picoides pubescens                   Downy Woodpecker
+ 17  649 Picoides borealis                    Red-cockaded Woodpecker
+ 17  650 Picoides stricklandi                 Strickland's Woodpecker
+ 17  651 Picoides villosus                    Hairy Woodpecker
+ 17  652 Picoides albolarvatus                White-headed Woodpecker
+ 17  653 Picoides tridactylus                 Three-toed Woodpecker
+ 17  654 Picoides arcticus                    Black-backed Woodpecker
+ 17  655 Veniliornis callonotus               Scarlet-backed Woodpecker
+ 17  656 Veniliornis dignus                   Yellow-vented Woodpecker
+ 17  657 Veniliornis nigriceps                Bar-bellied Woodpecker
+ 17  658 Veniliornis fumigatus                Smoky-brown Woodpecker
+ 17  659 Veniliornis passerinus               Little Woodpecker
+ 17  660 Veniliornis frontalis                Dot-fronted Woodpecker
+ 17  661 Veniliornis spilogaster              White-spotted Woodpecker
+ 17  662 Veniliornis sanguineus               Blood-colored Woodpecker
+ 17  663 Veniliornis kirkii                   Red-rumped Woodpecker
+ 17  664 Veniliornis chocoensis               Choco Woodpecker
+ 17  665 Veniliornis cassini                  Golden-collared Woodpecker
+ 17  666 Veniliornis affinis                  Red-stained Woodpecker
+ 17  667 Veniliornis maculifrons              Yellow-eared Woodpecker
+ 17  668 Piculus simplex                      Rufous-winged Woodpecker
+ 17  669 Piculus callopterus                  Stripe-cheeked Woodpecker
+ 17  670 Piculus litae                        Lita Woodpecker
+ 17  671 Piculus leucolaemus                  White-throated Woodpecker
+ 17  672 Piculus flavigula                    Yellow-throated Woodpecker
+ 17  673 Piculus chrysochloros                Golden-green Woodpecker
+ 17  674 Piculus aurulentus                   Yellow-browed Woodpecker
+ 17  675 Piculus auricularis                  Grey-crowned Woodpecker
+ 17  676 Piculus rubiginosus                  Golden-olive Woodpecker
+ 17  677 Piculus rivolii                      Crimson-mantled Woodpecker
+ 17  678 Colaptes atricollis                  Black-necked Woodpecker
+ 17  679 Colaptes punctigula                  Spot-breasted Woodpecker
+ 17  680 Colaptes melanochloros               Green-barred Woodpecker
+ 17  681 Colaptes auratus                     Northern Flicker
+ 17  682 Colaptes chrysoides                  Gilded Flicker
+ 17  683 Colaptes fernandinae                 Fernandina's Flicker
+ 17  684 Colaptes pitius                      Chilean Flicker
+ 17  685 Colaptes rupicola                    Andean Flicker
+ 17  686 Colaptes campestris                  Campo Flicker
+ 17  687 Celeus brachyurus                    Rufous Woodpecker
+ 17  688 Celeus loricatus                     Cinnamon Woodpecker
+ 17  689 Celeus grammicus                     Scaly-breasted Woodpecker
+ 17  690 Celeus undatus                       Waved Woodpecker
+ 17  691 Celeus castaneus                     Chestnut-colored Woodpecker
+ 17  692 Celeus elegans                       Chestnut Woodpecker
+ 17  693 Celeus lugubris                      Pale-crested Woodpecker
+ 17  694 Celeus flavescens                    Blond-crested Woodpecker
+ 17  695 Celeus flavus                        Cream-colored Woodpecker
+ 17  696 Celeus spectabilis                   Rufous-headed Woodpecker
+ 17  697 Celeus torquatus                     Ringed Woodpecker
+ 17  698 Dryocopus galeatus                   Helmeted Woodpecker
+ 17  699 Dryocopus pileatus                   Pileated Woodpecker
+ 17  700 Dryocopus lineatus                   Lineated Woodpecker
+ 17  701 Dryocopus schulzi                    Black-bodied Woodpecker
+ 17  702 Dryocopus javensis                   White-bellied Woodpecker
+ 17  703 Dryocopus hodgei                     Andaman Woodpecker
+ 17  704 Dryocopus martius                    Black Woodpecker
+ 17  705 Campephilus pollens                  Powerful Woodpecker
+ 17  706 Campephilus haematogaster            Crimson-bellied Woodpecker
+ 17  707 Campephilus rubricollis              Red-necked Woodpecker
+ 17  708 Campephilus robustus                 Robust Woodpecker
+ 17  709 Campephilus guatemalensis            Pale-billed Woodpecker
+ 17  710 Campephilus melanoleucos             Crimson-crested Woodpecker
+ 17  711 Campephilus gayaquilensis            Guayaquil Woodpecker
+ 17  712 Campephilus leucopogon               Cream-backed Woodpecker
+ 17  713 Campephilus magellanicus             Magellanic Woodpecker
+ 17  714 Campephilus imperialis               Imperial Woodpecker
+ 17  715 Campephilus principalis              Ivory-billed Woodpecker
+ 17  716 Picus mineaceus                      Banded Woodpecker
+ 17  717 Picus chlorolophus                   Lesser Yellownape
+ 17  718 Picus puniceus                       Crimson-winged Woodpecker
+ 17  719 Picus flavinucha                     Greater Yellownape
+ 17  720 Picus mentalis                       Checker-throated Woodpecker
+ 17  721 Picus viridanus                      Streak-breasted Woodpecker
+ 17  722 Picus vittatus                       Laced Woodpecker
+ 17  723 Picus xanthopygaeus                  Streak-throated Woodpecker
+ 17  724 Picus squamatus                      Scaly-bellied Woodpecker
+ 17  725 Picus awokera                        Japanese Woodpecker
+ 17  726 Picus viridis                        Eurasian Green Woodpecker
+ 17  727 Picus vaillantii                     Levaillant's Woodpecker
+ 17  728 Picus rabieri                        Red-collared Woodpecker
+ 17  729 Picus erythropygius                  Black-headed Woodpecker
+ 17  730 Picus canus                          Grey-faced Woodpecker
+ 17  731 Dinopium rafflesii                   Olive-backed Woodpecker
+ 17  732 Dinopium shorii                      Himalayan Flameback
+ 17  733 Dinopium javanense                   Common Flameback
+ 17  734 Dinopium benghalense                 Black-rumped Flameback
+ 17  735 Chrysocolaptes lucidus               Greater Flameback
+ 17  736 Chrysocolaptes festivus              White-naped Woodpecker
+ 17  737 Gecinulus grantia                    Pale-headed Woodpecker
+ 17  738 Gecinulus viridis                    Bamboo Woodpecker
+ 17  739 Sapheopipo noguchii                  Okinawa Woodpecker
+ 17  740 Blythipicus rubiginosus              Maroon Woodpecker
+ 17  741 Blythipicus pyrrhotis                Bay Woodpecker
+ 17  742 Reinwardtipicus validus              Orange-backed Woodpecker
+ 17  743 Meiglyptes tristis                   Buff-rumped Woodpecker
+ 17  744 Meiglyptes jugularis                 Black-and-buff Woodpecker
+ 17  745 Meiglyptes tukki                     Buff-necked Woodpecker
+ 17  746 Hemicircus concretus                 Grey-and-buff Woodpecker
+ 17  747 Hemicircus canente                   Heart-spotted Woodpecker
+ 17  748 Mulleripicus fulvus                  Ashy Woodpecker
+ 17  749 Mulleripicus funebris                Sooty Woodpecker
+ 17  750 Mulleripicus pulverulentus           Great Slaty Woodpecker
+ 18  751 Psilopogon pyrolophus                Fire-tufted Barbet
+ 18  752 Megalaima virens                     Great Barbet
+ 18  753 Megalaima lagrandieri                Red-vented Barbet
+ 18  754 Megalaima zeylanica                  Brown-headed Barbet
+ 18  755 Megalaima lineata                    Lineated Barbet
+ 18  756 Megalaima viridis                    White-cheeked Barbet
+ 18  757 Megalaima faiostricta                Green-eared Barbet
+ 18  758 Megalaima corvina                    Brown-throated Barbet
+ 18  759 Megalaima chrysopogon                Gold-whiskered Barbet
+ 18  760 Megalaima rafflesii                  Red-crowned Barbet
+ 18  761 Megalaima mystacophanos              Red-throated Barbet
+ 18  762 Megalaima javensis                   Black-banded Barbet
+ 18  763 Megalaima flavifrons                 Yellow-fronted Barbet
+ 18  764 Megalaima franklinii                 Golden-throated Barbet
+ 18  765 Megalaima oorti                      Black-browed Barbet
+ 18  766 Megalaima asiatica                   Blue-throated Barbet
+ 18  767 Megalaima monticola                  Mountain Barbet
+ 18  768 Megalaima incognita                  Moustached Barbet
+ 18  769 Megalaima henricii                   Yellow-crowned Barbet
+ 18  770 Megalaima armillaris                 Flame-fronted Barbet
+ 18  771 Megalaima pulcherrima                Golden-naped Barbet
+ 18  772 Megalaima australis                  Blue-eared Barbet
+ 18  773 Megalaima eximia                     Bornean Barbet
+ 18  774 Megalaima rubricapilla               Crimson-fronted Barbet
+ 18  775 Megalaima haemacephala               Coppersmith Barbet
+ 18  776 Calorhamphus fuliginosus             Brown Barbet
+ 19  777 Gymnobucco calvus                    Naked-faced Barbet
+ 19  778 Gymnobucco peli                      Bristle-nosed Barbet
+ 19  779 Gymnobucco sladeni                   Sladen's Barbet
+ 19  780 Gymnobucco bonapartei                Grey-throated Barbet
+ 19  781 Stactolaema leucotis                 White-eared Barbet
+ 19  782 Stactolaema anchietae                Anchieta's Barbet
+ 19  783 Stactolaema whytii                   Whyte's Barbet
+ 19  784 Stactolaema olivacea                 Green Barbet
+ 19  785 Pogoniulus scolopaceus               Speckled Tinkerbird
+ 19  786 Pogoniulus coryphaeus                Western Green-Tinkerbird
+ 19  787 Pogoniulus leucomystax               Moustached Green-Tinkerbird
+ 19  788 Pogoniulus simplex                   African Green-Tinkerbird
+ 19  789 Pogoniulus atroflavus                Red-rumped Tinkerbird
+ 19  790 Pogoniulus subsulphureus             Yellow-throated Tinkerbird
+ 19  791 Pogoniulus bilineatus                Yellow-rumped Tinkerbird
+ 19  792 Pogoniulus chrysoconus               Yellow-fronted Tinkerbird
+ 19  793 Pogoniulus pusillus                  Red-fronted Tinkerbird
+ 19  794 Buccanodon duchaillui                Yellow-spotted Barbet
+ 19  795 Tricholaema hirsuta                  Hairy-breasted Barbet
+ 19  796 Tricholaema diademata                Red-fronted Barbet
+ 19  797 Tricholaema frontata                 Miombo Barbet
+ 19  798 Tricholaema leucomelas               Pied Barbet
+ 19  799 Tricholaema lacrymosa                Spot-flanked Barbet
+ 19  800 Tricholaema melanocephala            Black-throated Barbet
+ 19  801 Lybius undatus                       Banded Barbet
+ 19  802 Lybius vieilloti                     Vieillot's Barbet
+ 19  803 Lybius leucocephalus                 White-headed Barbet
+ 19  804 Lybius chaplini                      Chaplin's Barbet
+ 19  805 Lybius rubrifacies                   Red-faced Barbet
+ 19  806 Lybius guifsobalito                  Black-billed Barbet
+ 19  807 Lybius torquatus                     Black-collared Barbet
+ 19  808 Lybius melanopterus                  Brown-breasted Barbet
+ 19  809 Lybius minor                         Black-backed Barbet
+ 19  810 Lybius bidentatus                    Double-toothed Barbet
+ 19  811 Lybius dubius                        Bearded Barbet
+ 19  812 Lybius rolleti                       Black-breasted Barbet
+ 19  813 Trachyphonus purpuratus              Yellow-billed Barbet
+ 19  814 Trachyphonus vaillantii              Crested Barbet
+ 19  815 Trachyphonus margaritatus            Yellow-breasted Barbet
+ 19  816 Trachyphonus erythrocephalus         Red-and-yellow Barbet
+ 19  817 Trachyphonus darnaudii               D'Arnaud's Barbet
+ 19  818 Trachyphonus usambiro                Usambiro Barbet
+ 20  819 Capito aurovirens                    Scarlet-crowned Barbet
+ 20  820 Capito maculicoronatus               Spot-crowned Barbet
+ 20  821 Capito squamatus                     Orange-fronted Barbet
+ 20  822 Capito hypoleucus                    White-mantled Barbet
+ 20  823 Capito dayi                          Black-girdled Barbet
+ 20  824 Capito quinticolor                   Five-colored Barbet
+ 20  825 Capito niger                         Black-spotted Barbet
+ 20  826 Capito brunneipectus                 Brown-chested Barbet
+ 20  827 Eubucco richardsoni                  Lemon-throated Barbet
+ 20  828 Eubucco bourcierii                   Red-headed Barbet
+ 20  829 Eubucco tucinkae                     Scarlet-hooded Barbet
+ 20  830 Eubucco versicolor                   Versicolored Barbet
+ 20  831 Semnornis frantzii                   Prong-billed Barbet
+ 20  832 Semnornis ramphastinus               Toucan Barbet
+ 20  833 Aulacorhynchus prasinus              Emerald Toucanet
+ 20  834 Aulacorhynchus sulcatus              Groove-billed Toucanet
+ 20  835 Aulacorhynchus derbianus             Chestnut-tipped Toucanet
+ 20  836 Aulacorhynchus haematopygus          Crimson-rumped Toucanet
+ 20  837 Aulacorhynchus huallagae             Yellow-browed Toucanet
+ 20  838 Aulacorhynchus coeruleicinctis       Blue-banded Toucanet
+ 20  839 Pteroglossus inscriptus              Lettered Aracari
+ 20  840 Pteroglossus viridis                 Green Aracari
+ 20  841 Pteroglossus bitorquatus             Red-necked Aracari
+ 20  842 Pteroglossus azara                   Ivory-billed Aracari
+ 20  843 Pteroglossus mariae                  Brown-mandibled Aracari
+ 20  844 Pteroglossus castanotis              Chestnut-eared Aracari
+ 20  845 Pteroglossus aracari                 Black-necked Aracari
+ 20  846 Pteroglossus torquatus               Collared Aracari
+ 20  847 Pteroglossus frantzii                Fiery-billed Aracari
+ 20  848 Pteroglossus sanguineus              Stripe-billed Aracari
+ 20  849 Pteroglossus erythropygius           Pale-mandibled Aracari
+ 20  850 Pteroglossus pluricinctus            Many-banded Aracari
+ 20  851 Pteroglossus beauharnaesii           Curl-crested Aracari
+ 20  852 Baillonius bailloni                  Saffron Toucanet
+ 20  853 Andigena laminirostris               Plate-billed Mountain-Toucan
+ 20  854 Andigena hypoglauca                  Grey-breasted Mountain-Toucan
+ 20  855 Andigena cucullata                   Hooded Mountain-Toucan
+ 20  856 Andigena nigrirostris                Black-billed Mountain-Toucan
+ 20  857 Selenidera spectabilis               Yellow-eared Toucanet
+ 20  858 Selenidera reinwardtii               Golden-collared Toucanet
+ 20  859 Selenidera nattereri                 Tawny-tufted Toucanet
+ 20  860 Selenidera culik                     Guianan Toucanet
+ 20  861 Selenidera maculirostris             Spot-billed Toucanet
+ 20  862 Selenidera gouldii                   Gould's Toucanet
+ 20  863 Ramphastos sulfuratus                Keel-billed Toucan
+ 20  864 Ramphastos brevis                    Choco Toucan
+ 20  865 Ramphastos citreolaemus              Citron-throated Toucan
+ 20  866 Ramphastos culminatus                Yellow-ridged Toucan
+ 20  867 Ramphastos vitellinus                Channel-billed Toucan
+ 20  868 Ramphastos dicolorus                 Red-breasted Toucan
+ 20  869 Ramphastos swainsonii                Chestnut-mandibled Toucan
+ 20  870 Ramphastos ambiguus                  Black-mandibled Toucan
+ 20  871 Ramphastos tucanus                   Red-billed Toucan
+ 20  872 Ramphastos cuvieri                   Cuvier's Toucan
+ 20  873 Ramphastos toco                      Toco Toucan
+ 21  874 Galbalcyrhynchus leucotis            White-eared Jacamar
+ 21  875 Galbalcyrhynchus purusianus          Chestnut Jacamar
+ 21  876 Brachygalba salmoni                  Dusky-backed Jacamar
+ 21  877 Brachygalba goeringi                 Pale-headed Jacamar
+ 21  878 Brachygalba lugubris                 Brown Jacamar
+ 21  879 Brachygalba albogularis              White-throated Jacamar
+ 21  880 Jacamaralcyon tridactyla             Three-toed Jacamar
+ 21  881 Galbula albirostris                  Yellow-billed Jacamar
+ 21  882 Galbula cyanicollis                  Blue-necked Jacamar
+ 21  883 Galbula ruficauda                    Rufous-tailed Jacamar
+ 21  884 Galbula galbula                      Green-tailed Jacamar
+ 21  885 Galbula pastazae                     Coppery-chested Jacamar
+ 21  886 Galbula tombacea                     White-chinned Jacamar
+ 21  887 Galbula cyanescens                   Bluish-fronted Jacamar
+ 21  888 Galbula chalcothorax                 Purplish Jacamar
+ 21  889 Galbula leucogastra                  Bronzy Jacamar
+ 21  890 Galbula dea                          Paradise Jacamar
+ 21  891 Jacamerops aureus                    Great Jacamar
+ 22  892 Notharchus macrorhynchos             White-necked Puffbird
+ 22  893 Notharchus pectoralis                Black-breasted Puffbird
+ 22  894 Notharchus ordii                     Brown-banded Puffbird
+ 22  895 Notharchus tectus                    Pied Puffbird
+ 22  896 Bucco macrodactylus                  Chestnut-capped Puffbird
+ 22  897 Bucco tamatia                        Spotted Puffbird
+ 22  898 Bucco noanamae                       Sooty-capped Puffbird
+ 22  899 Bucco capensis                       Collared Puffbird
+ 22  900 Nystalus radiatus                    Barred Puffbird
+ 22  901 Nystalus chacuru                     White-eared Puffbird
+ 22  902 Nystalus striolatus                  Striolated Puffbird
+ 22  903 Nystalus maculatus                   Spot-backed Puffbird
+ 22  904 Hypnelus ruficollis                  Russet-throated Puffbird
+ 22  905 Malacoptila fusca                    White-chested Puffbird
+ 22  906 Malacoptila semicincta               Semicollared Puffbird
+ 22  907 Malacoptila striata                  Crescent-chested Puffbird
+ 22  908 Malacoptila fulvogularis             Black-streaked Puffbird
+ 22  909 Malacoptila rufa                     Rufous-necked Puffbird
+ 22  910 Malacoptila panamensis               White-whiskered Puffbird
+ 22  911 Malacoptila mystacalis               Moustached Puffbird
+ 22  912 Micromonacha lanceolata              Lanceolated Monklet
+ 22  913 Nonnula rubecula                     Rusty-breasted Nunlet
+ 22  914 Nonnula sclateri                     Fulvous-chinned Nunlet
+ 22  915 Nonnula brunnea                      Brown Nunlet
+ 22  916 Nonnula frontalis                    Grey-cheeked Nunlet
+ 22  917 Nonnula ruficapilla                  Rufous-capped Nunlet
+ 22  918 Nonnula amaurocephala                Chestnut-headed Nunlet
+ 22  919 Hapaloptila castanea                 White-faced Nunbird
+ 22  920 Monasa atra                          Black Nunbird
+ 22  921 Monasa nigrifrons                    Black-fronted Nunbird
+ 22  922 Monasa morphoeus                     White-fronted Nunbird
+ 22  923 Monasa flavirostris                  Yellow-billed Nunbird
+ 22  924 Chelidoptera tenebrosa               Swallow-wing
+ 23  925 Tockus albocristatus                 White-crested Hornbill
+ 23  926 Tockus hartlaubi                     Black Dwarf Hornbill
+ 23  927 Tockus camurus                       Red-billed Dwarf Hornbill
+ 23  928 Tockus monteiri                      Monteiro's Hornbill
+ 23  929 Tockus erythrorhynchus               Red-billed Hornbill
+ 23  930 Tockus flavirostris                  Eastern Yellow-billed Hornbill
+ 23  931 Tockus leucomelas                    Southern Yellow-billed Hornbill
+ 23  932 Tockus jacksoni                      Jackson's Hornbill
+ 23  933 Tockus deckeni                       Von der Decken's Hornbill
+ 23  934 Tockus alboterminatus                Crowned Hornbill
+ 23  935 Tockus bradfieldi                    Bradfield's Hornbill
+ 23  936 Tockus fasciatus                     African Pied Hornbill
+ 23  937 Tockus hemprichii                    Hemprich's Hornbill
+ 23  938 Tockus nasutus                       African Grey Hornbill
+ 23  939 Tockus pallidirostris                Pale-billed Hornbill
+ 23  940 Ocyceros griseus                     Malabar Grey-Hornbill
+ 23  941 Ocyceros gingalensis                 Ceylon Grey-Hornbill
+ 23  942 Ocyceros birostris                   Indian Grey-Hornbill
+ 23  943 Anthracoceros coronatus              Malabar Pied-Hornbill
+ 23  944 Anthracoceros albirostris            Oriental Pied-Hornbill
+ 23  945 Anthracoceros malayanus              Black Hornbill
+ 23  946 Anthracoceros marchei                Palawan Hornbill
+ 23  947 Anthracoceros montani                Sulu Hornbill
+ 23  948 Buceros rhinoceros                   Rhinoceros Hornbill
+ 23  949 Buceros bicornis                     Great Hornbill
+ 23  950 Buceros hydrocorax                   Rufous Hornbill
+ 23  951 Buceros vigil                        Helmeted Hornbill
+ 23  952 Anorrhinus tickelli                  Brown Hornbill
+ 23  953 Anorrhinus galeritus                 Bushy-crested Hornbill
+ 23  954 Penelopides manillae                 Luzon Hornbill
+ 23  955 Penelopides mindorensis              Mindoro Hornbill
+ 23  956 Penelopides panini                   Tarictic Hornbill
+ 23  957 Penelopides samarensis               Samar Hornbill
+ 23  958 Penelopides affinis                  Mindanao Hornbill
+ 23  959 Penelopides exarhatus                Sulawesi Hornbill
+ 23  960 Aceros comatus                       White-crowned Hornbill
+ 23  961 Aceros nipalensis                    Rufous-necked Hornbill
+ 23  962 Aceros corrugatus                    Wrinkled Hornbill
+ 23  963 Aceros waldeni                       Writhed-billed Hornbill
+ 23  964 Aceros leucocephalus                 Writhed Hornbill
+ 23  965 Aceros cassidix                      Knobbed Hornbill
+ 23  966 Aceros undulatus                     Wreathed Hornbill
+ 23  967 Aceros narcondami                    Narcondam Hornbill
+ 23  968 Aceros everetti                      Sumba Hornbill
+ 23  969 Aceros subruficollis                 Plain-pouched Hornbill
+ 23  970 Aceros plicatus                      Blyth's Hornbill
+ 23  971 Ceratogymna bucinator                Trumpeter Hornbill
+ 23  972 Ceratogymna fistulator               Piping Hornbill
+ 23  973 Ceratogymna brevis                   Silvery-cheeked Hornbill
+ 23  974 Ceratogymna subcylindricus           Black-and-white-casqued Hornbill
+ 23  975 Ceratogymna cylindricus              Brown-cheeked Hornbill
+ 23  976 Ceratogymna albotibialis             White-thighed Hornbill
+ 23  977 Ceratogymna atrata                   Black-casqued Hornbill
+ 23  978 Ceratogymna elata                    Yellow-casqued Hornbill
+ 24  979 Bucorvus abyssinicus                 Abyssinian Ground-Hornbill
+ 24  980 Bucorvus leadbeateri                 Southern Ground-Hornbill
+ 25  981 Upupa epops                          Eurasian Hoopoe
+ 25  982 Upupa africana                       African Hoopoe
+ 26  983 Phoeniculus purpureus                Green Woodhoopoe
+ 26  984 Phoeniculus damarensis               Violet Woodhoopoe
+ 26  985 Phoeniculus somaliensis              Black-billed Woodhoopoe
+ 26  986 Phoeniculus bollei                   White-headed Woodhoopoe
+ 26  987 Phoeniculus castaneiceps             Forest Woodhoopoe
+ 27  988 Rhinopomastus aterrimus              Black Scimitar-bill
+ 27  989 Rhinopomastus cyanomelas             Common Scimitar-bill
+ 27  990 Rhinopomastus minor                  Abyssinian Scimitar-bill
+ 28  991 Apaloderma narina                    Narina Trogon
+ 28  992 Apaloderma aequatoriale              Bare-cheeked Trogon
+ 28  993 Apaloderma vittatum                  Bar-tailed Trogon
+ 28  994 Pharomachrus mocinno                 Resplendent Quetzal
+ 28  995 Pharomachrus antisianus              Crested Quetzal
+ 28  996 Pharomachrus fulgidus                White-tipped Quetzal
+ 28  997 Pharomachrus auriceps                Golden-headed Quetzal
+ 28  998 Pharomachrus pavoninus               Pavonine Quetzal
+ 28  999 Euptilotis neoxenus                  Eared Trogon
+ 28 1000 Priotelus temnurus                   Cuban Trogon
+ 28 1001 Priotelus roseigaster                Hispaniolan Trogon
+ 28 1002 Trogon massena                       Slaty-tailed Trogon
+ 28 1003 Trogon melanurus                     Black-tailed Trogon
+ 28 1004 Trogon clathratus                    Lattice-tailed Trogon
+ 28 1005 Trogon comptus                       White-eyed Trogon
+ 28 1006 Trogon bairdii                       Baird's Trogon
+ 28 1007 Trogon viridis                       White-tailed Trogon
+ 28 1008 Trogon citreolus                     Citreoline Trogon
+ 28 1009 Trogon melanocephalus                Black-headed Trogon
+ 28 1010 Trogon mexicanus                     Mountain Trogon
+ 28 1011 Trogon elegans                       Elegant Trogon
+ 28 1012 Trogon collaris                      Collared Trogon
+ 28 1013 Trogon aurantiiventris               Orange-bellied Trogon
+ 28 1014 Trogon personatus                    Masked Trogon
+ 28 1015 Trogon rufus                         Black-throated Trogon
+ 28 1016 Trogon surrucura                     Surucua Trogon
+ 28 1017 Trogon curucui                       Blue-crowned Trogon
+ 28 1018 Trogon violaceus                     Violaceous Trogon
+ 28 1019 Harpactes reinwardtii                Blue-tailed Trogon
+ 28 1020 Harpactes fasciatus                  Malabar Trogon
+ 28 1021 Harpactes kasumba                    Red-naped Trogon
+ 28 1022 Harpactes diardii                    Diard's Trogon
+ 28 1023 Harpactes ardens                     Philippine Trogon
+ 28 1024 Harpactes whiteheadi                 Whitehead's Trogon
+ 28 1025 Harpactes orrhophaeus                Cinnamon-rumped Trogon
+ 28 1026 Harpactes duvaucelii                 Scarlet-rumped Trogon
+ 28 1027 Harpactes oreskios                   Orange-breasted Trogon
+ 28 1028 Harpactes erythrocephalus            Red-headed Trogon
+ 28 1029 Harpactes wardi                      Ward's Trogon
+ 29 1030 Coracias garrulus                    European Roller
+ 29 1031 Coracias abyssinica                  Abyssinian Roller
+ 29 1032 Coracias caudata                     Lilac-breasted Roller
+ 29 1033 Coracias spatulata                   Racket-tailed Roller
+ 29 1034 Coracias noevia                      Rufous-crowned Roller
+ 29 1035 Coracias benghalensis                Indian Roller
+ 29 1036 Coracias temminckii                  Purple-winged Roller
+ 29 1037 Coracias cyanogaster                 Blue-bellied Roller
+ 29 1038 Eurystomus glaucurus                 Broad-billed Roller
+ 29 1039 Eurystomus gularis                   Blue-throated Roller
+ 29 1040 Eurystomus orientalis                Dollarbird
+ 29 1041 Eurystomus azureus                   Purple Roller
+ 30 1042 Brachypteracias leptosomus           Short-legged Ground-Roller
+ 30 1043 Brachypteracias squamigera           Scaly Ground-Roller
+ 30 1044 Atelornis pittoides                  Pitta-like Ground-Roller
+ 30 1045 Atelornis crossleyi                  Rufous-headed Ground-Roller
+ 30 1046 Uratelornis chimaera                 Long-tailed Ground-Roller
+ 31 1047 Leptosomus discolor                  Cuckoo Roller
+ 32 1048 Hylomanes momotula                   Tody Motmot
+ 32 1049 Aspatha gularis                      Blue-throated Motmot
+ 32 1050 Electron platyrhynchum               Broad-billed Motmot
+ 32 1051 Electron carinatum                   Keel-billed Motmot
+ 32 1052 Eumomota superciliosa                Turquoise-browed Motmot
+ 32 1053 Baryphthengus martii                 Rufous Motmot
+ 32 1054 Baryphthengus ruficapillus           Rufous-capped Motmot
+ 32 1055 Momotus mexicanus                    Russet-crowned Motmot
+ 32 1056 Momotus momota                       Blue-crowned Motmot
+ 33 1057 Todus multicolor                     Cuban Tody
+ 33 1058 Todus angustirostris                 Narrow-billed Tody
+ 33 1059 Todus mexicanus                      Puerto Rican Tody
+ 33 1060 Todus todus                          Jamaican Tody
+ 33 1061 Todus subulatus                      Broad-billed Tody
+ 34 1062 Alcedo hercules                      Blyth's Kingfisher
+ 34 1063 Alcedo atthis                        Common Kingfisher
+ 34 1064 Alcedo semitorquata                  Half-collared Kingfisher
+ 34 1065 Alcedo quadribrachys                 Shining Blue Kingfisher
+ 34 1066 Alcedo meninting                     Blue-eared Kingfisher
+ 34 1067 Alcedo azurea                        Azure Kingfisher
+ 34 1068 Alcedo websteri                      Bismarck Kingfisher
+ 34 1069 Alcedo euryzona                      Blue-banded Kingfisher
+ 34 1070 Alcedo cyanopecta                    Indigo-banded Kingfisher
+ 34 1071 Alcedo argentata                     Silvery Kingfisher
+ 34 1072 Alcedo cristata                      Malachite Kingfisher
+ 34 1073 Alcedo vintsioides                   Madagascar Kingfisher
+ 34 1074 Alcedo thomensis                     Sao Tome Kingfisher
+ 34 1075 Alcedo nais                          Principe Kingfisher
+ 34 1076 Alcedo leucogaster                   White-bellied Kingfisher
+ 34 1077 Alcedo coerulescens                  Small Blue Kingfisher
+ 34 1078 Alcedo pusilla                       Little Kingfisher
+ 34 1079 Ceyx lepidus                         Variable Kingfisher
+ 34 1080 Ceyx erithacus                       Black-backed Kingfisher
+ 34 1081 Ceyx rufidorsa                       Rufous-backed Kingfisher
+ 34 1082 Ceyx melanurus                       Philippine Kingfisher
+ 34 1083 Ceyx fallax                          Sulawesi Kingfisher
+ 34 1084 Ispidina madagascariensis            Madagascar Pygmy-Kingfisher
+ 34 1085 Ispidina picta                       African Pygmy-Kingfisher
+ 34 1086 Ispidina lecontei                    Dwarf Kingfisher
+ 35 1087 Lacedo pulchella                     Banded Kingfisher
+ 35 1088 Dacelo novaeguineae                  Laughing Kookaburra
+ 35 1089 Dacelo leachii                       Blue-winged Kookaburra
+ 35 1090 Dacelo tyro                          Spangled Kookaburra
+ 35 1091 Dacelo gaudichaud                    Rufous-bellied Kookaburra
+ 35 1092 Clytoceyx rex                        Shovel-billed Kookaburra
+ 35 1093 Cittura cyanotis                     Lilac-cheeked Kingfisher
+ 35 1094 Pelargopsis amauropterus             Brown-winged Kingfisher
+ 35 1095 Pelargopsis capensis                 Stork-billed Kingfisher
+ 35 1096 Pelargopsis melanorhyncha            Black-billed Kingfisher
+ 35 1097 Halcyon coromanda                    Ruddy Kingfisher
+ 35 1098 Halcyon badia                        Chocolate-backed Kingfisher
+ 35 1099 Halcyon smyrnensis                   White-throated Kingfisher
+ 35 1100 Halcyon pileata                      Black-capped Kingfisher
+ 35 1101 Halcyon cyanoventris                 Javan Kingfisher
+ 35 1102 Halcyon leucocephala                 Grey-headed Kingfisher
+ 35 1103 Halcyon senegalensis                 Woodland Kingfisher
+ 35 1104 Halcyon senegaloides                 Mangrove Kingfisher
+ 35 1105 Halcyon malimbica                    Blue-breasted Kingfisher
+ 35 1106 Halcyon albiventris                  Brown-hooded Kingfisher
+ 35 1107 Halcyon chelicuti                    Striped Kingfisher
+ 35 1108 Todirhamphus nigrocyaneus            Blue-black Kingfisher
+ 35 1109 Todirhamphus winchelli               Rufous-lored Kingfisher
+ 35 1110 Todirhamphus diops                   Blue-and-white Kingfisher
+ 35 1111 Todirhamphus lazuli                  Lazuli Kingfisher
+ 35 1112 Todirhamphus macleayii               Forest Kingfisher
+ 35 1113 Todirhamphus albonotatus             New Britain Kingfisher
+ 35 1114 Todirhamphus leucopygius             Ultramarine Kingfisher
+ 35 1115 Todirhamphus farquhari               Chestnut-bellied Kingfisher
+ 35 1116 Todirhamphus pyrrhopygia             Red-backed Kingfisher
+ 35 1117 Todirhamphus recurvirostris          Flat-billed Kingfisher
+ 35 1118 Todirhamphus cinnamominus            Micronesian Kingfisher
+ 35 1119 Todirhamphus funebris                Sombre Kingfisher
+ 35 1120 Todirhamphus chloris                 Collared Kingfisher
+ 35 1121 Todirhamphus enigma                  Talaud Kingfisher
+ 35 1122 Todirhamphus saurophaga              Beach Kingfisher
+ 35 1123 Todirhamphus australasia             Cinnamon-banded Kingfisher
+ 35 1124 Todirhamphus sanctus                 Sacred Kingfisher
+ 35 1125 Todirhamphus veneratus               Tahiti Kingfisher
+ 35 1126 Todirhamphus ruficollaris            Mangaia Kingfisher
+ 35 1127 Todirhamphus tuta                    Chattering Kingfisher
+ 35 1128 Todirhamphus godeffroyi              Marquesan Kingfisher
+ 35 1129 Todirhamphus gambieri                Tuamotu Kingfisher
+ 35 1130 Caridonax fulgidus                   White-rumped Kingfisher
+ 35 1131 Melidora macrorrhina                 Hook-billed Kingfisher
+ 35 1132 Actenoides bougainvillei             Moustached Kingfisher
+ 35 1133 Actenoides concretus                 Rufous-collared Kingfisher
+ 35 1134 Actenoides lindsayi                  Spotted Kingfisher
+ 35 1135 Actenoides hombroni                  Blue-capped Kingfisher
+ 35 1136 Actenoides monachus                  Green-backed Kingfisher
+ 35 1137 Actenoides princeps                  Scaly Kingfisher
+ 35 1138 Syma torotoro                        Yellow-billed Kingfisher
+ 35 1139 Syma megarhyncha                     Mountain Kingfisher
+ 35 1140 Tanysiptera hydrocharis              Little Paradise-Kingfisher
+ 35 1141 Tanysiptera galatea                  Common Paradise-Kingfisher
+ 35 1142 Tanysiptera ellioti                  Kofiau Paradise-Kingfisher
+ 35 1143 Tanysiptera riedelii                 Biak Paradise-Kingfisher
+ 35 1144 Tanysiptera carolinae                Numfor Paradise-Kingfisher
+ 35 1145 Tanysiptera nympha                   Red-breasted Paradise-Kingfisher
+ 35 1146 Tanysiptera danae                    Brown-headed Paradise-Kingfisher
+ 35 1147 Tanysiptera sylvia                   Buff-breasted Paradise-Kingfisher
+ 36 1148 Megaceryle maxima                    Giant Kingfisher
+ 36 1149 Megaceryle lugubris                  Crested Kingfisher
+ 36 1150 Megaceryle alcyon                    Belted Kingfisher
+ 36 1151 Megaceryle torquata                  Ringed Kingfisher
+ 36 1152 Ceryle rudis                         Pied Kingfisher
+ 36 1153 Chloroceryle amazona                 Amazon Kingfisher
+ 36 1154 Chloroceryle americana               Green Kingfisher
+ 36 1155 Chloroceryle inda                    Green-and-rufous Kingfisher
+ 36 1156 Chloroceryle aenea                   American Pygmy Kingfisher
+ 37 1157 Nyctyornis amictus                   Red-bearded Bee-eater
+ 37 1158 Nyctyornis athertoni                 Blue-bearded Bee-eater
+ 37 1159 Meropogon forsteni                   Purple-bearded Bee-eater
+ 37 1160 Merops gularis                       Black Bee-eater
+ 37 1161 Merops muelleri                      Blue-headed Bee-eater
+ 37 1162 Merops bulocki                       Red-throated Bee-eater
+ 37 1163 Merops bullockoides                  White-fronted Bee-eater
+ 37 1164 Merops pusillus                      Little Bee-eater
+ 37 1165 Merops variegatus                    Blue-breasted Bee-eater
+ 37 1166 Merops oreobates                     Cinnamon-chested Bee-eater
+ 37 1167 Merops hirundineus                   Swallow-tailed Bee-eater
+ 37 1168 Merops breweri                       Black-headed Bee-eater
+ 37 1169 Merops revoilii                      Somali Bee-eater
+ 37 1170 Merops albicollis                    White-throated Bee-eater
+ 37 1171 Merops orientalis                    Little Green Bee-eater
+ 37 1172 Merops boehmi                        Boehm's Bee-eater
+ 37 1173 Merops viridis                       Blue-throated Bee-eater
+ 37 1174 Merops persicus                      Blue-cheeked Bee-eater
+ 37 1175 Merops superciliosus                 Madagascar Bee-eater
+ 37 1176 Merops philippinus                   Blue-tailed Bee-eater
+ 37 1177 Merops ornatus                       Rainbow Bee-eater
+ 37 1178 Merops apiaster                      European Bee-eater
+ 37 1179 Merops leschenaulti                  Chestnut-headed Bee-eater
+ 37 1180 Merops malimbicus                    Rosy Bee-eater
+ 37 1181 Merops nubicus                       Northern Carmine Bee-eater
+ 37 1182 Merops nubicoides                    Southern Carmine Bee-eater
+ 38 1183 Colius striatus                      Speckled Mousebird
+ 38 1184 Colius leucocephalus                 White-headed Mousebird
+ 38 1185 Colius castanotus                    Red-backed Mousebird
+ 38 1186 Colius colius                        White-backed Mousebird
+ 38 1187 Urocolius macrourus                  Blue-naped Mousebird
+ 38 1188 Urocolius indicus                    Red-faced Mousebird
+ 39 1189 Oxylophus jacobinus                  Pied Cuckoo
+ 39 1190 Oxylophus levaillantii               Levaillant's Cuckoo
+ 39 1191 Clamator coromandus                  Chestnut-winged Cuckoo
+ 39 1192 Clamator glandarius                  Great Spotted Cuckoo
+ 39 1193 Pachycoccyx audeberti                Thick-billed Cuckoo
+ 39 1194 Cuculus crassirostris                Sulawesi Hawk-Cuckoo
+ 39 1195 Cuculus sparverioides                Large Hawk-Cuckoo
+ 39 1196 Cuculus varius                       Common Hawk-Cuckoo
+ 39 1197 Cuculus vagans                       Moustached Hawk-Cuckoo
+ 39 1198 Cuculus fugax                        Hodgson's Hawk-Cuckoo
+ 39 1199 Cuculus solitarius                   Red-chested Cuckoo
+ 39 1200 Cuculus clamosus                     Black Cuckoo
+ 39 1201 Cuculus micropterus                  Indian Cuckoo
+ 39 1202 Cuculus canorus                      Common Cuckoo
+ 39 1203 Cuculus gularis                      African Cuckoo
+ 39 1204 Cuculus saturatus                    Oriental Cuckoo
+ 39 1205 Cuculus poliocephalus                Lesser Cuckoo
+ 39 1206 Cuculus rochii                       Madagascar Cuckoo
+ 39 1207 Cuculus pallidus                     Pallid Cuckoo
+ 39 1208 Cercococcyx mechowi                  Dusky Long-tailed Cuckoo
+ 39 1209 Cercococcyx olivinus                 Olive Long-tailed Cuckoo
+ 39 1210 Cercococcyx montanus                 Barred Long-tailed Cuckoo
+ 39 1211 Cacomantis sonneratii                Banded Bay Cuckoo
+ 39 1212 Cacomantis passerinus                Grey-bellied Cuckoo
+ 39 1213 Cacomantis merulinus                 Plaintive Cuckoo
+ 39 1214 Cacomantis sepulcralis               Rusty-breasted Cuckoo
+ 39 1215 Cacomantis variolosus                Brush Cuckoo
+ 39 1216 Cacomantis castaneiventris           Chestnut-breasted Cuckoo
+ 39 1217 Cacomantis heinrichi                 Moluccan Cuckoo
+ 39 1218 Cacomantis flabelliformis            Fan-tailed Cuckoo
+ 39 1219 Rhamphomantis megarhynchus           Long-billed Cuckoo
+ 39 1220 Chrysococcyx minutillus              Little Bronze-Cuckoo
+ 39 1221 Chrysococcyx russatus                Gould's Bronze-Cuckoo
+ 39 1222 Chrysococcyx rufomerus               Green-cheeked Bronze-Cuckoo
+ 39 1223 Chrysococcyx crassirostris           Pied Bronze-Cuckoo
+ 39 1224 Chrysococcyx lucidus                 Shining Bronze-Cuckoo
+ 39 1225 Chrysococcyx basalis                 Horsfield's Bronze-Cuckoo
+ 39 1226 Chrysococcyx ruficollis              Rufous-throated Bronze-Cuckoo
+ 39 1227 Chrysococcyx meyeri                  White-eared Bronze-Cuckoo
+ 39 1228 Chrysococcyx maculatus               Asian Emerald Cuckoo
+ 39 1229 Chrysococcyx xanthorhynchus          Violet Cuckoo
+ 39 1230 Chrysococcyx osculans                Black-eared Cuckoo
+ 39 1231 Chrysococcyx flavigularis            Yellow-throated Cuckoo
+ 39 1232 Chrysococcyx klaas                   Klaas's Cuckoo
+ 39 1233 Chrysococcyx cupreus                 African Emerald Cuckoo
+ 39 1234 Chrysococcyx caprius                 Dideric Cuckoo
+ 39 1235 Caliechthrus leucolophus             White-crowned Koel
+ 39 1236 Surniculus lugubris                  Drongo Cuckoo
+ 39 1237 Microdynamis parva                   Dwarf Koel
+ 39 1238 Eudynamys scolopacea                 Asian Koel
+ 39 1239 Eudynamys melanorhyncha              Black-billed Koel
+ 39 1240 Eudynamys cyanocephala               Australian Koel
+ 39 1241 Eudynamys taitensis                  Long-tailed Koel
+ 39 1242 Scythrops novaehollandiae            Channel-billed Cuckoo
+ 39 1243 Ceuthmochares aereus                 Yellowbill
+ 39 1244 Phaenicophaeus diardi                Black-bellied Malkoha
+ 39 1245 Phaenicophaeus sumatranus            Chestnut-bellied Malkoha
+ 39 1246 Phaenicophaeus tristis               Green-billed Malkoha
+ 39 1247 Phaenicophaeus viridirostris         Blue-faced Malkoha
+ 39 1248 Phaenicophaeus leschenaultii         Sirkeer Malkoha
+ 39 1249 Phaenicophaeus chlorophaeus          Raffles's Malkoha
+ 39 1250 Phaenicophaeus javanicus             Red-billed Malkoha
+ 39 1251 Phaenicophaeus calyorhynchus         Yellow-billed Malkoha
+ 39 1252 Phaenicophaeus curvirostris          Chestnut-breasted Malkoha
+ 39 1253 Phaenicophaeus pyrrhocephalus        Red-faced Malkoha
+ 39 1254 Phaenicophaeus superciliosus         Red-crested Malkoha
+ 39 1255 Phaenicophaeus cumingi               Scale-feathered Malkoha
+ 39 1256 Carpococcyx radiceus                 Sunda Ground-Cuckoo
+ 39 1257 Carpococcyx renauldi                 Coral-billed Ground-Cuckoo
+ 39 1258 Coua delalandei                      Snail-eating Coua
+ 39 1259 Coua gigas                           Giant Coua
+ 39 1260 Coua coquereli                       Coquerel's Coua
+ 39 1261 Coua serriana                        Red-breasted Coua
+ 39 1262 Coua reynaudii                       Red-fronted Coua
+ 39 1263 Coua cursor                          Running Coua
+ 39 1264 Coua ruficeps                        Red-capped Coua
+ 39 1265 Coua cristata                        Crested Coua
+ 39 1266 Coua verreauxi                       Verreaux's Coua
+ 39 1267 Coua caerulea                        Blue Coua
+ 40 1268 Centropus milo                       Buff-headed Coucal
+ 40 1269 Centropus goliath                    Goliath Coucal
+ 40 1270 Centropus violaceus                  Violaceous Coucal
+ 40 1271 Centropus menbeki                    Greater Black Coucal
+ 40 1272 Centropus ateralbus                  Pied Coucal
+ 40 1273 Centropus phasianinus                Pheasant Coucal
+ 40 1274 Centropus spilopterus                Kai Coucal
+ 40 1275 Centropus bernsteini                 Lesser Black Coucal
+ 40 1276 Centropus chalybeus                  Biak Coucal
+ 40 1277 Centropus rectunguis                 Short-toed Coucal
+ 40 1278 Centropus steerii                    Black-hooded Coucal
+ 40 1279 Centropus sinensis                   Greater Coucal
+ 40 1280 Centropus andamanensis               Brown Coucal
+ 40 1281 Centropus nigrorufus                 Sunda Coucal
+ 40 1282 Centropus viridis                    Philippine Coucal
+ 40 1283 Centropus toulou                     Madagascar Coucal
+ 40 1284 Centropus grillii                    Black Coucal
+ 40 1285 Centropus bengalensis                Lesser Coucal
+ 40 1286 Centropus chlororhynchus             Green-billed Coucal
+ 40 1287 Centropus leucogaster                Black-throated Coucal
+ 40 1288 Centropus anselli                    Gabon Coucal
+ 40 1289 Centropus neumanni                   Neumann's Coucal
+ 40 1290 Centropus monachus                   Blue-headed Coucal
+ 40 1291 Centropus cupreicaudus               Coppery-tailed Coucal
+ 40 1292 Centropus senegalensis               Senegal Coucal
+ 40 1293 Centropus superciliosus              White-browed Coucal
+ 40 1294 Centropus burchelli                  Burchell's Coucal
+ 40 1295 Centropus melanops                   Black-faced Coucal
+ 40 1296 Centropus celebensis                 Bay Coucal
+ 40 1297 Centropus unirufus                   Rufous Coucal
+ 41 1298 Coccyzus pumilus                     Dwarf Cuckoo
+ 41 1299 Coccyzus cinereus                    Ash-colored Cuckoo
+ 41 1300 Coccyzus erythropthalmus             Black-billed Cuckoo
+ 41 1301 Coccyzus americanus                  Yellow-billed Cuckoo
+ 41 1302 Coccyzus euleri                      Pearly-breasted Cuckoo
+ 41 1303 Coccyzus minor                       Mangrove Cuckoo
+ 41 1304 Coccyzus ferrugineus                 Cocos Cuckoo
+ 41 1305 Coccyzus melacoryphus                Dark-billed Cuckoo
+ 41 1306 Coccyzus lansbergi                   Grey-capped Cuckoo
+ 41 1307 Hyetornis pluvialis                  Chestnut-bellied Cuckoo
+ 41 1308 Hyetornis rufigularis                Bay-breasted Cuckoo
+ 41 1309 Piaya cayana                         Squirrel Cuckoo
+ 41 1310 Piaya melanogaster                   Black-bellied Cuckoo
+ 41 1311 Piaya minuta                         Little Cuckoo
+ 41 1312 Saurothera merlini                   Great Lizard-Cuckoo
+ 41 1313 Saurothera vetula                    Jamaican Lizard-Cuckoo
+ 41 1314 Saurothera longirostris              Hispaniolan Lizard-Cuckoo
+ 41 1315 Saurothera vieilloti                 Puerto Rican Lizard-Cuckoo
+ 42 1316 Opisthocomus hoazin                  Hoatzin
+ 43 1317 Crotophaga major                     Greater Ani
+ 43 1318 Crotophaga ani                       Smooth-billed Ani
+ 43 1319 Crotophaga sulcirostris              Groove-billed Ani
+ 43 1320 Guira guira                          Guira Cuckoo
+ 44 1321 Tapera naevia                        Striped Cuckoo
+ 44 1322 Morococcyx erythropygus              Lesser Ground-Cuckoo
+ 44 1323 Dromococcyx phasianellus             Pheasant Cuckoo
+ 44 1324 Dromococcyx pavoninus                Pavonine Cuckoo
+ 44 1325 Geococcyx californianus              Greater Roadrunner
+ 44 1326 Geococcyx velox                      Lesser Roadrunner
+ 44 1327 Neomorphus geoffroyi                 Rufous-vented Ground-Cuckoo
+ 44 1328 Neomorphus squamiger                 Scaled Ground-Cuckoo
+ 44 1329 Neomorphus radiolosus                Banded Ground-Cuckoo
+ 44 1330 Neomorphus rufipennis                Rufous-winged Ground-Cuckoo
+ 44 1331 Neomorphus pucheranii                Red-billed Ground-Cuckoo
+ 45 1332 Chalcopsitta atra                    Black Lory
+ 45 1333 Chalcopsitta duivenbodei             Brown Lory
+ 45 1334 Chalcopsitta sintillata              Yellow-streaked Lory
+ 45 1335 Chalcopsitta cardinalis              Cardinal Lory
+ 45 1336 Eos histrio                          Red-and-blue Lory
+ 45 1337 Eos squamata                         Violet-necked Lory
+ 45 1338 Eos bornea                           Red Lory
+ 45 1339 Eos reticulata                       Blue-streaked Lory
+ 45 1340 Eos cyanogenia                       Black-winged Lory
+ 45 1341 Eos semilarvata                      Blue-eared Lory
+ 45 1342 Pseudeos fuscata                     Dusky Lory
+ 45 1343 Trichoglossus ornatus                Ornate Lorikeet
+ 45 1344 Trichoglossus haematodus             Rainbow Lorikeet
+ 45 1345 Trichoglossus rubritorquis           Red-collared Lorikeet
+ 45 1346 Trichoglossus euteles                Olive-headed Lorikeet
+ 45 1347 Trichoglossus flavoviridis           Yellow-and-green Lorikeet
+ 45 1348 Trichoglossus johnstoniae            Mindanao Lorikeet
+ 45 1349 Trichoglossus rubiginosus            Pohnpei Lorikeet
+ 45 1350 Trichoglossus chlorolepidotus        Scaly-breasted Lorikeet
+ 45 1351 Psitteuteles versicolor              Varied Lorikeet
+ 45 1352 Psitteuteles iris                    Iris Lorikeet
+ 45 1353 Psitteuteles goldiei                 Goldie's Lorikeet
+ 45 1354 Lorius garrulus                      Chattering Lory
+ 45 1355 Lorius domicella                     Purple-naped Lory
+ 45 1356 Lorius lory                          Black-capped Lory
+ 45 1357 Lorius hypoinochrous                 Purple-bellied Lory
+ 45 1358 Lorius albidinuchus                  White-naped Lory
+ 45 1359 Lorius chlorocercus                  Yellow-bibbed Lory
+ 45 1360 Phigys solitarius                    Collared Lory
+ 45 1361 Vini australis                       Blue-crowned Lorikeet
+ 45 1362 Vini kuhlii                          Kuhl's Lorikeet
+ 45 1363 Vini stepheni                        Stephen's Lorikeet
+ 45 1364 Vini peruviana                       Blue Lorikeet
+ 45 1365 Vini ultramarina                     Ultramarine Lorikeet
+ 45 1366 Glossopsitta concinna                Musk Lorikeet
+ 45 1367 Glossopsitta pusilla                 Little Lorikeet
+ 45 1368 Glossopsitta porphyrocephala         Purple-crowned Lorikeet
+ 45 1369 Charmosyna palmarum                  Palm Lorikeet
+ 45 1370 Charmosyna rubrigularis              Red-chinned Lorikeet
+ 45 1371 Charmosyna meeki                     Meek's Lorikeet
+ 45 1372 Charmosyna toxopei                   Blue-fronted Lorikeet
+ 45 1373 Charmosyna multistriata              Striated Lorikeet
+ 45 1374 Charmosyna wilhelminae               Pygmy Lorikeet
+ 45 1375 Charmosyna rubronotata               Red-fronted Lorikeet
+ 45 1376 Charmosyna placentis                 Red-flanked Lorikeet
+ 45 1377 Charmosyna diadema                   New Caledonian Lorikeet
+ 45 1378 Charmosyna amabilis                  Red-throated Lorikeet
+ 45 1379 Charmosyna margarethae               Duchess Lorikeet
+ 45 1380 Charmosyna pulchella                 Fairy Lorikeet
+ 45 1381 Charmosyna josefinae                 Josephine's Lorikeet
+ 45 1382 Charmosyna papou                     Papuan Lorikeet
+ 45 1383 Oreopsittacus arfaki                 Plum-faced Lorikeet
+ 45 1384 Neopsittacus musschenbroekii         Yellow-billed Lorikeet
+ 45 1385 Neopsittacus pullicauda              Orange-billed Lorikeet
+ 45 1386 Probosciger aterrimus                Palm Cockatoo
+ 45 1387 Calyptorhynchus baudinii             White-tailed Black-Cockatoo
+ 45 1388 Calyptorhynchus latirostris          Slender-billed Black-Cockatoo
+ 45 1389 Calyptorhynchus funereus             Yellow-tailed Black-Cockatoo
+ 45 1390 Calyptorhynchus banksii              Red-tailed Black-Cockatoo
+ 45 1391 Calyptorhynchus lathami              Glossy Black-Cockatoo
+ 45 1392 Callocephalon fimbriatum             Gang-gang Cockatoo
+ 45 1393 Eolophus roseicapillus               Galah
+ 45 1394 Cacatua leadbeateri                  Pink Cockatoo
+ 45 1395 Cacatua sulphurea                    Yellow-crested Cockatoo
+ 45 1396 Cacatua galerita                     Sulphur-crested Cockatoo
+ 45 1397 Cacatua ophthalmica                  Blue-eyed Cockatoo
+ 45 1398 Cacatua moluccensis                  Salmon-crested Cockatoo
+ 45 1399 Cacatua alba                         White Cockatoo
+ 45 1400 Cacatua haematuropygia               Philippine Cockatoo
+ 45 1401 Cacatua goffini                      Tanimbar Cockatoo
+ 45 1402 Cacatua sanguinea                    Little Corella
+ 45 1403 Cacatua pastinator                   Western Corella
+ 45 1404 Cacatua tenuirostris                 Long-billed Corella
+ 45 1405 Cacatua ducorpsii                    Ducorps's Cockatoo
+ 45 1406 Nymphicus hollandicus                Cockatiel
+ 45 1407 Nestor notabilis                     Kea
+ 45 1408 Nestor productus                     Norfolk Island Kaka
+ 45 1409 Nestor meridionalis                  New Zealand Kaka
+ 45 1410 Micropsitta keiensis                 Yellow-capped Pygmy-Parrot
+ 45 1411 Micropsitta geelvinkiana             Geelvink Pygmy-Parrot
+ 45 1412 Micropsitta pusio                    Buff-faced Pygmy-Parrot
+ 45 1413 Micropsitta meeki                    Meek's Pygmy-Parrot
+ 45 1414 Micropsitta finschii                 Finsch's Pygmy-Parrot
+ 45 1415 Micropsitta bruijnii                 Red-breasted Pygmy-Parrot
+ 45 1416 Cyclopsitta gulielmitertii           Orange-breasted Fig-Parrot
+ 45 1417 Cyclopsitta diophthalma              Double-eyed Fig-Parrot
+ 45 1418 Psittaculirostris desmarestii        Large Fig-Parrot
+ 45 1419 Psittaculirostris edwardsii          Edwards's Fig-Parrot
+ 45 1420 Psittaculirostris salvadorii         Salvadori's Fig-Parrot
+ 45 1421 Bolbopsittacus lunulatus             Guaiabero
+ 45 1422 Psittinus cyanurus                   Blue-rumped Parrot
+ 45 1423 Psittacella brehmii                  Brehm's Tiger-Parrot
+ 45 1424 Psittacella picta                    Painted Tiger-Parrot
+ 45 1425 Psittacella modesta                  Modest Tiger-Parrot
+ 45 1426 Psittacella madaraszi                Madarasz's Tiger-Parrot
+ 45 1427 Geoffroyus geoffroyi                 Red-cheeked Parrot
+ 45 1428 Geoffroyus simplex                   Blue-collared Parrot
+ 45 1429 Geoffroyus heteroclitus              Singing Parrot
+ 45 1430 Prioniturus montanus                 Montane Racquet-tail
+ 45 1431 Prioniturus waterstradti             Mindanao Racquet-tail
+ 45 1432 Prioniturus platenae                 Blue-headed Racquet-tail
+ 45 1433 Prioniturus luconensis               Green Racquet-tail
+ 45 1434 Prioniturus discurus                 Blue-crowned Racquet-tail
+ 45 1435 Prioniturus verticalis               Blue-winged Racquet-tail
+ 45 1436 Prioniturus flavicans                Yellowish-breasted Racquet-tail
+ 45 1437 Prioniturus platurus                 Golden-mantled Racquet-tail
+ 45 1438 Prioniturus mada                     Buru Racquet-tail
+ 45 1439 Tanygnathus megalorynchos            Great-billed Parrot
+ 45 1440 Tanygnathus lucionensis              Blue-naped Parrot
+ 45 1441 Tanygnathus sumatranus               Blue-backed Parrot
+ 45 1442 Tanygnathus gramineus                Black-lored Parrot
+ 45 1443 Eclectus roratus                     Eclectus Parrot
+ 45 1444 Psittrichas fulgidus                 Pesquet's Parrot
+ 45 1445 Prosopeia splendens                  Crimson Shining-Parrot
+ 45 1446 Prosopeia personata                  Masked Shining-Parrot
+ 45 1447 Prosopeia tabuensis                  Red Shining-Parrot
+ 45 1448 Alisterus scapularis                 Australian King-Parrot
+ 45 1449 Alisterus amboinensis                Moluccan King-Parrot
+ 45 1450 Alisterus chloropterus               Papuan King-Parrot
+ 45 1451 Aprosmictus jonquillaceus            Olive-shouldered Parrot
+ 45 1452 Aprosmictus erythropterus            Red-winged Parrot
+ 45 1453 Polytelis swainsonii                 Superb Parrot
+ 45 1454 Polytelis anthopeplus                Regent Parrot
+ 45 1455 Polytelis alexandrae                 Alexandra's Parrot
+ 45 1456 Purpureicephalus spurius             Red-capped Parrot
+ 45 1457 Platycercus zonarius                 Port Lincoln Ringneck
+ 45 1458 Platycercus barnardi                 Mallee Ringneck
+ 45 1459 Platycercus caledonicus              Green Rosella
+ 45 1460 Platycercus elegans                  Crimson Rosella
+ 45 1461 Platycercus flaveolus                Yellow Rosella
+ 45 1462 Platycercus venustus                 Northern Rosella
+ 45 1463 Platycercus adscitus                 Pale-headed Rosella
+ 45 1464 Platycercus eximius                  Eastern Rosella
+ 45 1465 Platycercus icterotis                Western Rosella
+ 45 1466 Northiella haematogaster             Bluebonnet
+ 45 1467 Psephotus haematonotus               Red-rumped Parrot
+ 45 1468 Psephotus varius                     Mulga Parrot
+ 45 1469 Psephotus dissimilis                 Hooded Parrot
+ 45 1470 Psephotus chrysopterygius            Golden-shouldered Parrot
+ 45 1471 Psephotus pulcherrimus               Paradise Parrot
+ 45 1472 Cyanoramphus unicolor                Antipodes Parakeet
+ 45 1473 Cyanoramphus cookii                  Norfolk Island Parakeet
+ 45 1474 Cyanoramphus novaezelandiae          Red-fronted Parakeet
+ 45 1475 Cyanoramphus auriceps                Yellow-fronted Parakeet
+ 45 1476 Cyanoramphus zealandicus             Black-fronted Parakeet
+ 45 1477 Cyanoramphus ulietanus               Raiatea Parakeet
+ 45 1478 Eunymphicus cornutus                 Horned Parakeet
+ 45 1479 Neopsephotus bourkii                 Bourke's Parrot
+ 45 1480 Neophema chrysostoma                 Blue-winged Parrot
+ 45 1481 Neophema elegans                     Elegant Parrot
+ 45 1482 Neophema petrophila                  Rock Parrot
+ 45 1483 Neophema chrysogaster                Orange-bellied Parrot
+ 45 1484 Neophema pulchella                   Turquoise Parrot
+ 45 1485 Neophema splendida                   Scarlet-chested Parrot
+ 45 1486 Lathamus discolor                    Swift Parrot
+ 45 1487 Melopsittacus undulatus              Budgerigar
+ 45 1488 Pezoporus wallicus                   Ground Parrot
+ 45 1489 Geopsittacus occidentalis            Night Parrot
+ 45 1490 Strigops habroptilus                 Kakapo
+ 45 1491 Mascarinus mascarinus                Mascarene Parrot
+ 45 1492 Coracopsis vasa                      Vasa Parrot
+ 45 1493 Coracopsis nigra                     Black Parrot
+ 45 1494 Psittacus erithacus                  Grey Parrot
+ 45 1495 Poicephalus robustus                 Brown-necked Parrot
+ 45 1496 Poicephalus gulielmi                 Red-fronted Parrot
+ 45 1497 Poicephalus senegalus                Senegal Parrot
+ 45 1498 Poicephalus crassus                  Niam-niam Parrot
+ 45 1499 Poicephalus meyeri                   Meyer's Parrot
+ 45 1500 Poicephalus flavifrons               Yellow-fronted Parrot
+ 45 1501 Poicephalus rufiventris              Red-bellied Parrot
+ 45 1502 Poicephalus cryptoxanthus            Brown-headed Parrot
+ 45 1503 Poicephalus rueppellii               Rueppell's Parrot
+ 45 1504 Agapornis canus                      Grey-headed Lovebird
+ 45 1505 Agapornis pullarius                  Red-headed Lovebird
+ 45 1506 Agapornis taranta                    Black-winged Lovebird
+ 45 1507 Agapornis swindernianus              Black-collared Lovebird
+ 45 1508 Agapornis roseicollis                Rosy-faced Lovebird
+ 45 1509 Agapornis fischeri                   Fischer's Lovebird
+ 45 1510 Agapornis personatus                 Yellow-collared Lovebird
+ 45 1511 Agapornis lilianae                   Lilian's Lovebird
+ 45 1512 Agapornis nigrigenis                 Black-cheeked Lovebird
+ 45 1513 Loriculus vernalis                   Vernal Hanging-Parrot
+ 45 1514 Loriculus beryllinus                 Ceylon Hanging-Parrot
+ 45 1515 Loriculus philippensis               Colasisi
+ 45 1516 Loriculus galgulus                   Blue-crowned Hanging-Parrot
+ 45 1517 Loriculus stigmatus                  Sulawesi Hanging-Parrot
+ 45 1518 Loriculus amabilis                   Moluccan Hanging-Parrot
+ 45 1519 Loriculus catamene                   Sangihe Hanging-Parrot
+ 45 1520 Loriculus aurantiifrons              Orange-fronted Hanging-Parrot
+ 45 1521 Loriculus tener                      Green-fronted Hanging-Parrot
+ 45 1522 Loriculus exilis                     Red-billed Hanging-Parrot
+ 45 1523 Loriculus pusillus                   Yellow-throated Hanging-Parrot
+ 45 1524 Loriculus flosculus                  Wallace's Hanging-Parrot
+ 45 1525 Psittacula eupatria                  Alexandrine Parakeet
+ 45 1526 Psittacula wardi                     Seychelles Parakeet
+ 45 1527 Psittacula krameri                   Rose-ringed Parakeet
+ 45 1528 Psittacula echo                      Mauritius Parakeet
+ 45 1529 Psittacula exsul                     Newton's Parakeet
+ 45 1530 Psittacula himalayana                Slaty-headed Parakeet
+ 45 1531 Psittacula finschii                  Grey-headed Parakeet
+ 45 1532 Psittacula intermedia                Intermediate Parakeet
+ 45 1533 Psittacula cyanocephala              Plum-headed Parakeet
+ 45 1534 Psittacula roseata                   Blossom-headed Parakeet
+ 45 1535 Psittacula columboides               Malabar Parakeet
+ 45 1536 Psittacula calthropae                Layard's Parakeet
+ 45 1537 Psittacula derbiana                  Derbyan Parakeet
+ 45 1538 Psittacula alexandri                 Red-breasted Parakeet
+ 45 1539 Psittacula caniceps                  Nicobar Parakeet
+ 45 1540 Psittacula longicauda                Long-tailed Parakeet
+ 45 1541 Anodorhynchus hyacinthinus           Hyacinth Macaw
+ 45 1542 Anodorhynchus leari                  Indigo Macaw
+ 45 1543 Anodorhynchus glaucus                Glaucous Macaw
+ 45 1544 Cyanopsitta spixii                   Little Blue Macaw
+ 45 1545 Ara ararauna                         Blue-and-yellow Macaw
+ 45 1546 Ara glaucogularis                    Blue-throated Macaw
+ 45 1547 Ara militaris                        Military Macaw
+ 45 1548 Ara ambigua                          Great Green Macaw
+ 45 1549 Ara macao                            Scarlet Macaw
+ 45 1550 Ara chloropterus                     Red-and-green Macaw
+ 45 1551 Ara cubensis                         Cuban Macaw
+ 45 1552 Ara tricolor                         Hispaniolan Macaw
+ 45 1553 Ara rubrogenys                       Red-fronted Macaw
+ 45 1554 Ara severa                           Chestnut-fronted Macaw
+ 45 1555 Ara manilata                         Red-bellied Macaw
+ 45 1556 Ara couloni                          Blue-headed Macaw
+ 45 1557 Ara maracana                         Blue-winged Macaw
+ 45 1558 Ara auricollis                       Yellow-collared Macaw
+ 45 1559 Ara nobilis                          Red-shouldered Macaw
+ 45 1560 Aratinga acuticaudata                Blue-crowned Parakeet
+ 45 1561 Aratinga guarouba                    Golden Parakeet
+ 45 1562 Aratinga holochlora                  Green Parakeet
+ 45 1563 Aratinga strenua                     Pacific Parakeet
+ 45 1564 Aratinga wagleri                     Scarlet-fronted Parakeet
+ 45 1565 Aratinga mitrata                     Mitred Parakeet
+ 45 1566 Aratinga erythrogenys                Red-masked Parakeet
+ 45 1567 Aratinga finschi                     Crimson-fronted Parakeet
+ 45 1568 Aratinga leucophthalmus              White-eyed Parakeet
+ 45 1569 Aratinga euops                       Cuban Parakeet
+ 45 1570 Aratinga chloroptera                 Hispaniolan Parakeet
+ 45 1571 Aratinga solstitialis                Sun Parakeet
+ 45 1572 Aratinga jandaya                     Jandaya Parakeet
+ 45 1573 Aratinga auricapilla                 Golden-capped Parakeet
+ 45 1574 Aratinga weddellii                   Dusky-headed Parakeet
+ 45 1575 Aratinga nana                        Olive-throated Parakeet
+ 45 1576 Aratinga canicularis                 Orange-fronted Parakeet
+ 45 1577 Aratinga aurea                       Peach-fronted Parakeet
+ 45 1578 Aratinga pertinax                    Brown-throated Parakeet
+ 45 1579 Aratinga cactorum                    Cactus Parakeet
+ 45 1580 Nandayus nenday                      Nanday Parakeet
+ 45 1581 Leptosittaca branickii               Golden-plumed Parakeet
+ 45 1582 Ognorhynchus icterotis               Yellow-eared Parrot
+ 45 1583 Rhynchopsitta pachyrhyncha           Thick-billed Parrot
+ 45 1584 Rhynchopsitta terrisi                Maroon-fronted Parrot
+ 45 1585 Conuropsis carolinensis              Carolina Parakeet
+ 45 1586 Cyanoliseus patagonus                Burrowing Parakeet
+ 45 1587 Pyrrhura cruentata                   Blue-throated Parakeet
+ 45 1588 Pyrrhura devillei                    Blaze-winged Parakeet
+ 45 1589 Pyrrhura frontalis                   Maroon-bellied Parakeet
+ 45 1590 Pyrrhura perlata                     Pearly Parakeet
+ 45 1591 Pyrrhura rhodogaster                 Crimson-bellied Parakeet
+ 45 1592 Pyrrhura molinae                     Green-cheeked Parakeet
+ 45 1593 Pyrrhura picta                       Painted Parakeet
+ 45 1594 Pyrrhura leucotis                    White-eared Parakeet
+ 45 1595 Pyrrhura viridicata                  Santa Marta Parakeet
+ 45 1596 Pyrrhura egregia                     Fiery-shouldered Parakeet
+ 45 1597 Pyrrhura melanura                    Maroon-tailed Parakeet
+ 45 1598 Pyrrhura orcesi                      El Oro Parakeet
+ 45 1599 Pyrrhura rupicola                    Black-capped Parakeet
+ 45 1600 Pyrrhura albipectus                  White-necked Parakeet
+ 45 1601 Pyrrhura calliptera                  Brown-breasted Parakeet
+ 45 1602 Pyrrhura hoematotis                  Red-eared Parakeet
+ 45 1603 Pyrrhura rhodocephala                Rose-headed Parakeet
+ 45 1604 Pyrrhura hoffmanni                   Sulphur-winged Parakeet
+ 45 1605 Enicognathus ferrugineus             Austral Parakeet
+ 45 1606 Enicognathus leptorhynchus           Slender-billed Parakeet
+ 45 1607 Myiopsitta monachus                  Monk Parakeet
+ 45 1608 Bolborhynchus aymara                 Grey-hooded Parakeet
+ 45 1609 Bolborhynchus aurifrons              Mountain Parakeet
+ 45 1610 Bolborhynchus lineola                Barred Parakeet
+ 45 1611 Bolborhynchus orbygnesius            Andean Parakeet
+ 45 1612 Bolborhynchus ferrugineifrons        Rufous-fronted Parakeet
+ 45 1613 Forpus cyanopygius                   Mexican Parrotlet
+ 45 1614 Forpus passerinus                    Green-rumped Parrotlet
+ 45 1615 Forpus xanthopterygius               Blue-winged Parrotlet
+ 45 1616 Forpus conspicillatus                Spectacled Parrotlet
+ 45 1617 Forpus sclateri                      Dusky-billed Parrotlet
+ 45 1618 Forpus coelestis                     Pacific Parrotlet
+ 45 1619 Forpus xanthops                      Yellow-faced Parrotlet
+ 45 1620 Brotogeris tirica                    Plain Parakeet
+ 45 1621 Brotogeris versicolurus              Canary-winged Parakeet
+ 45 1622 Brotogeris chiriri                   Yellow-chevroned Parakeet
+ 45 1623 Brotogeris pyrrhopterus              Grey-cheeked Parakeet
+ 45 1624 Brotogeris jugularis                 Orange-chinned Parakeet
+ 45 1625 Brotogeris cyanoptera                Cobalt-winged Parakeet
+ 45 1626 Brotogeris chrysopterus              Golden-winged Parakeet
+ 45 1627 Brotogeris sanctithomae              Tui Parakeet
+ 45 1628 Nannopsittaca panychlora             Tepui Parrotlet
+ 45 1629 Nannopsittaca dachilleae             Amazonian Parrotlet
+ 45 1630 Touit batavica                       Lilac-tailed Parrotlet
+ 45 1631 Touit huetii                         Scarlet-shouldered Parrotlet
+ 45 1632 Touit costaricensis                  Red-fronted Parrotlet
+ 45 1633 Touit dilectissima                   Blue-fronted Parrotlet
+ 45 1634 Touit purpurata                      Sapphire-rumped Parrotlet
+ 45 1635 Touit melanonotus                    Brown-backed Parrotlet
+ 45 1636 Touit surda                          Golden-tailed Parrotlet
+ 45 1637 Touit stictoptera                    Spot-winged Parrotlet
+ 45 1638 Pionites melanocephala               Black-headed Parrot
+ 45 1639 Pionites leucogaster                 White-bellied Parrot
+ 45 1640 Pionopsitta pileata                  Pileated Parrot
+ 45 1641 Pionopsitta haematotis               Brown-hooded Parrot
+ 45 1642 Pionopsitta pulchra                  Rose-faced Parrot
+ 45 1643 Pionopsitta barrabandi               Orange-cheeked Parrot
+ 45 1644 Pionopsitta pyrilia                  Saffron-headed Parrot
+ 45 1645 Pionopsitta caica                    Caica Parrot
+ 45 1646 Gypopsitta vulturina                 Vulturine Parrot
+ 45 1647 Hapalopsittaca melanotis             Black-winged Parrot
+ 45 1648 Hapalopsittaca amazonina             Rusty-faced Parrot
+ 45 1649 Hapalopsittaca fuertesi              Indigo-winged Parrot
+ 45 1650 Hapalopsittaca pyrrhops              Red-faced Parrot
+ 45 1651 Graydidascalus brachyurus            Short-tailed Parrot
+ 45 1652 Pionus menstruus                     Blue-headed Parrot
+ 45 1653 Pionus sordidus                      Red-billed Parrot
+ 45 1654 Pionus maximiliani                   Scaly-headed Parrot
+ 45 1655 Pionus tumultuosus                   Speckle-faced Parrot
+ 45 1656 Pionus senilis                       White-crowned Parrot
+ 45 1657 Pionus chalcopterus                  Bronze-winged Parrot
+ 45 1658 Pionus fuscus                        Dusky Parrot
+ 45 1659 Amazona leucocephala                 Cuban Parrot
+ 45 1660 Amazona collaria                     Yellow-billed Parrot
+ 45 1661 Amazona ventralis                    Hispaniolan Parrot
+ 45 1662 Amazona albifrons                    White-fronted Parrot
+ 45 1663 Amazona xantholora                   Yellow-lored Parrot
+ 45 1664 Amazona agilis                       Black-billed Parrot
+ 45 1665 Amazona vittata                      Puerto Rican Parrot
+ 45 1666 Amazona tucumana                     Tucuman Parrot
+ 45 1667 Amazona pretrei                      Red-spectacled Parrot
+ 45 1668 Amazona viridigenalis                Red-crowned Parrot
+ 45 1669 Amazona finschi                      Lilac-crowned Parrot
+ 45 1670 Amazona autumnalis                   Red-lored Parrot
+ 45 1671 Amazona dufresniana                  Blue-cheeked Parrot
+ 45 1672 Amazona rhodocorytha                 Red-browed Parrot
+ 45 1673 Amazona brasiliensis                 Red-tailed Parrot
+ 45 1674 Amazona festiva                      Festive Parrot
+ 45 1675 Amazona xanthops                     Yellow-faced Parrot
+ 45 1676 Amazona barbadensis                  Yellow-shouldered Parrot
+ 45 1677 Amazona aestiva                      Blue-fronted Parrot
+ 45 1678 Amazona oratrix                      Yellow-headed Parrot
+ 45 1679 Amazona auropalliata                 Yellow-naped Parrot
+ 45 1680 Amazona ochrocephala                 Yellow-crowned Parrot
+ 45 1681 Amazona amazonica                    Orange-winged Parrot
+ 45 1682 Amazona mercenaria                   Scaly-naped Parrot
+ 45 1683 Amazona kawalli                      Kawall's Parrot
+ 45 1684 Amazona farinosa                     Mealy Parrot
+ 45 1685 Amazona vinacea                      Vinaceous Parrot
+ 45 1686 Amazona versicolor                   St. Lucia Parrot
+ 45 1687 Amazona arausiaca                    Red-necked Parrot
+ 45 1688 Amazona guildingii                   St. Vincent Parrot
+ 45 1689 Amazona imperialis                   Imperial Parrot
+ 45 1690 Deroptyus accipitrinus               Red-fan Parrot
+ 45 1691 Triclaria malachitacea               Blue-bellied Parrot
+ 46 1692 Cypseloides rutilus                  Chestnut-collared Swift
+ 46 1693 Cypseloides phelpsi                  Tepui Swift
+ 46 1694 Cypseloides niger                    Black Swift
+ 46 1695 Cypseloides lemosi                   White-chested Swift
+ 46 1696 Cypseloides rothschildi              Rothschild's Swift
+ 46 1697 Cypseloides fumigatus                Sooty Swift
+ 46 1698 Cypseloides cherriei                 Spot-fronted Swift
+ 46 1699 Cypseloides storeri                  White-fronted Swift
+ 46 1700 Cypseloides cryptus                  White-chinned Swift
+ 46 1701 Cypseloides senex                    Great Dusky Swift
+ 46 1702 Streptoprocne zonaris                White-collared Swift
+ 46 1703 Streptoprocne biscutata              Biscutate Swift
+ 46 1704 Streptoprocne semicollaris           White-naped Swift
+ 46 1705 Hydrochous gigas                     Waterfall Swift
+ 46 1706 Collocalia esculenta                 Glossy Swiftlet
+ 46 1707 Collocalia linchi                    Cave Swiftlet
+ 46 1708 Collocalia troglodytes               Pygmy Swiftlet
+ 46 1709 Collocalia elaphra                   Seychelles Swiftlet
+ 46 1710 Collocalia francica                  Mascarene Swiftlet
+ 46 1711 Collocalia unicolor                  Indian Swiftlet
+ 46 1712 Collocalia mearnsi                   Philippine Swiftlet
+ 46 1713 Collocalia infuscata                 Moluccan Swiftlet
+ 46 1714 Collocalia hirundinacea              Mountain Swiftlet
+ 46 1715 Collocalia spodiopygius              White-rumped Swiftlet
+ 46 1716 Collocalia terraereginae             Australian Swiftlet
+ 46 1717 Collocalia brevirostris              Himalayan Swiftlet
+ 46 1718 Collocalia vulcanorum                Volcano Swiftlet
+ 46 1719 Collocalia rogersi                   Indochinese Swiftlet
+ 46 1720 Collocalia whiteheadi                Whitehead's Swiftlet
+ 46 1721 Collocalia nuditarsus                Bare-legged Swiftlet
+ 46 1722 Collocalia orientalis                Mayr's Swiftlet
+ 46 1723 Collocalia salangana                 Mossy-nest Swiftlet
+ 46 1724 Collocalia palawanensis              Palawan Swiftlet
+ 46 1725 Collocalia amelis                    Grey Swiftlet
+ 46 1726 Collocalia vanikorensis              Uniform Swiftlet
+ 46 1727 Collocalia pelewensis                Palau Swiftlet
+ 46 1728 Collocalia inquieta                  Micronesian Swiftlet
+ 46 1729 Collocalia sawtelli                  Atiu Swiftlet
+ 46 1730 Collocalia leucophaeus               Tahiti Swiftlet
+ 46 1731 Collocalia ocista                    Marquesan Swiftlet
+ 46 1732 Collocalia maxima                    Black-nest Swiftlet
+ 46 1733 Collocalia fuciphaga                 Edible-nest Swiftlet
+ 46 1734 Collocalia germani                   German's Swiftlet
+ 46 1735 Collocalia papuensis                 Papuan Swiftlet
+ 46 1736 Schoutedenapus myoptilus             Scarce Swift
+ 46 1737 Schoutedenapus schoutedeni           Schouteden's Swift
+ 46 1738 Mearnsia picina                      Philippine Needletail
+ 46 1739 Mearnsia novaeguineae                Papuan Needletail
+ 46 1740 Zoonavena grandidieri                Malagasy Spinetail
+ 46 1741 Zoonavena thomensis                  Sao Tome Spinetail
+ 46 1742 Zoonavena sylvatica                  White-rumped Spinetail
+ 46 1743 Telacanthura ussheri                 Mottled Spinetail
+ 46 1744 Telacanthura melanopygia             Black Spinetail
+ 46 1745 Rhaphidura leucopygialis             Silver-rumped Spinetail
+ 46 1746 Rhaphidura sabini                    Sabine's Spinetail
+ 46 1747 Neafrapus cassini                    Cassin's Spinetail
+ 46 1748 Neafrapus boehmi                     Bat-like Spinetail
+ 46 1749 Hirundapus caudacutus                White-throated Needletail
+ 46 1750 Hirundapus cochinchinensis           Silver-backed Needletail
+ 46 1751 Hirundapus giganteus                 Brown-backed Needletail
+ 46 1752 Hirundapus celebensis                Purple Needletail
+ 46 1753 Chaetura spinicauda                  Band-rumped Swift
+ 46 1754 Chaetura martinica                   Lesser Antillean Swift
+ 46 1755 Chaetura cinereiventris              Grey-rumped Swift
+ 46 1756 Chaetura egregia                     Pale-rumped Swift
+ 46 1757 Chaetura pelagica                    Chimney Swift
+ 46 1758 Chaetura vauxi                       Vaux's Swift
+ 46 1759 Chaetura chapmani                    Chapman's Swift
+ 46 1760 Chaetura brachyura                   Short-tailed Swift
+ 46 1761 Chaetura andrei                      Ashy-tailed Swift
+ 46 1762 Aeronautes saxatalis                 White-throated Swift
+ 46 1763 Aeronautes montivagus                White-tipped Swift
+ 46 1764 Aeronautes andecolus                 Andean Swift
+ 46 1765 Tachornis phoenicobia                Antillean Palm-Swift
+ 46 1766 Tachornis furcata                    Pygmy Swift
+ 46 1767 Tachornis squamata                   Fork-tailed Palm-Swift
+ 46 1768 Panyptila sanctihieronymi            Great Swallow-tailed Swift
+ 46 1769 Panyptila cayennensis                Lesser Swallow-tailed Swift
+ 46 1770 Cypsiurus parvus                     African Palm-Swift
+ 46 1771 Cypsiurus balasiensis                Asian Palm-Swift
+ 46 1772 Tachymarptis melba                   Alpine Swift
+ 46 1773 Tachymarptis aequatorialis           Mottled Swift
+ 46 1774 Apus alexandri                       Alexander's Swift
+ 46 1775 Apus apus                            Common Swift
+ 46 1776 Apus unicolor                        Plain Swift
+ 46 1777 Apus niansae                         Nyanza Swift
+ 46 1778 Apus pallidus                        Pallid Swift
+ 46 1779 Apus barbatus                        African Swift
+ 46 1780 Apus berliozi                        Forbes-Watson's Swift
+ 46 1781 Apus bradfieldi                      Bradfield's Swift
+ 46 1782 Apus balstoni                        Madagascar Swift
+ 46 1783 Apus pacificus                       Fork-tailed Swift
+ 46 1784 Apus acuticauda                      Dark-rumped Swift
+ 46 1785 Apus affinis                         Little Swift
+ 46 1786 Apus nipalensis                      House Swift
+ 46 1787 Apus horus                           Horus Swift
+ 46 1788 Apus toulsoni                        Loanda Swift
+ 46 1789 Apus caffer                          White-rumped Swift
+ 46 1790 Apus batesi                          Bates's Swift
+ 47 1791 Hemiprocne coronata                  Crested Treeswift
+ 47 1792 Hemiprocne longipennis               Grey-rumped Treeswift
+ 47 1793 Hemiprocne mystacea                  Moustached Treeswift
+ 47 1794 Hemiprocne comata                    Whiskered Treeswift
+ 48 1795 Glaucis aenea                        Bronzy Hermit
+ 48 1796 Glaucis hirsuta                      Rufous-breasted Hermit
+ 48 1797 Threnetes niger                      Sooty Barbthroat
+ 48 1798 Threnetes ruckeri                    Band-tailed Barbthroat
+ 48 1799 Threnetes leucurus                   Pale-tailed Barbthroat
+ 48 1800 Phaethornis yaruqui                  White-whiskered Hermit
+ 48 1801 Phaethornis guy                      Green Hermit
+ 48 1802 Phaethornis syrmatophorus            Tawny-bellied Hermit
+ 48 1803 Phaethornis superciliosus            Long-tailed Hermit
+ 48 1804 Phaethornis malaris                  Great-billed Hermit
+ 48 1805 Phaethornis eurynome                 Scale-throated Hermit
+ 48 1806 Phaethornis hispidus                 White-bearded Hermit
+ 48 1807 Phaethornis anthophilus              Pale-bellied Hermit
+ 48 1808 Phaethornis bourcieri                Straight-billed Hermit
+ 48 1809 Phaethornis koepckeae                Koepcke's Hermit
+ 48 1810 Phaethornis philippii                Needle-billed Hermit
+ 48 1811 Phaethornis squalidus                Dusky-throated Hermit
+ 48 1812 Phaethornis augusti                  Sooty-capped Hermit
+ 48 1813 Phaethornis pretrei                  Planalto Hermit
+ 48 1814 Phaethornis subochraceus             Buff-bellied Hermit
+ 48 1815 Phaethornis nattereri                Cinnamon-throated Hermit
+ 48 1816 Phaethornis gounellei                Broad-tipped Hermit
+ 48 1817 Phaethornis ruber                    Reddish Hermit
+ 48 1818 Phaethornis stuarti                  White-browed Hermit
+ 48 1819 Phaethornis griseogularis            Grey-chinned Hermit
+ 48 1820 Phaethornis longuemareus             Little Hermit
+ 48 1821 Phaethornis idaliae                  Minute Hermit
+ 48 1822 Eutoxeres aquila                     White-tipped Sicklebill
+ 48 1823 Eutoxeres condamini                  Buff-tailed Sicklebill
+ 48 1824 Androdon aequatorialis               Tooth-billed Hummingbird
+ 48 1825 Ramphodon naevius                    Saw-billed Hermit
+ 48 1826 Ramphodon dohrnii                    Hook-billed Hermit
+ 48 1827 Doryfera johannae                    Blue-fronted Lancebill
+ 48 1828 Doryfera ludovicae                   Green-fronted Lancebill
+ 48 1829 Phaeochroa cuvierii                  Scaly-breasted Hummingbird
+ 48 1830 Campylopterus curvipennis            Wedge-tailed Sabrewing
+ 48 1831 Campylopterus excellens              Long-tailed Sabrewing
+ 48 1832 Campylopterus largipennis            Grey-breasted Sabrewing
+ 48 1833 Campylopterus rufus                  Rufous Sabrewing
+ 48 1834 Campylopterus hyperythrus            Rufous-breasted Sabrewing
+ 48 1835 Campylopterus duidae                 Buff-breasted Sabrewing
+ 48 1836 Campylopterus hemileucurus           Violet Sabrewing
+ 48 1837 Campylopterus ensipennis             White-tailed Sabrewing
+ 48 1838 Campylopterus falcatus               Lazuline Sabrewing
+ 48 1839 Campylopterus phainopeplus           Santa Marta Sabrewing
+ 48 1840 Campylopterus villaviscensio         Napo Sabrewing
+ 48 1841 Eupetomena macroura                  Swallow-tailed Hummingbird
+ 48 1842 Florisuga mellivora                  White-necked Jacobin
+ 48 1843 Melanotrochilus fuscus               Black Jacobin
+ 48 1844 Colibri delphinae                    Brown Violet-ear
+ 48 1845 Colibri thalassinus                  Green Violet-ear
+ 48 1846 Colibri coruscans                    Sparkling Violet-ear
+ 48 1847 Colibri serrirostris                 White-vented Violet-ear
+ 48 1848 Anthracothorax viridigula            Green-throated Mango
+ 48 1849 Anthracothorax prevostii             Green-breasted Mango
+ 48 1850 Anthracothorax nigricollis           Black-throated Mango
+ 48 1851 Anthracothorax mango                 Jamaican Mango
+ 48 1852 Anthracothorax dominicus             Antillean Mango
+ 48 1853 Anthracothorax viridis               Green Mango
+ 48 1854 Avocettula recurvirostris            Fiery-tailed Awlbill
+ 48 1855 Eulampis jugularis                   Purple-throated Carib
+ 48 1856 Eulampis holosericeus                Green-throated Carib
+ 48 1857 Chrysolampis mosquitus               Ruby-topaz Hummingbird
+ 48 1858 Orthorhyncus cristatus               Antillean Crested Hummingbird
+ 48 1859 Klais guimeti                        Violet-headed Hummingbird
+ 48 1860 Abeillia abeillei                    Emerald-chinned Hummingbird
+ 48 1861 Stephanoxis lalandi                  Plovercrest
+ 48 1862 Lophornis ornatus                    Tufted Coquette
+ 48 1863 Lophornis gouldii                    Dot-eared Coquette
+ 48 1864 Lophornis magnificus                 Frilled Coquette
+ 48 1865 Lophornis brachylopha                Short-crested Coquette
+ 48 1866 Lophornis delattrei                  Rufous-crested Coquette
+ 48 1867 Lophornis stictolophus               Spangled Coquette
+ 48 1868 Lophornis chalybeus                  Festive Coquette
+ 48 1869 Lophornis pavoninus                  Peacock Coquette
+ 48 1870 Lophornis helenae                    Black-crested Coquette
+ 48 1871 Lophornis adorabilis                 White-crested Coquette
+ 48 1872 Popelairia popelairii                Wire-crested Thorntail
+ 48 1873 Popelairia langsdorffi               Black-bellied Thorntail
+ 48 1874 Popelairia letitiae                  Coppery Thorntail
+ 48 1875 Popelairia conversii                 Green Thorntail
+ 48 1876 Discosura longicauda                 Racket-tailed Coquette
+ 48 1877 Chlorestes notatus                   Blue-chinned Sapphire
+ 48 1878 Chlorostilbon canivetii              Fork-tailed Emerald
+ 48 1879 Chlorostilbon assimilis              Garden Emerald
+ 48 1880 Chlorostilbon mellisugus             Blue-tailed Emerald
+ 48 1881 Chlorostilbon aureoventris           Glittering-bellied Emerald
+ 48 1882 Chlorostilbon ricordii               Cuban Emerald
+ 48 1883 Chlorostilbon bracei                 Brace's Emerald
+ 48 1884 Chlorostilbon swainsonii             Hispaniolan Emerald
+ 48 1885 Chlorostilbon maugaeus               Puerto Rican Emerald
+ 48 1886 Chlorostilbon gibsoni                Red-billed Emerald
+ 48 1887 Chlorostilbon russatus               Coppery Emerald
+ 48 1888 Chlorostilbon stenura                Narrow-tailed Emerald
+ 48 1889 Chlorostilbon alice                  Green-tailed Emerald
+ 48 1890 Chlorostilbon poortmani              Short-tailed Emerald
+ 48 1891 Cynanthus sordidus                   Dusky Hummingbird
+ 48 1892 Cynanthus latirostris                Broad-billed Hummingbird
+ 48 1893 Cyanophaia bicolor                   Blue-headed Hummingbird
+ 48 1894 Thalurania ridgwayi                  Mexican Woodnymph
+ 48 1895 Thalurania colombica                 Blue-crowned Woodnymph
+ 48 1896 Thalurania fannyi                    Green-crowned Woodnymph
+ 48 1897 Thalurania furcata                   Fork-tailed Woodnymph
+ 48 1898 Thalurania watertonii                Long-tailed Woodnymph
+ 48 1899 Thalurania glaucopis                 Violet-capped Woodnymph
+ 48 1900 Panterpe insignis                    Fiery-throated Hummingbird
+ 48 1901 Damophila julie                      Violet-bellied Hummingbird
+ 48 1902 Lepidopyga coeruleogularis           Sapphire-throated Hummingbird
+ 48 1903 Lepidopyga lilliae                   Sapphire-bellied Hummingbird
+ 48 1904 Lepidopyga goudoti                   Shining-green Hummingbird
+ 48 1905 Hylocharis xantusii                  Xantus's Hummingbird
+ 48 1906 Hylocharis leucotis                  White-eared Hummingbird
+ 48 1907 Hylocharis eliciae                   Blue-throated Goldentail
+ 48 1908 Hylocharis sapphirina                Rufous-throated Sapphire
+ 48 1909 Hylocharis cyanus                    White-chinned Sapphire
+ 48 1910 Hylocharis pyropygia                 Flame-rumped Sapphire
+ 48 1911 Hylocharis chrysura                  Gilded Hummingbird
+ 48 1912 Hylocharis grayi                     Blue-headed Sapphire
+ 48 1913 Chrysuronia oenone                   Golden-tailed Sapphire
+ 48 1914 Goldmania violiceps                  Violet-capped Hummingbird
+ 48 1915 Goethalsia bella                     Rufous-cheeked Hummingbird
+ 48 1916 Trochilus polytmus                   Streamertail
+ 48 1917 Leucochloris albicollis              White-throated Hummingbird
+ 48 1918 Polytmus guainumbi                   White-tailed Goldenthroat
+ 48 1919 Polytmus milleri                     Tepui Goldenthroat
+ 48 1920 Polytmus theresiae                   Green-tailed Goldenthroat
+ 48 1921 Leucippus fallax                     Buffy Hummingbird
+ 48 1922 Leucippus baeri                      Tumbes Hummingbird
+ 48 1923 Leucippus taczanowskii               Spot-throated Hummingbird
+ 48 1924 Leucippus chlorocercus               Olive-spotted Hummingbird
+ 48 1925 Taphrospilus hypostictus             Many-spotted Hummingbird
+ 48 1926 Amazilia viridicauda                 Green-and-white Hummingbird
+ 48 1927 Amazilia chionogaster                White-bellied Hummingbird
+ 48 1928 Amazilia candida                     White-bellied Emerald
+ 48 1929 Amazilia chionopectus                White-chested Emerald
+ 48 1930 Amazilia versicolor                  Versicolored Emerald
+ 48 1931 Amazilia luciae                      Honduran Emerald
+ 48 1932 Amazilia fimbriata                   Glittering-throated Emerald
+ 48 1933 Amazilia distans                     Tachira Emerald
+ 48 1934 Amazilia lactea                      Sapphire-spangled Emerald
+ 48 1935 Amazilia amabilis                    Blue-chested Hummingbird
+ 48 1936 Amazilia decora                      Charming Hummingbird
+ 48 1937 Amazilia rosenbergi                  Purple-chested Hummingbird
+ 48 1938 Amazilia boucardi                    Mangrove Hummingbird
+ 48 1939 Amazilia franciae                    Andean Emerald
+ 48 1940 Amazilia leucogaster                 Plain-bellied Emerald
+ 48 1941 Amazilia cyanocephala                Azure-crowned Hummingbird
+ 48 1942 Amazilia cyanifrons                  Indigo-capped Hummingbird
+ 48 1943 Amazilia beryllina                   Berylline Hummingbird
+ 48 1944 Amazilia cyanura                     Blue-tailed Hummingbird
+ 48 1945 Amazilia saucerrottei                Steely-vented Hummingbird
+ 48 1946 Amazilia tobaci                      Copper-rumped Hummingbird
+ 48 1947 Amazilia viridigaster                Green-bellied Hummingbird
+ 48 1948 Amazilia edward                      Snowy-breasted Hummingbird
+ 48 1949 Amazilia rutila                      Cinnamon Hummingbird
+ 48 1950 Amazilia yucatanensis                Buff-bellied Hummingbird
+ 48 1951 Amazilia tzacatl                     Rufous-tailed Hummingbird
+ 48 1952 Amazilia castaneiventris             Chestnut-bellied Hummingbird
+ 48 1953 Amazilia amazilia                    Amazilia Hummingbird
+ 48 1954 Amazilia viridifrons                 Green-fronted Hummingbird
+ 48 1955 Amazilia violiceps                   Violet-crowned Hummingbird
+ 48 1956 Eupherusa poliocerca                 White-tailed Hummingbird
+ 48 1957 Eupherusa eximia                     Stripe-tailed Hummingbird
+ 48 1958 Eupherusa cyanophrys                 Blue-capped Hummingbird
+ 48 1959 Eupherusa nigriventris               Black-bellied Hummingbird
+ 48 1960 Elvira chionura                      White-tailed Emerald
+ 48 1961 Elvira cupreiceps                    Coppery-headed Emerald
+ 48 1962 Microchera albocoronata              Snowcap
+ 48 1963 Chalybura buffonii                   White-vented Plumeleteer
+ 48 1964 Chalybura urochrysia                 Bronze-tailed Plumeleteer
+ 48 1965 Aphantochroa cirrochloris            Sombre Hummingbird
+ 48 1966 Lampornis clemenciae                 Blue-throated Hummingbird
+ 48 1967 Lampornis amethystinus               Amethyst-throated Hummingbird
+ 48 1968 Lampornis viridipallens              Green-throated Mountain-gem
+ 48 1969 Lampornis sybillae                   Green-breasted Mountain-gem
+ 48 1970 Lampornis hemileucus                 White-bellied Mountain-gem
+ 48 1971 Lampornis castaneoventris            Variable Mountain-gem
+ 48 1972 Lamprolaima rhami                    Garnet-throated Hummingbird
+ 48 1973 Adelomyia melanogenys                Speckled Hummingbird
+ 48 1974 Anthocephala floriceps               Blossomcrown
+ 48 1975 Phlogophilus hemileucurus            Ecuadorian Piedtail
+ 48 1976 Phlogophilus harterti                Peruvian Piedtail
+ 48 1977 Clytolaema rubricauda                Brazilian Ruby
+ 48 1978 Heliodoxa imperatrix                 Empress Brilliant
+ 48 1979 Heliodoxa xanthogonys                Velvet-browed Brilliant
+ 48 1980 Heliodoxa gularis                    Pink-throated Brilliant
+ 48 1981 Heliodoxa branickii                  Rufous-webbed Brilliant
+ 48 1982 Heliodoxa schreibersii               Black-throated Brilliant
+ 48 1983 Heliodoxa aurescens                  Gould's Jewelfront
+ 48 1984 Heliodoxa rubinoides                 Fawn-breasted Brilliant
+ 48 1985 Heliodoxa jacula                     Green-crowned Brilliant
+ 48 1986 Heliodoxa leadbeateri                Violet-fronted Brilliant
+ 48 1987 Eugenes fulgens                      Magnificent Hummingbird
+ 48 1988 Hylonympha macrocerca                Scissor-tailed Hummingbird
+ 48 1989 Sternoclyta cyanopectus              Violet-chested Hummingbird
+ 48 1990 Topaza pyra                          Fiery Topaz
+ 48 1991 Topaza pella                         Crimson Topaz
+ 48 1992 Oreotrochilus chimborazo             Ecuadorian Hillstar
+ 48 1993 Oreotrochilus estella                Andean Hillstar
+ 48 1994 Oreotrochilus leucopleurus           White-sided Hillstar
+ 48 1995 Oreotrochilus melanogaster           Black-breasted Hillstar
+ 48 1996 Oreotrochilus adela                  Wedge-tailed Hillstar
+ 48 1997 Urochroa bougueri                    White-tailed Hillstar
+ 48 1998 Patagona gigas                       Giant Hummingbird
+ 48 1999 Aglaeactis cupripennis               Shining Sunbeam
+ 48 2000 Aglaeactis castelnaudii              White-tufted Sunbeam
+ 48 2001 Aglaeactis aliciae                   Purple-backed Sunbeam
+ 48 2002 Aglaeactis pamela                    Black-hooded Sunbeam
+ 48 2003 Lafresnaya lafresnayi                Mountain Velvetbreast
+ 48 2004 Pterophanes cyanopterus              Great Sapphirewing
+ 48 2005 Coeligena coeligena                  Bronzy Inca
+ 48 2006 Coeligena wilsoni                    Brown Inca
+ 48 2007 Coeligena prunellei                  Black Inca
+ 48 2008 Coeligena torquata                   Collared Inca
+ 48 2009 Coeligena phalerata                  White-tailed Starfrontlet
+ 48 2010 Coeligena orina                      Dusky Starfrontlet
+ 48 2011 Coeligena bonapartei                 Golden-bellied Starfrontlet
+ 48 2012 Coeligena helianthea                 Blue-throated Starfrontlet
+ 48 2013 Coeligena lutetiae                   Buff-winged Starfrontlet
+ 48 2014 Coeligena violifer                   Violet-throated Starfrontlet
+ 48 2015 Coeligena iris                       Rainbow Starfrontlet
+ 48 2016 Ensifera ensifera                    Sword-billed Hummingbird
+ 48 2017 Sephanoides sephaniodes              Green-backed Firecrown
+ 48 2018 Sephanoides fernandensis             Juan Fernandez Firecrown
+ 48 2019 Boissonneaua flavescens              Buff-tailed Coronet
+ 48 2020 Boissonneaua matthewsii              Chestnut-breasted Coronet
+ 48 2021 Boissonneaua jardini                 Velvet-purple Coronet
+ 48 2022 Heliangelus mavors                   Orange-throated Sunangel
+ 48 2023 Heliangelus spencei                  Merida Sunangel
+ 48 2024 Heliangelus amethysticollis          Amethyst-throated Sunangel
+ 48 2025 Heliangelus strophianus              Gorgeted Sunangel
+ 48 2026 Heliangelus exortis                  Tourmaline Sunangel
+ 48 2027 Heliangelus viola                    Purple-throated Sunangel
+ 48 2028 Heliangelus regalis                  Royal Sunangel
+ 48 2029 Eriocnemis nigrivestis               Black-breasted Puffleg
+ 48 2030 Eriocnemis vestitus                  Glowing Puffleg
+ 48 2031 Eriocnemis godini                    Turquoise-throated Puffleg
+ 48 2032 Eriocnemis luciani                   Sapphire-vented Puffleg
+ 48 2033 Eriocnemis cupreoventris             Coppery-bellied Puffleg
+ 48 2034 Eriocnemis mosquera                  Golden-breasted Puffleg
+ 48 2035 Eriocnemis glaucopoides              Blue-capped Puffleg
+ 48 2036 Eriocnemis mirabilis                 Colorful Puffleg
+ 48 2037 Eriocnemis alinae                    Emerald-bellied Puffleg
+ 48 2038 Eriocnemis derbyi                    Black-thighed Puffleg
+ 48 2039 Haplophaedia aureliae                Greenish Puffleg
+ 48 2040 Haplophaedia lugens                  Hoary Puffleg
+ 48 2041 Urosticte benjamini                  Purple-bibbed Whitetip
+ 48 2042 Urosticte ruficrissa                 Rufous-vented Whitetip
+ 48 2043 Ocreatus underwoodii                 Booted Racket-tail
+ 48 2044 Lesbia victoriae                     Black-tailed Trainbearer
+ 48 2045 Lesbia nuna                          Green-tailed Trainbearer
+ 48 2046 Sappho sparganura                    Red-tailed Comet
+ 48 2047 Polyonymus caroli                    Bronze-tailed Comet
+ 48 2048 Ramphomicron microrhynchum           Purple-backed Thornbill
+ 48 2049 Ramphomicron dorsale                 Black-backed Thornbill
+ 48 2050 Metallura williami                   Viridian Metaltail
+ 48 2051 Metallura baroni                     Violet-throated Metaltail
+ 48 2052 Metallura odomae                     Neblina Metaltail
+ 48 2053 Metallura theresiae                  Coppery Metaltail
+ 48 2054 Metallura eupogon                    Fire-throated Metaltail
+ 48 2055 Metallura aeneocauda                 Scaled Metaltail
+ 48 2056 Metallura phoebe                     Black Metaltail
+ 48 2057 Metallura tyrianthina                Tyrian Metaltail
+ 48 2058 Metallura iracunda                   Perija Metaltail
+ 48 2059 Chalcostigma ruficeps                Rufous-capped Thornbill
+ 48 2060 Chalcostigma olivaceum               Olivaceous Thornbill
+ 48 2061 Chalcostigma stanleyi                Blue-mantled Thornbill
+ 48 2062 Chalcostigma heteropogon             Bronze-tailed Thornbill
+ 48 2063 Chalcostigma herrani                 Rainbow-bearded Thornbill
+ 48 2064 Oxypogon guerinii                    Bearded Helmetcrest
+ 48 2065 Opisthoprora euryptera               Mountain Avocetbill
+ 48 2066 Taphrolesbia griseiventris           Grey-bellied Comet
+ 48 2067 Aglaiocercus kingi                   Long-tailed Sylph
+ 48 2068 Aglaiocercus coelestis               Violet-tailed Sylph
+ 48 2069 Oreonympha nobilis                   Bearded Mountaineer
+ 48 2070 Augastes lumachellus                 Hooded Visorbearer
+ 48 2071 Augastes scutatus                    Hyacinth Visorbearer
+ 48 2072 Augastes geoffroyi                   Wedge-billed Hummingbird
+ 48 2073 Heliothryx barroti                   Purple-crowned Fairy
+ 48 2074 Heliothryx aurita                    Black-eared Fairy
+ 48 2075 Heliactin cornuta                    Horned Sungem
+ 48 2076 Loddigesia mirabilis                 Marvellous Spatuletail
+ 48 2077 Heliomaster constantii               Plain-capped Starthroat
+ 48 2078 Heliomaster longirostris             Long-billed Starthroat
+ 48 2079 Heliomaster squamosus                Stripe-breasted Starthroat
+ 48 2080 Heliomaster furcifer                 Blue-tufted Starthroat
+ 48 2081 Rhodopis vesper                      Oasis Hummingbird
+ 48 2082 Thaumastura cora                     Peruvian Sheartail
+ 48 2083 Philodice bryantae                   Magenta-throated Woodstar
+ 48 2084 Philodice mitchellii                 Purple-throated Woodstar
+ 48 2085 Doricha enicura                      Slender Sheartail
+ 48 2086 Doricha eliza                        Mexican Sheartail
+ 48 2087 Tilmatura dupontii                   Sparkling-tailed Hummingbird
+ 48 2088 Microstilbon burmeisteri             Slender-tailed Woodstar
+ 48 2089 Calothorax lucifer                   Lucifer Hummingbird
+ 48 2090 Calothorax pulcher                   Beautiful Hummingbird
+ 48 2091 Archilochus colubris                 Ruby-throated Hummingbird
+ 48 2092 Archilochus alexandri                Black-chinned Hummingbird
+ 48 2093 Calypte anna                         Anna's Hummingbird
+ 48 2094 Calypte costae                       Costa's Hummingbird
+ 48 2095 Calliphlox evelynae                  Bahama Woodstar
+ 48 2096 Calliphlox amethystina               Amethyst Woodstar
+ 48 2097 Mellisuga helenae                    Bee Hummingbird
+ 48 2098 Mellisuga minima                     Vervain Hummingbird
+ 48 2099 Stellula calliope                    Calliope Hummingbird
+ 48 2100 Atthis heloisa                       Bumblebee Hummingbird
+ 48 2101 Atthis ellioti                       Wine-throated Hummingbird
+ 48 2102 Myrtis fanny                         Purple-collared Woodstar
+ 48 2103 Eulidia yarrellii                    Chilean Woodstar
+ 48 2104 Myrmia micrura                       Short-tailed Woodstar
+ 48 2105 Acestrura mulsant                    White-bellied Woodstar
+ 48 2106 Acestrura bombus                     Little Woodstar
+ 48 2107 Acestrura heliodor                   Gorgeted Woodstar
+ 48 2108 Acestrura astreans                   Santa Marta Woodstar
+ 48 2109 Acestrura berlepschi                 Esmeraldas Woodstar
+ 48 2110 Chaetocercus jourdanii               Rufous-shafted Woodstar
+ 48 2111 Selasphorus platycercus              Broad-tailed Hummingbird
+ 48 2112 Selasphorus rufus                    Rufous Hummingbird
+ 48 2113 Selasphorus sasin                    Allen's Hummingbird
+ 48 2114 Selasphorus flammula                 Volcano Hummingbird
+ 48 2115 Selasphorus scintilla                Scintillant Hummingbird
+ 48 2116 Selasphorus ardens                   Glow-throated Hummingbird
+ 49 2117 Tauraco persa                        Guinea Turaco
+ 49 2118 Tauraco schuettii                    Black-billed Turaco
+ 49 2119 Tauraco schalowi                     Schalow's Turaco
+ 49 2120 Tauraco fischeri                     Fischer's Turaco
+ 49 2121 Tauraco livingstonii                 Livingstone's Turaco
+ 49 2122 Tauraco corythaix                    Knysna Turaco
+ 49 2123 Tauraco bannermani                   Bannerman's Turaco
+ 49 2124 Tauraco erythrolophus                Red-crested Turaco
+ 49 2125 Tauraco macrorhynchus                Yellow-billed Turaco
+ 49 2126 Tauraco leucotis                     White-cheeked Turaco
+ 49 2127 Tauraco ruspolii                     Ruspoli's Turaco
+ 49 2128 Tauraco hartlaubi                    Hartlaub's Turaco
+ 49 2129 Tauraco leucolophus                  White-crested Turaco
+ 49 2130 Musophaga johnstoni                  Ruwenzori Turaco
+ 49 2131 Musophaga porphyreolopha             Purple-crested Turaco
+ 49 2132 Musophaga violacea                   Violet Turaco
+ 49 2133 Musophaga rossae                     Ross's Turaco
+ 49 2134 Corythaixoides concolor              Grey Go-away-bird
+ 49 2135 Corythaixoides personatus            Bare-faced Go-away-bird
+ 49 2136 Corythaixoides leucogaster           White-bellied Go-away-bird
+ 49 2137 Crinifer piscator                    Western Grey Plantain-eater
+ 49 2138 Crinifer zonurus                     Eastern Grey Plantain-eater
+ 49 2139 Corythaeola cristata                 Great Blue Turaco
+ 50 2140 Tyto tenebricosa                     Greater Sooty-Owl
+ 50 2141 Tyto multipunctata                   Lesser Sooty-Owl
+ 50 2142 Tyto inexspectata                    Minahassa Masked-Owl
+ 50 2143 Tyto nigrobrunnea                    Taliabu Masked-Owl
+ 50 2144 Tyto sororcula                       Lesser Masked-Owl
+ 50 2145 Tyto manusi                          Manus Masked-Owl
+ 50 2146 Tyto aurantia                        Bismarck Masked-Owl
+ 50 2147 Tyto novaehollandiae                 Australian Masked-Owl
+ 50 2148 Tyto castanops                       Tasmanian Masked-Owl
+ 50 2149 Tyto rosenbergii                     Sulawesi Owl
+ 50 2150 Tyto soumagnei                       Madagascar Red Owl
+ 50 2151 Tyto alba                            Barn Owl
+ 50 2152 Tyto glaucops                        Ashy-faced Owl
+ 50 2153 Tyto capensis                        African Grass-Owl
+ 50 2154 Tyto longimembris                    Eastern Grass-Owl
+ 50 2155 Phodilus prigoginei                  Congo Bay-Owl
+ 50 2156 Phodilus badius                      Oriental Bay-Owl
+ 51 2157 Otus sagittatus                      White-fronted Scops-Owl
+ 51 2158 Otus rufescens                       Reddish Scops-Owl
+ 51 2159 Otus icterorhynchus                  Sandy Scops-Owl
+ 51 2160 Otus ireneae                         Sokoke Scops-Owl
+ 51 2161 Otus balli                           Andaman Scops-Owl
+ 51 2162 Otus spilocephalus                   Mountain Scops-Owl
+ 51 2163 Otus umbra                           Simeulue Scops-Owl
+ 51 2164 Otus angelinae                       Javan Scops-Owl
+ 51 2165 Otus manadensis                      Sulawesi Scops-Owl
+ 51 2166 Otus longicornis                     Luzon Scops-Owl
+ 51 2167 Otus mindorensis                     Mindoro Scops-Owl
+ 51 2168 Otus mirus                           Mindanao Scops-Owl
+ 51 2169 Otus hartlaubi                       Sao Tome Scops-Owl
+ 51 2170 Otus brucei                          Pallid Scops-Owl
+ 51 2171 Otus flammeolus                      Flammulated Owl
+ 51 2172 Otus scops                           Common Scops-Owl
+ 51 2173 Otus elegans                         Elegant Scops-Owl
+ 51 2174 Otus mantananensis                   Mantanani Scops-Owl
+ 51 2175 Otus magicus                         Moluccan Scops-Owl
+ 51 2176 Otus rutilus                         Malagasy Scops-Owl
+ 51 2177 Otus pauliani                        Grand Comoro Scops-Owl
+ 51 2178 Otus brookii                         Rajah Scops-Owl
+ 51 2179 Otus bakkamoena                      Collared Scops-Owl
+ 51 2180 Otus mentawi                         Mentawai Scops-Owl
+ 51 2181 Otus fuliginosus                     Palawan Scops-Owl
+ 51 2182 Otus megalotis                       Philippine Scops-Owl
+ 51 2183 Otus silvicola                       Wallace's Scops-Owl
+ 51 2184 Otus leucotis                        White-faced Scops-Owl
+ 51 2185 Otus kennicottii                     Western Screech-Owl
+ 51 2186 Otus asio                            Eastern Screech-Owl
+ 51 2187 Otus trichopsis                      Whiskered Screech-Owl
+ 51 2188 Otus choliba                         Tropical Screech-Owl
+ 51 2189 Otus koepckeae                       Koepcke's Screech-Owl
+ 51 2190 Otus roboratus                       West Peruvian Screech-Owl
+ 51 2191 Otus clarkii                         Bare-shanked Screech-Owl
+ 51 2192 Otus barbarus                        Santa Barbara Screech-Owl
+ 51 2193 Otus ingens                          Rufescent Screech-Owl
+ 51 2194 Otus marshalli                       Cloud-forest Screech-Owl
+ 51 2195 Otus watsonii                        Tawny-bellied Screech-Owl
+ 51 2196 Otus atricapillus                    Variable Screech-Owl
+ 51 2197 Otus vermiculatus                    Vermiculated Screech-Owl
+ 51 2198 Otus sanctaecatarinae                Long-tufted Screech-Owl
+ 51 2199 Otus lawrencii                       Bare-legged Owl
+ 51 2200 Otus nudipes                         Puerto Rican Screech-Owl
+ 51 2201 Otus podarginus                      Palau Owl
+ 51 2202 Otus albogularis                     White-throated Screech-Owl
+ 51 2203 Mimizuku gurneyi                     Lesser Eagle-Owl
+ 51 2204 Bubo virginianus                     Great Horned Owl
+ 51 2205 Bubo bubo                            Eurasian Eagle-Owl
+ 51 2206 Bubo bengalensis                     Rock Eagle-Owl
+ 51 2207 Bubo ascalaphus                      Pharaoh Eagle-Owl
+ 51 2208 Bubo capensis                        Cape Eagle-Owl
+ 51 2209 Bubo africanus                       Spotted Eagle-Owl
+ 51 2210 Bubo poensis                         Fraser's Eagle-Owl
+ 51 2211 Bubo vosseleri                       Nduk Eagle-Owl
+ 51 2212 Bubo nipalensis                      Spot-bellied Eagle-Owl
+ 51 2213 Bubo sumatranus                      Barred Eagle-Owl
+ 51 2214 Bubo shelleyi                        Shelley's Eagle-Owl
+ 51 2215 Bubo lacteus                         Verreaux's Eagle-Owl
+ 51 2216 Bubo coromandus                      Dusky Eagle-Owl
+ 51 2217 Bubo leucostictus                    Akun Eagle-Owl
+ 51 2218 Bubo philippensis                    Philippine Eagle-Owl
+ 51 2219 Ketupa blakistoni                    Blakiston's Fish-Owl
+ 51 2220 Ketupa zeylonensis                   Brown Fish-Owl
+ 51 2221 Ketupa flavipes                      Tawny Fish-Owl
+ 51 2222 Ketupa ketupu                        Buffy Fish-Owl
+ 51 2223 Scotopelia peli                      Pel's Fishing-Owl
+ 51 2224 Scotopelia ussheri                   Rufous Fishing-Owl
+ 51 2225 Scotopelia bouvieri                  Vermiculated Fishing-Owl
+ 51 2226 Nyctea scandiaca                     Snowy Owl
+ 51 2227 Strix seloputo                       Spotted Wood-Owl
+ 51 2228 Strix ocellata                       Mottled Wood-Owl
+ 51 2229 Strix leptogrammica                  Brown Wood-Owl
+ 51 2230 Strix aluco                          Tawny Owl
+ 51 2231 Strix butleri                        Hume's Owl
+ 51 2232 Strix occidentalis                   Spotted Owl
+ 51 2233 Strix varia                          Barred Owl
+ 51 2234 Strix fulvescens                     Fulvous Owl
+ 51 2235 Strix hylophila                      Rusty-barred Owl
+ 51 2236 Strix rufipes                        Rufous-legged Owl
+ 51 2237 Strix uralensis                      Ural Owl
+ 51 2238 Strix davidi                         Sichuan Wood-Owl
+ 51 2239 Strix nebulosa                       Great Grey Owl
+ 51 2240 Strix virgata                        Mottled Owl
+ 51 2241 Strix nigrolineata                   Black-and-white Owl
+ 51 2242 Strix huhula                         Black-banded Owl
+ 51 2243 Strix albitarsus                     Rufous-banded Owl
+ 51 2244 Strix woodfordii                     African Wood-Owl
+ 51 2245 Jubula lettii                        Maned Owl
+ 51 2246 Lophostrix cristata                  Crested Owl
+ 51 2247 Pulsatrix perspicillata              Spectacled Owl
+ 51 2248 Pulsatrix melanota                   Band-bellied Owl
+ 51 2249 Pulsatrix koeniswaldiana             Tawny-browed Owl
+ 51 2250 Surnia ulula                         Northern Hawk Owl
+ 51 2251 Glaucidium passerinum                Eurasian Pygmy-Owl
+ 51 2252 Glaucidium brodiei                   Collared Owlet
+ 51 2253 Glaucidium perlatum                  Pearl-spotted Owlet
+ 51 2254 Glaucidium californicum              Northern Pygmy-Owl
+ 51 2255 Glaucidium gnoma                     Mountain Pygmy-Owl
+ 51 2256 Glaucidium jardinii                  Andean Pygmy-Owl
+ 51 2257 Glaucidium bolivianum                Yungas Pygmy-Owl
+ 51 2258 Glaucidium hardyi                    Hardy's Pygmy-Owl
+ 51 2259 Glaucidium minutissimum              Least Pygmy-Owl
+ 51 2260 Glaucidium brasilianum               Ferruginous Pygmy-Owl
+ 51 2261 Glaucidium peruanum                  Peruvian Pygmy-Owl
+ 51 2262 Glaucidium nanum                     Austral Pygmy-Owl
+ 51 2263 Glaucidium siju                      Cuban Pygmy-Owl
+ 51 2264 Glaucidium tephronotum               Red-chested Owlet
+ 51 2265 Glaucidium sjostedti                 Sjostedt's Owlet
+ 51 2266 Glaucidium cuculoides                Asian Barred Owlet
+ 51 2267 Glaucidium castanopterum             Javan Owlet
+ 51 2268 Glaucidium radiatum                  Jungle Owlet
+ 51 2269 Glaucidium castanonotum              Chestnut-backed Owlet
+ 51 2270 Glaucidium capense                   African Barred Owlet
+ 51 2271 Glaucidium castaneum                 Chestnut Owlet
+ 51 2272 Glaucidium ngamiense                 Ngami Owlet
+ 51 2273 Glaucidium scheffleri                Scheffler's Owlet
+ 51 2274 Glaucidium albertinum                Albertine Owlet
+ 51 2275 Xenoglaux loweryi                    Long-whiskered Owlet
+ 51 2276 Micrathene whitneyi                  Elf Owl
+ 51 2277 Athene noctua                        Little Owl
+ 51 2278 Athene brama                         Spotted Owlet
+ 51 2279 Athene blewitti                      Forest Owlet
+ 51 2280 Speotyto cunicularia                 Burrowing Owl
+ 51 2281 Aegolius funereus                    Boreal Owl
+ 51 2282 Aegolius acadicus                    Saw-whet Owl
+ 51 2283 Aegolius harrisii                    Buff-fronted Owl
+ 51 2284 Ninox rufa                           Rufous Owl
+ 51 2285 Ninox strenua                        Powerful Owl
+ 51 2286 Ninox connivens                      Barking Owl
+ 51 2287 Ninox rudolfi                        Sumba Boobook
+ 51 2288 Ninox boobook                        Southern Boobook
+ 51 2289 Ninox novaeseelandiae                Morepork
+ 51 2290 Ninox scutulata                      Brown Hawk-Owl
+ 51 2291 Ninox affinis                        Andaman Hawk-Owl
+ 51 2292 Ninox superciliaris                  White-browed Hawk-Owl
+ 51 2293 Ninox philippensis                   Philippine Hawk-Owl
+ 51 2294 Ninox ochracea                       Ochre-bellied Hawk-Owl
+ 51 2295 Ninox squamipila                     Moluccan Hawk-Owl
+ 51 2296 Ninox theomacha                      Jungle Hawk-Owl
+ 51 2297 Ninox meeki                          Manus Hawk-Owl
+ 51 2298 Ninox punctulata                     Speckled Hawk-Owl
+ 51 2299 Ninox variegata                      Bismarck Hawk-Owl
+ 51 2300 Ninox odiosa                         Russet Hawk-Owl
+ 51 2301 Ninox jacquinoti                     Solomon Islands Hawk-Owl
+ 51 2302 Uroglaux dimorpha                    Papuan Hawk-Owl
+ 51 2303 Sceloglaux albifacies                Laughing Owl
+ 51 2304 Pseudoscops grammicus                Jamaican Owl
+ 51 2305 Asio stygius                         Stygian Owl
+ 51 2306 Asio otus                            Long-eared Owl
+ 51 2307 Asio abyssinicus                     Abyssinian Owl
+ 51 2308 Asio madagascariensis                Madagascar Owl
+ 51 2309 Asio clamator                        Striped Owl
+ 51 2310 Asio flammeus                        Short-eared Owl
+ 51 2311 Asio capensis                        Marsh Owl
+ 51 2312 Nesasio solomonensis                 Fearful Owl
+ 52 2313 Aegotheles crinifrons                Long-whiskered Owlet-Nightjar
+ 52 2314 Aegotheles insignis                  Feline Owlet-Nightjar
+ 52 2315 Aegotheles cristatus                 Australian Owlet-Nightjar
+ 52 2316 Aegotheles savesi                    New Caledonian Owlet-Nightjar
+ 52 2317 Aegotheles bennettii                 Barred Owlet-Nightjar
+ 52 2318 Aegotheles wallacii                  Wallace's Owlet-Nightjar
+ 52 2319 Aegotheles archboldi                 Archbold's Owlet-Nightjar
+ 52 2320 Aegotheles albertisi                 Mountain Owlet-Nightjar
+ 53 2321 Podargus strigoides                  Tawny Frogmouth
+ 53 2322 Podargus papuensis                   Papuan Frogmouth
+ 53 2323 Podargus ocellatus                   Marbled Frogmouth
+ 54 2324 Batrachostomus auritus               Large Frogmouth
+ 54 2325 Batrachostomus harterti              Dulit Frogmouth
+ 54 2326 Batrachostomus septimus              Philippine Frogmouth
+ 54 2327 Batrachostomus stellatus             Gould's Frogmouth
+ 54 2328 Batrachostomus moniliger             Ceylon Frogmouth
+ 54 2329 Batrachostomus hodgsoni              Hodgson's Frogmouth
+ 54 2330 Batrachostomus poliolophus           Short-tailed Frogmouth
+ 54 2331 Batrachostomus mixtus                Bornean Frogmouth
+ 54 2332 Batrachostomus affinis               Blyth's Frogmouth
+ 54 2333 Batrachostomus javensis              Javan Frogmouth
+ 54 2334 Batrachostomus cornutus              Sunda Frogmouth
+ 55 2335 Steatornis caripensis                Oilbird
+ 56 2336 Nyctibius grandis                    Great Potoo
+ 56 2337 Nyctibius aethereus                  Long-tailed Potoo
+ 56 2338 Nyctibius jamaicensis                Common Potoo
+ 56 2339 Nyctibius griseus                    Grey Potoo
+ 56 2340 Nyctibius maculosus                  Andean Potoo
+ 56 2341 Nyctibius leucopterus                White-winged Potoo
+ 56 2342 Nyctibius bracteatus                 Rufous Potoo
+ 57 2343 Eurostopodus argus                   Spotted Eared-Nightjar
+ 57 2344 Eurostopodus mystacalis              White-throated Eared-Nightjar
+ 57 2345 Eurostopodus diabolicus              Satanic Eared-Nightjar
+ 57 2346 Eurostopodus papuensis               Papuan Eared-Nightjar
+ 57 2347 Eurostopodus archboldi               Mountain Eared-Nightjar
+ 57 2348 Eurostopodus temminckii              Malaysian Eared-Nightjar
+ 57 2349 Eurostopodus macrotis                Great Eared-Nightjar
+ 58 2350 Lurocalis semitorquatus              Short-tailed Nighthawk
+ 58 2351 Lurocalis rufiventris                Rufous-bellied Nighthawk
+ 58 2352 Chordeiles pusillus                  Least Nighthawk
+ 58 2353 Chordeiles rupestris                 Sand-colored Nighthawk
+ 58 2354 Chordeiles acutipennis               Lesser Nighthawk
+ 58 2355 Chordeiles minor                     Common Nighthawk
+ 58 2356 Chordeiles gundlachii                Antillean Nighthawk
+ 58 2357 Nyctiprogne leucopyga                Band-tailed Nighthawk
+ 58 2358 Podager nacunda                      Nacunda Nighthawk
+ 58 2359 Nyctidromus albicollis               Pauraque
+ 58 2360 Phalaenoptilus nuttallii             Common Poorwill
+ 58 2361 Siphonorhis americanus               Jamaican Poorwill
+ 58 2362 Siphonorhis brewsteri                Least Poorwill
+ 58 2363 Nyctiphrynus mcleodii                Eared Poorwill
+ 58 2364 Nyctiphrynus yucatanicus             Yucatan Poorwill
+ 58 2365 Nyctiphrynus ocellatus               Ocellated Poorwill
+ 58 2366 Caprimulgus carolinensis             Chuck-will's-widow
+ 58 2367 Caprimulgus rufus                    Rufous Nightjar
+ 58 2368 Caprimulgus cubanensis               Greater Antillean Nightjar
+ 58 2369 Caprimulgus salvini                  Tawny-collared Nightjar
+ 58 2370 Caprimulgus badius                   Yucatan Nightjar
+ 58 2371 Caprimulgus sericocaudatus           Silky-tailed Nightjar
+ 58 2372 Caprimulgus ridgwayi                 Buff-collared Nightjar
+ 58 2373 Caprimulgus vociferus                Whip-poor-will
+ 58 2374 Caprimulgus noctitherus              Puerto Rican Nightjar
+ 58 2375 Caprimulgus saturatus                Dusky Nightjar
+ 58 2376 Caprimulgus longirostris             Band-winged Nightjar
+ 58 2377 Caprimulgus cayennensis              White-tailed Nightjar
+ 58 2378 Caprimulgus candicans                White-winged Nightjar
+ 58 2379 Caprimulgus maculicaudus             Spot-tailed Nightjar
+ 58 2380 Caprimulgus parvulus                 Little Nightjar
+ 58 2381 Caprimulgus anthonyi                 Scrub Nightjar
+ 58 2382 Caprimulgus maculosus                Cayenne Nightjar
+ 58 2383 Caprimulgus nigrescens               Blackish Nightjar
+ 58 2384 Caprimulgus whitelyi                 Roraiman Nightjar
+ 58 2385 Caprimulgus hirundinaceus            Pygmy Nightjar
+ 58 2386 Caprimulgus binotatus                Brown Nightjar
+ 58 2387 Caprimulgus ruficollis               Red-necked Nightjar
+ 58 2388 Caprimulgus indicus                  Grey Nightjar
+ 58 2389 Caprimulgus europaeus                Eurasian Nightjar
+ 58 2390 Caprimulgus fraenatus                Sombre Nightjar
+ 58 2391 Caprimulgus rufigena                 Rufous-cheeked Nightjar
+ 58 2392 Caprimulgus aegyptius                Egyptian Nightjar
+ 58 2393 Caprimulgus mahrattensis             Sykes's Nightjar
+ 58 2394 Caprimulgus centralasicus            Vaurie's Nightjar
+ 58 2395 Caprimulgus nubicus                  Nubian Nightjar
+ 58 2396 Caprimulgus eximius                  Golden Nightjar
+ 58 2397 Caprimulgus madagascariensis         Madagascar Nightjar
+ 58 2398 Caprimulgus macrurus                 Large-tailed Nightjar
+ 58 2399 Caprimulgus atripennis               Jerdon's Nightjar
+ 58 2400 Caprimulgus manillensis              Philippine Nightjar
+ 58 2401 Caprimulgus celebensis               Sulawesi Nightjar
+ 58 2402 Caprimulgus donaldsoni               Donaldson-Smith's Nightjar
+ 58 2403 Caprimulgus nigriscapularis          Black-shouldered Nightjar
+ 58 2404 Caprimulgus pectoralis               Fiery-necked Nightjar
+ 58 2405 Caprimulgus prigoginei               Itombwe Nightjar
+ 58 2406 Caprimulgus poliocephalus            Montane Nightjar
+ 58 2407 Caprimulgus ruwenzorii               Ruwenzori Nightjar
+ 58 2408 Caprimulgus asiaticus                Indian Nightjar
+ 58 2409 Caprimulgus natalensis               Swamp Nightjar
+ 58 2410 Caprimulgus inornatus                Plain Nightjar
+ 58 2411 Caprimulgus stellatus                Star-spotted Nightjar
+ 58 2412 Caprimulgus affinis                  Savanna Nightjar
+ 58 2413 Caprimulgus tristigma                Freckled Nightjar
+ 58 2414 Caprimulgus concretus                Bonaparte's Nightjar
+ 58 2415 Caprimulgus pulchellus               Salvadori's Nightjar
+ 58 2416 Caprimulgus enarratus                Collared Nightjar
+ 58 2417 Caprimulgus batesi                   Bates's Nightjar
+ 58 2418 Caprimulgus climacurus               Long-tailed Nightjar
+ 58 2419 Caprimulgus clarus                   Slender-tailed Nightjar
+ 58 2420 Caprimulgus fossii                   Square-tailed Nightjar
+ 58 2421 Macrodipteryx longipennis            Standard-winged Nightjar
+ 58 2422 Macrodipteryx vexillarius            Pennant-winged Nightjar
+ 58 2423 Hydropsalis climacocerca             Ladder-tailed Nightjar
+ 58 2424 Hydropsalis brasiliana               Scissor-tailed Nightjar
+ 58 2425 Uropsalis segmentata                 Swallow-tailed Nightjar
+ 58 2426 Uropsalis lyra                       Lyre-tailed Nightjar
+ 58 2427 Macropsalis creagra                  Long-trained Nightjar
+ 58 2428 Eleothreptus anomalus                Sickle-winged Nightjar
+ 59 2429 Raphus cucullatus                    Dodo
+ 59 2430 Raphus solitarius                    Reunion Solitaire
+ 59 2431 Pezophaps solitaria                  Rodriguez Solitaire
+ 60 2432 Columba livia                        Rock Pigeon
+ 60 2433 Columba rupestris                    Hill Pigeon
+ 60 2434 Columba leuconota                    Snow Pigeon
+ 60 2435 Columba guinea                       Speckled Pigeon
+ 60 2436 Columba albitorques                  White-collared Pigeon
+ 60 2437 Columba oenas                        Stock Pigeon
+ 60 2438 Columba oliviae                      Somali Pigeon
+ 60 2439 Columba eversmanni                   Pale-backed Pigeon
+ 60 2440 Columba palumbus                     Common Wood-Pigeon
+ 60 2441 Columba trocaz                       Trocaz Pigeon
+ 60 2442 Columba bollii                       Bolle's Pigeon
+ 60 2443 Columba junoniae                     Laurel Pigeon
+ 60 2444 Columba unicincta                    Afep Pigeon
+ 60 2445 Columba sjostedti                    Cameroon Olive-Pigeon
+ 60 2446 Columba thomensis                    Sao Tome Olive-Pigeon
+ 60 2447 Columba arquatrix                    African Olive-Pigeon
+ 60 2448 Columba pollenii                     Comoro Olive-Pigeon
+ 60 2449 Columba hodgsonii                    Speckled Wood-Pigeon
+ 60 2450 Columba albinucha                    White-naped Pigeon
+ 60 2451 Columba pulchricollis                Ashy Wood-Pigeon
+ 60 2452 Columba elphinstonii                 Nilgiri Wood-Pigeon
+ 60 2453 Columba torringtoni                  Ceylon Wood-Pigeon
+ 60 2454 Columba punicea                      Pale-capped Pigeon
+ 60 2455 Columba argentina                    Silvery Wood-Pigeon
+ 60 2456 Columba palumboides                  Andaman Wood-Pigeon
+ 60 2457 Columba janthina                     Japanese Wood-Pigeon
+ 60 2458 Columba vitiensis                    Metallic Pigeon
+ 60 2459 Columba leucomela                    White-headed Pigeon
+ 60 2460 Columba versicolor                   Bonin Wood-Pigeon
+ 60 2461 Columba jouyi                        Ryukyu Pigeon
+ 60 2462 Columba pallidiceps                  Yellow-legged Pigeon
+ 60 2463 Columba leucocephala                 White-crowned Pigeon
+ 60 2464 Columba speciosa                     Scaled Pigeon
+ 60 2465 Columba squamosa                     Scaly-naped Pigeon
+ 60 2466 Columba corensis                     Bare-eyed Pigeon
+ 60 2467 Columba picazuro                     Picazuro Pigeon
+ 60 2468 Columba maculosa                     Spot-winged Pigeon
+ 60 2469 Columba fasciata                     Band-tailed Pigeon
+ 60 2470 Columba araucana                     Chilean Pigeon
+ 60 2471 Columba caribaea                     Ring-tailed Pigeon
+ 60 2472 Columba cayennensis                  Pale-vented Pigeon
+ 60 2473 Columba flavirostris                 Red-billed Pigeon
+ 60 2474 Columba oenops                       Peruvian Pigeon
+ 60 2475 Columba inornata                     Plain Pigeon
+ 60 2476 Columba plumbea                      Plumbeous Pigeon
+ 60 2477 Columba subvinacea                   Ruddy Pigeon
+ 60 2478 Columba nigrirostris                 Short-billed Pigeon
+ 60 2479 Columba goodsoni                     Dusky Pigeon
+ 60 2480 Columba iriditorques                 Western Bronze-naped Pigeon
+ 60 2481 Columba malherbii                    Sao Tome Bronze-naped Pigeon
+ 60 2482 Columba delegorguei                  Eastern Bronze-naped Pigeon
+ 60 2483 Columba picturata                    Madagascar Turtle-Dove
+ 60 2484 Columba larvata                      Lemon Dove
+ 60 2485 Columba mayeri                       Pink Pigeon
+ 60 2486 Streptopelia turtur                  European Turtle-Dove
+ 60 2487 Streptopelia hypopyrrha              Adamawa Turtle-Dove
+ 60 2488 Streptopelia lugens                  Dusky Turtle-Dove
+ 60 2489 Streptopelia orientalis              Oriental Turtle-Dove
+ 60 2490 Streptopelia senegalensis            Laughing Dove
+ 60 2491 Streptopelia chinensis               Spotted Dove
+ 60 2492 Streptopelia decipiens               Mourning Collared-Dove
+ 60 2493 Streptopelia vinacea                 Vinaceous Dove
+ 60 2494 Streptopelia capicola                Ring-necked Dove
+ 60 2495 Streptopelia tranquebarica           Red Collared-Dove
+ 60 2496 Streptopelia semitorquata            Red-eyed Dove
+ 60 2497 Streptopelia decaocto                Eurasian Collared-Dove
+ 60 2498 Streptopelia roseogrisea             African Collared-Dove
+ 60 2499 Streptopelia reichenowi              White-winged Collared-Dove
+ 60 2500 Streptopelia bitorquata              Island Collared-Dove
+ 60 2501 Macropygia unchall                   Barred Cuckoo-Dove
+ 60 2502 Macropygia rufipennis                Andaman Cuckoo-Dove
+ 60 2503 Macropygia tenuirostris              Philippine Cuckoo-Dove
+ 60 2504 Macropygia emiliana                  Ruddy Cuckoo-Dove
+ 60 2505 Macropygia amboinensis               Slender-billed Cuckoo-Dove
+ 60 2506 Macropygia magna                     Dusky Cuckoo-Dove
+ 60 2507 Macropygia phasianella               Brown Cuckoo-Dove
+ 60 2508 Macropygia ruficeps                  Little Cuckoo-Dove
+ 60 2509 Macropygia nigrirostris              Black-billed Cuckoo-Dove
+ 60 2510 Macropygia mackinlayi                Mackinlay's Cuckoo-Dove
+ 60 2511 Reinwardtoena reinwardtsi            Great Cuckoo-Dove
+ 60 2512 Reinwardtoena browni                 Pied Cuckoo-Dove
+ 60 2513 Reinwardtoena crassirostris          Crested Cuckoo-Dove
+ 60 2514 Turacoena manadensis                 White-faced Cuckoo-Dove
+ 60 2515 Turacoena modesta                    Black Cuckoo-Dove
+ 60 2516 Turtur abyssinicus                   Black-billed Wood-Dove
+ 60 2517 Turtur chalcospilos                  Emerald-spotted Wood-Dove
+ 60 2518 Turtur afer                          Blue-spotted Wood-Dove
+ 60 2519 Turtur tympanistria                  Tambourine Dove
+ 60 2520 Turtur brehmeri                      Blue-headed Wood-Dove
+ 60 2521 Oena capensis                        Namaqua Dove
+ 60 2522 Chalcophaps indica                   Emerald Dove
+ 60 2523 Chalcophaps stephani                 Stephan's Dove
+ 60 2524 Henicophaps albifrons                New Guinea Bronzewing
+ 60 2525 Henicophaps foersteri                New Britain Bronzewing
+ 60 2526 Phaps chalcoptera                    Common Bronzewing
+ 60 2527 Phaps elegans                        Brush Bronzewing
+ 60 2528 Phaps histrionica                    Flock Bronzewing
+ 60 2529 Geophaps lophotes                    Crested Pigeon
+ 60 2530 Geophaps plumifera                   Spinifex Pigeon
+ 60 2531 Geophaps smithii                     Partridge Pigeon
+ 60 2532 Geophaps scripta                     Squatter Pigeon
+ 60 2533 Petrophassa albipennis               White-quilled Rock-Pigeon
+ 60 2534 Petrophassa rufipennis               Chestnut-quilled Rock-Pigeon
+ 60 2535 Geopelia cuneata                     Diamond Dove
+ 60 2536 Geopelia striata                     Zebra Dove
+ 60 2537 Geopelia maugeus                     Barred Dove
+ 60 2538 Geopelia placida                     Peaceful Dove
+ 60 2539 Geopelia humeralis                   Bar-shouldered Dove
+ 60 2540 Leucosarcia melanoleuca              Wonga Pigeon
+ 60 2541 Ectopistes migratorius               Passenger Pigeon
+ 60 2542 Zenaida macroura                     Mourning Dove
+ 60 2543 Zenaida graysoni                     Socorro Dove
+ 60 2544 Zenaida auriculata                   Eared Dove
+ 60 2545 Zenaida aurita                       Zenaida Dove
+ 60 2546 Zenaida asiatica                     White-winged Dove
+ 60 2547 Zenaida galapagoensis                Galapagos Dove
+ 60 2548 Columbina inca                       Inca Dove
+ 60 2549 Columbina squammata                  Scaled Dove
+ 60 2550 Columbina passerina                  Common Ground-Dove
+ 60 2551 Columbina minuta                     Plain-breasted Ground-Dove
+ 60 2552 Columbina talpacoti                  Ruddy Ground-Dove
+ 60 2553 Columbina buckleyi                   Ecuadorian Ground-Dove
+ 60 2554 Columbina picui                      Picui Ground-Dove
+ 60 2555 Columbina cruziana                   Croaking Ground-Dove
+ 60 2556 Columbina cyanopis                   Blue-eyed Ground-Dove
+ 60 2557 Claravis pretiosa                    Blue Ground-Dove
+ 60 2558 Claravis mondetoura                  Maroon-chested Ground-Dove
+ 60 2559 Claravis godefrida                   Purple-winged Ground-Dove
+ 60 2560 Metriopelia ceciliae                 Bare-faced Ground-Dove
+ 60 2561 Metriopelia morenoi                  Bare-eyed Ground-Dove
+ 60 2562 Metriopelia melanoptera              Black-winged Ground-Dove
+ 60 2563 Metriopelia aymara                   Golden-spotted Ground-Dove
+ 60 2564 Uropelia campestris                  Long-tailed Ground-Dove
+ 60 2565 Leptotila verreauxi                  White-tipped Dove
+ 60 2566 Leptotila megalura                   White-faced Dove
+ 60 2567 Leptotila plumbeiceps                Grey-headed Dove
+ 60 2568 Leptotila battyi                     Brown-backed Dove
+ 60 2569 Leptotila wellsi                     Grenada Dove
+ 60 2570 Leptotila rufaxilla                  Grey-fronted Dove
+ 60 2571 Leptotila jamaicensis                Caribbean Dove
+ 60 2572 Leptotila pallida                    Pallid Dove
+ 60 2573 Leptotila cassini                    Grey-chested Dove
+ 60 2574 Leptotila ochraceiventris            Ochre-bellied Dove
+ 60 2575 Leptotila conoveri                   Tolima Dove
+ 60 2576 Geotrygon lawrencii                  Purplish-backed Quail-Dove
+ 60 2577 Geotrygon costaricensis              Buff-fronted Quail-Dove
+ 60 2578 Geotrygon saphirina                  Sapphire Quail-Dove
+ 60 2579 Geotrygon caniceps                   Grey-headed Quail-Dove
+ 60 2580 Geotrygon versicolor                 Crested Quail-Dove
+ 60 2581 Geotrygon veraguensis                Olive-backed Quail-Dove
+ 60 2582 Geotrygon albifacies                 White-faced Quail-Dove
+ 60 2583 Geotrygon chiriquensis               Rufous-breasted Quail-Dove
+ 60 2584 Geotrygon goldmani                   Russet-crowned Quail-Dove
+ 60 2585 Geotrygon linearis                   Lined Quail-Dove
+ 60 2586 Geotrygon frenata                    White-throated Quail-Dove
+ 60 2587 Geotrygon chrysia                    Key West Quail-Dove
+ 60 2588 Geotrygon mystacea                   Bridled Quail-Dove
+ 60 2589 Geotrygon violacea                   Violaceous Quail-Dove
+ 60 2590 Geotrygon montana                    Ruddy Quail-Dove
+ 60 2591 Starnoenas cyanocephala              Blue-headed Quail-Dove
+ 60 2592 Caloenas nicobarica                  Nicobar Pigeon
+ 60 2593 Gallicolumba luzonica                Luzon Bleeding-heart
+ 60 2594 Gallicolumba platenae                Mindoro Bleeding-heart
+ 60 2595 Gallicolumba keayi                   Negros Bleeding-heart
+ 60 2596 Gallicolumba criniger                Mindanao Bleeding-heart
+ 60 2597 Gallicolumba menagei                 Sulu Bleeding-heart
+ 60 2598 Gallicolumba rufigula                Cinnamon Ground-Dove
+ 60 2599 Gallicolumba tristigmata             Sulawesi Ground-Dove
+ 60 2600 Gallicolumba jobiensis               White-bibbed Ground-Dove
+ 60 2601 Gallicolumba kubaryi                 Caroline Islands Ground-Dove
+ 60 2602 Gallicolumba erythroptera            Polynesian Ground-Dove
+ 60 2603 Gallicolumba xanthonura              White-throated Ground-Dove
+ 60 2604 Gallicolumba stairi                  Friendly Ground-Dove
+ 60 2605 Gallicolumba sanctaecrucis           Santa Cruz Ground-Dove
+ 60 2606 Gallicolumba ferruginea              Tanna Ground-Dove
+ 60 2607 Gallicolumba salamonis               Thick-billed Ground-Dove
+ 60 2608 Gallicolumba rubescens               Marquesan Ground-Dove
+ 60 2609 Gallicolumba beccarii                Bronze Ground-Dove
+ 60 2610 Gallicolumba canifrons               Palau Ground-Dove
+ 60 2611 Gallicolumba hoedtii                 Wetar Ground-Dove
+ 60 2612 Trugon terrestris                    Thick-billed Ground-Pigeon
+ 60 2613 Microgoura meeki                     Choiseul Pigeon
+ 60 2614 Otidiphaps nobilis                   Pheasant Pigeon
+ 60 2615 Phapitreron leucotis                 White-eared Brown-Dove
+ 60 2616 Phapitreron amethystina              Amethyst Brown-Dove
+ 60 2617 Phapitreron cinereiceps              Dark-eared Brown-Dove
+ 60 2618 Treron fulvicollis                   Cinnamon-headed Green-Pigeon
+ 60 2619 Treron olax                          Little Green-Pigeon
+ 60 2620 Treron vernans                       Pink-necked Green-Pigeon
+ 60 2621 Treron bicincta                      Orange-breasted Green-Pigeon
+ 60 2622 Treron pompadora                     Pompadour Green-Pigeon
+ 60 2623 Treron curvirostra                   Thick-billed Green-Pigeon
+ 60 2624 Treron griseicauda                   Grey-cheeked Green-Pigeon
+ 60 2625 Treron floris                        Flores Green-Pigeon
+ 60 2626 Treron teysmannii                    Sumba Green-Pigeon
+ 60 2627 Treron psittacea                     Timor Green-Pigeon
+ 60 2628 Treron capellei                      Large Green-Pigeon
+ 60 2629 Treron phoenicoptera                 Yellow-footed Green-Pigeon
+ 60 2630 Treron waalia                        Bruce's Green-Pigeon
+ 60 2631 Treron calva                         African Green-Pigeon
+ 60 2632 Treron sanctithomae                  Sao Tome Green-Pigeon
+ 60 2633 Treron pembaensis                    Pemba Green-Pigeon
+ 60 2634 Treron australis                     Madagascar Green-Pigeon
+ 60 2635 Treron apicauda                      Pin-tailed Green-Pigeon
+ 60 2636 Treron oxyura                        Sumatran Green-Pigeon
+ 60 2637 Treron seimundi                      Yellow-vented Green-Pigeon
+ 60 2638 Treron sphenura                      Wedge-tailed Green-Pigeon
+ 60 2639 Treron sieboldii                     White-bellied Green-Pigeon
+ 60 2640 Treron formosae                      Whistling Green-Pigeon
+ 60 2641 Ptilinopus porphyreus                Pink-headed Fruit-Dove
+ 60 2642 Ptilinopus cinctus                   Black-backed Fruit-Dove
+ 60 2643 Ptilinopus dohertyi                  Red-naped Fruit-Dove
+ 60 2644 Ptilinopus alligator                 Black-banded Fruit-Dove
+ 60 2645 Ptilinopus marchei                   Flame-breasted Fruit-Dove
+ 60 2646 Ptilinopus merrilli                  Cream-bellied Fruit-Dove
+ 60 2647 Ptilinopus occipitalis               Yellow-breasted Fruit-Dove
+ 60 2648 Ptilinopus fischeri                  Red-eared Fruit-Dove
+ 60 2649 Ptilinopus jambu                     Jambu Fruit-Dove
+ 60 2650 Ptilinopus leclancheri               Black-chinned Fruit-Dove
+ 60 2651 Ptilinopus subgularis                Maroon-chinned Fruit-Dove
+ 60 2652 Ptilinopus bernsteinii               Scarlet-breasted Fruit-Dove
+ 60 2653 Ptilinopus magnificus                Wompoo Fruit-Dove
+ 60 2654 Ptilinopus perlatus                  Pink-spotted Fruit-Dove
+ 60 2655 Ptilinopus ornatus                   Ornate Fruit-Dove
+ 60 2656 Ptilinopus tannensis                 Tanna Fruit-Dove
+ 60 2657 Ptilinopus aurantiifrons             Orange-fronted Fruit-Dove
+ 60 2658 Ptilinopus wallacii                  Wallace's Fruit-Dove
+ 60 2659 Ptilinopus superbus                  Superb Fruit-Dove
+ 60 2660 Ptilinopus perousii                  Many-colored Fruit-Dove
+ 60 2661 Ptilinopus monacha                   Blue-capped Fruit-Dove
+ 60 2662 Ptilinopus coronulatus               Coroneted Fruit-Dove
+ 60 2663 Ptilinopus pulchellus                Beautiful Fruit-Dove
+ 60 2664 Ptilinopus regina                    Rose-crowned Fruit-Dove
+ 60 2665 Ptilinopus roseicapilla              Mariana Fruit-Dove
+ 60 2666 Ptilinopus greyii                    Red-bellied Fruit-Dove
+ 60 2667 Ptilinopus richardsii                Silver-capped Fruit-Dove
+ 60 2668 Ptilinopus porphyraceus              Crimson-crowned Fruit-Dove
+ 60 2669 Ptilinopus pelewensis                Palau Fruit-Dove
+ 60 2670 Ptilinopus rarotongensis             Cook Islands Fruit-Dove
+ 60 2671 Ptilinopus huttoni                   Rapa Fruit-Dove
+ 60 2672 Ptilinopus purpuratus                Grey-green Fruit-Dove
+ 60 2673 Ptilinopus coralensis                Atoll Fruit-Dove
+ 60 2674 Ptilinopus chalcurus                 Makatea Fruit-Dove
+ 60 2675 Ptilinopus insularis                 Henderson Island Fruit-Dove
+ 60 2676 Ptilinopus mercierii                 Red-moustached Fruit-Dove
+ 60 2677 Ptilinopus dupetithouarsii           White-capped Fruit-Dove
+ 60 2678 Ptilinopus rivoli                    White-bibbed Fruit-Dove
+ 60 2679 Ptilinopus solomonensis              Yellow-bibbed Fruit-Dove
+ 60 2680 Ptilinopus viridis                   Claret-breasted Fruit-Dove
+ 60 2681 Ptilinopus eugeniae                  White-headed Fruit-Dove
+ 60 2682 Ptilinopus hyogastra                 Grey-headed Fruit-Dove
+ 60 2683 Ptilinopus granulifrons              Carunculated Fruit-Dove
+ 60 2684 Ptilinopus iozonus                   Orange-bellied Fruit-Dove
+ 60 2685 Ptilinopus insolitus                 Knob-billed Fruit-Dove
+ 60 2686 Ptilinopus naina                     Dwarf Fruit-Dove
+ 60 2687 Ptilinopus melanospila               Black-naped Fruit-Dove
+ 60 2688 Ptilinopus arcanus                   Negros Fruit-Dove
+ 60 2689 Ptilinopus victor                    Orange Dove
+ 60 2690 Ptilinopus luteovirens               Golden Dove
+ 60 2691 Ptilinopus layardi                   Whistling Dove
+ 60 2692 Drepanoptila holosericea             Cloven-feathered Dove
+ 60 2693 Alectroenas madagascariensis         Madagascar Blue-Pigeon
+ 60 2694 Alectroenas sganzini                 Comoro Blue-Pigeon
+ 60 2695 Alectroenas nitidissima              Mauritius Blue-Pigeon
+ 60 2696 Alectroenas pulcherrima              Seychelles Blue-Pigeon
+ 60 2697 Ducula poliocephala                  Pink-bellied Imperial-Pigeon
+ 60 2698 Ducula forsteni                      White-bellied Imperial-Pigeon
+ 60 2699 Ducula mindorensis                   Mindoro Imperial-Pigeon
+ 60 2700 Ducula radiata                       Grey-headed Imperial-Pigeon
+ 60 2701 Ducula carola                        Spotted Imperial-Pigeon
+ 60 2702 Ducula aenea                         Green Imperial-Pigeon
+ 60 2703 Ducula perspicillata                 White-eyed Imperial-Pigeon
+ 60 2704 Ducula concinna                      Elegant Imperial-Pigeon
+ 60 2705 Ducula pacifica                      Pacific Imperial-Pigeon
+ 60 2706 Ducula oceanica                      Micronesian Imperial-Pigeon
+ 60 2707 Ducula aurorae                       Polynesian Imperial-Pigeon
+ 60 2708 Ducula galeata                       Marquesan Imperial-Pigeon
+ 60 2709 Ducula rubricera                     Red-knobbed Imperial-Pigeon
+ 60 2710 Ducula myristicivora                 Spice Imperial-Pigeon
+ 60 2711 Ducula pistrinaria                   Island Imperial-Pigeon
+ 60 2712 Ducula whartoni                      Christmas Island Imperial-Pigeon
+ 60 2713 Ducula rosacea                       Pink-headed Imperial-Pigeon
+ 60 2714 Ducula pickeringii                   Grey Imperial-Pigeon
+ 60 2715 Ducula basilica                      Cinnamon-bellied Imperial-Pigeon
+ 60 2716 Ducula rufigaster                    Purple-tailed Imperial-Pigeon
+ 60 2717 Ducula finschii                      Finsch's Imperial-Pigeon
+ 60 2718 Ducula chalconota                    Shining Imperial-Pigeon
+ 60 2719 Ducula latrans                       Peale's Imperial-Pigeon
+ 60 2720 Ducula brenchleyi                    Chestnut-bellied Imperial-Pigeon
+ 60 2721 Ducula bakeri                        Baker's Imperial-Pigeon
+ 60 2722 Ducula goliath                       New Caledonian Imperial-Pigeon
+ 60 2723 Ducula pinon                         Pinon Imperial-Pigeon
+ 60 2724 Ducula melanochroa                   Bismarck Imperial-Pigeon
+ 60 2725 Ducula mullerii                      Collared Imperial-Pigeon
+ 60 2726 Ducula zoeae                         Banded Imperial-Pigeon
+ 60 2727 Ducula badia                         Mountain Imperial-Pigeon
+ 60 2728 Ducula lacernulata                   Dark-backed Imperial-Pigeon
+ 60 2729 Ducula cineracea                     Timor Imperial-Pigeon
+ 60 2730 Ducula bicolor                       Pied Imperial-Pigeon
+ 60 2731 Ducula luctuosa                      White Imperial-Pigeon
+ 60 2732 Ducula spilorrhoa                    Torresian Imperial-Pigeon
+ 60 2733 Ducula constans                      Kimberley Imperial-Pigeon
+ 60 2734 Ducula subflavescens                 Yellow-tinted Imperial-Pigeon
+ 60 2735 Lopholaimus antarcticus              Topknot Pigeon
+ 60 2736 Hemiphaga novaeseelandiae            New Zealand Pigeon
+ 60 2737 Cryptophaps poecilorrhoa             Sombre Pigeon
+ 60 2738 Gymnophaps albertisii                Papuan Mountain-Pigeon
+ 60 2739 Gymnophaps mada                      Long-tailed Mountain-Pigeon
+ 60 2740 Gymnophaps solomonensis              Pale Mountain-Pigeon
+ 60 2741 Goura cristata                       Western Crowned-Pigeon
+ 60 2742 Goura victoria                       Victoria Crowned-Pigeon
+ 60 2743 Goura scheepmakeri                   Southern Crowned-Pigeon
+ 60 2744 Didunculus strigirostris             Tooth-billed Pigeon
+ 61 2745 Eurypyga helias                      Sunbittern
+ 62 2746 Tetrax tetrax                        Little Bustard
+ 62 2747 Otis tarda                           Great Bustard
+ 62 2748 Neotis denhami                       Stanley Bustard
+ 62 2749 Neotis ludwigii                      Ludwig's Bustard
+ 62 2750 Neotis nuba                          Nubian Bustard
+ 62 2751 Neotis heuglinii                     Heuglin's Bustard
+ 62 2752 Ardeotis arabs                       Arabian Bustard
+ 62 2753 Ardeotis kori                        Kori Bustard
+ 62 2754 Ardeotis nigriceps                   Indian Bustard
+ 62 2755 Ardeotis australis                   Australian Bustard
+ 62 2756 Chlamydotis undulata                 Houbara Bustard
+ 62 2757 Eupodotis savilei                    Savile's Bustard
+ 62 2758 Eupodotis gindiana                   Buff-crested Bustard
+ 62 2759 Eupodotis ruficrista                 Red-crested Bustard
+ 62 2760 Eupodotis afraoides                  White-quilled Bustard
+ 62 2761 Eupodotis afra                       Black Bustard
+ 62 2762 Eupodotis rueppellii                 Rueppell's Bustard
+ 62 2763 Eupodotis vigorsii                   Karoo Bustard
+ 62 2764 Eupodotis humilis                    Little Brown Bustard
+ 62 2765 Eupodotis senegalensis               White-bellied Bustard
+ 62 2766 Eupodotis caerulescens               Blue Bustard
+ 62 2767 Eupodotis melanogaster               Black-bellied Bustard
+ 62 2768 Eupodotis hartlaubii                 Hartlaub's Bustard
+ 62 2769 Eupodotis bengalensis                Bengal Florican
+ 62 2770 Eupodotis indica                     Lesser Florican
+ 63 2771 Balearica pavonina                   Black Crowned-Crane
+ 63 2772 Balearica regulorum                  Grey Crowned-Crane
+ 63 2773 Grus leucogeranus                    Siberian Crane
+ 63 2774 Grus antigone                        Sarus Crane
+ 63 2775 Grus rubicunda                       Brolga
+ 63 2776 Grus vipio                           White-naped Crane
+ 63 2777 Grus canadensis                      Sandhill Crane
+ 63 2778 Grus virgo                           Demoiselle Crane
+ 63 2779 Grus paradisea                       Blue Crane
+ 63 2780 Grus carunculatus                    Wattled Crane
+ 63 2781 Grus grus                            Common Crane
+ 63 2782 Grus monacha                         Hooded Crane
+ 63 2783 Grus americana                       Whooping Crane
+ 63 2784 Grus nigricollis                     Black-necked Crane
+ 63 2785 Grus japonensis                      Red-crowned Crane
+ 64 2786 Aramus guarauna                      Limpkin
+ 65 2787 Podica senegalensis                  African Finfoot
+ 65 2788 Heliopais personata                  Masked Finfoot
+ 65 2789 Heliornis fulica                     Sungrebe
+ 66 2790 Psophia crepitans                    Grey-winged Trumpeter
+ 66 2791 Psophia leucoptera                   Pale-winged Trumpeter
+ 66 2792 Psophia viridis                      Dark-winged Trumpeter
+ 67 2793 Cariama cristata                     Red-legged Seriema
+ 67 2794 Chunga burmeisteri                   Black-legged Seriema
+ 68 2795 Rhynochetos jubatus                  Kagu
+ 69 2796 Sarothrura pulchra                   White-spotted Flufftail
+ 69 2797 Sarothrura elegans                   Buff-spotted Flufftail
+ 69 2798 Sarothrura rufa                      Red-chested Flufftail
+ 69 2799 Sarothrura lugens                    Chestnut-headed Flufftail
+ 69 2800 Sarothrura boehmi                    Streaky-breasted Flufftail
+ 69 2801 Sarothrura affinis                   Striped Flufftail
+ 69 2802 Sarothrura insularis                 Madagascar Flufftail
+ 69 2803 Sarothrura ayresi                    White-winged Flufftail
+ 69 2804 Sarothrura watersi                   Slender-billed Flufftail
+ 69 2805 Himantornis haematopus               Nkulengu Rail
+ 69 2806 Canirallus oculeus                   Grey-throated Rail
+ 69 2807 Canirallus kioloides                 Kioloides Rail
+ 69 2808 Coturnicops exquisitus               Swinhoe's Rail
+ 69 2809 Coturnicops noveboracensis           Yellow Rail
+ 69 2810 Coturnicops notatus                  Speckled Rail
+ 69 2811 Micropygia schomburgkii              Ocellated Crake
+ 69 2812 Rallina rubra                        Chestnut Forest-Rail
+ 69 2813 Rallina leucospila                   White-striped Forest-Rail
+ 69 2814 Rallina forbesi                      Forbes's Forest-Rail
+ 69 2815 Rallina mayri                        Mayr's Forest-Rail
+ 69 2816 Rallina tricolor                     Red-necked Crake
+ 69 2817 Rallina canningi                     Andaman Crake
+ 69 2818 Rallina fasciata                     Red-legged Crake
+ 69 2819 Rallina eurizonoides                 Slaty-legged Crake
+ 69 2820 Anurolimnas castaneiceps             Chestnut-headed Crake
+ 69 2821 Anurolimnas viridis                  Russet-crowned Crake
+ 69 2822 Anurolimnas fasciatus                Black-banded Crake
+ 69 2823 Laterallus melanophaius              Rufous-sided Crake
+ 69 2824 Laterallus levraudi                  Rusty-flanked Crake
+ 69 2825 Laterallus ruber                     Ruddy Crake
+ 69 2826 Laterallus albigularis               White-throated Crake
+ 69 2827 Laterallus exilis                    Grey-breasted Crake
+ 69 2828 Laterallus jamaicensis               Black Rail
+ 69 2829 Laterallus spilonotus                Galapagos Rail
+ 69 2830 Laterallus leucopyrrhus              Red-and-white Crake
+ 69 2831 Laterallus xenopterus                Rufous-faced Crake
+ 69 2832 Nesoclopeus woodfordi                Woodford's Rail
+ 69 2833 Nesoclopeus poecilopterus            Bar-winged Rail
+ 69 2834 Gallirallus australis                Weka
+ 69 2835 Gallirallus lafresnayanus            New Caledonian Rail
+ 69 2836 Gallirallus sylvestris               Lord Howe Rail
+ 69 2837 Gallirallus conditicius              Gilbert Rail
+ 69 2838 Gallirallus okinawae                 Okinawa Rail
+ 69 2839 Gallirallus torquatus                Barred Rail
+ 69 2840 Gallirallus insignis                 New Britain Rail
+ 69 2841 Gallirallus philippensis             Buff-banded Rail
+ 69 2842 Gallirallus rovianae                 Roviana Rail
+ 69 2843 Gallirallus owstoni                  Guam Rail
+ 69 2844 Gallirallus wakensis                 Wake Island Rail
+ 69 2845 Gallirallus pacificus                Tahiti Rail
+ 69 2846 Gallirallus dieffenbachii            Dieffenbach's Rail
+ 69 2847 Gallirallus modestus                 Chatham Islands Rail
+ 69 2848 Gallirallus sharpei                  Sharpe's Rail
+ 69 2849 Gallirallus striatus                 Slaty-breasted Rail
+ 69 2850 Rallus longirostris                  Clapper Rail
+ 69 2851 Rallus elegans                       King Rail
+ 69 2852 Rallus wetmorei                      Plain-flanked Rail
+ 69 2853 Rallus limicola                      Virginia Rail
+ 69 2854 Rallus semiplumbeus                  Bogota Rail
+ 69 2855 Rallus antarcticus                   Austral Rail
+ 69 2856 Rallus aquaticus                     Water Rail
+ 69 2857 Rallus caerulescens                  Kaffir Rail
+ 69 2858 Rallus madagascariensis              Madagascar Rail
+ 69 2859 Lewinia mirificus                    Brown-banded Rail
+ 69 2860 Lewinia pectoralis                   Lewin's Rail
+ 69 2861 Lewinia muelleri                     Auckland Islands Rail
+ 69 2862 Dryolimnas cuvieri                   White-throated Rail
+ 69 2863 Crecopsis egregia                    African Crake
+ 69 2864 Crex crex                            Corn Crake
+ 69 2865 Rougetius rougetii                   Rouget's Rail
+ 69 2866 Aramidopsis plateni                  Snoring Rail
+ 69 2867 Atlantisia rogersi                   Inaccessible Island Rail
+ 69 2868 Aramides mangle                      Little Wood-Rail
+ 69 2869 Aramides axillaris                   Rufous-necked Wood-Rail
+ 69 2870 Aramides cajanea                     Grey-necked Wood-Rail
+ 69 2871 Aramides wolfi                       Brown Wood-Rail
+ 69 2872 Aramides ypecaha                     Giant Wood-Rail
+ 69 2873 Aramides saracura                    Slaty-breasted Wood-Rail
+ 69 2874 Aramides calopterus                  Red-winged Wood-Rail
+ 69 2875 Amaurolimnas concolor                Uniform Crake
+ 69 2876 Gymnocrex rosenbergii                Bald-faced Rail
+ 69 2877 Gymnocrex plumbeiventris             Bare-eyed Rail
+ 69 2878 Amaurornis akool                     Brown Crake
+ 69 2879 Amaurornis olivaceus                 Bush-hen
+ 69 2880 Amaurornis isabellinus               Isabelline Waterhen
+ 69 2881 Amaurornis moluccanus                Rufous-tailed Waterhen
+ 69 2882 Amaurornis phoenicurus               White-breasted Waterhen
+ 69 2883 Amaurornis flavirostra               Black Crake
+ 69 2884 Amaurornis olivieri                  Sakalava Rail
+ 69 2885 Amaurornis bicolor                   Black-tailed Crake
+ 69 2886 Porzana parva                        Little Crake
+ 69 2887 Porzana pusilla                      Baillon's Crake
+ 69 2888 Porzana palmeri                      Laysan Crake
+ 69 2889 Porzana porzana                      Spotted Crake
+ 69 2890 Porzana fluminea                     Australian Crake
+ 69 2891 Porzana carolina                     Sora
+ 69 2892 Porzana spiloptera                   Dot-winged Crake
+ 69 2893 Porzana albicollis                   Ash-throated Crake
+ 69 2894 Porzana sandwichensis                Hawaiian Crake
+ 69 2895 Porzana fusca                        Ruddy-breasted Crake
+ 69 2896 Porzana paykullii                    Band-bellied Crake
+ 69 2897 Porzana tabuensis                    Spotless Crake
+ 69 2898 Porzana monasa                       Kosrae Crake
+ 69 2899 Porzana atra                         Henderson Island Crake
+ 69 2900 Porzana flaviventer                  Yellow-breasted Crake
+ 69 2901 Porzana cinerea                      White-browed Crake
+ 69 2902 Aenigmatolimnas marginalis           Striped Crake
+ 69 2903 Cyanolimnas cerverai                 Zapata Rail
+ 69 2904 Neocrex colombianus                  Colombian Crake
+ 69 2905 Neocrex erythrops                    Paint-billed Crake
+ 69 2906 Pardirallus maculatus                Spotted Rail
+ 69 2907 Pardirallus nigricans                Blackish Rail
+ 69 2908 Pardirallus sanguinolentus           Plumbeous Rail
+ 69 2909 Eulabeornis castaneoventris          Chestnut Rail
+ 69 2910 Habroptila wallacii                  Invisible Rail
+ 69 2911 Megacrex inepta                      New Guinea Flightless Rail
+ 69 2912 Gallicrex cinerea                    Watercock
+ 69 2913 Porphyrio porphyrio                  Purple Swamphen
+ 69 2914 Porphyrio albus                      Lord Howe Island Swamphen
+ 69 2915 Porphyrio mantelli                   Takahe
+ 69 2916 Porphyrio alleni                     Allen's Gallinule
+ 69 2917 Porphyrio martinicus                 Purple Gallinule
+ 69 2918 Porphyrio flavirostris               Azure Gallinule
+ 69 2919 Gallinula pacifica                   Samoan Moorhen
+ 69 2920 Gallinula silvestris                 San Cristobal Moorhen
+ 69 2921 Gallinula nesiotis                   Tristan Moorhen
+ 69 2922 Gallinula chloropus                  Common Moorhen
+ 69 2923 Gallinula tenebrosa                  Dusky Moorhen
+ 69 2924 Gallinula angulata                   Lesser Moorhen
+ 69 2925 Gallinula melanops                   Spot-flanked Gallinule
+ 69 2926 Gallinula ventralis                  Black-tailed Native-hen
+ 69 2927 Gallinula mortierii                  Tasmanian Native-hen
+ 69 2928 Fulica cristata                      Red-knobbed Coot
+ 69 2929 Fulica atra                          Common Coot
+ 69 2930 Fulica alai                          Hawaiian Coot
+ 69 2931 Fulica americana                     American Coot
+ 69 2932 Fulica caribaea                      Caribbean Coot
+ 69 2933 Fulica leucoptera                    White-winged Coot
+ 69 2934 Fulica ardesiaca                     Slate-colored Coot
+ 69 2935 Fulica armillata                     Red-gartered Coot
+ 69 2936 Fulica rufifrons                     Red-fronted Coot
+ 69 2937 Fulica gigantea                      Giant Coot
+ 69 2938 Fulica cornuta                       Horned Coot
+ 70 2939 Mesitornis variegata                 White-breasted Mesite
+ 70 2940 Mesitornis unicolor                  Brown Mesite
+ 70 2941 Monias benschi                       Subdesert Mesite
+ 71 2942 Syrrhaptes tibetanus                 Tibetan Sandgrouse
+ 71 2943 Syrrhaptes paradoxus                 Pallas's Sandgrouse
+ 71 2944 Pterocles alchata                    Pin-tailed Sandgrouse
+ 71 2945 Pterocles namaqua                    Namaqua Sandgrouse
+ 71 2946 Pterocles exustus                    Chestnut-bellied Sandgrouse
+ 71 2947 Pterocles senegallus                 Spotted Sandgrouse
+ 71 2948 Pterocles gutturalis                 Yellow-throated Sandgrouse
+ 71 2949 Pterocles orientalis                 Black-bellied Sandgrouse
+ 71 2950 Pterocles coronatus                  Crowned Sandgrouse
+ 71 2951 Pterocles personatus                 Madagascar Sandgrouse
+ 71 2952 Pterocles decoratus                  Black-faced Sandgrouse
+ 71 2953 Pterocles bicinctus                  Double-banded Sandgrouse
+ 71 2954 Pterocles quadricinctus              Four-banded Sandgrouse
+ 71 2955 Pterocles indicus                    Painted Sandgrouse
+ 71 2956 Pterocles lichtensteinii             Lichtenstein's Sandgrouse
+ 71 2957 Pterocles burchelli                  Burchell's Sandgrouse
+ 72 2958 Attagis gayi                         Rufous-bellied Seedsnipe
+ 72 2959 Attagis malouinus                    White-bellied Seedsnipe
+ 72 2960 Thinocorus orbignyianus              Grey-breasted Seedsnipe
+ 72 2961 Thinocorus rumicivorus               Least Seedsnipe
+ 73 2962 Pedionomus torquatus                 Plains-wanderer
+ 74 2963 Scolopax rusticola                   Eurasian Woodcock
+ 74 2964 Scolopax mira                        Amami Woodcock
+ 74 2965 Scolopax saturata                    Rufous Woodcock
+ 74 2966 Scolopax celebensis                  Sulawesi Woodcock
+ 74 2967 Scolopax rochussenii                 Moluccan Woodcock
+ 74 2968 Scolopax minor                       American Woodcock
+ 74 2969 Gallinago solitaria                  Solitary Snipe
+ 74 2970 Gallinago hardwickii                 Latham's Snipe
+ 74 2971 Gallinago nemoricola                 Wood Snipe
+ 74 2972 Gallinago stenura                    Pintail Snipe
+ 74 2973 Gallinago megala                     Swinhoe's Snipe
+ 74 2974 Gallinago media                      Great Snipe
+ 74 2975 Gallinago gallinago                  Common Snipe
+ 74 2976 Gallinago nigripennis                African Snipe
+ 74 2977 Gallinago macrodactyla               Madagascar Snipe
+ 74 2978 Gallinago paraguaiae                 South American Snipe
+ 74 2979 Gallinago andina                     Puna Snipe
+ 74 2980 Gallinago nobilis                    Noble Snipe
+ 74 2981 Gallinago undulata                   Giant Snipe
+ 74 2982 Gallinago jamesoni                   Andean Snipe
+ 74 2983 Gallinago stricklandii               Fuegian Snipe
+ 74 2984 Gallinago imperialis                 Imperial Snipe
+ 74 2985 Lymnocryptes minimus                 Jack Snipe
+ 74 2986 Coenocorypha pusilla                 Chatham Islands Snipe
+ 74 2987 Coenocorypha aucklandica             Subantarctic Snipe
+ 74 2988 Limosa limosa                        Black-tailed Godwit
+ 74 2989 Limosa haemastica                    Hudsonian Godwit
+ 74 2990 Limosa lapponica                     Bar-tailed Godwit
+ 74 2991 Limosa fedoa                         Marbled Godwit
+ 74 2992 Numenius minutus                     Little Curlew
+ 74 2993 Numenius borealis                    Eskimo Curlew
+ 74 2994 Numenius phaeopus                    Whimbrel
+ 74 2995 Numenius tahitiensis                 Bristle-thighed Curlew
+ 74 2996 Numenius tenuirostris                Slender-billed Curlew
+ 74 2997 Numenius arquata                     Eurasian Curlew
+ 74 2998 Numenius americanus                  Long-billed Curlew
+ 74 2999 Numenius madagascariensis            Far Eastern Curlew
+ 74 3000 Bartramia longicauda                 Upland Sandpiper
+ 74 3001 Tringa erythropus                    Spotted Redshank
+ 74 3002 Tringa totanus                       Common Redshank
+ 74 3003 Tringa stagnatilis                   Marsh Sandpiper
+ 74 3004 Tringa nebularia                     Common Greenshank
+ 74 3005 Tringa guttifer                      Nordmann's Greenshank
+ 74 3006 Tringa melanoleuca                   Greater Yellowlegs
+ 74 3007 Tringa flavipes                      Lesser Yellowlegs
+ 74 3008 Tringa solitaria                     Solitary Sandpiper
+ 74 3009 Tringa ochropus                      Green Sandpiper
+ 74 3010 Tringa glareola                      Wood Sandpiper
+ 74 3011 Tringa cinerea                       Terek Sandpiper
+ 74 3012 Tringa hypoleucos                    Common Sandpiper
+ 74 3013 Tringa macularia                     Spotted Sandpiper
+ 74 3014 Tringa brevipes                      Grey-tailed Tattler
+ 74 3015 Tringa incana                        Wandering Tattler
+ 74 3016 Catoptrophorus semipalmatus          Willet
+ 74 3017 Prosobonia cancellata                Tuamotu Sandpiper
+ 74 3018 Prosobonia leucoptera                Tahitian Sandpiper
+ 74 3019 Arenaria interpres                   Ruddy Turnstone
+ 74 3020 Arenaria melanocephala               Black Turnstone
+ 74 3021 Limnodromus griseus                  Short-billed Dowitcher
+ 74 3022 Limnodromus scolopaceus              Long-billed Dowitcher
+ 74 3023 Limnodromus semipalmatus             Asian Dowitcher
+ 74 3024 Aphriza virgata                      Surfbird
+ 74 3025 Calidris tenuirostris                Great Knot
+ 74 3026 Calidris canutus                     Red Knot
+ 74 3027 Calidris alba                        Sanderling
+ 74 3028 Calidris pusilla                     Semipalmated Sandpiper
+ 74 3029 Calidris mauri                       Western Sandpiper
+ 74 3030 Calidris minuta                      Little Stint
+ 74 3031 Calidris ruficollis                  Rufous-necked Stint
+ 74 3032 Calidris temminckii                  Temminck's Stint
+ 74 3033 Calidris subminuta                   Long-toed Stint
+ 74 3034 Calidris minutilla                   Least Sandpiper
+ 74 3035 Calidris fuscicollis                 White-rumped Sandpiper
+ 74 3036 Calidris bairdii                     Baird's Sandpiper
+ 74 3037 Calidris melanotos                   Pectoral Sandpiper
+ 74 3038 Calidris acuminata                   Sharp-tailed Sandpiper
+ 74 3039 Calidris maritima                    Purple Sandpiper
+ 74 3040 Calidris ptilocnemis                 Rock Sandpiper
+ 74 3041 Calidris alpina                      Dunlin
+ 74 3042 Calidris ferruginea                  Curlew Sandpiper
+ 74 3043 Micropalama himantopus               Stilt Sandpiper
+ 74 3044 Tryngites subruficollis              Buff-breasted Sandpiper
+ 74 3045 Eurynorhynchus pygmeus               Spoonbill Sandpiper
+ 74 3046 Limicola falcinellus                 Broad-billed Sandpiper
+ 74 3047 Philomachus pugnax                   Ruff
+ 74 3048 Steganopus tricolor                  Wilson's Phalarope
+ 74 3049 Phalaropus lobatus                   Red-necked Phalarope
+ 74 3050 Phalaropus fulicaria                 Red Phalarope
+ 75 3051 Rostratula benghalensis              Greater Painted-snipe
+ 75 3052 Rostratula semicollaris              American Painted-snipe
+ 76 3053 Actophilornis africanus              African Jacana
+ 76 3054 Actophilornis albinucha              Madagascar Jacana
+ 76 3055 Microparra capensis                  Lesser Jacana
+ 76 3056 Irediparra gallinacea                Comb-crested Jacana
+ 76 3057 Hydrophasianus chirurgus             Pheasant-tailed Jacana
+ 76 3058 Metopidius indicus                   Bronze-winged Jacana
+ 76 3059 Jacana spinosa                       Northern Jacana
+ 76 3060 Jacana jacana                        Wattled Jacana
+ 77 3061 Chionis alba                         Snowy Sheathbill
+ 77 3062 Chionis minor                        Black-faced Sheathbill
+ 78 3063 Pluvianellus socialis                Magellanic Plover
+ 79 3064 Burhinus oedicnemus                  Eurasian Thick-knee
+ 79 3065 Burhinus senegalensis                Senegal Thick-knee
+ 79 3066 Burhinus vermiculatus                Water Thick-knee
+ 79 3067 Burhinus capensis                    Spotted Thick-knee
+ 79 3068 Burhinus bistriatus                  Double-striped Thick-knee
+ 79 3069 Burhinus superciliaris               Peruvian Thick-knee
+ 79 3070 Burhinus grallarius                  Bush Thick-knee
+ 79 3071 Burhinus recurvirostris              Great Thick-knee
+ 79 3072 Burhinus giganteus                   Beach Thick-knee
+ 80 3073 Haematopus ostralegus                Eurasian Oystercatcher
+ 80 3074 Haematopus meadewaldoi               Canary Islands Oystercatcher
+ 80 3075 Haematopus moquini                   African Oystercatcher
+ 80 3076 Haematopus finschi                   South Island Oystercatcher
+ 80 3077 Haematopus bachmani                  Black Oystercatcher
+ 80 3078 Haematopus palliatus                 American Oystercatcher
+ 80 3079 Haematopus longirostris              Pied Oystercatcher
+ 80 3080 Haematopus unicolor                  Variable Oystercatcher
+ 80 3081 Haematopus fuliginosus               Sooty Oystercatcher
+ 80 3082 Haematopus ater                      Blackish Oystercatcher
+ 80 3083 Haematopus leucopodus                Magellanic Oystercatcher
+ 80 3084 Ibidorhyncha struthersii             Ibisbill
+ 80 3085 Himantopus himantopus                Black-winged Stilt
+ 80 3086 Himantopus leucocephalus             White-headed Stilt
+ 80 3087 Himantopus novaezelandiae            Black Stilt
+ 80 3088 Himantopus mexicanus                 Black-necked Stilt
+ 80 3089 Himantopus melanurus                 White-backed Stilt
+ 80 3090 Cladorhynchus leucocephalus          Banded Stilt
+ 80 3091 Recurvirostra avosetta               Pied Avocet
+ 80 3092 Recurvirostra americana              American Avocet
+ 80 3093 Recurvirostra novaehollandiae        Red-necked Avocet
+ 80 3094 Recurvirostra andina                 Andean Avocet
+ 80 3095 Pluvialis apricaria                  Eurasian Golden-Plover
+ 80 3096 Pluvialis fulva                      Pacific Golden-Plover
+ 80 3097 Pluvialis dominica                   American Golden-Plover
+ 80 3098 Pluvialis squatarola                 Grey Plover
+ 80 3099 Charadrius obscurus                  Red-breasted Plover
+ 80 3100 Charadrius hiaticula                 Common Ringed Plover
+ 80 3101 Charadrius semipalmatus              Semipalmated Plover
+ 80 3102 Charadrius placidus                  Long-billed Plover
+ 80 3103 Charadrius dubius                    Little Ringed Plover
+ 80 3104 Charadrius wilsonia                  Wilson's Plover
+ 80 3105 Charadrius vociferus                 Killdeer
+ 80 3106 Charadrius thoracicus                Black-banded Plover
+ 80 3107 Charadrius sanctaehelenae            St. Helena Plover
+ 80 3108 Charadrius pecuarius                 Kittlitz's Plover
+ 80 3109 Charadrius tricollaris               Three-banded Plover
+ 80 3110 Charadrius forbesi                   Forbes's Plover
+ 80 3111 Charadrius melodus                   Piping Plover
+ 80 3112 Charadrius pallidus                  Chestnut-banded Plover
+ 80 3113 Charadrius alexandrinus              Kentish Plover
+ 80 3114 Charadrius marginatus                White-fronted Plover
+ 80 3115 Charadrius ruficapillus              Red-capped Plover
+ 80 3116 Charadrius peronii                   Malaysian Plover
+ 80 3117 Charadrius javanicus                 Javan Plover
+ 80 3118 Charadrius collaris                  Collared Plover
+ 80 3119 Charadrius bicinctus                 Double-banded Plover
+ 80 3120 Charadrius alticola                  Puna Plover
+ 80 3121 Charadrius falklandicus              Two-banded Plover
+ 80 3122 Charadrius mongolus                  Mongolian Plover
+ 80 3123 Charadrius leschenaultii             Greater Sand Plover
+ 80 3124 Charadrius asiaticus                 Caspian Plover
+ 80 3125 Charadrius veredus                   Oriental Plover
+ 80 3126 Charadrius montanus                  Mountain Plover
+ 80 3127 Charadrius modestus                  Rufous-chested Plover
+ 80 3128 Charadrius rubricollis               Hooded Plover
+ 80 3129 Thinornis novaeseelandiae            Shore Plover
+ 80 3130 Erythrogonys cinctus                 Red-kneed Dotterel
+ 80 3131 Eudromias morinellus                 Eurasian Dotterel
+ 80 3132 Oreopholus ruficollis                Tawny-throated Dotterel
+ 80 3133 Anarhynchus frontalis                Wrybill
+ 80 3134 Phegornis mitchellii                 Diademed Sandpiper-Plover
+ 80 3135 Peltohyas australis                  Inland Dotterel
+ 80 3136 Elseyornis melanops                  Black-fronted Dotterel
+ 80 3137 Vanellus vanellus                    Northern Lapwing
+ 80 3138 Vanellus crassirostris               Long-toed Lapwing
+ 80 3139 Vanellus malabaricus                 Yellow-wattled Lapwing
+ 80 3140 Vanellus macropterus                 Javanese Lapwing
+ 80 3141 Vanellus tricolor                    Banded Lapwing
+ 80 3142 Vanellus miles                       Masked Lapwing
+ 80 3143 Vanellus armatus                     Blacksmith Lapwing
+ 80 3144 Vanellus spinosus                    Spur-winged Lapwing
+ 80 3145 Vanellus duvaucelii                  River Lapwing
+ 80 3146 Vanellus tectus                      Black-headed Lapwing
+ 80 3147 Vanellus melanocephalus              Spot-breasted Lapwing
+ 80 3148 Vanellus cinereus                    Grey-headed Lapwing
+ 80 3149 Vanellus indicus                     Red-wattled Lapwing
+ 80 3150 Vanellus albiceps                    White-headed Lapwing
+ 80 3151 Vanellus senegallus                  Wattled Lapwing
+ 80 3152 Vanellus lugubris                    Senegal Lapwing
+ 80 3153 Vanellus melanopterus                Black-winged Lapwing
+ 80 3154 Vanellus coronatus                   Crowned Lapwing
+ 80 3155 Vanellus superciliosus               Brown-chested Lapwing
+ 80 3156 Vanellus gregarius                   Sociable Lapwing
+ 80 3157 Vanellus leucurus                    White-tailed Lapwing
+ 80 3158 Vanellus cayanus                     Pied Lapwing
+ 80 3159 Vanellus chilensis                   Southern Lapwing
+ 80 3160 Vanellus resplendens                 Andean Lapwing
+ 81 3161 Dromas ardeola                       Crab Plover
+ 81 3162 Pluvianus aegyptius                  Crocodile-bird
+ 81 3163 Rhinoptilus africanus                Double-banded Courser
+ 81 3164 Rhinoptilus chalcopterus             Bronze-winged Courser
+ 81 3165 Rhinoptilus cinctus                  Three-banded Courser
+ 81 3166 Rhinoptilus bitorquatus              Jerdon's Courser
+ 81 3167 Cursorius cursor                     Cream-colored Courser
+ 81 3168 Cursorius rufus                      Burchell's Courser
+ 81 3169 Cursorius temminckii                 Temminck's Courser
+ 81 3170 Cursorius coromandelicus             Indian Courser
+ 81 3171 Glareola pratincola                  Collared Pratincole
+ 81 3172 Glareola maldivarum                  Oriental Pratincole
+ 81 3173 Glareola nordmanni                   Black-winged Pratincole
+ 81 3174 Glareola ocularis                    Madagascar Pratincole
+ 81 3175 Glareola nuchalis                    Rock Pratincole
+ 81 3176 Glareola cinerea                     Grey Pratincole
+ 81 3177 Glareola lactea                      Small Pratincole
+ 81 3178 Stiltia isabella                     Australian Pratincole
+ 82 3179 Catharacta skua                      Great Skua
+ 82 3180 Catharacta antarctica                Southern Skua
+ 82 3181 Catharacta lonnbergi                 Brown Skua
+ 82 3182 Catharacta chilensis                 Chilean Skua
+ 82 3183 Catharacta maccormicki               South Polar Skua
+ 82 3184 Stercorarius pomarinus               Pomarine Jaeger
+ 82 3185 Stercorarius parasiticus             Parasitic Jaeger
+ 82 3186 Stercorarius longicaudus             Long-tailed Jaeger
+ 82 3187 Rynchops niger                       Black Skimmer
+ 82 3188 Rynchops flavirostris                African Skimmer
+ 82 3189 Rynchops albicollis                  Indian Skimmer
+ 82 3190 Larus scoresbii                      Dolphin Gull
+ 82 3191 Larus pacificus                      Pacific Gull
+ 82 3192 Larus belcheri                       Band-tailed Gull
+ 82 3193 Larus atlanticus                     Olrog's Gull
+ 82 3194 Larus crassirostris                  Black-tailed Gull
+ 82 3195 Larus modestus                       Grey Gull
+ 82 3196 Larus heermanni                      Heermann's Gull
+ 82 3197 Larus leucophthalmus                 White-eyed Gull
+ 82 3198 Larus hemprichii                     Sooty Gull
+ 82 3199 Larus canus                          Mew Gull
+ 82 3200 Larus audouinii                      Audouin's Gull
+ 82 3201 Larus delawarensis                   Ring-billed Gull
+ 82 3202 Larus californicus                   California Gull
+ 82 3203 Larus marinus                        Great Black-backed Gull
+ 82 3204 Larus dominicanus                    Kelp Gull
+ 82 3205 Larus glaucescens                    Glaucous-winged Gull
+ 82 3206 Larus occidentalis                   Western Gull
+ 82 3207 Larus livens                         Yellow-footed Gull
+ 82 3208 Larus hyperboreus                    Glaucous Gull
+ 82 3209 Larus glaucoides                     Iceland Gull
+ 82 3210 Larus argentatus                     Herring Gull
+ 82 3211 Larus armenicus                      Armenian Gull
+ 82 3212 Larus schistisagus                   Slaty-backed Gull
+ 82 3213 Larus cachinnans                     Yellow-legged Gull
+ 82 3214 Larus fuscus                         Lesser Black-backed Gull
+ 82 3215 Larus ichthyaetus                    Great Black-headed Gull
+ 82 3216 Larus brunnicephalus                 Brown-headed Gull
+ 82 3217 Larus cirrocephalus                  Grey-headed Gull
+ 82 3218 Larus hartlaubii                     King Gull
+ 82 3219 Larus novaehollandiae                Silver Gull
+ 82 3220 Larus scopulinus                     Red-billed Gull
+ 82 3221 Larus bulleri                        Black-billed Gull
+ 82 3222 Larus maculipennis                   Brown-hooded Gull
+ 82 3223 Larus ridibundus                     Common Black-headed Gull
+ 82 3224 Larus genei                          Slender-billed Gull
+ 82 3225 Larus philadelphia                   Bonaparte's Gull
+ 82 3226 Larus saundersi                      Saunders's Gull
+ 82 3227 Larus serranus                       Andean Gull
+ 82 3228 Larus melanocephalus                 Mediterranean Gull
+ 82 3229 Larus relictus                       Relict Gull
+ 82 3230 Larus fuliginosus                    Lava Gull
+ 82 3231 Larus atricilla                      Laughing Gull
+ 82 3232 Larus pipixcan                       Franklin's Gull
+ 82 3233 Larus minutus                        Little Gull
+ 82 3234 Pagophila eburnea                    Ivory Gull
+ 82 3235 Rhodostethia rosea                   Ross's Gull
+ 82 3236 Xema sabini                          Sabine's Gull
+ 82 3237 Creagrus furcatus                    Swallow-tailed Gull
+ 82 3238 Rissa tridactyla                     Black-legged Kittiwake
+ 82 3239 Rissa brevirostris                   Red-legged Kittiwake
+ 82 3240 Sterna nilotica                      Gull-billed Tern
+ 82 3241 Sterna caspia                        Caspian Tern
+ 82 3242 Sterna aurantia                      River Tern
+ 82 3243 Sterna maxima                        Royal Tern
+ 82 3244 Sterna elegans                       Elegant Tern
+ 82 3245 Sterna bengalensis                   Lesser Crested-Tern
+ 82 3246 Sterna bergii                        Great Crested-Tern
+ 82 3247 Sterna bernsteini                    Chinese Crested-Tern
+ 82 3248 Sterna sandvicensis                  Sandwich Tern
+ 82 3249 Sterna dougallii                     Roseate Tern
+ 82 3250 Sterna striata                       White-fronted Tern
+ 82 3251 Sterna sumatrana                     Black-naped Tern
+ 82 3252 Sterna hirundinacea                  South American Tern
+ 82 3253 Sterna hirundo                       Common Tern
+ 82 3254 Sterna paradisaea                    Arctic Tern
+ 82 3255 Sterna vittata                       Antarctic Tern
+ 82 3256 Sterna virgata                       Kerguelen Tern
+ 82 3257 Sterna forsteri                      Forster's Tern
+ 82 3258 Sterna trudeaui                      Snowy-crowned Tern
+ 82 3259 Sterna albifrons                     Little Tern
+ 82 3260 Sterna saundersi                     Saunders's Tern
+ 82 3261 Sterna antillarum                    Least Tern
+ 82 3262 Sterna superciliaris                 Yellow-billed Tern
+ 82 3263 Sterna lorata                        Peruvian Tern
+ 82 3264 Sterna nereis                        Fairy Tern
+ 82 3265 Sterna balaenarum                    Damara Tern
+ 82 3266 Sterna repressa                      White-cheeked Tern
+ 82 3267 Sterna acuticauda                    Black-bellied Tern
+ 82 3268 Sterna aleutica                      Aleutian Tern
+ 82 3269 Sterna lunata                        Grey-backed Tern
+ 82 3270 Sterna anaethetus                    Bridled Tern
+ 82 3271 Sterna fuscata                       Sooty Tern
+ 82 3272 Chlidonias albostriatus              Black-fronted Tern
+ 82 3273 Chlidonias hybridus                  Whiskered Tern
+ 82 3274 Chlidonias leucopterus               White-winged Tern
+ 82 3275 Chlidonias niger                     Black Tern
+ 82 3276 Phaetusa simplex                     Large-billed Tern
+ 82 3277 Anous stolidus                       Brown Noddy
+ 82 3278 Anous minutus                        Black Noddy
+ 82 3279 Anous tenuirostris                   Lesser Noddy
+ 82 3280 Procelsterna cerulea                 Blue Noddy
+ 82 3281 Gygis alba                           Common White-Tern
+ 82 3282 Gygis microrhyncha                   Little White-Tern
+ 82 3283 Larosterna inca                      Inca Tern
+ 82 3284 Alle alle                            Dovekie
+ 82 3285 Uria aalge                           Common Murre
+ 82 3286 Uria lomvia                          Thick-billed Murre
+ 82 3287 Alca torda                           Razorbill
+ 82 3288 Pinguinus impennis                   Great Auk
+ 82 3289 Cepphus grylle                       Black Guillemot
+ 82 3290 Cepphus columba                      Pigeon Guillemot
+ 82 3291 Cepphus carbo                        Spectacled Guillemot
+ 82 3292 Brachyramphus marmoratus             Marbled Murrelet
+ 82 3293 Brachyramphus brevirostris           Kittlitz's Murrelet
+ 82 3294 Synthliboramphus hypoleucus          Xantus's Murrelet
+ 82 3295 Synthliboramphus craveri             Craveri's Murrelet
+ 82 3296 Synthliboramphus antiquus            Ancient Murrelet
+ 82 3297 Synthliboramphus wumizusume          Japanese Murrelet
+ 82 3298 Ptychoramphus aleuticus              Cassin's Auklet
+ 82 3299 Cyclorrhynchus psittacula            Parakeet Auklet
+ 82 3300 Aethia cristatella                   Crested Auklet
+ 82 3301 Aethia pygmaea                       Whiskered Auklet
+ 82 3302 Aethia pusilla                       Least Auklet
+ 82 3303 Cerorhinca monocerata                Rhinoceros Auklet
+ 82 3304 Fratercula arctica                   Atlantic Puffin
+ 82 3305 Fratercula corniculata               Horned Puffin
+ 82 3306 Fratercula cirrhata                  Tufted Puffin
+ 83 3307 Pandion haliaetus                    Osprey
+ 83 3308 Aviceda cuculoides                   African Baza
+ 83 3309 Aviceda madagascariensis             Madagascar Baza
+ 83 3310 Aviceda jerdoni                      Jerdon's Baza
+ 83 3311 Aviceda subcristata                  Pacific Baza
+ 83 3312 Aviceda leuphotes                    Black Baza
+ 83 3313 Leptodon cayanensis                  Grey-headed Kite
+ 83 3314 Leptodon forbesi                     White-collared Kite
+ 83 3315 Chondrohierax uncinatus              Hook-billed Kite
+ 83 3316 Henicopernis longicauda              Long-tailed Honey-buzzard
+ 83 3317 Henicopernis infuscatus              Black Honey-buzzard
+ 83 3318 Pernis apivorus                      European Honey-buzzard
+ 83 3319 Pernis ptilorhyncus                  Oriental Honey-buzzard
+ 83 3320 Pernis celebensis                    Barred Honey-buzzard
+ 83 3321 Lophoictinia isura                   Square-tailed Kite
+ 83 3322 Hamirostra melanosternon             Black-breasted Buzzard
+ 83 3323 Elanoides forficatus                 Swallow-tailed Kite
+ 83 3324 Macheiramphus alcinus                Bat Hawk
+ 83 3325 Gampsonyx swainsonii                 Pearl Kite
+ 83 3326 Elanus caeruleus                     Black-winged Kite
+ 83 3327 Elanus axillaris                     Black-shouldered Kite
+ 83 3328 Elanus leucurus                      White-tailed Kite
+ 83 3329 Elanus scriptus                      Letter-winged Kite
+ 83 3330 Chelictinia riocourii                Scissor-tailed Kite
+ 83 3331 Rostrhamus sociabilis                Snail Kite
+ 83 3332 Rostrhamus hamatus                   Slender-billed Kite
+ 83 3333 Harpagus bidentatus                  Double-toothed Kite
+ 83 3334 Harpagus diodon                      Rufous-thighed Kite
+ 83 3335 Ictinia mississippiensis             Mississippi Kite
+ 83 3336 Ictinia plumbea                      Plumbeous Kite
+ 83 3337 Milvus milvus                        Red Kite
+ 83 3338 Milvus migrans                       Black Kite
+ 83 3339 Milvus lineatus                      Black-eared Kite
+ 83 3340 Haliastur sphenurus                  Whistling Kite
+ 83 3341 Haliastur indus                      Brahminy Kite
+ 83 3342 Haliaeetus leucogaster               White-bellied Fish-Eagle
+ 83 3343 Haliaeetus sanfordi                  Sanford's Fish-Eagle
+ 83 3344 Haliaeetus vocifer                   African Fish-Eagle
+ 83 3345 Haliaeetus vociferoides              Madagascar Fish-Eagle
+ 83 3346 Haliaeetus leucoryphus               Pallas's Sea-Eagle
+ 83 3347 Haliaeetus albicilla                 White-tailed Eagle
+ 83 3348 Haliaeetus leucocephalus             Bald Eagle
+ 83 3349 Haliaeetus pelagicus                 Steller's Sea-Eagle
+ 83 3350 Ichthyophaga humilis                 Lesser Fish-Eagle
+ 83 3351 Ichthyophaga ichthyaetus             Grey-headed Fish-Eagle
+ 83 3352 Gypohierax angolensis                Palm-nut Vulture
+ 83 3353 Gypaetus barbatus                    Lammergeier
+ 83 3354 Neophron percnopterus                Egyptian Vulture
+ 83 3355 Necrosyrtes monachus                 Hooded Vulture
+ 83 3356 Gyps africanus                       White-backed Vulture
+ 83 3357 Gyps bengalensis                     White-rumped Vulture
+ 83 3358 Gyps indicus                         Long-billed Vulture
+ 83 3359 Gyps rueppellii                      Rueppell's Griffon
+ 83 3360 Gyps himalayensis                    Himalayan Griffon
+ 83 3361 Gyps fulvus                          Eurasian Griffon
+ 83 3362 Gyps coprotheres                     Cape Griffon
+ 83 3363 Aegypius monachus                    Cinereous Vulture
+ 83 3364 Torgos tracheliotus                  Lappet-faced Vulture
+ 83 3365 Trigonoceps occipitalis              White-headed Vulture
+ 83 3366 Sarcogyps calvus                     Red-headed Vulture
+ 83 3367 Circaetus gallicus                   Short-toed Snake-Eagle
+ 83 3368 Circaetus pectoralis                 Black-chested Snake-Eagle
+ 83 3369 Circaetus cinereus                   Brown Snake-Eagle
+ 83 3370 Circaetus fasciolatus                Fasciated Snake-Eagle
+ 83 3371 Circaetus cinerascens                Banded Snake-Eagle
+ 83 3372 Terathopius ecaudatus                Bateleur
+ 83 3373 Spilornis cheela                     Crested Serpent-Eagle
+ 83 3374 Spilornis minimus                    Nicobar Serpent-Eagle
+ 83 3375 Spilornis kinabaluensis              Mountain Serpent-Eagle
+ 83 3376 Spilornis rufipectus                 Sulawesi Serpent-Eagle
+ 83 3377 Spilornis holospilus                 Philippine Serpent-Eagle
+ 83 3378 Spilornis elgini                     Andaman Serpent-Eagle
+ 83 3379 Dryotriorchis spectabilis            Congo Serpent-Eagle
+ 83 3380 Eutriorchis astur                    Madagascar Serpent-Eagle
+ 83 3381 Circus aeruginosus                   Western Marsh-Harrier
+ 83 3382 Circus ranivorus                     African Marsh-Harrier
+ 83 3383 Circus spilonotus                    Eastern Marsh-Harrier
+ 83 3384 Circus approximans                   Swamp Harrier
+ 83 3385 Circus maillardi                     Madagascar Marsh-Harrier
+ 83 3386 Circus buffoni                       Long-winged Harrier
+ 83 3387 Circus assimilis                     Spotted Harrier
+ 83 3388 Circus maurus                        Black Harrier
+ 83 3389 Circus cyaneus                       Northern Harrier
+ 83 3390 Circus cinereus                      Cinereous Harrier
+ 83 3391 Circus macrourus                     Pallid Harrier
+ 83 3392 Circus melanoleucos                  Pied Harrier
+ 83 3393 Circus pygargus                      Montagu's Harrier
+ 83 3394 Polyboroides typus                   African Harrier-Hawk
+ 83 3395 Polyboroides radiatus                Madagascar Harrier-Hawk
+ 83 3396 Kaupifalco monogrammicus             Lizard Buzzard
+ 83 3397 Melierax metabates                   Dark Chanting-Goshawk
+ 83 3398 Melierax poliopterus                 Eastern Chanting-Goshawk
+ 83 3399 Melierax canorus                     Pale Chanting-Goshawk
+ 83 3400 Micronisus gabar                     Gabar Goshawk
+ 83 3401 Accipiter poliogaster                Grey-bellied Goshawk
+ 83 3402 Accipiter trivirgatus                Crested Goshawk
+ 83 3403 Accipiter griseiceps                 Sulawesi Goshawk
+ 83 3404 Accipiter toussenelii                Red-chested Goshawk
+ 83 3405 Accipiter tachiro                    African Goshawk
+ 83 3406 Accipiter castanilius                Chestnut-flanked Sparrowhawk
+ 83 3407 Accipiter badius                     Shikra
+ 83 3408 Accipiter butleri                    Nicobar Sparrowhawk
+ 83 3409 Accipiter brevipes                   Levant Sparrowhawk
+ 83 3410 Accipiter soloensis                  Chinese Goshawk
+ 83 3411 Accipiter francesii                  Frances's Goshawk
+ 83 3412 Accipiter trinotatus                 Spot-tailed Goshawk
+ 83 3413 Accipiter novaehollandiae            Grey Goshawk
+ 83 3414 Accipiter fasciatus                  Brown Goshawk
+ 83 3415 Accipiter melanochlamys              Black-mantled Goshawk
+ 83 3416 Accipiter albogularis                Pied Goshawk
+ 83 3417 Accipiter rufitorques                Fiji Goshawk
+ 83 3418 Accipiter haplochrous                White-bellied Goshawk
+ 83 3419 Accipiter henicogrammus              Moluccan Goshawk
+ 83 3420 Accipiter luteoschistaceus           Slaty-mantled Sparrowhawk
+ 83 3421 Accipiter imitator                   Imitator Sparrowhawk
+ 83 3422 Accipiter poliocephalus              Grey-headed Goshawk
+ 83 3423 Accipiter princeps                   New Britain Goshawk
+ 83 3424 Accipiter superciliosus              Tiny Hawk
+ 83 3425 Accipiter collaris                   Semicollared Hawk
+ 83 3426 Accipiter erythropus                 Red-thighed Sparrowhawk
+ 83 3427 Accipiter minullus                   Little Sparrowhawk
+ 83 3428 Accipiter gularis                    Japanese Sparrowhawk
+ 83 3429 Accipiter virgatus                   Besra
+ 83 3430 Accipiter nanus                      Small Sparrowhawk
+ 83 3431 Accipiter erythrauchen               Rufous-necked Sparrowhawk
+ 83 3432 Accipiter cirrocephalus              Collared Sparrowhawk
+ 83 3433 Accipiter brachyurus                 New Britain Sparrowhawk
+ 83 3434 Accipiter rhodogaster                Vinous-breasted Sparrowhawk
+ 83 3435 Accipiter madagascariensis           Madagascar Sparrowhawk
+ 83 3436 Accipiter ovampensis                 Ovampo Sparrowhawk
+ 83 3437 Accipiter nisus                      Eurasian Sparrowhawk
+ 83 3438 Accipiter rufiventris                Rufous-chested Sparrowhawk
+ 83 3439 Accipiter striatus                   Sharp-shinned Hawk
+ 83 3440 Accipiter chionogaster               White-breasted Hawk
+ 83 3441 Accipiter ventralis                  Plain-breasted Hawk
+ 83 3442 Accipiter erythronemius              Rufous-thighed Hawk
+ 83 3443 Accipiter cooperii                   Cooper's Hawk
+ 83 3444 Accipiter gundlachi                  Gundlach's Hawk
+ 83 3445 Accipiter bicolor                    Bicolored Hawk
+ 83 3446 Accipiter melanoleucus               Black Goshawk
+ 83 3447 Accipiter henstii                    Henst's Goshawk
+ 83 3448 Accipiter gentilis                   Northern Goshawk
+ 83 3449 Accipiter meyerianus                 Meyer's Goshawk
+ 83 3450 Erythrotriorchis buergersi           Chestnut-shouldered Goshawk
+ 83 3451 Erythrotriorchis radiatus            Red Goshawk
+ 83 3452 Megatriorchis doriae                 Doria's Goshawk
+ 83 3453 Urotriorchis macrourus               Long-tailed Hawk
+ 83 3454 Butastur rufipennis                  Grasshopper Buzzard
+ 83 3455 Butastur teesa                       White-eyed Buzzard
+ 83 3456 Butastur liventer                    Rufous-winged Buzzard
+ 83 3457 Butastur indicus                     Grey-faced Buzzard
+ 83 3458 Geranospiza caerulescens             Crane Hawk
+ 83 3459 Leucopternis plumbea                 Plumbeous Hawk
+ 83 3460 Leucopternis schistacea              Slate-colored Hawk
+ 83 3461 Leucopternis princeps                Barred Hawk
+ 83 3462 Leucopternis melanops                Black-faced Hawk
+ 83 3463 Leucopternis kuhli                   White-browed Hawk
+ 83 3464 Leucopternis lacernulata             White-necked Hawk
+ 83 3465 Leucopternis semiplumbea             Semiplumbeous Hawk
+ 83 3466 Leucopternis albicollis              White Hawk
+ 83 3467 Leucopternis occidentalis            Grey-backed Hawk
+ 83 3468 Leucopternis polionota               Mantled Hawk
+ 83 3469 Buteogallus aequinoctialis           Rufous Crab-Hawk
+ 83 3470 Buteogallus anthracinus              Common Black-Hawk
+ 83 3471 Buteogallus subtilis                 Mangrove Black-Hawk
+ 83 3472 Buteogallus urubitinga               Great Black-Hawk
+ 83 3473 Buteogallus meridionalis             Savanna Hawk
+ 83 3474 Parabuteo unicinctus                 Harris's Hawk
+ 83 3475 Busarellus nigricollis               Black-collared Hawk
+ 83 3476 Geranoaetus melanoleucus             Black-chested Buzzard-Eagle
+ 83 3477 Harpyhaliaetus solitarius            Solitary Eagle
+ 83 3478 Harpyhaliaetus coronatus             Crowned Eagle
+ 83 3479 Asturina plagiata                    Grey Hawk
+ 83 3480 Asturina nitida                      Grey-lined Hawk
+ 83 3481 Buteo magnirostris                   Roadside Hawk
+ 83 3482 Buteo lineatus                       Red-shouldered Hawk
+ 83 3483 Buteo ridgwayi                       Ridgway's Hawk
+ 83 3484 Buteo platypterus                    Broad-winged Hawk
+ 83 3485 Buteo leucorrhous                    White-rumped Hawk
+ 83 3486 Buteo brachyurus                     Short-tailed Hawk
+ 83 3487 Buteo albigula                       White-throated Hawk
+ 83 3488 Buteo swainsoni                      Swainson's Hawk
+ 83 3489 Buteo albicaudatus                   White-tailed Hawk
+ 83 3490 Buteo galapagoensis                  Galapagos Hawk
+ 83 3491 Buteo polyosoma                      Red-backed Hawk
+ 83 3492 Buteo poecilochrous                  Puna Hawk
+ 83 3493 Buteo albonotatus                    Zone-tailed Hawk
+ 83 3494 Buteo solitarius                     Hawaiian Hawk
+ 83 3495 Buteo jamaicensis                    Red-tailed Hawk
+ 83 3496 Buteo ventralis                      Rufous-tailed Hawk
+ 83 3497 Buteo buteo                          Common Buzzard
+ 83 3498 Buteo oreophilus                     Mountain Buzzard
+ 83 3499 Buteo brachypterus                   Madagascar Buzzard
+ 83 3500 Buteo rufinus                        Long-legged Buzzard
+ 83 3501 Buteo hemilasius                     Upland Buzzard
+ 83 3502 Buteo regalis                        Ferruginous Hawk
+ 83 3503 Buteo lagopus                        Rough-legged Hawk
+ 83 3504 Buteo auguralis                      Red-necked Buzzard
+ 83 3505 Buteo augur                          Augur Buzzard
+ 83 3506 Buteo archeri                        Archer's Buzzard
+ 83 3507 Buteo rufofuscus                     Jackal Buzzard
+ 83 3508 Morphnus guianensis                  Crested Eagle
+ 83 3509 Harpia harpyja                       Harpy Eagle
+ 83 3510 Harpyopsis novaeguineae              New Guinea Eagle
+ 83 3511 Pithecophaga jefferyi                Great Philippine Eagle
+ 83 3512 Ictinaetus malayensis                Black Eagle
+ 83 3513 Aquila pomarina                      Lesser Spotted Eagle
+ 83 3514 Aquila clanga                        Greater Spotted Eagle
+ 83 3515 Aquila rapax                         Tawny Eagle
+ 83 3516 Aquila nipalensis                    Steppe Eagle
+ 83 3517 Aquila adalberti                     Adalbert's Eagle
+ 83 3518 Aquila heliaca                       Imperial Eagle
+ 83 3519 Aquila gurneyi                       Gurney's Eagle
+ 83 3520 Aquila chrysaetos                    Golden Eagle
+ 83 3521 Aquila audax                         Wedge-tailed Eagle
+ 83 3522 Aquila verreauxii                    Verreaux's Eagle
+ 83 3523 Aquila wahlbergi                     Wahlberg's Eagle
+ 83 3524 Hieraaetus fasciatus                 Bonelli's Eagle
+ 83 3525 Hieraaetus spilogaster               African Hawk-Eagle
+ 83 3526 Hieraaetus pennatus                  Booted Eagle
+ 83 3527 Hieraaetus morphnoides               Little Eagle
+ 83 3528 Hieraaetus ayresii                   Ayres's Hawk-Eagle
+ 83 3529 Hieraaetus kienerii                  Rufous-bellied Eagle
+ 83 3530 Polemaetus bellicosus                Martial Eagle
+ 83 3531 Spizastur melanoleucus               Black-and-White Hawk-Eagle
+ 83 3532 Lophaetus occipitalis                Long-crested Eagle
+ 83 3533 Spizaetus africanus                  Cassin's Hawk-Eagle
+ 83 3534 Spizaetus cirrhatus                  Changeable Hawk-Eagle
+ 83 3535 Spizaetus nipalensis                 Mountain Hawk-Eagle
+ 83 3536 Spizaetus alboniger                  Blyth's Hawk-Eagle
+ 83 3537 Spizaetus bartelsi                   Javan Hawk-Eagle
+ 83 3538 Spizaetus lanceolatus                Sulawesi Hawk-Eagle
+ 83 3539 Spizaetus philippensis               Philippine Hawk-Eagle
+ 83 3540 Spizaetus nanus                      Wallace's Hawk-Eagle
+ 83 3541 Spizaetus tyrannus                   Black Hawk-Eagle
+ 83 3542 Spizaetus ornatus                    Ornate Hawk-Eagle
+ 83 3543 Stephanoaetus coronatus              Crowned Hawk-Eagle
+ 83 3544 Oroaetus isidori                     Black-and-chestnut Eagle
+ 84 3545 Sagittarius serpentarius             Secretarybird
+ 85 3546 Daptrius ater                        Black Caracara
+ 85 3547 Daptrius americanus                  Red-throated Caracara
+ 85 3548 Phalcoboenus carunculatus            Carunculated Caracara
+ 85 3549 Phalcoboenus megalopterus            Mountain Caracara
+ 85 3550 Phalcoboenus albogularis             White-throated Caracara
+ 85 3551 Phalcoboenus australis               Striated Caracara
+ 85 3552 Polyborus lutosus                    Guadalupe Caracara
+ 85 3553 Polyborus plancus                    Crested Caracara
+ 85 3554 Milvago chimachima                   Yellow-headed Caracara
+ 85 3555 Milvago chimango                     Chimango Caracara
+ 85 3556 Herpetotheres cachinnans             Laughing Falcon
+ 85 3557 Micrastur ruficollis                 Barred Forest-Falcon
+ 85 3558 Micrastur plumbeus                   Plumbeous Forest-Falcon
+ 85 3559 Micrastur gilvicollis                Lined Forest-Falcon
+ 85 3560 Micrastur mirandollei                Slaty-backed Forest-Falcon
+ 85 3561 Micrastur semitorquatus              Collared Forest-Falcon
+ 85 3562 Micrastur buckleyi                   Buckley's Forest-Falcon
+ 85 3563 Spiziapteryx circumcinctus           Spot-winged Falconet
+ 85 3564 Polihierax semitorquatus             Pygmy Falcon
+ 85 3565 Polihierax insignis                  White-rumped Falcon
+ 85 3566 Microhierax caerulescens             Collared Falconet
+ 85 3567 Microhierax fringillarius            Black-thighed Falconet
+ 85 3568 Microhierax latifrons                White-fronted Falconet
+ 85 3569 Microhierax erythrogenys             Philippine Falconet
+ 85 3570 Microhierax melanoleucus             Pied Falconet
+ 85 3571 Falco berigora                       Brown Falcon
+ 85 3572 Falco naumanni                       Lesser Kestrel
+ 85 3573 Falco tinnunculus                    Common Kestrel
+ 85 3574 Falco newtoni                        Madagascar Kestrel
+ 85 3575 Falco punctatus                      Mauritius Kestrel
+ 85 3576 Falco araea                          Seychelles Kestrel
+ 85 3577 Falco moluccensis                    Spotted Kestrel
+ 85 3578 Falco cenchroides                    Australian Kestrel
+ 85 3579 Falco sparverius                     American Kestrel
+ 85 3580 Falco rupicoloides                   Greater Kestrel
+ 85 3581 Falco alopex                         Fox Kestrel
+ 85 3582 Falco ardosiaceus                    Grey Kestrel
+ 85 3583 Falco dickinsoni                     Dickinson's Kestrel
+ 85 3584 Falco zoniventris                    Banded Kestrel
+ 85 3585 Falco chicquera                      Red-necked Falcon
+ 85 3586 Falco vespertinus                    Red-footed Falcon
+ 85 3587 Falco amurensis                      Amur Falcon
+ 85 3588 Falco eleonorae                      Eleonora's Falcon
+ 85 3589 Falco concolor                       Sooty Falcon
+ 85 3590 Falco femoralis                      Aplomado Falcon
+ 85 3591 Falco columbarius                    Merlin
+ 85 3592 Falco rufigularis                    Bat Falcon
+ 85 3593 Falco subbuteo                       Eurasian Hobby
+ 85 3594 Falco cuvierii                       African Hobby
+ 85 3595 Falco severus                        Oriental Hobby
+ 85 3596 Falco longipennis                    Australian Hobby
+ 85 3597 Falco novaeseelandiae                New Zealand Falcon
+ 85 3598 Falco hypoleucos                     Grey Falcon
+ 85 3599 Falco subniger                       Black Falcon
+ 85 3600 Falco biarmicus                      Lanner Falcon
+ 85 3601 Falco jugger                         Laggar Falcon
+ 85 3602 Falco cherrug                        Saker Falcon
+ 85 3603 Falco rusticolus                     Gyrfalcon
+ 85 3604 Falco mexicanus                      Prairie Falcon
+ 85 3605 Falco peregrinus                     Peregrine Falcon
+ 85 3606 Falco pelegrinoides                  Barbary Falcon
+ 85 3607 Falco deiroleucus                    Orange-breasted Falcon
+ 85 3608 Falco fasciinucha                    Teita Falcon
+ 86 3609 Rollandia rolland                    White-tufted Grebe
+ 86 3610 Rollandia microptera                 Short-winged Grebe
+ 86 3611 Tachybaptus ruficollis               Little Grebe
+ 86 3612 Tachybaptus novaehollandiae          Australasian Grebe
+ 86 3613 Tachybaptus rufolavatus              Alaotra Grebe
+ 86 3614 Tachybaptus pelzelnii                Madagascar Grebe
+ 86 3615 Tachybaptus dominicus                Least Grebe
+ 86 3616 Podilymbus podiceps                  Pied-billed Grebe
+ 86 3617 Podilymbus gigas                     Atitlan Grebe
+ 86 3618 Poliocephalus poliocephalus          Hoary-headed Grebe
+ 86 3619 Poliocephalus rufopectus             New Zealand Grebe
+ 86 3620 Podiceps major                       Great Grebe
+ 86 3621 Podiceps grisegena                   Red-necked Grebe
+ 86 3622 Podiceps cristatus                   Great Crested Grebe
+ 86 3623 Podiceps auritus                     Horned Grebe
+ 86 3624 Podiceps nigricollis                 Black-necked Grebe
+ 86 3625 Podiceps andinus                     Colombian Grebe
+ 86 3626 Podiceps occipitalis                 Silvery Grebe
+ 86 3627 Podiceps taczanowskii                Puna Grebe
+ 86 3628 Podiceps gallardoi                   Hooded Grebe
+ 86 3629 Aechmophorus occidentalis            Western Grebe
+ 86 3630 Aechmophorus clarkii                 Clark's Grebe
+ 87 3631 Phaethon aethereus                   Red-billed Tropicbird
+ 87 3632 Phaethon rubricauda                  Red-tailed Tropicbird
+ 87 3633 Phaethon lepturus                    White-tailed Tropicbird
+ 88 3634 Papasula abbotti                     Abbott's Booby
+ 88 3635 Morus bassanus                       Northern Gannet
+ 88 3636 Morus capensis                       Cape Gannet
+ 88 3637 Morus serrator                       Australian Gannet
+ 88 3638 Sula nebouxii                        Blue-footed Booby
+ 88 3639 Sula variegata                       Peruvian Booby
+ 88 3640 Sula dactylatra                      Masked Booby
+ 88 3641 Sula sula                            Red-footed Booby
+ 88 3642 Sula leucogaster                     Brown Booby
+ 89 3643 Anhinga anhinga                      Anhinga
+ 89 3644 Anhinga rufa                         African Darter
+ 89 3645 Anhinga melanogaster                 Oriental Darter
+ 89 3646 Anhinga novaehollandiae              Australian Darter
+ 90 3647 Phalacrocorax africanus              Long-tailed Cormorant
+ 90 3648 Phalacrocorax coronatus              Crowned Cormorant
+ 90 3649 Phalacrocorax pygmeus                Pygmy Cormorant
+ 90 3650 Phalacrocorax niger                  Little Cormorant
+ 90 3651 Phalacrocorax melanoleucos           Little Pied Cormorant
+ 90 3652 Phalacrocorax perspicillatus         Pallas's Cormorant
+ 90 3653 Phalacrocorax penicillatus           Brandt's Cormorant
+ 90 3654 Phalacrocorax harrisi                Flightless Cormorant
+ 90 3655 Phalacrocorax neglectus              Bank Cormorant
+ 90 3656 Phalacrocorax fuscescens             Black-faced Cormorant
+ 90 3657 Phalacrocorax brasilianus            Neotropic Cormorant
+ 90 3658 Phalacrocorax auritus                Double-crested Cormorant
+ 90 3659 Phalacrocorax fuscicollis            Indian Cormorant
+ 90 3660 Phalacrocorax varius                 Pied Cormorant
+ 90 3661 Phalacrocorax sulcirostris           Little Black Cormorant
+ 90 3662 Phalacrocorax carbo                  Great Cormorant
+ 90 3663 Phalacrocorax capillatus             Japanese Cormorant
+ 90 3664 Phalacrocorax nigrogularis           Socotra Cormorant
+ 90 3665 Phalacrocorax capensis               Cape Cormorant
+ 90 3666 Phalacrocorax bougainvillii          Guanay Cormorant
+ 90 3667 Phalacrocorax verrucosus             Kerguelen Shag
+ 90 3668 Phalacrocorax atriceps               Imperial Shag
+ 90 3669 Phalacrocorax bransfieldensis        Antarctic Shag
+ 90 3670 Phalacrocorax georgianus             South Georgia Shag
+ 90 3671 Phalacrocorax campbelli              Campbell Island Shag
+ 90 3672 Phalacrocorax carunculatus           Rough-faced Shag
+ 90 3673 Phalacrocorax chalconotus            Bronzed Shag
+ 90 3674 Phalacrocorax onslowi                Chatham Islands Shag
+ 90 3675 Phalacrocorax colensoi               Auckland Islands Shag
+ 90 3676 Phalacrocorax ranfurlyi              Bounty Islands Shag
+ 90 3677 Phalacrocorax magellanicus           Rock Shag
+ 90 3678 Phalacrocorax urile                  Red-faced Cormorant
+ 90 3679 Phalacrocorax pelagicus              Pelagic Cormorant
+ 90 3680 Phalacrocorax aristotelis            European Shag
+ 90 3681 Phalacrocorax gaimardi               Red-legged Cormorant
+ 90 3682 Phalacrocorax punctatus              Spotted Shag
+ 90 3683 Phalacrocorax featherstoni           Pitt Island Shag
+ 91 3684 Syrigma sibilatrix                   Whistling Heron
+ 91 3685 Egretta rufescens                    Reddish Egret
+ 91 3686 Egretta vinaceigula                  Slaty Egret
+ 91 3687 Egretta ardesiaca                    Black Heron
+ 91 3688 Egretta tricolor                     Tricolored Heron
+ 91 3689 Egretta novaehollandiae              White-faced Heron
+ 91 3690 Egretta caerulea                     Little Blue Heron
+ 91 3691 Egretta garzetta                     Little Egret
+ 91 3692 Egretta gularis                      Western Reef-Egret
+ 91 3693 Egretta dimorpha                     Dimorphic Egret
+ 91 3694 Egretta thula                        Snowy Egret
+ 91 3695 Egretta eulophotes                   Chinese Egret
+ 91 3696 Egretta sacra                        Pacific Reef-Egret
+ 91 3697 Pilherodius pileatus                 Capped Heron
+ 91 3698 Ardea cinerea                        Grey Heron
+ 91 3699 Ardea herodias                       Great Blue Heron
+ 91 3700 Ardea cocoi                          Cocoi Heron
+ 91 3701 Ardea pacifica                       Pacific Heron
+ 91 3702 Ardea melanocephala                  Black-headed Heron
+ 91 3703 Ardea humbloti                       Humblot's Heron
+ 91 3704 Ardea goliath                        Goliath Heron
+ 91 3705 Ardea insignis                       White-bellied Heron
+ 91 3706 Ardea sumatrana                      Great-billed Heron
+ 91 3707 Ardea purpurea                       Purple Heron
+ 91 3708 Ardea picata                         Pied Heron
+ 91 3709 Casmerodius albus                    Great Egret
+ 91 3710 Mesophoyx intermedia                 Intermediate Egret
+ 91 3711 Bubulcus ibis                        Cattle Egret
+ 91 3712 Ardeola ralloides                    Squacco Heron
+ 91 3713 Ardeola grayii                       Indian Pond-Heron
+ 91 3714 Ardeola bacchus                      Chinese Pond-Heron
+ 91 3715 Ardeola speciosa                     Javan Pond-Heron
+ 91 3716 Ardeola idae                         Madagascar Pond-Heron
+ 91 3717 Ardeola rufiventris                  Rufous-bellied Heron
+ 91 3718 Butorides striatus                   Striated Heron
+ 91 3719 Butorides virescens                  Green Heron
+ 91 3720 Butorides sundevalli                 Galapagos Heron
+ 91 3721 Agamia agami                         Agami Heron
+ 91 3722 Nyctanassa violacea                  Yellow-crowned Night-Heron
+ 91 3723 Nycticorax nycticorax                Black-crowned Night-Heron
+ 91 3724 Nycticorax caledonicus               Rufous Night-Heron
+ 91 3725 Gorsachius leuconotus                White-backed Night-Heron
+ 91 3726 Gorsachius magnificus                White-eared Night-Heron
+ 91 3727 Gorsachius goisagi                   Japanese Night-Heron
+ 91 3728 Gorsachius melanolophus              Malayan Night-Heron
+ 91 3729 Cochlearius cochlearia               Boat-billed Heron
+ 91 3730 Tigrisoma mexicanum                  Bare-throated Tiger-Heron
+ 91 3731 Tigrisoma fasciatum                  Fasciated Tiger-Heron
+ 91 3732 Tigrisoma lineatum                   Rufescent Tiger-Heron
+ 91 3733 Zonerodius heliosylus                Forest Bittern
+ 91 3734 Tigriornis leucolophus               White-crested Bittern
+ 91 3735 Zebrilus undulatus                   Zigzag Heron
+ 91 3736 Ixobrychus involucris                Stripe-backed Bittern
+ 91 3737 Ixobrychus minutus                   Little Bittern
+ 91 3738 Ixobrychus sinensis                  Yellow Bittern
+ 91 3739 Ixobrychus novaezelandiae            Black-backed Bittern
+ 91 3740 Ixobrychus exilis                    Least Bittern
+ 91 3741 Ixobrychus eurhythmus                Schrenck's Bittern
+ 91 3742 Ixobrychus cinnamomeus               Cinnamon Bittern
+ 91 3743 Ixobrychus sturmii                   Dwarf Bittern
+ 91 3744 Dupetor flavicollis                  Black Bittern
+ 91 3745 Botaurus lentiginosus                American Bittern
+ 91 3746 Botaurus pinnatus                    Pinnated Bittern
+ 91 3747 Botaurus stellaris                   Great Bittern
+ 91 3748 Botaurus poiciloptilus               Australasian Bittern
+ 92 3749 Scopus umbretta                      Hamerkop
+ 93 3750 Phoenicopterus ruber                 Greater Flamingo
+ 93 3751 Phoenicopterus chilensis             Chilean Flamingo
+ 93 3752 Phoenicopterus minor                 Lesser Flamingo
+ 93 3753 Phoenicopterus andinus               Andean Flamingo
+ 93 3754 Phoenicopterus jamesi                Puna Flamingo
+ 94 3755 Eudocimus albus                      White Ibis
+ 94 3756 Eudocimus ruber                      Scarlet Ibis
+ 94 3757 Phimosus infuscatus                  Whispering Ibis
+ 94 3758 Plegadis falcinellus                 Glossy Ibis
+ 94 3759 Plegadis chihi                       White-faced Ibis
+ 94 3760 Plegadis ridgwayi                    Puna Ibis
+ 94 3761 Cercibis oxycerca                    Sharp-tailed Ibis
+ 94 3762 Theristicus caerulescens             Plumbeous Ibis
+ 94 3763 Theristicus caudatus                 Buff-necked Ibis
+ 94 3764 Theristicus branickii                Andean Ibis
+ 94 3765 Theristicus melanopis                Black-faced Ibis
+ 94 3766 Mesembrinibis cayennensis            Green Ibis
+ 94 3767 Bostrychia hagedash                  Hadada Ibis
+ 94 3768 Bostrychia carunculata               Wattled Ibis
+ 94 3769 Bostrychia olivacea                  Olive Ibis
+ 94 3770 Bostrychia rara                      Spot-breasted Ibis
+ 94 3771 Geronticus eremita                   Waldrapp
+ 94 3772 Geronticus calvus                    Bald Ibis
+ 94 3773 Lophotibis cristata                  White-winged Ibis
+ 94 3774 Threskiornis aethiopicus             Sacred Ibis
+ 94 3775 Threskiornis melanocephalus          Black-headed Ibis
+ 94 3776 Threskiornis molucca                 Australian Ibis
+ 94 3777 Threskiornis spinicollis             Straw-necked Ibis
+ 94 3778 Pseudibis papillosa                  Red-naped Ibis
+ 94 3779 Pseudibis davisoni                   White-shouldered Ibis
+ 94 3780 Pseudibis gigantea                   Giant Ibis
+ 94 3781 Nipponia nippon                      Crested Ibis
+ 94 3782 Platalea leucorodia                  Eurasian Spoonbill
+ 94 3783 Platalea regia                       Royal Spoonbill
+ 94 3784 Platalea alba                        African Spoonbill
+ 94 3785 Platalea minor                       Black-faced Spoonbill
+ 94 3786 Platalea flavipes                    Yellow-billed Spoonbill
+ 94 3787 Ajaia ajaja                          Roseate Spoonbill
+ 95 3788 Balaeniceps rex                      Shoebill
+ 95 3789 Pelecanus onocrotalus                Great White Pelican
+ 95 3790 Pelecanus rufescens                  Pink-backed Pelican
+ 95 3791 Pelecanus crispus                    Dalmatian Pelican
+ 95 3792 Pelecanus philippensis               Spot-billed Pelican
+ 95 3793 Pelecanus conspicillatus             Australian Pelican
+ 95 3794 Pelecanus erythrorhynchos            American White Pelican
+ 95 3795 Pelecanus occidentalis               Brown Pelican
+ 95 3796 Pelecanus thagus                     Peruvian Pelican
+ 96 3797 Coragyps atratus                     Black Vulture
+ 96 3798 Cathartes aura                       Turkey Vulture
+ 96 3799 Cathartes burrovianus                Lesser Yellow-headed Vulture
+ 96 3800 Cathartes melambrotus                Greater Yellow-headed Vulture
+ 96 3801 Gymnogyps californianus              California Condor
+ 96 3802 Vultur gryphus                       Andean Condor
+ 96 3803 Sarcoramphus papa                    King Vulture
+ 96 3804 Mycteria americana                   Wood Stork
+ 96 3805 Mycteria cinerea                     Milky Stork
+ 96 3806 Mycteria ibis                        Yellow-billed Stork
+ 96 3807 Mycteria leucocephala                Painted Stork
+ 96 3808 Anastomus oscitans                   Asian Openbill
+ 96 3809 Anastomus lamelligerus               African Openbill
+ 96 3810 Ciconia nigra                        Black Stork
+ 96 3811 Ciconia abdimii                      Abdim's Stork
+ 96 3812 Ciconia episcopus                    Woolly-necked Stork
+ 96 3813 Ciconia stormi                       Storm's Stork
+ 96 3814 Ciconia maguari                      Maguari Stork
+ 96 3815 Ciconia ciconia                      White Stork
+ 96 3816 Ciconia boyciana                     Oriental Stork
+ 96 3817 Ephippiorhynchus asiaticus           Black-necked Stork
+ 96 3818 Ephippiorhynchus senegalensis        Saddle-billed Stork
+ 96 3819 Jabiru mycteria                      Jabiru
+ 96 3820 Leptoptilos javanicus                Lesser Adjutant
+ 96 3821 Leptoptilos crumeniferus             Marabou Stork
+ 96 3822 Leptoptilos dubius                   Greater Adjutant
+ 97 3823 Fregata magnificens                  Magnificent Frigatebird
+ 97 3824 Fregata aquila                       Ascension Frigatebird
+ 97 3825 Fregata minor                        Great Frigatebird
+ 97 3826 Fregata ariel                        Lesser Frigatebird
+ 97 3827 Fregata andrewsi                     Christmas Island Frigatebird
+ 98 3828 Aptenodytes patagonicus              King Penguin
+ 98 3829 Aptenodytes forsteri                 Emperor Penguin
+ 98 3830 Pygoscelis papua                     Gentoo Penguin
+ 98 3831 Pygoscelis adeliae                   Adelie Penguin
+ 98 3832 Pygoscelis antarctica                Chinstrap Penguin
+ 98 3833 Eudyptes chrysocome                  Rockhopper Penguin
+ 98 3834 Eudyptes pachyrhynchus               Fiordland Penguin
+ 98 3835 Eudyptes robustus                    Snares Penguin
+ 98 3836 Eudyptes sclateri                    Erect-crested Penguin
+ 98 3837 Eudyptes chrysolophus                Macaroni Penguin
+ 98 3838 Eudyptes schlegeli                   Royal Penguin
+ 98 3839 Megadyptes antipodes                 Yellow-eyed Penguin
+ 98 3840 Eudyptula minor                      Little Penguin
+ 98 3841 Spheniscus demersus                  Jackass Penguin
+ 98 3842 Spheniscus humboldti                 Humboldt Penguin
+ 98 3843 Spheniscus magellanicus              Magellanic Penguin
+ 98 3844 Spheniscus mendiculus                Galapagos Penguin
+ 99 3845 Gavia stellata                       Red-throated Loon
+ 99 3846 Gavia arctica                        Arctic Loon
+ 99 3847 Gavia pacifica                       Pacific Loon
+ 99 3848 Gavia immer                          Common Loon
+ 99 3849 Gavia adamsii                        Yellow-billed Loon
+100 3850 Macronectes giganteus                Antarctic Giant-Petrel
+100 3851 Macronectes halli                    Hall's Giant-Petrel
+100 3852 Fulmarus glacialis                   Northern Fulmar
+100 3853 Fulmarus glacialoides                Southern Fulmar
+100 3854 Thalassoica antarctica               Antarctic Petrel
+100 3855 Daption capense                      Cape Petrel
+100 3856 Pagodroma nivea                      Snow Petrel
+100 3857 Pterodroma brevirostris              Kerguelen Petrel
+100 3858 Pterodroma aterrima                  Mascarene Petrel
+100 3859 Pterodroma becki                     Beck's Petrel
+100 3860 Pterodroma rostrata                  Tahiti Petrel
+100 3861 Pterodroma macgillivrayi             Fiji Petrel
+100 3862 Pterodroma axillaris                 Chatham Islands Petrel
+100 3863 Pterodroma nigripennis               Black-winged Petrel
+100 3864 Pterodroma cervicalis                White-necked Petrel
+100 3865 Pterodroma inexpectata               Mottled Petrel
+100 3866 Pterodroma hypoleuca                 Bonin Petrel
+100 3867 Pterodroma leucoptera                Gould's Petrel
+100 3868 Pterodroma cookii                    Cook's Petrel
+100 3869 Pterodroma pycrofti                  Pycroft's Petrel
+100 3870 Pterodroma brevipes                  Collared Petrel
+100 3871 Pterodroma defilippiana              Defilippe's Petrel
+100 3872 Pterodroma longirostris              Stejneger's Petrel
+100 3873 Pterodroma alba                      Phoenix Petrel
+100 3874 Pterodroma arminjoniana              Herald Petrel
+100 3875 Pterodroma sandwichensis             Hawaiian Petrel
+100 3876 Pterodroma phaeopygia                Galapagos Petrel
+100 3877 Pterodroma neglecta                  Kermadec Petrel
+100 3878 Pterodroma externa                   Juan Fernandez Petrel
+100 3879 Pterodroma baraui                    Barau's Petrel
+100 3880 Pterodroma ultima                    Murphy's Petrel
+100 3881 Pterodroma solandri                  Providence Petrel
+100 3882 Pterodroma macroptera                Great-winged Petrel
+100 3883 Pterodroma magentae                  Magenta Petrel
+100 3884 Pterodroma lessonii                  White-headed Petrel
+100 3885 Pterodroma madeira                   Madeira Petrel
+100 3886 Pterodroma feae                      Cape Verde Petrel
+100 3887 Pterodroma mollis                    Soft-plumaged Petrel
+100 3888 Pterodroma incerta                   Atlantic Petrel
+100 3889 Pterodroma cahow                     Bermuda Petrel
+100 3890 Pterodroma hasitata                  Black-capped Petrel
+100 3891 Halobaena caerulea                   Blue Petrel
+100 3892 Pachyptila vittata                   Broad-billed Prion
+100 3893 Pachyptila salvini                   Medium-billed Prion
+100 3894 Pachyptila desolata                  Antarctic Prion
+100 3895 Pachyptila belcheri                  Slender-billed Prion
+100 3896 Pachyptila turtur                    Fairy Prion
+100 3897 Pachyptila crassirostris             Fulmar Prion
+100 3898 Bulweria bulwerii                    Bulwer's Petrel
+100 3899 Bulweria fallax                      Jouanin's Petrel
+100 3900 Procellaria aequinoctialis           White-chinned Petrel
+100 3901 Procellaria parkinsoni               Black Petrel
+100 3902 Procellaria westlandica              Westland Petrel
+100 3903 Procellaria cinerea                  Grey Petrel
+100 3904 Calonectris diomedea                 Cory's Shearwater
+100 3905 Calonectris leucomelas               Streaked Shearwater
+100 3906 Puffinus pacificus                   Wedge-tailed Shearwater
+100 3907 Puffinus bulleri                     Buller's Shearwater
+100 3908 Puffinus carneipes                   Flesh-footed Shearwater
+100 3909 Puffinus creatopus                   Pink-footed Shearwater
+100 3910 Puffinus gravis                      Great Shearwater
+100 3911 Puffinus griseus                     Sooty Shearwater
+100 3912 Puffinus tenuirostris                Short-tailed Shearwater
+100 3913 Puffinus nativitatis                 Christmas Island Shearwater
+100 3914 Puffinus puffinus                    Manx Shearwater
+100 3915 Puffinus yelkouan                    Mediterranean Shearwater
+100 3916 Puffinus auricularis                 Townsend's Shearwater
+100 3917 Puffinus opisthomelas                Black-vented Shearwater
+100 3918 Puffinus gavia                       Fluttering Shearwater
+100 3919 Puffinus huttoni                     Hutton's Shearwater
+100 3920 Puffinus lherminieri                 Audubon's Shearwater
+100 3921 Puffinus assimilis                   Little Shearwater
+100 3922 Puffinus persicus                    Persian Shearwater
+100 3923 Puffinus bannermani                  Bannerman's Shearwater
+100 3924 Puffinus heinrothi                   Heinroth's Shearwater
+100 3925 Pelecanoides garnotii                Peruvian Diving-Petrel
+100 3926 Pelecanoides magellani               Magellanic Diving-Petrel
+100 3927 Pelecanoides georgicus               South Georgia Diving-Petrel
+100 3928 Pelecanoides urinatrix               Common Diving-Petrel
+100 3929 Diomedea exulans                     Wandering Albatross
+100 3930 Diomedea amsterdamensis              Amsterdam Island Albatross
+100 3931 Diomedea epomophora                  Royal Albatross
+100 3932 Diomedea irrorata                    Waved Albatross
+100 3933 Diomedea albatrus                    Short-tailed Albatross
+100 3934 Diomedea nigripes                    Black-footed Albatross
+100 3935 Diomedea immutabilis                 Laysan Albatross
+100 3936 Diomedea melanophris                 Black-browed Albatross
+100 3937 Diomedea cauta                       Shy Albatross
+100 3938 Diomedea chrysostoma                 Grey-headed Albatross
+100 3939 Diomedea chlororhynchos              Yellow-nosed Albatross
+100 3940 Diomedea bulleri                     Buller's Albatross
+100 3941 Phoebetria fusca                     Sooty Albatross
+100 3942 Phoebetria palpebrata                Light-mantled Albatross
+100 3943 Oceanites oceanicus                  Wilson's Storm-Petrel
+100 3944 Oceanites gracilis                   White-vented Storm-Petrel
+100 3945 Garrodia nereis                      Grey-backed Storm-Petrel
+100 3946 Pelagodroma marina                   White-faced Storm-Petrel
+100 3947 Fregetta tropica                     Black-bellied Storm-Petrel
+100 3948 Fregetta grallaria                   White-bellied Storm-Petrel
+100 3949 Nesofregetta fuliginosa              Polynesian Storm-Petrel
+100 3950 Hydrobates pelagicus                 European Storm-Petrel
+100 3951 Oceanodroma microsoma                Least Storm-Petrel
+100 3952 Oceanodroma tethys                   Wedge-rumped Storm-Petrel
+100 3953 Oceanodroma castro                   Band-rumped Storm-Petrel
+100 3954 Oceanodroma leucorhoa                Leach's Storm-Petrel
+100 3955 Oceanodroma monorhis                 Swinhoe's Storm-Petrel
+100 3956 Oceanodroma macrodactyla             Guadalupe Storm-Petrel
+100 3957 Oceanodroma tristrami                Tristram's Storm-Petrel
+100 3958 Oceanodroma markhami                 Markham's Storm-Petrel
+100 3959 Oceanodroma matsudairae              Matsudaira's Storm-Petrel
+100 3960 Oceanodroma melania                  Black Storm-Petrel
+100 3961 Oceanodroma homochroa                Ashy Storm-Petrel
+100 3962 Oceanodroma hornbyi                  Ringed Storm-Petrel
+100 3963 Oceanodroma furcata                  Fork-tailed Storm-Petrel
+101 3964 Acanthisitta chloris                 Rifleman
+101 3965 Xenicus longipes                     Bush Wren
+101 3966 Xenicus gilviventris                 South Island Wren
+101 3967 Xenicus lyalli                       Stephens Island Wren
+102 3968 Pitta phayrei                        Eared Pitta
+102 3969 Pitta nipalensis                     Blue-naped Pitta
+102 3970 Pitta soror                          Blue-rumped Pitta
+102 3971 Pitta oatesi                         Rusty-naped Pitta
+102 3972 Pitta schneideri                     Schneider's Pitta
+102 3973 Pitta caerulea                       Giant Pitta
+102 3974 Pitta cyanea                         Blue Pitta
+102 3975 Pitta guajana                        Banded Pitta
+102 3976 Pitta elliotii                       Bar-bellied Pitta
+102 3977 Pitta gurneyi                        Gurney's Pitta
+102 3978 Pitta baudii                         Blue-headed Pitta
+102 3979 Pitta sordida                        Hooded Pitta
+102 3980 Pitta maxima                         Ivory-breasted Pitta
+102 3981 Pitta superba                        Superb Pitta
+102 3982 Pitta steerii                        Azure-breasted Pitta
+102 3983 Pitta kochi                          Whiskered Pitta
+102 3984 Pitta erythrogaster                  Red-bellied Pitta
+102 3985 Pitta dohertyi                       Sula Pitta
+102 3986 Pitta arcuata                        Blue-banded Pitta
+102 3987 Pitta granatina                      Garnet Pitta
+102 3988 Pitta venusta                        Black-crowned Pitta
+102 3989 Pitta angolensis                     African Pitta
+102 3990 Pitta reichenowi                     Green-breasted Pitta
+102 3991 Pitta brachyura                      Indian Pitta
+102 3992 Pitta nympha                         Fairy Pitta
+102 3993 Pitta moluccensis                    Blue-winged Pitta
+102 3994 Pitta megarhyncha                    Mangrove Pitta
+102 3995 Pitta elegans                        Elegant Pitta
+102 3996 Pitta iris                           Rainbow Pitta
+102 3997 Pitta versicolor                     Noisy Pitta
+102 3998 Pitta anerythra                      Black-faced Pitta
+103 3999 Smithornis capensis                  African Broadbill
+103 4000 Smithornis sharpei                   Grey-headed Broadbill
+103 4001 Smithornis rufolateralis             Rufous-sided Broadbill
+103 4002 Pseudocalyptomena graueri            Grauer's Broadbill
+103 4003 Corydon sumatranus                   Dusky Broadbill
+103 4004 Cymbirhynchus macrorhynchos          Black-and-red Broadbill
+103 4005 Eurylaimus javanicus                 Banded Broadbill
+103 4006 Eurylaimus ochromalus                Black-and-yellow Broadbill
+103 4007 Eurylaimus steerii                   Wattled Broadbill
+103 4008 Serilophus lunatus                   Silver-breasted Broadbill
+103 4009 Psarisomus dalhousiae                Long-tailed Broadbill
+103 4010 Calyptomena viridis                  Green Broadbill
+103 4011 Calyptomena hosii                    Hose's Broadbill
+103 4012 Calyptomena whiteheadi               Whitehead's Broadbill
+104 4013 Philepitta castanea                  Velvet Asity
+104 4014 Philepitta schlegeli                 Schlegel's Asity
+104 4015 Neodrepanis coruscans                Sunbird Asity
+104 4016 Neodrepanis hypoxantha               Yellow-bellied Asity
+105 4017 Sapayoa aenigma                      Broad-billed Sapayoa
+105 4018 Mionectes striaticollis              Streak-necked Flycatcher
+105 4019 Mionectes olivaceus                  Olive-striped Flycatcher
+105 4020 Mionectes oleagineus                 Ochre-bellied Flycatcher
+105 4021 Mionectes macconnelli                MacConnell's Flycatcher
+105 4022 Mionectes rufiventris                Grey-hooded Flycatcher
+105 4023 Leptopogon rufipectus                Rufous-breasted Flycatcher
+105 4024 Leptopogon taczanowskii              Inca Flycatcher
+105 4025 Leptopogon amaurocephalus            Sepia-capped Flycatcher
+105 4026 Leptopogon superciliaris             Slaty-capped Flycatcher
+105 4027 Pseudotriccus pelzelni               Bronze-olive Pygmy-Tyrant
+105 4028 Pseudotriccus simplex                Hazel-fronted Pygmy-Tyrant
+105 4029 Pseudotriccus ruficeps               Rufous-headed Pygmy-Tyrant
+105 4030 Poecilotriccus ruficeps              Rufous-crowned Tody-Tyrant
+105 4031 Poecilotriccus capitalis             Black-and-white Tody-Tyrant
+105 4032 Poecilotriccus albifacies            White-cheeked Tody-Tyrant
+105 4033 Taeniotriccus andrei                 Black-chested Tyrant
+105 4034 Hemitriccus minor                    Snethlage's Tody-Tyrant
+105 4035 Hemitriccus josephinae               Boat-billed Tody-Tyrant
+105 4036 Hemitriccus flammulatus              Flammulated Bamboo-Tyrant
+105 4037 Hemitriccus diops                    Drab-breasted Bamboo-Tyrant
+105 4038 Hemitriccus obsoletus                Brown-breasted Bamboo-Tyrant
+105 4039 Hemitriccus zosterops                White-eyed Tody-Tyrant
+105 4040 Hemitriccus aenigma                  Zimmer's Tody-Tyrant
+105 4041 Hemitriccus orbitatus                Eye-ringed Tody-Tyrant
+105 4042 Hemitriccus iohannis                 Johannes's Tody-Tyrant
+105 4043 Hemitriccus striaticollis            Stripe-necked Tody-Tyrant
+105 4044 Hemitriccus nidipendulus             Hangnest Tody-Tyrant
+105 4045 Hemitriccus spodiops                 Yungas Tody-Tyrant
+105 4046 Hemitriccus margaritaceiventer       Pearly-vented Tody-Tyrant
+105 4047 Hemitriccus inornatus                Pelzeln's Tody-Tyrant
+105 4048 Hemitriccus granadensis              Black-throated Tody-Tyrant
+105 4049 Hemitriccus rufigularis              Buff-throated Tody-Tyrant
+105 4050 Hemitriccus cinnamomeipectus         Cinnamon-breasted Tody-Tyrant
+105 4051 Hemitriccus mirandae                 Buff-breasted Tody-Tyrant
+105 4052 Hemitriccus kaempferi                Kaempfer's Tody-Tyrant
+105 4053 Hemitriccus furcatus                 Fork-tailed Tody-Tyrant
+105 4054 Todirostrum senex                    Buff-cheeked Tody-Flycatcher
+105 4055 Todirostrum russatum                 Ruddy Tody-Flycatcher
+105 4056 Todirostrum plumbeiceps              Ochre-faced Tody-Flycatcher
+105 4057 Todirostrum latirostre               Rusty-fronted Tody-Flycatcher
+105 4058 Todirostrum fumifrons                Smoky-fronted Tody-Flycatcher
+105 4059 Todirostrum sylvia                   Slate-headed Tody-Flycatcher
+105 4060 Todirostrum maculatum                Spotted Tody-Flycatcher
+105 4061 Todirostrum poliocephalum            Yellow-lored Tody-Flycatcher
+105 4062 Todirostrum cinereum                 Common Tody-Flycatcher
+105 4063 Todirostrum viridanum                Maracaibo Tody-Flycatcher
+105 4064 Todirostrum nigriceps                Black-headed Tody-Flycatcher
+105 4065 Todirostrum pictum                   Painted Tody-Flycatcher
+105 4066 Todirostrum chrysocrotaphum          Yellow-browed Tody-Flycatcher
+105 4067 Todirostrum calopterum               Golden-winged Tody-Flycatcher
+105 4068 Todirostrum pulchellum               Black-backed Tody-Flycatcher
+105 4069 Corythopis torquata                  Ringed Antpipit
+105 4070 Corythopis delalandi                 Southern Antpipit
+105 4071 Phyllomyias fasciatus                Planalto Tyrannulet
+105 4072 Phyllomyias zeledoni                 White-fronted Tyrannulet
+105 4073 Phyllomyias burmeisteri              Rough-legged Tyrannulet
+105 4074 Phyllomyias reiseri                  Reiser's Tyrannulet
+105 4075 Phyllomyias virescens                Greenish Tyrannulet
+105 4076 Phyllomyias sclateri                 Sclater's Tyrannulet
+105 4077 Phyllomyias griseocapilla            Grey-capped Tyrannulet
+105 4078 Phyllomyias griseiceps               Sooty-headed Tyrannulet
+105 4079 Phyllomyias plumbeiceps              Plumbeous-crowned Tyrannulet
+105 4080 Phyllomyias nigrocapillus            Black-capped Tyrannulet
+105 4081 Phyllomyias cinereiceps              Ashy-headed Tyrannulet
+105 4082 Phyllomyias uropygialis              Tawny-rumped Tyrannulet
+105 4083 Zimmerius vilissimus                 Paltry Tyrannulet
+105 4084 Zimmerius improbus                   Venezuelan Tyrannulet
+105 4085 Zimmerius bolivianus                 Bolivian Tyrannulet
+105 4086 Zimmerius cinereicapillus            Red-billed Tyrannulet
+105 4087 Zimmerius gracilipes                 Slender-footed Tyrannulet
+105 4088 Zimmerius chrysops                   Golden-faced Tyrannulet
+105 4089 Zimmerius viridiflavus               Peruvian Tyrannulet
+105 4090 Ornithion inerme                     White-lored Tyrannulet
+105 4091 Ornithion semiflavum                 Yellow-bellied Tyrannulet
+105 4092 Ornithion brunneicapillum            Brown-capped Tyrannulet
+105 4093 Camptostoma imberbe                  Northern Beardless-Tyrannulet
+105 4094 Camptostoma obsoletum                Southern Beardless-Tyrannulet
+105 4095 Phaeomyias murina                    Mouse-colored Tyrannulet
+105 4096 Nesotriccus ridgwayi                 Cocos Flycatcher
+105 4097 Capsiempis flaveola                  Yellow Tyrannulet
+105 4098 Sublegatus arenarum                  Northern Scrub-Flycatcher
+105 4099 Sublegatus obscurior                 Todd's Scrub-Flycatcher
+105 4100 Sublegatus modestus                  Southern Scrub-Flycatcher
+105 4101 Suiriri affinis                      Campo Suiriri
+105 4102 Suiriri suiriri                      Chaco Suiriri
+105 4103 Tyrannulus elatus                    Yellow-crowned Tyrannulet
+105 4104 Myiopagis gaimardii                  Forest Elaenia
+105 4105 Myiopagis caniceps                   Grey Elaenia
+105 4106 Myiopagis subplacens                 Pacific Elaenia
+105 4107 Myiopagis flavivertex                Yellow-crowned Elaenia
+105 4108 Myiopagis cotta                      Jamaican Elaenia
+105 4109 Myiopagis viridicata                 Greenish Elaenia
+105 4110 Pseudelaenia leucospodia             Grey-and-white Tyrannulet
+105 4111 Elaenia martinica                    Caribbean Elaenia
+105 4112 Elaenia flavogaster                  Yellow-bellied Elaenia
+105 4113 Elaenia spectabilis                  Large Elaenia
+105 4114 Elaenia ridleyana                    Noronha Elaenia
+105 4115 Elaenia albiceps                     White-crested Elaenia
+105 4116 Elaenia parvirostris                 Small-billed Elaenia
+105 4117 Elaenia strepera                     Slaty Elaenia
+105 4118 Elaenia mesoleuca                    Olivaceous Elaenia
+105 4119 Elaenia gigas                        Mottle-backed Elaenia
+105 4120 Elaenia pelzelni                     Brownish Elaenia
+105 4121 Elaenia cristata                     Plain-crested Elaenia
+105 4122 Elaenia ruficeps                     Rufous-crowned Elaenia
+105 4123 Elaenia chiriquensis                 Lesser Elaenia
+105 4124 Elaenia frantzii                     Mountain Elaenia
+105 4125 Elaenia obscura                      Highland Elaenia
+105 4126 Elaenia dayi                         Great Elaenia
+105 4127 Elaenia pallatangae                  Sierran Elaenia
+105 4128 Elaenia fallax                       Greater Antillean Elaenia
+105 4129 Mecocerculus leucophrys              White-throated Tyrannulet
+105 4130 Mecocerculus poecilocercus           White-tailed Tyrannulet
+105 4131 Mecocerculus hellmayri               Buff-banded Tyrannulet
+105 4132 Mecocerculus calopterus              Rufous-winged Tyrannulet
+105 4133 Mecocerculus minor                   Sulphur-bellied Tyrannulet
+105 4134 Mecocerculus stictopterus            White-banded Tyrannulet
+105 4135 Serpophaga cinerea                   Torrent Tyrannulet
+105 4136 Serpophaga nigricans                 Sooty Tyrannulet
+105 4137 Serpophaga hypoleuca                 River Tyrannulet
+105 4138 Serpophaga subcristata               White-crested Tyrannulet
+105 4139 Serpophaga munda                     White-bellied Tyrannulet
+105 4140 Inezia tenuirostris                  Slender-billed Tyrannulet
+105 4141 Inezia inornata                      Plain Tyrannulet
+105 4142 Inezia subflava                      Pale-tipped Tyrannulet
+105 4143 Stigmatura napensis                  Lesser Wagtail-Tyrant
+105 4144 Stigmatura budytoides                Greater Wagtail-Tyrant
+105 4145 Uromyias agilis                      Agile Tit-Tyrant
+105 4146 Uromyias agraphia                    Unstreaked Tit-Tyrant
+105 4147 Anairetes alpinus                    Ash-breasted Tit-Tyrant
+105 4148 Anairetes nigrocristatus             Maranon Tit-Tyrant
+105 4149 Anairetes reguloides                 Pied-crested Tit-Tyrant
+105 4150 Anairetes flavirostris               Yellow-billed Tit-Tyrant
+105 4151 Anairetes fernandezianus             Juan Fernandez Tit-Tyrant
+105 4152 Anairetes parulus                    Tufted Tit-Tyrant
+105 4153 Tachuris rubrigastra                 Many-colored Rush-Tyrant
+105 4154 Culicivora caudacuta                 Sharp-tailed Grass-Tyrant
+105 4155 Polystictus pectoralis               Bearded Tachuri
+105 4156 Polystictus superciliaris            Grey-backed Tachuri
+105 4157 Pseudocolopteryx sclateri            Crested Doradito
+105 4158 Pseudocolopteryx acutipennis         Subtropical Doradito
+105 4159 Pseudocolopteryx dinellianus         Dinelli's Doradito
+105 4160 Pseudocolopteryx flaviventris        Warbling Doradito
+105 4161 Euscarthmus meloryphus               Tawny-crowned Pygmy-Tyrant
+105 4162 Euscarthmus rufomarginatus           Rufous-sided Pygmy-Tyrant
+105 4163 Phylloscartes ophthalmicus           Marble-faced Bristle-Tyrant
+105 4164 Phylloscartes venezuelanus           Venezuelan Bristle-Tyrant
+105 4165 Phylloscartes lanyoni                Antioquia Bristle-Tyrant
+105 4166 Phylloscartes orbitalis              Spectacled Bristle-Tyrant
+105 4167 Phylloscartes poecilotis             Variegated Bristle-Tyrant
+105 4168 Phylloscartes eximius                Southern Bristle-Tyrant
+105 4169 Phylloscartes nigrifrons             Black-fronted Tyrannulet
+105 4170 Phylloscartes chapmani               Chapman's Tyrannulet
+105 4171 Phylloscartes gualaquizae            Ecuadorian Tyrannulet
+105 4172 Phylloscartes flaviventris           Rufous-lored Tyrannulet
+105 4173 Phylloscartes roquettei              Minas Gerais Tyrannulet
+105 4174 Phylloscartes paulistus              Sao Paulo Tyrannulet
+105 4175 Phylloscartes oustaleti              Oustalet's Tyrannulet
+105 4176 Phylloscartes difficilis             Serra do Mar Tyrannulet
+105 4177 Phylloscartes ceciliae               Alagoas Tyrannulet
+105 4178 Phylloscartes ventralis              Mottle-cheeked Tyrannulet
+105 4179 Phylloscartes flavovirens            Yellow-green Tyrannulet
+105 4180 Phylloscartes virescens              Olive-green Tyrannulet
+105 4181 Phylloscartes superciliaris          Rufous-browed Tyrannulet
+105 4182 Phylloscartes sylviolus              Bay-ringed Tyrannulet
+105 4183 Myiornis albiventris                 White-bellied Pygmy-Tyrant
+105 4184 Myiornis auricularis                 Eared Pygmy-Tyrant
+105 4185 Myiornis atricapillus                Black-capped Pygmy-Tyrant
+105 4186 Myiornis ecaudatus                   Short-tailed Pygmy-Tyrant
+105 4187 Lophotriccus pileatus                Scale-crested Pygmy-Tyrant
+105 4188 Lophotriccus vitiosus                Double-banded Pygmy-Tyrant
+105 4189 Lophotriccus eulophotes              Long-crested Pygmy-Tyrant
+105 4190 Lophotriccus galeatus                Helmeted Pygmy-Tyrant
+105 4191 Atalotriccus pilaris                 Pale-eyed Pygmy-Tyrant
+105 4192 Oncostoma cinereigulare              Northern Bentbill
+105 4193 Oncostoma olivaceum                  Southern Bentbill
+105 4194 Cnipodectes subbrunneus              Brownish Flycatcher
+105 4195 Rhynchocyclus brevirostris           Eye-ringed Flatbill
+105 4196 Rhynchocyclus olivaceus              Olivaceous Flatbill
+105 4197 Rhynchocyclus fulvipectus            Fulvous-breasted Flatbill
+105 4198 Tolmomyias sulphurescens             Yellow-olive Flycatcher
+105 4199 Tolmomyias assimilis                 Yellow-margined Flycatcher
+105 4200 Tolmomyias poliocephalus             Grey-crowned Flycatcher
+105 4201 Tolmomyias flaviventris              Yellow-breasted Flycatcher
+105 4202 Platyrinchus saturatus               Cinnamon-crested Spadebill
+105 4203 Platyrinchus cancrominus             Stub-tailed Spadebill
+105 4204 Platyrinchus mystaceus               White-throated Spadebill
+105 4205 Platyrinchus coronatus               Golden-crowned Spadebill
+105 4206 Platyrinchus flavigularis            Yellow-throated Spadebill
+105 4207 Platyrinchus platyrhynchos           White-crested Spadebill
+105 4208 Platyrinchus leucoryphus             Russet-winged Spadebill
+105 4209 Onychorhynchus coronatus             Royal Flycatcher
+105 4210 Myiotriccus ornatus                  Ornate Flycatcher
+105 4211 Myiophobus flavicans                 Flavescent Flycatcher
+105 4212 Myiophobus phoenicomitra             Orange-crested Flycatcher
+105 4213 Myiophobus inornatus                 Unadorned Flycatcher
+105 4214 Myiophobus roraimae                  Roraiman Flycatcher
+105 4215 Myiophobus pulcher                   Handsome Flycatcher
+105 4216 Myiophobus lintoni                   Orange-banded Flycatcher
+105 4217 Myiophobus ochraceiventris           Ochraceous-breasted Flycatcher
+105 4218 Myiophobus fasciatus                 Bran-colored Flycatcher
+105 4219 Myiophobus cryptoxanthus             Olive-chested Flycatcher
+105 4220 Myiobius erythrurus                  Ruddy-tailed Flycatcher
+105 4221 Myiobius villosus                    Tawny-breasted Flycatcher
+105 4222 Myiobius barbatus                    Sulphur-rumped Flycatcher
+105 4223 Myiobius atricaudus                  Black-tailed Flycatcher
+105 4224 Pyrrhomyias cinnamomea               Cinnamon Flycatcher
+105 4225 Hirundinea ferruginea                Cliff Flycatcher
+105 4226 Hirundinea bellicosa                 Swallow Flycatcher
+105 4227 Cnemotriccus fuscatus                Fuscous Flycatcher
+105 4228 Lathrotriccus euleri                 Euler's Flycatcher
+105 4229 Lathrotriccus griseipectus           Grey-breasted Flycatcher
+105 4230 Aphanotriccus capitalis              Tawny-chested Flycatcher
+105 4231 Aphanotriccus audax                  Black-billed Flycatcher
+105 4232 Xenotriccus callizonus               Belted Flycatcher
+105 4233 Xenotriccus mexicanus                Pileated Flycatcher
+105 4234 Mitrephanes phaeocercus              Tufted Flycatcher
+105 4235 Mitrephanes olivaceus                Olive Flycatcher
+105 4236 Contopus borealis                    Olive-sided Flycatcher
+105 4237 Contopus pertinax                    Greater Pewee
+105 4238 Contopus lugubris                    Dark Pewee
+105 4239 Contopus fumigatus                   Smoke-colored Pewee
+105 4240 Contopus ochraceus                   Ochraceous Pewee
+105 4241 Contopus sordidulus                  Western Wood-Pewee
+105 4242 Contopus virens                      Eastern Wood-Pewee
+105 4243 Contopus cinereus                    Tropical Pewee
+105 4244 Contopus nigrescens                  Blackish Pewee
+105 4245 Contopus albogularis                 White-throated Pewee
+105 4246 Contopus caribaeus                   Greater Antillean Pewee
+105 4247 Contopus latirostris                 Lesser Antillean Pewee
+105 4248 Empidonax flaviventris               Yellow-bellied Flycatcher
+105 4249 Empidonax virescens                  Acadian Flycatcher
+105 4250 Empidonax alnorum                    Alder Flycatcher
+105 4251 Empidonax traillii                   Willow Flycatcher
+105 4252 Empidonax albigularis                White-throated Flycatcher
+105 4253 Empidonax minimus                    Least Flycatcher
+105 4254 Empidonax hammondii                  Hammond's Flycatcher
+105 4255 Empidonax wrightii                   Grey Flycatcher
+105 4256 Empidonax oberholseri                Dusky Flycatcher
+105 4257 Empidonax affinis                    Pine Flycatcher
+105 4258 Empidonax difficilis                 Pacific-slope Flycatcher
+105 4259 Empidonax occidentalis               Cordilleran Flycatcher
+105 4260 Empidonax flavescens                 Yellowish Flycatcher
+105 4261 Empidonax fulvifrons                 Buff-breasted Flycatcher
+105 4262 Empidonax atriceps                   Black-capped Flycatcher
+105 4263 Sayornis phoebe                      Eastern Phoebe
+105 4264 Sayornis saya                        Say's Phoebe
+105 4265 Sayornis nigricans                   Black Phoebe
+105 4266 Pyrocephalus rubinus                 Vermilion Flycatcher
+105 4267 Silvicultrix frontalis               Crowned Chat-Tyrant
+105 4268 Silvicultrix jelskii                 Jelski's Chat-Tyrant
+105 4269 Silvicultrix diadema                 Yellow-bellied Chat-Tyrant
+105 4270 Silvicultrix pulchella               Golden-browed Chat-Tyrant
+105 4271 Ochthoeca cinnamomeiventris          Slaty-backed Chat-Tyrant
+105 4272 Ochthoeca rufipectoralis             Rufous-breasted Chat-Tyrant
+105 4273 Ochthoeca fumicolor                  Brown-backed Chat-Tyrant
+105 4274 Ochthoeca oenanthoides               D'Orbigny's Chat-Tyrant
+105 4275 Ochthoeca leucophrys                 White-browed Chat-Tyrant
+105 4276 Ochthoeca piurae                     Piura Chat-Tyrant
+105 4277 Ochthoeca salvini                    Tumbes Tyrant
+105 4278 Colorhamphus parvirostris            Patagonian Tyrant
+105 4279 Ochthornis littoralis                Drab Water-Tyrant
+105 4280 Cnemarchus erythropygius             Red-rumped Bush-Tyrant
+105 4281 Myiotheretes striaticollis           Streak-throated Bush-Tyrant
+105 4282 Myiotheretes pernix                  Santa Marta Bush-Tyrant
+105 4283 Myiotheretes fumigatus               Smoky Bush-Tyrant
+105 4284 Myiotheretes fuscorufus              Rufous-bellied Bush-Tyrant
+105 4285 Xolmis pyrope                        Fire-eyed Diucon
+105 4286 Xolmis cinerea                       Grey Monjita
+105 4287 Xolmis coronata                      Black-crowned Monjita
+105 4288 Xolmis velata                        White-rumped Monjita
+105 4289 Xolmis irupero                       White Monjita
+105 4290 Xolmis rubetra                       Rusty-backed Monjita
+105 4291 Xolmis salinarum                     Salinas Monjita
+105 4292 Heteroxolmis dominicana              Black-and-white Monjita
+105 4293 Neoxolmis rufiventris                Chocolate-vented Tyrant
+105 4294 Agriornis montana                    Black-billed Shrike-Tyrant
+105 4295 Agriornis andicola                   White-tailed Shrike-Tyrant
+105 4296 Agriornis livida                     Great Shrike-Tyrant
+105 4297 Agriornis microptera                 Grey-bellied Shrike-Tyrant
+105 4298 Agriornis murina                     Lesser Shrike-Tyrant
+105 4299 Polioxolmis rufipennis               Rufous-webbed Bush-Tyrant
+105 4300 Muscisaxicola maculirostris          Spot-billed Ground-Tyrant
+105 4301 Muscisaxicola fluviatilis            Little Ground-Tyrant
+105 4302 Muscisaxicola macloviana             Dark-faced Ground-Tyrant
+105 4303 Muscisaxicola capistrata             Cinnamon-bellied Ground-Tyrant
+105 4304 Muscisaxicola rufivertex             Rufous-naped Ground-Tyrant
+105 4305 Muscisaxicola juninensis             Puna Ground-Tyrant
+105 4306 Muscisaxicola albilora               White-browed Ground-Tyrant
+105 4307 Muscisaxicola alpina                 Plain-capped Ground-Tyrant
+105 4308 Muscisaxicola cinerea                Cinereous Ground-Tyrant
+105 4309 Muscisaxicola albifrons              White-fronted Ground-Tyrant
+105 4310 Muscisaxicola flavinucha             Ochre-naped Ground-Tyrant
+105 4311 Muscisaxicola frontalis              Black-fronted Ground-Tyrant
+105 4312 Muscigralla brevicauda               Short-tailed Field-Tyrant
+105 4313 Lessonia oreas                       Andean Negrito
+105 4314 Lessonia rufa                        Patagonian Negrito
+105 4315 Knipolegus striaticeps               Cinereous Tyrant
+105 4316 Knipolegus hudsoni                   Hudson's Black-Tyrant
+105 4317 Knipolegus poecilocercus             Amazonian Black-Tyrant
+105 4318 Knipolegus signatus                  Andean Tyrant
+105 4319 Knipolegus cyanirostris              Blue-billed Black-Tyrant
+105 4320 Knipolegus poecilurus                Rufous-tailed Tyrant
+105 4321 Knipolegus orenocensis               Riverside Tyrant
+105 4322 Knipolegus aterrimus                 White-winged Black-Tyrant
+105 4323 Knipolegus nigerrimus                Velvety Black-Tyrant
+105 4324 Knipolegus lophotes                  Crested Black-Tyrant
+105 4325 Hymenops perspicillatus              Spectacled Tyrant
+105 4326 Fluvicola pica                       Pied Water-Tyrant
+105 4327 Fluvicola albiventer                 Black-backed Water-Tyrant
+105 4328 Fluvicola nengeta                    Masked Water-Tyrant
+105 4329 Arundinicola leucocephala            White-headed Marsh-Tyrant
+105 4330 Alectrurus tricolor                  Cock-tailed Tyrant
+105 4331 Alectrurus risora                    Strange-tailed Tyrant
+105 4332 Gubernetes yetapa                    Streamer-tailed Tyrant
+105 4333 Satrapa icterophrys                  Yellow-browed Tyrant
+105 4334 Colonia colonus                      Long-tailed Tyrant
+105 4335 Machetornis rixosus                  Cattle Tyrant
+105 4336 Muscipipra vetula                    Shear-tailed Grey Tyrant
+105 4337 Attila phoenicurus                   Rufous-tailed Attila
+105 4338 Attila cinnamomeus                   Cinnamon Attila
+105 4339 Attila torridus                      Ochraceous Attila
+105 4340 Attila citriniventris                Citron-bellied Attila
+105 4341 Attila bolivianus                    Dull-capped Attila
+105 4342 Attila rufus                         Grey-hooded Attila
+105 4343 Attila spadiceus                     Bright-rumped Attila
+105 4344 Casiornis rufa                       Rufous Casiornis
+105 4345 Casiornis fusca                      Ash-throated Casiornis
+105 4346 Rhytipterna holerythra               Rufous Mourner
+105 4347 Rhytipterna simplex                  Greyish Mourner
+105 4348 Rhytipterna immunda                  Pale-bellied Mourner
+105 4349 Laniocera rufescens                  Speckled Mourner
+105 4350 Laniocera hypopyrra                  Cinereous Mourner
+105 4351 Sirystes sibilator                   Sirystes
+105 4352 Myiarchus semirufus                  Rufous Flycatcher
+105 4353 Myiarchus yucatanensis               Yucatan Flycatcher
+105 4354 Myiarchus tuberculifer               Dusky-capped Flycatcher
+105 4355 Myiarchus barbirostris               Sad Flycatcher
+105 4356 Myiarchus swainsoni                  Swainson's Flycatcher
+105 4357 Myiarchus venezuelensis              Venezuelan Flycatcher
+105 4358 Myiarchus panamensis                 Panama Flycatcher
+105 4359 Myiarchus ferox                      Short-crested Flycatcher
+105 4360 Myiarchus cephalotes                 Pale-edged Flycatcher
+105 4361 Myiarchus phaeocephalus              Sooty-crowned Flycatcher
+105 4362 Myiarchus apicalis                   Apical Flycatcher
+105 4363 Myiarchus cinerascens                Ash-throated Flycatcher
+105 4364 Myiarchus nuttingi                   Nutting's Flycatcher
+105 4365 Myiarchus crinitus                   Great Crested Flycatcher
+105 4366 Myiarchus tyrannulus                 Brown-crested Flycatcher
+105 4367 Myiarchus nugator                    Grenada Flycatcher
+105 4368 Myiarchus magnirostris               Large-billed Flycatcher
+105 4369 Myiarchus validus                    Rufous-tailed Flycatcher
+105 4370 Myiarchus sagrae                     La Sagra's Flycatcher
+105 4371 Myiarchus stolidus                   Stolid Flycatcher
+105 4372 Myiarchus antillarum                 Puerto Rican Flycatcher
+105 4373 Myiarchus oberi                      Lesser Antillean Flycatcher
+105 4374 Deltarhynchus flammulatus            Flammulated Flycatcher
+105 4375 Ramphotrigon megacephala             Large-headed Flatbill
+105 4376 Ramphotrigon fuscicauda              Dusky-tailed Flatbill
+105 4377 Ramphotrigon ruficauda               Rufous-tailed Flatbill
+105 4378 Tyrannus niveigularis                Snowy-throated Kingbird
+105 4379 Tyrannus albogularis                 White-throated Kingbird
+105 4380 Tyrannus melancholicus               Tropical Kingbird
+105 4381 Tyrannus couchii                     Couch's Kingbird
+105 4382 Tyrannus vociferans                  Cassin's Kingbird
+105 4383 Tyrannus crassirostris               Thick-billed Kingbird
+105 4384 Tyrannus verticalis                  Western Kingbird
+105 4385 Tyrannus forficatus                  Scissor-tailed Flycatcher
+105 4386 Tyrannus savana                      Fork-tailed Flycatcher
+105 4387 Tyrannus tyrannus                    Eastern Kingbird
+105 4388 Tyrannus dominicensis                Grey Kingbird
+105 4389 Tyrannus caudifasciatus              Loggerhead Kingbird
+105 4390 Tyrannus cubensis                    Giant Kingbird
+105 4391 Empidonomus varius                   Variegated Flycatcher
+105 4392 Griseotyrannus aurantioatrocristatus Crowned Slaty Flycatcher
+105 4393 Tyrannopsis sulphurea                Sulphury Flycatcher
+105 4394 Megarynchus pitangua                 Boat-billed Flycatcher
+105 4395 Conopias albovittata                 White-ringed Flycatcher
+105 4396 Conopias parva                       Yellow-throated Flycatcher
+105 4397 Conopias trivirgata                  Three-striped Flycatcher
+105 4398 Conopias cinchoneti                  Lemon-browed Flycatcher
+105 4399 Myiodynastes hemichrysus             Golden-bellied Flycatcher
+105 4400 Myiodynastes chrysocephalus          Golden-crowned Flycatcher
+105 4401 Myiodynastes bairdii                 Baird's Flycatcher
+105 4402 Myiodynastes maculatus               Streaked Flycatcher
+105 4403 Myiodynastes luteiventris            Sulphur-bellied Flycatcher
+105 4404 Myiozetetes cayanensis               Rusty-margined Flycatcher
+105 4405 Myiozetetes similis                  Social Flycatcher
+105 4406 Myiozetetes granadensis              Grey-capped Flycatcher
+105 4407 Myiozetetes luteiventris             Dusky-chested Flycatcher
+105 4408 Legatus leucophaius                  Piratic Flycatcher
+105 4409 Philohydor lictor                    Lesser Kiskadee
+105 4410 Pitangus sulphuratus                 Great Kiskadee
+105 4411 Phelpsia inornata                    White-bearded Flycatcher
+105 4412 Schiffornis major                    Greater Schiffornis
+105 4413 Schiffornis turdinus                 Thrush-like Schiffornis
+105 4414 Schiffornis virescens                Greenish Schiffornis
+105 4415 Xenopsaris albinucha                 White-naped Xenopsaris
+105 4416 Pachyramphus viridis                 Green-backed Becard
+105 4417 Pachyramphus versicolor              Barred Becard
+105 4418 Pachyramphus cinnamomeus             Cinnamon Becard
+105 4419 Pachyramphus castaneus               Chestnut-crowned Becard
+105 4420 Pachyramphus polychopterus           White-winged Becard
+105 4421 Pachyramphus major                   Grey-collared Becard
+105 4422 Pachyramphus albogriseus             Black-and-white Becard
+105 4423 Pachyramphus marginatus              Black-capped Becard
+105 4424 Pachyramphus surinamus               Glossy-backed Becard
+105 4425 Pachyramphus rufus                   Cinereous Becard
+105 4426 Pachyramphus spodiurus               Slaty Becard
+105 4427 Pachyramphus aglaiae                 Rose-throated Becard
+105 4428 Pachyramphus homochrous              One-colored Becard
+105 4429 Pachyramphus minor                   Pink-throated Becard
+105 4430 Pachyramphus niger                   Jamaican Becard
+105 4431 Pachyramphus validus                 Crested Becard
+105 4432 Tityra cayana                        Black-tailed Tityra
+105 4433 Tityra semifasciata                  Masked Tityra
+105 4434 Tityra inquisitor                    Black-crowned Tityra
+105 4435 Phoenicircus nigricollis             Black-necked Red-Cotinga
+105 4436 Phoenicircus carnifex                Guianan Red-Cotinga
+105 4437 Laniisoma elegans                    Shrike-like Cotinga
+105 4438 Phibalura flavirostris               Swallow-tailed Cotinga
+105 4439 Tijuca atra                          Black-and-gold Cotinga
+105 4440 Tijuca condita                       Grey-winged Cotinga
+105 4441 Carpornis cucullatus                 Hooded Berryeater
+105 4442 Carpornis melanocephalus             Black-headed Berryeater
+105 4443 Doliornis sclateri                   Bay-vented Cotinga
+105 4444 Ampelion rubrocristata               Red-crested Cotinga
+105 4445 Ampelion rufaxilla                   Chestnut-crested Cotinga
+105 4446 Phytotoma raimondii                  Peruvian Plantcutter
+105 4447 Phytotoma rutila                     White-tipped Plantcutter
+105 4448 Phytotoma rara                       Rufous-tailed Plantcutter
+105 4449 Zaratornis stresemanni               White-cheeked Cotinga
+105 4450 Pipreola riefferii                   Green-and-black Fruiteater
+105 4451 Pipreola intermedia                  Band-tailed Fruiteater
+105 4452 Pipreola arcuata                     Barred Fruiteater
+105 4453 Pipreola aureopectus                 Golden-breasted Fruiteater
+105 4454 Pipreola jucunda                     Orange-breasted Fruiteater
+105 4455 Pipreola lubomirskii                 Black-chested Fruiteater
+105 4456 Pipreola pulchra                     Masked Fruiteater
+105 4457 Pipreola chlorolepidota              Fiery-throated Fruiteater
+105 4458 Pipreola frontalis                   Scarlet-breasted Fruiteater
+105 4459 Pipreola formosa                     Handsome Fruiteater
+105 4460 Pipreola whitelyi                    Red-banded Fruiteater
+105 4461 Ampelioides tschudii                 Scaled Fruiteater
+105 4462 Iodopleura pipra                     Buff-throated Purpletuft
+105 4463 Iodopleura isabellae                 White-browed Purpletuft
+105 4464 Iodopleura fusca                     Dusky Purpletuft
+105 4465 Calyptura cristata                   Kinglet Calyptura
+105 4466 Lipaugus subalaris                   Grey-tailed Piha
+105 4467 Lipaugus cryptolophus                Olivaceous Piha
+105 4468 Lipaugus fuscocinereus               Dusky Piha
+105 4469 Lipaugus uropygialis                 Scimitar-winged Piha
+105 4470 Lipaugus vociferans                  Screaming Piha
+105 4471 Lipaugus unirufus                    Rufous Piha
+105 4472 Lipaugus lanioides                   Cinnamon-vented Piha
+105 4473 Lipaugus streptophorus               Rose-collared Piha
+105 4474 Porphyrolaema porphyrolaema          Purple-throated Cotinga
+105 4475 Cotinga amabilis                     Lovely Cotinga
+105 4476 Cotinga ridgwayi                     Turquoise Cotinga
+105 4477 Cotinga nattererii                   Blue Cotinga
+105 4478 Cotinga maynana                      Plum-throated Cotinga
+105 4479 Cotinga cotinga                      Purple-breasted Cotinga
+105 4480 Cotinga maculata                     Banded Cotinga
+105 4481 Cotinga cayana                       Spangled Cotinga
+105 4482 Xipholena punicea                    Pompadour Cotinga
+105 4483 Xipholena lamellipennis              White-tailed Cotinga
+105 4484 Xipholena atropurpurea               White-winged Cotinga
+105 4485 Carpodectes nitidus                  Snowy Cotinga
+105 4486 Carpodectes antoniae                 Yellow-billed Cotinga
+105 4487 Carpodectes hopkei                   Black-tipped Cotinga
+105 4488 Conioptilon mcilhennyi               Black-faced Cotinga
+105 4489 Gymnoderus foetidus                  Bare-necked Fruitcrow
+105 4490 Haematoderus militaris               Crimson Fruitcrow
+105 4491 Querula purpurata                    Purple-throated Fruitcrow
+105 4492 Pyroderus scutatus                   Red-ruffed Fruitcrow
+105 4493 Cephalopterus glabricollis           Bare-necked Umbrellabird
+105 4494 Cephalopterus penduliger             Long-wattled Umbrellabird
+105 4495 Cephalopterus ornatus                Amazonian Umbrellabird
+105 4496 Perissocephalus tricolor             Capuchinbird
+105 4497 Procnias tricarunculata              Three-wattled Bellbird
+105 4498 Procnias alba                        White Bellbird
+105 4499 Procnias averano                     Bearded Bellbird
+105 4500 Procnias nudicollis                  Bare-throated Bellbird
+105 4501 Rupicola rupicola                    Guianan Cock-of-the-rock
+105 4502 Rupicola peruviana                   Andean Cock-of-the-rock
+105 4503 Oxyruncus cristatus                  Sharpbill
+105 4504 Pipra aureola                        Crimson-hooded Manakin
+105 4505 Pipra fasciicauda                    Band-tailed Manakin
+105 4506 Pipra filicauda                      Wire-tailed Manakin
+105 4507 Pipra mentalis                       Red-capped Manakin
+105 4508 Pipra erythrocephala                 Golden-headed Manakin
+105 4509 Pipra rubrocapilla                   Red-headed Manakin
+105 4510 Pipra chloromeros                    Round-tailed Manakin
+105 4511 Pipra cornuta                        Scarlet-horned Manakin
+105 4512 Pipra pipra                          White-crowned Manakin
+105 4513 Pipra coronata                       Blue-crowned Manakin
+105 4514 Pipra suavissima                     Tepui Manakin
+105 4515 Pipra serena                         White-fronted Manakin
+105 4516 Pipra iris                           Opal-crowned Manakin
+105 4517 Pipra vilasboasi                     Golden-crowned Manakin
+105 4518 Pipra nattereri                      Snow-capped Manakin
+105 4519 Pipra isidorei                       Blue-rumped Manakin
+105 4520 Pipra coeruleocapilla                Cerulean-capped Manakin
+105 4521 Antilophia galeata                   Helmeted Manakin
+105 4522 Chiroxiphia linearis                 Long-tailed Manakin
+105 4523 Chiroxiphia lanceolata               Lance-tailed Manakin
+105 4524 Chiroxiphia pareola                  Blue-backed Manakin
+105 4525 Chiroxiphia boliviana                Yungas Manakin
+105 4526 Chiroxiphia caudata                  Swallow-tailed Manakin
+105 4527 Masius chrysopterus                  Golden-winged Manakin
+105 4528 Ilicura militaris                    Pin-tailed Manakin
+105 4529 Corapipo gutturalis                  White-throated Manakin
+105 4530 Corapipo altera                      White-ruffed Manakin
+105 4531 Corapipo leucorrhoa                  White-bibbed Manakin
+105 4532 Manacus candei                       White-collared Manakin
+105 4533 Manacus aurantiacus                  Orange-collared Manakin
+105 4534 Manacus vitellinus                   Golden-collared Manakin
+105 4535 Manacus manacus                      White-bearded Manakin
+105 4536 Machaeropterus pyrocephalus          Fiery-capped Manakin
+105 4537 Machaeropterus regulus               Striped Manakin
+105 4538 Machaeropterus deliciosus            Club-winged Manakin
+105 4539 Xenopipo atronitens                  Black Manakin
+105 4540 Chloropipo unicolor                  Jet Manakin
+105 4541 Chloropipo uniformis                 Olive Manakin
+105 4542 Chloropipo holochlora                Green Manakin
+105 4543 Chloropipo flavicapilla              Yellow-headed Manakin
+105 4544 Neopipo cinnamomea                   Cinnamon Tyrant-Manakin
+105 4545 Heterocercus flavivertex             Yellow-crested Manakin
+105 4546 Heterocercus aurantiivertex          Orange-crested Manakin
+105 4547 Heterocercus linteatus               Flame-crested Manakin
+105 4548 Neopelma chrysocephalum              Saffron-crested Tyrant-Manakin
+105 4549 Neopelma sulphureiventer             Sulphur-bellied Tyrant-Manakin
+105 4550 Neopelma pallescens                  Pale-bellied Tyrant-Manakin
+105 4551 Neopelma aurifrons                   Wied's Tyrant-Manakin
+105 4552 Tyranneutes stolzmanni               Dwarf Tyrant-Manakin
+105 4553 Tyranneutes virescens                Tiny Tyrant-Manakin
+105 4554 Piprites pileatus                    Black-capped Piprites
+105 4555 Piprites griseiceps                  Grey-headed Piprites
+105 4556 Piprites chloris                     Wing-barred Piprites
+106 4557 Cymbilaimus lineatus                 Fasciated Antshrike
+106 4558 Cymbilaimus sanctaemariae            Bamboo Antshrike
+106 4559 Hypoedaleus guttatus                 Spot-backed Antshrike
+106 4560 Batara cinerea                       Giant Antshrike
+106 4561 Mackenziaena severa                  Tufted Antshrike
+106 4562 Mackenziaena leachii                 Large-tailed Antshrike
+106 4563 Frederickena viridis                 Black-throated Antshrike
+106 4564 Frederickena unduligera              Undulated Antshrike
+106 4565 Taraba major                         Great Antshrike
+106 4566 Sakesphorus canadensis               Black-crested Antshrike
+106 4567 Sakesphorus cristatus                Silvery-cheeked Antshrike
+106 4568 Sakesphorus bernardi                 Collared Antshrike
+106 4569 Sakesphorus melanonotus              Black-backed Antshrike
+106 4570 Sakesphorus melanothorax             Band-tailed Antshrike
+106 4571 Sakesphorus luctuosus                Glossy Antshrike
+106 4572 Biatas nigropectus                   White-bearded Antshrike
+106 4573 Thamnophilus doliatus                Barred Antshrike
+106 4574 Thamnophilus multistriatus           Bar-crested Antshrike
+106 4575 Thamnophilus palliatus               Lined Antshrike
+106 4576 Thamnophilus bridgesi                Black-hooded Antshrike
+106 4577 Thamnophilus nigriceps               Black Antshrike
+106 4578 Thamnophilus praecox                 Cocha Antshrike
+106 4579 Thamnophilus nigrocinereus           Blackish-grey Antshrike
+106 4580 Thamnophilus cryptoleucus            Castelnau's Antshrike
+106 4581 Thamnophilus aethiops                White-shouldered Antshrike
+106 4582 Thamnophilus unicolor                Uniform Antshrike
+106 4583 Thamnophilus schistaceus             Plain-winged Antshrike
+106 4584 Thamnophilus murinus                 Mouse-colored Antshrike
+106 4585 Thamnophilus aroyae                  Upland Antshrike
+106 4586 Thamnophilus punctatus               Slaty Antshrike
+106 4587 Thamnophilus insignis                Streak-backed Antshrike
+106 4588 Thamnophilus amazonicus              Amazonian Antshrike
+106 4589 Thamnophilus caerulescens            Variable Antshrike
+106 4590 Thamnophilus torquatus               Rufous-winged Antshrike
+106 4591 Thamnophilus ruficapillus            Rufous-capped Antshrike
+106 4592 Pygiptila stellaris                  Spot-winged Antshrike
+106 4593 Megastictus margaritatus             Pearly Antshrike
+106 4594 Neoctantes niger                     Black Bushbird
+106 4595 Clytoctantes alixii                  Recurve-billed Bushbird
+106 4596 Clytoctantes atrogularis             Rondonia Bushbird
+106 4597 Xenornis setifrons                   Speckled Antshrike
+106 4598 Thamnistes anabatinus                Russet Antshrike
+106 4599 Dysithamnus stictothorax             Spot-breasted Antvireo
+106 4600 Dysithamnus mentalis                 Plain Antvireo
+106 4601 Dysithamnus striaticeps              Streak-crowned Antvireo
+106 4602 Dysithamnus puncticeps               Spot-crowned Antvireo
+106 4603 Dysithamnus xanthopterus             Rufous-backed Antvireo
+106 4604 Dysithamnus leucostictus             White-spotted Antvireo
+106 4605 Dysithamnus plumbeus                 Plumbeous Antvireo
+106 4606 Dysithamnus occidentalis             Bicolored Antvireo
+106 4607 Thamnomanes ardesiacus               Saturnine Antshrike
+106 4608 Thamnomanes caesius                  Cinereous Antshrike
+106 4609 Thamnomanes schistogynus             Bluish-slate Antshrike
+106 4610 Myrmotherula brachyura               Pygmy Antwren
+106 4611 Myrmotherula obscura                 Short-billed Antwren
+106 4612 Myrmotherula sclateri                Sclater's Antwren
+106 4613 Myrmotherula klagesi                 Klages's Antwren
+106 4614 Myrmotherula ambigua                 Yellow-throated Antwren
+106 4615 Myrmotherula surinamensis            Streaked Antwren
+106 4616 Myrmotherula cherriei                Cherrie's Antwren
+106 4617 Myrmotherula longicauda              Stripe-chested Antwren
+106 4618 Myrmotherula hauxwelli               Plain-throated Antwren
+106 4619 Myrmotherula guttata                 Rufous-bellied Antwren
+106 4620 Myrmotherula gularis                 Star-throated Antwren
+106 4621 Myrmotherula gutturalis              Brown-bellied Antwren
+106 4622 Myrmotherula fulviventris            Checker-throated Antwren
+106 4623 Myrmotherula leucophthalma           White-eyed Antwren
+106 4624 Myrmotherula haematonota             Stipple-throated Antwren
+106 4625 Myrmotherula spodionota              Foothill Antwren
+106 4626 Myrmotherula ornata                  Ornate Antwren
+106 4627 Myrmotherula erythrura               Rufous-tailed Antwren
+106 4628 Myrmotherula axillaris               White-flanked Antwren
+106 4629 Myrmotherula fluminensis             Rio de Janeiro Antwren
+106 4630 Myrmotherula schisticolor            Slaty Antwren
+106 4631 Myrmotherula sunensis                Rio Suno Antwren
+106 4632 Myrmotherula longipennis             Long-winged Antwren
+106 4633 Myrmotherula minor                   Salvadori's Antwren
+106 4634 Myrmotherula iheringi                Ihering's Antwren
+106 4635 Myrmotherula grisea                  Ashy Antwren
+106 4636 Myrmotherula unicolor                Unicolored Antwren
+106 4637 Myrmotherula behni                   Plain-winged Antwren
+106 4638 Myrmotherula urosticta               Band-tailed Antwren
+106 4639 Myrmotherula menetriesii             Grey Antwren
+106 4640 Myrmotherula assimilis               Leaden Antwren
+106 4641 Dichrozona cincta                    Banded Antbird
+106 4642 Myrmorchilus strigilatus             Stripe-backed Antbird
+106 4643 Herpsilochmus parkeri                Ash-throated Antwren
+106 4644 Herpsilochmus motacilloides          Creamy-bellied Antwren
+106 4645 Herpsilochmus atricapillus           Black-capped Antwren
+106 4646 Herpsilochmus pileatus               Bahia Antwren
+106 4647 Herpsilochmus sticturus              Spot-tailed Antwren
+106 4648 Herpsilochmus stictocephalus         Todd's Antwren
+106 4649 Herpsilochmus dorsimaculatus         Spot-backed Antwren
+106 4650 Herpsilochmus roraimae               Roraiman Antwren
+106 4651 Herpsilochmus pectoralis             Pectoral Antwren
+106 4652 Herpsilochmus longirostris           Large-billed Antwren
+106 4653 Herpsilochmus axillaris              Yellow-breasted Antwren
+106 4654 Herpsilochmus rufimarginatus         Rufous-winged Antwren
+106 4655 Microrhopias quixensis               Dot-winged Antwren
+106 4656 Formicivora iheringi                 Narrow-billed Antwren
+106 4657 Formicivora grisea                   White-fringed Antwren
+106 4658 Formicivora melanogaster             Black-bellied Antwren
+106 4659 Formicivora serrana                  Serra Antwren
+106 4660 Formicivora erythronotos             Black-hooded Antwren
+106 4661 Formicivora rufa                     Rusty-backed Antwren
+106 4662 Drymophila ferruginea                Ferruginous Antbird
+106 4663 Drymophila rubricollis               Bertoni's Antbird
+106 4664 Drymophila genei                     Rufous-tailed Antbird
+106 4665 Drymophila ochropyga                 Ochre-rumped Antbird
+106 4666 Drymophila devillei                  Striated Antbird
+106 4667 Drymophila caudata                   Long-tailed Antbird
+106 4668 Drymophila malura                    Dusky-tailed Antbird
+106 4669 Drymophila squamata                  Scaled Antbird
+106 4670 Terenura maculata                    Streak-capped Antwren
+106 4671 Terenura sicki                       Alagoas Antwren
+106 4672 Terenura callinota                   Rufous-rumped Antwren
+106 4673 Terenura humeralis                   Chestnut-shouldered Antwren
+106 4674 Terenura sharpei                     Yellow-rumped Antwren
+106 4675 Terenura spodioptila                 Ash-winged Antwren
+106 4676 Cercomacra cinerascens               Grey Antbird
+106 4677 Cercomacra brasiliana                Rio de Janeiro Antbird
+106 4678 Cercomacra tyrannina                 Dusky Antbird
+106 4679 Cercomacra nigrescens                Blackish Antbird
+106 4680 Cercomacra ferdinandi                Bananal Antbird
+106 4681 Cercomacra serva                     Black Antbird
+106 4682 Cercomacra nigricans                 Jet Antbird
+106 4683 Cercomacra carbonaria                Rio Branco Antbird
+106 4684 Cercomacra manu                      Manu Antbird
+106 4685 Cercomacra melanaria                 Mato Grosso Antbird
+106 4686 Pyriglena leuconota                  White-backed Fire-eye
+106 4687 Pyriglena leucoptera                 White-shouldered Fire-eye
+106 4688 Pyriglena atra                       Fringe-backed Fire-eye
+106 4689 Rhopornis ardesiaca                  Slender Antbird
+106 4690 Myrmoborus leucophrys                White-browed Antbird
+106 4691 Myrmoborus lugubris                  Ash-breasted Antbird
+106 4692 Myrmoborus myotherinus               Black-faced Antbird
+106 4693 Myrmoborus melanurus                 Black-tailed Antbird
+106 4694 Hypocnemis cantator                  Warbling Antbird
+106 4695 Hypocnemis hypoxantha                Yellow-browed Antbird
+106 4696 Hypocnemoides melanopogon            Black-chinned Antbird
+106 4697 Hypocnemoides maculicauda            Band-tailed Antbird
+106 4698 Myrmochanes hemileucus               Black-and-white Antbird
+106 4699 Gymnocichla nudiceps                 Bare-crowned Antbird
+106 4700 Sclateria naevia                     Silvered Antbird
+106 4701 Percnostola rufifrons                Black-headed Antbird
+106 4702 Percnostola schistacea               Slate-colored Antbird
+106 4703 Percnostola leucostigma              Spot-winged Antbird
+106 4704 Percnostola caurensis                Caura Antbird
+106 4705 Percnostola lophotes                 White-lined Antbird
+106 4706 Myrmeciza berlepschi                 Stub-tailed Antbird
+106 4707 Myrmeciza longipes                   White-bellied Antbird
+106 4708 Myrmeciza exsul                      Chestnut-backed Antbird
+106 4709 Myrmeciza ferruginea                 Ferruginous-backed Antbird
+106 4710 Myrmeciza ruficauda                  Scalloped Antbird
+106 4711 Myrmeciza loricata                   White-bibbed Antbird
+106 4712 Myrmeciza squamosa                   Squamate Antbird
+106 4713 Myrmeciza laemosticta                Dull-mantled Antbird
+106 4714 Myrmeciza nigricauda                 Esmeraldas Antbird
+106 4715 Myrmeciza disjuncta                  Yapacana Antbird
+106 4716 Myrmeciza pelzelni                   Grey-bellied Antbird
+106 4717 Myrmeciza hemimelaena                Chestnut-tailed Antbird
+106 4718 Myrmeciza hyperythra                 Plumbeous Antbird
+106 4719 Myrmeciza melanoceps                 White-shouldered Antbird
+106 4720 Myrmeciza goeldii                    Goeldi's Antbird
+106 4721 Myrmeciza fortis                     Sooty Antbird
+106 4722 Myrmeciza immaculata                 Immaculate Antbird
+106 4723 Myrmeciza griseiceps                 Grey-headed Antbird
+106 4724 Myrmeciza atrothorax                 Black-throated Antbird
+106 4725 Pithys albifrons                     White-plumed Antbird
+106 4726 Pithys castanea                      White-masked Antbird
+106 4727 Gymnopithys rufigula                 Rufous-throated Antbird
+106 4728 Gymnopithys bicolor                  Bicolored Antbird
+106 4729 Gymnopithys leucaspis                White-cheeked Antbird
+106 4730 Gymnopithys lunulata                 Lunulated Antbird
+106 4731 Gymnopithys salvini                  White-throated Antbird
+106 4732 Myrmornis torquata                   Wing-banded Antbird
+106 4733 Rhegmatorhina melanosticta           Hairy-crested Antbird
+106 4734 Rhegmatorhina cristata               Chestnut-crested Antbird
+106 4735 Rhegmatorhina hoffmannsi             White-breasted Antbird
+106 4736 Rhegmatorhina berlepschi             Harlequin Antbird
+106 4737 Rhegmatorhina gymnops                Santarem Antbird
+106 4738 Hylophylax naevioides                Spotted Antbird
+106 4739 Hylophylax naevia                    Spot-backed Antbird
+106 4740 Hylophylax punctulata                Dot-backed Antbird
+106 4741 Hylophylax poecilonota               Scale-backed Antbird
+106 4742 Phlegopsis nigromaculata             Black-spotted Bare-eye
+106 4743 Phlegopsis barringeri                Argus Bare-eye
+106 4744 Phlegopsis erythroptera              Reddish-winged Bare-eye
+106 4745 Skutchia borbae                      Pale-faced Bare-eye
+106 4746 Phaenostictus mcleannani             Ocellated Antbird
+107 4747 Geobates poecilopterus               Campo Miner
+107 4748 Geositta cunicularia                 Common Miner
+107 4749 Geositta maritima                    Greyish Miner
+107 4750 Geositta peruviana                   Coastal Miner
+107 4751 Geositta punensis                    Puna Miner
+107 4752 Geositta saxicolina                  Dark-winged Miner
+107 4753 Geositta isabellina                  Creamy-rumped Miner
+107 4754 Geositta antarctica                  Short-billed Miner
+107 4755 Geositta rufipennis                  Rufous-banded Miner
+107 4756 Geositta crassirostris               Thick-billed Miner
+107 4757 Geositta tenuirostris                Slender-billed Miner
+107 4758 Upucerthia harterti                  Bolivian Earthcreeper
+107 4759 Upucerthia certhioides               Chaco Earthcreeper
+107 4760 Upucerthia ruficauda                 Straight-billed Earthcreeper
+107 4761 Upucerthia andaecola                 Rock Earthcreeper
+107 4762 Upucerthia serrana                   Striated Earthcreeper
+107 4763 Upucerthia dumetaria                 Scale-throated Earthcreeper
+107 4764 Upucerthia albigula                  White-throated Earthcreeper
+107 4765 Upucerthia jelskii                   Plain-breasted Earthcreeper
+107 4766 Upucerthia validirostris             Buff-breasted Earthcreeper
+107 4767 Cinclodes fuscus                     Bar-winged Cinclodes
+107 4768 Cinclodes comechingonus              Cordoba Cinclodes
+107 4769 Cinclodes pabsti                     Long-tailed Cinclodes
+107 4770 Cinclodes oustaleti                  Grey-flanked Cinclodes
+107 4771 Cinclodes olrogi                     Olrog's Cinclodes
+107 4772 Cinclodes excelsior                  Stout-billed Cinclodes
+107 4773 Cinclodes patagonicus                Dark-bellied Cinclodes
+107 4774 Cinclodes taczanowskii               Surf Cinclodes
+107 4775 Cinclodes nigrofumosus               Seaside Cinclodes
+107 4776 Cinclodes antarcticus                Blackish Cinclodes
+107 4777 Cinclodes atacamensis                White-winged Cinclodes
+107 4778 Cinclodes palliatus                  White-bellied Cinclodes
+107 4779 Chilia melanura                      Crag Chilia
+107 4780 Furnarius minor                      Lesser Hornero
+107 4781 Furnarius figulus                    Wing-banded Hornero
+107 4782 Furnarius leucopus                   Pale-legged Hornero
+107 4783 Furnarius torridus                   Pale-billed Hornero
+107 4784 Furnarius rufus                      Rufous Hornero
+107 4785 Furnarius cristatus                  Crested Hornero
+107 4786 Sylviorthorhynchus desmursii         Des Murs's Wiretail
+107 4787 Aphrastura spinicauda                Thorn-tailed Rayadito
+107 4788 Aphrastura masafuerae                Mas Afuera Rayadito
+107 4789 Leptasthenura fuliginiceps           Brown-capped Tit-Spinetail
+107 4790 Leptasthenura yanacensis             Tawny Tit-Spinetail
+107 4791 Leptasthenura platensis              Tufted Tit-Spinetail
+107 4792 Leptasthenura aegithaloides          Plain-mantled Tit-Spinetail
+107 4793 Leptasthenura striolata              Striolated Tit-Spinetail
+107 4794 Leptasthenura pileata                Rusty-crowned Tit-Spinetail
+107 4795 Leptasthenura xenothorax             White-browed Tit-Spinetail
+107 4796 Leptasthenura striata                Streaked Tit-Spinetail
+107 4797 Leptasthenura andicola               Andean Tit-Spinetail
+107 4798 Leptasthenura setaria                Araucaria Tit-Spinetail
+107 4799 Schizoeaca perijana                  Perija Thistletail
+107 4800 Schizoeaca coryi                     Ochre-browed Thistletail
+107 4801 Schizoeaca fuliginosa                White-chinned Thistletail
+107 4802 Schizoeaca griseomurina              Mouse-colored Thistletail
+107 4803 Schizoeaca palpebralis               Eye-ringed Thistletail
+107 4804 Schizoeaca vilcabambae               Vilcabamba Thistletail
+107 4805 Schizoeaca helleri                   Puna Thistletail
+107 4806 Schizoeaca harterti                  Black-throated Thistletail
+107 4807 Schizoeaca moreirae                  Itatiaia Thistletail
+107 4808 Schoeniophylax phryganophila         Chotoy Spinetail
+107 4809 Synallaxis ruficapilla               Rufous-capped Spinetail
+107 4810 Synallaxis frontalis                 Sooty-fronted Spinetail
+107 4811 Synallaxis azarae                    Azara's Spinetail
+107 4812 Synallaxis courseni                  Apurimac Spinetail
+107 4813 Synallaxis albescens                 Pale-breasted Spinetail
+107 4814 Synallaxis spixi                     Chicli Spinetail
+107 4815 Synallaxis brachyura                 Slaty Spinetail
+107 4816 Synallaxis albigularis               Dark-breasted Spinetail
+107 4817 Synallaxis hypospodia                Cinereous-breasted Spinetail
+107 4818 Synallaxis infuscata                 Pinto's Spinetail
+107 4819 Synallaxis moesta                    Dusky Spinetail
+107 4820 Synallaxis macconnelli               MacConnell's Spinetail
+107 4821 Synallaxis cabanisi                  Cabanis's Spinetail
+107 4822 Synallaxis subpudica                 Silvery-throated Spinetail
+107 4823 Synallaxis tithys                    Blackish-headed Spinetail
+107 4824 Synallaxis cinerascens               Grey-bellied Spinetail
+107 4825 Synallaxis propinqua                 White-bellied Spinetail
+107 4826 Synallaxis hellmayri                 Red-shouldered Spinetail
+107 4827 Synallaxis maranonica                Maranon Spinetail
+107 4828 Synallaxis gujanensis                Plain-crowned Spinetail
+107 4829 Synallaxis albilora                  White-lored Spinetail
+107 4830 Synallaxis rutilans                  Ruddy Spinetail
+107 4831 Synallaxis cherriei                  Chestnut-throated Spinetail
+107 4832 Synallaxis unirufa                   Rufous Spinetail
+107 4833 Synallaxis castanea                  Black-throated Spinetail
+107 4834 Synallaxis fuscorufa                 Rusty-headed Spinetail
+107 4835 Synallaxis zimmeri                   Russet-bellied Spinetail
+107 4836 Synallaxis erythrothorax             Rufous-breasted Spinetail
+107 4837 Synallaxis cinnamomea                Stripe-breasted Spinetail
+107 4838 Synallaxis stictothorax              Necklaced Spinetail
+107 4839 Synallaxis candei                    White-whiskered Spinetail
+107 4840 Synallaxis kollari                   Hoary-throated Spinetail
+107 4841 Synallaxis scutata                   Ochre-cheeked Spinetail
+107 4842 Hellmayrea gularis                   White-browed Spinetail
+107 4843 Cranioleuca erythrops                Red-faced Spinetail
+107 4844 Cranioleuca antisiensis              Line-cheeked Spinetail
+107 4845 Cranioleuca pallida                  Pallid Spinetail
+107 4846 Cranioleuca curtata                  Ash-browed Spinetail
+107 4847 Cranioleuca demissa                  Tepui Spinetail
+107 4848 Cranioleuca hellmayri                Streak-capped Spinetail
+107 4849 Cranioleuca subcristata              Crested Spinetail
+107 4850 Cranioleuca pyrrhophia               Stripe-crowned Spinetail
+107 4851 Cranioleuca obsoleta                 Olive Spinetail
+107 4852 Cranioleuca marcapatae               Marcapata Spinetail
+107 4853 Cranioleuca albiceps                 Light-crowned Spinetail
+107 4854 Cranioleuca semicinerea              Gray-headed Spinetail
+107 4855 Cranioleuca albicapilla              Creamy-crested Spinetail
+107 4856 Cranioleuca dissita                  Coiba Spinetail
+107 4857 Cranioleuca vulpina                  Rusty-backed Spinetail
+107 4858 Cranioleuca muelleri                 Scaled Spinetail
+107 4859 Cranioleuca gutturata                Speckled Spinetail
+107 4860 Cranioleuca sulphurifera             Sulphur-bearded Spinetail
+107 4861 Certhiaxis cinnamomea                Yellow-chinned Spinetail
+107 4862 Certhiaxis mustelina                 Red-and-white Spinetail
+107 4863 Asthenes pyrrholeuca                 Lesser Canastero
+107 4864 Asthenes baeri                       Short-billed Canastero
+107 4865 Asthenes pudibunda                   Canyon Canastero
+107 4866 Asthenes ottonis                     Rusty-fronted Canastero
+107 4867 Asthenes heterura                    Maquis Canastero
+107 4868 Asthenes cactorum                    Cactus Canastero
+107 4869 Asthenes modesta                     Cordilleran Canastero
+107 4870 Asthenes luizae                      Cipo Canastero
+107 4871 Asthenes dorbignyi                   Creamy-breasted Canastero
+107 4872 Asthenes berlepschi                  Berlepsch's Canastero
+107 4873 Asthenes steinbachi                  Chestnut Canastero
+107 4874 Asthenes humicola                    Dusky-tailed Canastero
+107 4875 Asthenes patagonica                  Patagonian Canastero
+107 4876 Asthenes humilis                     Streak-throated Canastero
+107 4877 Asthenes wyatti                      Streak-backed Canastero
+107 4878 Asthenes punensis                    Puno Canastero
+107 4879 Asthenes anthoides                   Austral Canastero
+107 4880 Asthenes urubambensis                Line-fronted Canastero
+107 4881 Asthenes flammulata                  Many-striped Canastero
+107 4882 Asthenes virgata                     Junin Canastero
+107 4883 Asthenes maculicauda                 Scribble-tailed Canastero
+107 4884 Asthenes hudsoni                     Hudson's Canastero
+107 4885 Thripophaga cherriei                 Orinoco Softtail
+107 4886 Thripophaga macroura                 Striated Softtail
+107 4887 Thripophaga berlepschi               Russet-mantled Softtail
+107 4888 Thripophaga fusciceps                Plain Softtail
+107 4889 Siptornopsis hypochondriacus         Great Spinetail
+107 4890 Phacellodomus rufifrons              Rufous-fronted Thornbird
+107 4891 Phacellodomus sibilatrix             Little Thornbird
+107 4892 Phacellodomus striaticeps            Streak-fronted Thornbird
+107 4893 Phacellodomus striaticollis          Freckle-breasted Thornbird
+107 4894 Phacellodomus ruber                  Greater Thornbird
+107 4895 Phacellodomus dorsalis               Chestnut-backed Thornbird
+107 4896 Phacellodomus erythrophthalmus       Red-eyed Thornbird
+107 4897 Clibanornis dendrocolaptoides        Canebrake Groundcreeper
+107 4898 Spartonoica maluroides               Bay-capped Wren-Spinetail
+107 4899 Phleocryptes melanops                Wren-like Rushbird
+107 4900 Limnornis curvirostris               Curve-billed Reedhaunter
+107 4901 Limnornis rectirostris               Straight-billed Reedhaunter
+107 4902 Anumbius annumbi                     Firewood-gatherer
+107 4903 Coryphistera alaudina                Lark-like Brushrunner
+107 4904 Eremobius phoenicurus                Band-tailed Earthcreeper
+107 4905 Siptornis striaticollis              Spectacled Prickletail
+107 4906 Metopothrix aurantiacus              Orange-fronted Plushcrown
+107 4907 Xenerpestes minlosi                  Double-banded Greytail
+107 4908 Xenerpestes singularis               Equatorial Greytail
+107 4909 Roraimia adusta                      Roraiman Barbtail
+107 4910 Premnornis guttuligera               Rusty-winged Barbtail
+107 4911 Premnoplex brunnescens               Spotted Barbtail
+107 4912 Premnoplex tatei                     White-throated Barbtail
+107 4913 Margarornis rubiginosus              Ruddy Treerunner
+107 4914 Margarornis stellatus                Fulvous-dotted Treerunner
+107 4915 Margarornis bellulus                 Beautiful Treerunner
+107 4916 Margarornis squamiger                Pearled Treerunner
+107 4917 Lochmias nematura                    Sharp-tailed Streamcreeper
+107 4918 Pseudoseisura cristata               Rufous Cacholote
+107 4919 Pseudoseisura lophotes               Brown Cacholote
+107 4920 Pseudoseisura gutturalis             White-throated Cacholote
+107 4921 Pseudocolaptes lawrencii             Buffy Tuftedcheek
+107 4922 Pseudocolaptes boissonneautii        Streaked Tuftedcheek
+107 4923 Berlepschia rikeri                   Point-tailed Palmcreeper
+107 4924 Ancistrops strigilatus               Chestnut-winged Hookbill
+107 4925 Cichlocolaptes leucophrus            Pale-browed Treehunter
+107 4926 Hyloctistes subulatus                Striped Woodhaunter
+107 4927 Syndactyla guttulata                 Guttulated Foliage-gleaner
+107 4928 Syndactyla subalaris                 Lineated Foliage-gleaner
+107 4929 Syndactyla rufosuperciliata          Buff-browed Foliage-gleaner
+107 4930 Syndactyla ruficollis                Rufous-necked Foliage-gleaner
+107 4931 Anabacerthia variegaticeps           Scaly-throated Foliage-gleaner
+107 4932 Anabacerthia striaticollis           Montane Foliage-gleaner
+107 4933 Philydor ruficaudatus                Rufous-tailed Foliage-gleaner
+107 4934 Philydor pyrrhodes                   Cinnamon-rumped Foliage-gleaner
+107 4935 Philydor dimidiatus                  Russet-mantled Foliage-gleaner
+107 4936 Philydor fuscipennis                 Slaty-winged Foliage-gleaner
+107 4937 Philydor erythrocercus               Rufous-rumped Foliage-gleaner
+107 4938 Philydor ochrogaster                 Ochre-bellied Foliage-gleaner
+107 4939 Philydor erythropterus               Chestnut-winged Foliage-gleaner
+107 4940 Philydor amaurotis                   White-browed Foliage-gleaner
+107 4941 Philydor lichtensteini               Ochre-breasted Foliage-gleaner
+107 4942 Philydor rufus                       Buff-fronted Foliage-gleaner
+107 4943 Philydor atricapillus                Black-capped Foliage-gleaner
+107 4944 Philydor novaesi                     Alagoas Foliage-gleaner
+107 4945 Simoxenops ucayalae                  Peruvian Recurvebill
+107 4946 Simoxenops striatus                  Bolivian Recurvebill
+107 4947 Anabazenops fuscus                   White-collared Foliage-gleaner
+107 4948 Thripadectes ignobilis               Uniform Treehunter
+107 4949 Thripadectes rufobrunneus            Streak-breasted Treehunter
+107 4950 Thripadectes virgaticeps             Streak-capped Treehunter
+107 4951 Thripadectes melanorhynchus          Black-billed Treehunter
+107 4952 Thripadectes holostictus             Striped Treehunter
+107 4953 Thripadectes flammulatus             Flammulated Treehunter
+107 4954 Thripadectes scrutator               Buff-throated Treehunter
+107 4955 Automolus ochrolaemus                Buff-throated Foliage-gleaner
+107 4956 Automolus dorsalis                   Crested Foliage-gleaner
+107 4957 Automolus infuscatus                 Olive-backed Foliage-gleaner
+107 4958 Automolus leucophthalmus             White-eyed Foliage-gleaner
+107 4959 Automolus roraimae                   White-throated Foliage-gleaner
+107 4960 Automolus melanopezus                Brown-rumped Foliage-gleaner
+107 4961 Automolus rubiginosus                Ruddy Foliage-gleaner
+107 4962 Automolus rufipileatus               Chestnut-crowned Foliage-gleaner
+107 4963 Hylocryptus rectirostris             Chestnut-capped Foliage-gleaner
+107 4964 Hylocryptus erythrocephalus          Henna-hooded Foliage-gleaner
+107 4965 Sclerurus mexicanus                  Tawny-throated Leaftosser
+107 4966 Sclerurus rufigularis                Short-billed Leaftosser
+107 4967 Sclerurus albigularis                Grey-throated Leaftosser
+107 4968 Sclerurus caudacutus                 Black-tailed Leaftosser
+107 4969 Sclerurus scansor                    Rufous-breasted Leaftosser
+107 4970 Sclerurus guatemalensis              Scaly-throated Leaftosser
+107 4971 Heliobletus contaminatus             Sharp-billed Treehunter
+107 4972 Xenops milleri                       Rufous-tailed Xenops
+107 4973 Xenops tenuirostris                  Slender-billed Xenops
+107 4974 Xenops minutus                       Plain Xenops
+107 4975 Xenops rutilans                      Streaked Xenops
+107 4976 Megaxenops parnaguae                 Great Xenops
+107 4977 Pygarrhichas albogularis             White-throated Treerunner
+107 4978 Dendrocincla tyrannina               Tyrannine Woodcreeper
+107 4979 Dendrocincla fuliginosa              Plain-brown Woodcreeper
+107 4980 Dendrocincla turdina                 Thrush-like Woodcreeper
+107 4981 Dendrocincla anabatina               Tawny-winged Woodcreeper
+107 4982 Dendrocincla merula                  White-chinned Woodcreeper
+107 4983 Dendrocincla homochroa               Ruddy Woodcreeper
+107 4984 Deconychura longicauda               Long-tailed Woodcreeper
+107 4985 Deconychura stictolaema              Spot-throated Woodcreeper
+107 4986 Sittasomus griseicapillus            Olivaceous Woodcreeper
+107 4987 Glyphorynchus spirurus               Wedge-billed Woodcreeper
+107 4988 Drymornis bridgesii                  Scimitar-billed Woodcreeper
+107 4989 Nasica longirostris                  Long-billed Woodcreeper
+107 4990 Dendrexetastes rufigula              Cinnamon-throated Woodcreeper
+107 4991 Hylexetastes stresemanni             Bar-bellied Woodcreeper
+107 4992 Hylexetastes perrotii                Red-billed Woodcreeper
+107 4993 Xiphocolaptes promeropirhynchus      Strong-billed Woodcreeper
+107 4994 Xiphocolaptes albicollis             White-throated Woodcreeper
+107 4995 Xiphocolaptes falcirostris           Moustached Woodcreeper
+107 4996 Xiphocolaptes major                  Great Rufous Woodcreeper
+107 4997 Dendrocolaptes certhia               Barred Woodcreeper
+107 4998 Dendrocolaptes hoffmannsi            Hoffmanns's Woodcreeper
+107 4999 Dendrocolaptes picumnus              Black-banded Woodcreeper
+107 5000 Dendrocolaptes platyrostris          Planalto Woodcreeper
+107 5001 Xiphorhynchus picus                  Straight-billed Woodcreeper
+107 5002 Xiphorhynchus necopinus              Zimmer's Woodcreeper
+107 5003 Xiphorhynchus obsoletus              Striped Woodcreeper
+107 5004 Xiphorhynchus ocellatus              Ocellated Woodcreeper
+107 5005 Xiphorhynchus spixii                 Spix's Woodcreeper
+107 5006 Xiphorhynchus elegans                Elegant Woodcreeper
+107 5007 Xiphorhynchus pardalotus             Chestnut-rumped Woodcreeper
+107 5008 Xiphorhynchus guttatus               Buff-throated Woodcreeper
+107 5009 Xiphorhynchus eytoni                 Dusky-billed Woodcreeper
+107 5010 Xiphorhynchus flavigaster            Ivory-billed Woodcreeper
+107 5011 Xiphorhynchus lachrymosus            Black-striped Woodcreeper
+107 5012 Xiphorhynchus erythropygius          Spotted Woodcreeper
+107 5013 Xiphorhynchus triangularis           Olive-backed Woodcreeper
+107 5014 Lepidocolaptes leucogaster           White-striped Woodcreeper
+107 5015 Lepidocolaptes souleyetii            Streak-headed Woodcreeper
+107 5016 Lepidocolaptes angustirostris        Narrow-billed Woodcreeper
+107 5017 Lepidocolaptes affinis               Spot-crowned Woodcreeper
+107 5018 Lepidocolaptes squamatus             Scaled Woodcreeper
+107 5019 Lepidocolaptes fuscus                Lesser Woodcreeper
+107 5020 Lepidocolaptes albolineatus          Lineated Woodcreeper
+107 5021 Campylorhamphus pucherani            Greater Scythebill
+107 5022 Campylorhamphus trochilirostris      Red-billed Scythebill
+107 5023 Campylorhamphus falcularius          Black-billed Scythebill
+107 5024 Campylorhamphus pusillus             Brown-billed Scythebill
+107 5025 Campylorhamphus procurvoides         Curve-billed Scythebill
+108 5026 Formicarius colma                    Rufous-capped Antthrush
+108 5027 Formicarius analis                   Black-faced Antthrush
+108 5028 Formicarius rufifrons                Rufous-fronted Antthrush
+108 5029 Formicarius nigricapillus            Black-headed Antthrush
+108 5030 Formicarius rufipectus               Rufous-breasted Antthrush
+108 5031 Chamaeza campanisona                 Short-tailed Antthrush
+108 5032 Chamaeza nobilis                     Striated Antthrush
+108 5033 Chamaeza turdina                     Schwartz's Antthrush
+108 5034 Chamaeza meruloides                  Such's Antthrush
+108 5035 Chamaeza ruficauda                   Rufous-tailed Antthrush
+108 5036 Chamaeza mollissima                  Barred Antthrush
+108 5037 Pittasoma michleri                   Black-crowned Antpitta
+108 5038 Pittasoma rufopileatum               Rufous-crowned Antpitta
+108 5039 Grallaria squamigera                 Undulated Antpitta
+108 5040 Grallaria gigantea                   Giant Antpitta
+108 5041 Grallaria excelsa                    Great Antpitta
+108 5042 Grallaria varia                      Variegated Antpitta
+108 5043 Grallaria guatimalensis              Scaled Antpitta
+108 5044 Grallaria alleni                     Moustached Antpitta
+108 5045 Grallaria chthonia                   Tachira Antpitta
+108 5046 Grallaria haplonota                  Plain-backed Antpitta
+108 5047 Grallaria dignissima                 Ochre-striped Antpitta
+108 5048 Grallaria eludens                    Elusive Antpitta
+108 5049 Grallaria kaestneri                  Cundinamarca Antpitta
+108 5050 Grallaria bangsi                     Santa Marta Antpitta
+108 5051 Grallaria ruficapilla                Chestnut-crowned Antpitta
+108 5052 Grallaria watkinsi                   Scrub Antpitta
+108 5053 Grallaria andicola                   Stripe-headed Antpitta
+108 5054 Grallaria rufocinerea                Bicolored Antpitta
+108 5055 Grallaria nuchalis                   Chestnut-naped Antpitta
+108 5056 Grallaria carrikeri                  Pale-billed Antpitta
+108 5057 Grallaria albigula                   White-throated Antpitta
+108 5058 Grallaria flavotincta                Yellow-breasted Antpitta
+108 5059 Grallaria hypoleuca                  White-bellied Antpitta
+108 5060 Grallaria przewalskii                Rusty-tinged Antpitta
+108 5061 Grallaria capitalis                  Bay Antpitta
+108 5062 Grallaria erythroleuca               Red-and-white Antpitta
+108 5063 Grallaria griseonucha                Grey-naped Antpitta
+108 5064 Grallaria rufula                     Rufous Antpitta
+108 5065 Grallaria blakei                     Chestnut Antpitta
+108 5066 Grallaria erythrotis                 Rufous-faced Antpitta
+108 5067 Grallaria quitensis                  Tawny Antpitta
+108 5068 Grallaria milleri                    Brown-banded Antpitta
+108 5069 Hylopezus perspicillatus             Spectacled Antpitta
+108 5070 Hylopezus macularius                 Spotted Antpitta
+108 5071 Hylopezus dives                      Fulvous-bellied Antpitta
+108 5072 Hylopezus fulviventris               White-lored Antpitta
+108 5073 Hylopezus berlepschi                 Amazonian Antpitta
+108 5074 Hylopezus ochroleucus                White-browed Antpitta
+108 5075 Hylopezus nattereri                  Speckle-breasted Antpitta
+108 5076 Myrmothera campanisona               Thrush-like Antpitta
+108 5077 Myrmothera simplex                   Brown-breasted Antpitta
+108 5078 Grallaricula flavirostris            Ochre-breasted Antpitta
+108 5079 Grallaricula ferrugineipectus        Rusty-breasted Antpitta
+108 5080 Grallaricula nana                    Slate-crowned Antpitta
+108 5081 Grallaricula loricata                Scallop-breasted Antpitta
+108 5082 Grallaricula peruviana               Peruvian Antpitta
+108 5083 Grallaricula ochraceifrons           Ochre-fronted Antpitta
+108 5084 Grallaricula lineifrons              Crescent-faced Antpitta
+108 5085 Grallaricula cucullata               Hooded Antpitta
+109 5086 Conopophaga lineata                  Rufous Gnateater
+109 5087 Conopophaga aurita                   Chestnut-belted Gnateater
+109 5088 Conopophaga roberti                  Hooded Gnateater
+109 5089 Conopophaga peruviana                Ash-throated Gnateater
+109 5090 Conopophaga ardesiaca                Slaty Gnateater
+109 5091 Conopophaga castaneiceps             Chestnut-crowned Gnateater
+109 5092 Conopophaga melanops                 Black-cheeked Gnateater
+109 5093 Conopophaga melanogaster             Black-bellied Gnateater
+110 5094 Pteroptochos tarnii                  Huet-huet
+110 5095 Pteroptochos megapodius              Moustached Turca
+110 5096 Scelorchilus albicollis              White-throated Tapaculo
+110 5097 Scelorchilus rubecula                Chucao Tapaculo
+110 5098 Rhinocrypta lanceolata               Crested Gallito
+110 5099 Teledromas fuscus                    Sandy Gallito
+110 5100 Liosceles thoracicus                 Rusty-belted Tapaculo
+110 5101 Melanopareia torquata                Collared Crescent-chest
+110 5102 Melanopareia maximiliani             Olive-crowned Crescent-chest
+110 5103 Melanopareia elegans                 Elegant Crescent-chest
+110 5104 Psilorhamphus guttatus               Spotted Bamboowren
+110 5105 Merulaxis ater                       Slaty Bristlefront
+110 5106 Merulaxis stresemanni                Stresemann's Bristlefront
+110 5107 Eugralla paradoxa                    Ochre-flanked Tapaculo
+110 5108 Myornis senilis                      Ash-colored Tapaculo
+110 5109 Scytalopus unicolor                  Unicolored Tapaculo
+110 5110 Scytalopus macropus                  Large-footed Tapaculo
+110 5111 Scytalopus femoralis                 Rufous-vented Tapaculo
+110 5112 Scytalopus panamensis                Tacarcuna Tapaculo
+110 5113 Scytalopus vicinior                  Narino Tapaculo
+110 5114 Scytalopus argentifrons              Silvery-fronted Tapaculo
+110 5115 Scytalopus latebricola               Brown-rumped Tapaculo
+110 5116 Scytalopus magellanicus              Andean Tapaculo
+110 5117 Scytalopus superciliaris             White-browed Tapaculo
+110 5118 Scytalopus speluncae                 Mouse-colored Tapaculo
+110 5119 Scytalopus novacapitalis             Brasilia Tapaculo
+110 5120 Scytalopus psychopompus              Chestnut-sided Tapaculo
+110 5121 Scytalopus indigoticus               White-breasted Tapaculo
+110 5122 Acropternis orthonyx                 Ocellated Tapaculo
+111 5123 Cormobates placens                   Papuan Treecreeper
+111 5124 Cormobates leucophaea                White-throated Treecreeper
+111 5125 Climacteris affinis                  White-browed Treecreeper
+111 5126 Climacteris erythrops                Red-browed Treecreeper
+111 5127 Climacteris picumnus                 Brown Treecreeper
+111 5128 Climacteris melanura                 Black-tailed Treecreeper
+111 5129 Climacteris rufa                     Rufous Treecreeper
+112 5130 Menura alberti                       Albert's Lyrebird
+112 5131 Menura novaehollandiae               Superb Lyrebird
+112 5132 Atrichornis rufescens                Rufous Scrub-bird
+112 5133 Atrichornis clamosus                 Noisy Scrub-bird
+113 5134 Ailuroedus buccoides                 White-eared Catbird
+113 5135 Ailuroedus melanotis                 Spotted Catbird
+113 5136 Ailuroedus crassirostris             Green Catbird
+113 5137 Ailuroedus dentirostris              Tooth-billed Catbird
+113 5138 Archboldia papuensis                 Archbold's Bowerbird
+113 5139 Archboldia sanfordi                  Sanford's Bowerbird
+113 5140 Amblyornis inornatus                 Vogelkop Bowerbird
+113 5141 Amblyornis macgregoriae              Macgregor's Bowerbird
+113 5142 Amblyornis subalaris                 Streaked Bowerbird
+113 5143 Amblyornis flavifrons                Golden-fronted Bowerbird
+113 5144 Prionodura newtoniana                Golden Bowerbird
+113 5145 Sericulus aureus                     Flame Bowerbird
+113 5146 Sericulus bakeri                     Fire-maned Bowerbird
+113 5147 Sericulus chrysocephalus             Regent Bowerbird
+113 5148 Ptilonorhynchus violaceus            Satin Bowerbird
+113 5149 Chlamydera guttata                   Western Bowerbird
+113 5150 Chlamydera maculata                  Spotted Bowerbird
+113 5151 Chlamydera nuchalis                  Great Bowerbird
+113 5152 Chlamydera lauterbachi               Yellow-breasted Bowerbird
+113 5153 Chlamydera cerviniventris            Fawn-breasted Bowerbird
+114 5154 Clytomyias insignis                  Orange-crowned Fairywren
+114 5155 Sipodotus wallacii                   Wallace's Fairywren
+114 5156 Malurus grayi                        Broad-billed Fairywren
+114 5157 Malurus campbelli                    Campbell's Fairywren
+114 5158 Malurus alboscapulatus               White-shouldered Fairywren
+114 5159 Malurus melanocephalus               Red-backed Fairywren
+114 5160 Malurus leucopterus                  White-winged Fairywren
+114 5161 Malurus cyaneus                      Superb Fairywren
+114 5162 Malurus splendens                    Splendid Fairywren
+114 5163 Malurus lamberti                     Variegated Fairywren
+114 5164 Malurus amabilis                     Lovely Fairywren
+114 5165 Malurus elegans                      Red-winged Fairywren
+114 5166 Malurus pulcherrimus                 Blue-breasted Fairywren
+114 5167 Malurus coronatus                    Purple-crowned Fairywren
+114 5168 Malurus cyanocephalus                Emperor Fairywren
+114 5169 Stipiturus ruficeps                  Rufous-crowned Emuwren
+114 5170 Stipiturus malachurus                Southern Emuwren
+114 5171 Stipiturus mallee                    Mallee Emuwren
+114 5172 Amytornis barbatus                   Grey Grasswren
+114 5173 Amytornis woodwardi                  White-throated Grasswren
+114 5174 Amytornis dorotheae                  Carpentarian Grasswren
+114 5175 Amytornis striatus                   Striated Grasswren
+114 5176 Amytornis goyderi                    Eyrean Grasswren
+114 5177 Amytornis textilis                   Thick-billed Grasswren
+114 5178 Amytornis purnelli                   Dusky Grasswren
+114 5179 Amytornis housei                     Black Grasswren
+115 5180 Myzomela blasii                      Drab Myzomela
+115 5181 Myzomela albigula                    White-chinned Myzomela
+115 5182 Myzomela eques                       Red-throated Myzomela
+115 5183 Myzomela obscura                     Dusky Myzomela
+115 5184 Myzomela cruentata                   Red Myzomela
+115 5185 Myzomela nigrita                     Black Myzomela
+115 5186 Myzomela pulchella                   Olive-yellow Myzomela
+115 5187 Myzomela adolphinae                  Mountain Myzomela
+115 5188 Myzomela kuehni                      Crimson-hooded Myzomela
+115 5189 Myzomela dammermani                  Sumba Myzomela
+115 5190 Myzomela erythrocephala              Red-headed Myzomela
+115 5191 Myzomela chloroptera                 Sulawesi Myzomela
+115 5192 Myzomela wakoloensis                 Wakolo Myzomela
+115 5193 Myzomela boiei                       Banda Myzomela
+115 5194 Myzomela sanguinolenta               Scarlet Myzomela
+115 5195 Myzomela caledonica                  New Caledonian Myzomela
+115 5196 Myzomela rubratra                    Micronesian Myzomela
+115 5197 Myzomela cardinalis                  Cardinal Myzomela
+115 5198 Myzomela chermesina                  Rotuma Myzomela
+115 5199 Myzomela sclateri                    Scarlet-bibbed Myzomela
+115 5200 Myzomela pammelaena                  Ebony Myzomela
+115 5201 Myzomela lafargei                    Scarlet-naped Myzomela
+115 5202 Myzomela eichhorni                   Yellow-vented Myzomela
+115 5203 Myzomela melanocephala               Black-headed Myzomela
+115 5204 Myzomela malaitae                    Red-bellied Myzomela
+115 5205 Myzomela tristrami                   Sooty Myzomela
+115 5206 Myzomela jugularis                   Orange-breasted Myzomela
+115 5207 Myzomela erythromelas                Black-bellied Myzomela
+115 5208 Myzomela vulnerata                   Red-rumped Myzomela
+115 5209 Myzomela rosenbergii                 Red-collared Myzomela
+115 5210 Certhionyx pectoralis                Banded Honeyeater
+115 5211 Certhionyx niger                     Black Honeyeater
+115 5212 Certhionyx variegatus                Pied Honeyeater
+115 5213 Timeliopsis fulvigula                Olive Straightbill
+115 5214 Timeliopsis griseigula               Tawny Straightbill
+115 5215 Melilestes megarhynchus              Long-billed Honeyeater
+115 5216 Stresemannia bougainvillei           Bougainville Honeyeater
+115 5217 Glycichaera fallax                   Green-backed Honeyeater
+115 5218 Lichmera lombokia                    Scaly-crowned Honeyeater
+115 5219 Lichmera argentauris                 Olive Honeyeater
+115 5220 Lichmera limbata                     Indonesian Honeyeater
+115 5221 Lichmera indistincta                 Brown Honeyeater
+115 5222 Lichmera incana                      Dark-brown Honeyeater
+115 5223 Lichmera squamata                    White-tufted Honeyeater
+115 5224 Lichmera alboauricularis             Silver-eared Honeyeater
+115 5225 Lichmera deningeri                   Buru Honeyeater
+115 5226 Lichmera monticola                   Seram Honeyeater
+115 5227 Lichmera flavicans                   Yellow-eared Honeyeater
+115 5228 Lichmera notabilis                   Black-chested Honeyeater
+115 5229 Trichodere cockerelli                White-streaked Honeyeater
+115 5230 Meliphaga montana                    Forest Honeyeater
+115 5231 Meliphaga mimikae                    Mottle-breasted Honeyeater
+115 5232 Meliphaga orientalis                 Hill-forest Honeyeater
+115 5233 Meliphaga albonotata                 Scrub Honeyeater
+115 5234 Meliphaga aruensis                   Puff-backed Honeyeater
+115 5235 Meliphaga analoga                    Mimic Honeyeater
+115 5236 Meliphaga vicina                     Tagula Honeyeater
+115 5237 Meliphaga gracilis                   Graceful Honeyeater
+115 5238 Meliphaga notata                     Yellow-spotted Honeyeater
+115 5239 Meliphaga flavirictus                Yellow-gaped Honeyeater
+115 5240 Meliphaga lewinii                    Lewin's Honeyeater
+115 5241 Meliphaga albilineata                White-lined Honeyeater
+115 5242 Meliphaga reticulata                 Streaky-breasted Honeyeater
+115 5243 Guadalcanaria inexpectata            Guadalcanal Honeyeater
+115 5244 Foulehaio carunculata                Wattled Honeyeater
+115 5245 Lichenostomus subfrenatus            Black-throated Honeyeater
+115 5246 Lichenostomus obscurus               Obscure Honeyeater
+115 5247 Lichenostomus frenatus               Bridled Honeyeater
+115 5248 Lichenostomus hindwoodi              Eungella Honeyeater
+115 5249 Lichenostomus chrysops               Yellow-faced Honeyeater
+115 5250 Lichenostomus versicolor             Varied Honeyeater
+115 5251 Lichenostomus fasciogularis          Mangrove Honeyeater
+115 5252 Lichenostomus virescens              Singing Honeyeater
+115 5253 Lichenostomus flavus                 Yellow Honeyeater
+115 5254 Lichenostomus unicolor               White-gaped Honeyeater
+115 5255 Lichenostomus leucotis               White-eared Honeyeater
+115 5256 Lichenostomus flavicollis            Yellow-throated Honeyeater
+115 5257 Lichenostomus melanops               Yellow-tufted Honeyeater
+115 5258 Lichenostomus cratitius              Purple-gaped Honeyeater
+115 5259 Lichenostomus keartlandi             Grey-headed Honeyeater
+115 5260 Lichenostomus flavescens             Yellow-tinted Honeyeater
+115 5261 Lichenostomus fuscus                 Fuscous Honeyeater
+115 5262 Lichenostomus plumulus               Grey-fronted Honeyeater
+115 5263 Lichenostomus ornatus                Yellow-plumed Honeyeater
+115 5264 Lichenostomus penicillatus           White-plumed Honeyeater
+115 5265 Xanthotis flaviventer                Tawny-breasted Honeyeater
+115 5266 Xanthotis polygramma                 Spotted Honeyeater
+115 5267 Xanthotis macleayana                 Macleay Honeyeater
+115 5268 Xanthotis provocator                 Kadavu Honeyeater
+115 5269 Oreornis chrysogenys                 Orange-cheeked Honeyeater
+115 5270 Apalopteron familiare                Bonin Honeyeater
+115 5271 Melithreptus lunatus                 White-naped Honeyeater
+115 5272 Melithreptus affinis                 Black-headed Honeyeater
+115 5273 Melithreptus albogularis             White-throated Honeyeater
+115 5274 Melithreptus laetior                 Golden-backed Honeyeater
+115 5275 Melithreptus gularis                 Black-chinned Honeyeater
+115 5276 Melithreptus validirostris           Strong-billed Honeyeater
+115 5277 Melithreptus brevirostris            Brown-headed Honeyeater
+115 5278 Notiomystis cincta                   Stitchbird
+115 5279 Pycnopygius ixoides                  Plain Honeyeater
+115 5280 Pycnopygius cinereus                 Marbled Honeyeater
+115 5281 Pycnopygius stictocephalus           Streak-headed Honeyeater
+115 5282 Melitograis gilolensis               White-streaked Friarbird
+115 5283 Philemon meyeri                      Meyer's Friarbird
+115 5284 Philemon inornatus                   Plain Friarbird
+115 5285 Philemon kisserensis                 Grey Friarbird
+115 5286 Philemon brassi                      Brass's Friarbird
+115 5287 Philemon citreogularis               Little Friarbird
+115 5288 Philemon fuscicapillus               Dusky Friarbird
+115 5289 Philemon moluccensis                 Black-faced Friarbird
+115 5290 Philemon subcorniculatus             Grey-necked Friarbird
+115 5291 Philemon buceroides                  Helmeted Friarbird
+115 5292 Philemon novaeguineae                New Guinea Friarbird
+115 5293 Philemon albitorques                 White-naped Friarbird
+115 5294 Philemon cockerelli                  New Britain Friarbird
+115 5295 Philemon eichhorni                   New Ireland Friarbird
+115 5296 Philemon argenticeps                 Silver-crowned Friarbird
+115 5297 Philemon corniculatus                Noisy Friarbird
+115 5298 Philemon diemenensis                 New Caledonian Friarbird
+115 5299 Ptiloprora plumbea                   Leaden Honeyeater
+115 5300 Ptiloprora meekiana                  Olive-streaked Honeyeater
+115 5301 Ptiloprora erythropleura             Rufous-sided Honeyeater
+115 5302 Ptiloprora mayri                     Mayr's Honeyeater
+115 5303 Ptiloprora guisei                    Rufous-backed Honeyeater
+115 5304 Ptiloprora perstriata                Black-backed Honeyeater
+115 5305 Melidectes fuscus                    Sooty Melidectes
+115 5306 Melidectes whitemanensis             Bismarck Melidectes
+115 5307 Melidectes nouhuysi                  Short-bearded Melidectes
+115 5308 Melidectes princeps                  Long-bearded Melidectes
+115 5309 Melidectes ochromelas                Cinnamon-browed Melidectes
+115 5310 Melidectes leucostephes              Vogelkop Melidectes
+115 5311 Melidectes belfordi                  Belford's Melidectes
+115 5312 Melidectes rufocrissalis             Yellow-browed Melidectes
+115 5313 Melidectes foersteri                 Huon Melidectes
+115 5314 Melidectes torquatus                 Ornate Melidectes
+115 5315 Melidectes sclateri                  San Cristobal Melidectes
+115 5316 Melipotes gymnops                    Arfak Honeyeater
+115 5317 Melipotes fumigatus                  Smoky Honeyeater
+115 5318 Melipotes ater                       Spangled Honeyeater
+115 5319 Myza celebensis                      Dark-eared Myza
+115 5320 Myza sarasinorum                     White-eared Myza
+115 5321 Gymnomyza viridis                    Giant Honeyeater
+115 5322 Gymnomyza samoensis                  Mao
+115 5323 Gymnomyza aubryana                   Crow Honeyeater
+115 5324 Moho braccatus                       Kauai Oo
+115 5325 Moho apicalis                        Oahu Oo
+115 5326 Moho bishopi                         Bishop's Oo
+115 5327 Moho nobilis                         Hawaii Oo
+115 5328 Chaetoptila angustipluma             Kioea
+115 5329 Phylidonyris pyrrhoptera             Crescent Honeyeater
+115 5330 Phylidonyris novaehollandiae         New Holland Honeyeater
+115 5331 Phylidonyris nigra                   White-cheeked Honeyeater
+115 5332 Phylidonyris albifrons               White-fronted Honeyeater
+115 5333 Phylidonyris undulata                Barred Honeyeater
+115 5334 Phylidonyris notabilis               New Hebrides Honeyeater
+115 5335 Phylidonyris melanops                Tawny-crowned Honeyeater
+115 5336 Ramsayornis modestus                 Brown-backed Honeyeater
+115 5337 Ramsayornis fasciatus                Bar-breasted Honeyeater
+115 5338 Plectorhyncha lanceolata             Striped Honeyeater
+115 5339 Conopophila albogularis              Rufous-banded Honeyeater
+115 5340 Conopophila rufogularis              Rufous-throated Honeyeater
+115 5341 Conopophila whitei                   Grey Honeyeater
+115 5342 Grantiella picta                     Painted Honeyeater
+115 5343 Xanthomyza phrygia                   Regent Honeyeater
+115 5344 Acanthorhynchus tenuirostris         Eastern Spinebill
+115 5345 Acanthorhynchus superciliosus        Western Spinebill
+115 5346 Entomyzon cyanotis                   Blue-faced Honeyeater
+115 5347 Manorina melanophrys                 Bell Miner
+115 5348 Manorina melanocephala               Noisy Miner
+115 5349 Manorina flavigula                   Yellow-throated Miner
+115 5350 Anthornis melanura                   New Zealand Bellbird
+115 5351 Acanthagenys rufogularis             Spiny-cheeked Honeyeater
+115 5352 Anthochaera lunulata                 Little Wattlebird
+115 5353 Anthochaera chrysoptera              Brush Wattlebird
+115 5354 Anthochaera carunculata              Red Wattlebird
+115 5355 Anthochaera paradoxa                 Yellow Wattlebird
+115 5356 Prosthemadera novaeseelandiae        Tui
+115 5357 Epthianura tricolor                  Crimson Chat
+115 5358 Epthianura aurifrons                 Orange Chat
+115 5359 Epthianura crocea                    Yellow Chat
+115 5360 Epthianura albifrons                 White-fronted Chat
+115 5361 Ashbyia lovensis                     Gibberbird
+116 5362 Pardalotus punctatus                 Spotted Pardalote
+116 5363 Pardalotus quadragintus              Forty-spotted Pardalote
+116 5364 Pardalotus rubricatus                Red-browed Pardalote
+116 5365 Pardalotus striatus                  Striated Pardalote
+116 5366 Dasyornis longirostris               Western Bristlebird
+116 5367 Dasyornis brachypterus               Eastern Bristlebird
+116 5368 Dasyornis broadbenti                 Rufous Bristlebird
+116 5369 Pycnoptilus floccosus                Pilotbird
+116 5370 Origma solitaria                     Origma
+116 5371 Oreoscopus gutturalis                Fernwren
+116 5372 Crateroscelis murina                 Rusty Mouse-warbler
+116 5373 Crateroscelis nigrorufa              Bicolored Mouse-warbler
+116 5374 Crateroscelis robusta                Mountain Mouse-warbler
+116 5375 Sericornis citreogularis             Yellow-throated Scrubwren
+116 5376 Sericornis frontalis                 White-browed Scrubwren
+116 5377 Sericornis humilis                   Brown Scrubwren
+116 5378 Sericornis keri                      Atherton Scrubwren
+116 5379 Sericornis beccarii                  Beccari's Scrubwren
+116 5380 Sericornis virgatus                  Perplexing Scrubwren
+116 5381 Sericornis nouhuysi                  Large Scrubwren
+116 5382 Sericornis magnirostris              Large-billed Scrubwren
+116 5383 Sericornis rufescens                 Vogelkop Scrubwren
+116 5384 Sericornis perspicillatus            Buff-faced Scrubwren
+116 5385 Sericornis arfakianus                Grey-green Scrubwren
+116 5386 Sericornis papuensis                 Papuan Scrubwren
+116 5387 Sericornis spilodera                 Pale-billed Scrubwren
+116 5388 Acanthornis magnus                   Scrubtit
+116 5389 Pyrrholaemus brunneus                Redthroat
+116 5390 Chthonicola sagittatus               Speckled Warbler
+116 5391 Calamanthus campestris               Rufous Calamanthus
+116 5392 Calamanthus fuliginosus              Striated Calamanthus
+116 5393 Hylacola pyrrhopygia                Chestnut-rumped Hylacola
+116 5394 Hylacola cautus                      Shy Hylacola
+116 5395 Acanthiza murina                     Papuan Thornbill
+116 5396 Acanthiza katherina                  Mountain Thornbill
+116 5397 Acanthiza pusilla                    Brown Thornbill
+116 5398 Acanthiza ewingii                    Tasmanian Thornbill
+116 5399 Acanthiza reguloides                 Buff-rumped Thornbill
+116 5400 Acanthiza inornata                   Western Thornbill
+116 5401 Acanthiza iredalei                   Slender-billed Thornbill
+116 5402 Acanthiza chrysorrhoa                Yellow-rumped Thornbill
+116 5403 Acanthiza uropygialis                Chestnut-rumped Thornbill
+116 5404 Acanthiza nana                       Yellow Thornbill
+116 5405 Acanthiza lineata                    Striated Thornbill
+116 5406 Acanthiza robustirostris             Slaty-backed Thornbill
+116 5407 Smicrornis brevirostris              Weebill
+116 5408 Gerygone cinerea                     Mountain Gerygone
+116 5409 Gerygone chloronotus                 Green-backed Gerygone
+116 5410 Gerygone palpebrosa                  Fairy Gerygone
+116 5411 Gerygone olivacea                    White-throated Gerygone
+116 5412 Gerygone chrysogaster                Yellow-bellied Gerygone
+116 5413 Gerygone magnirostris                Large-billed Gerygone
+116 5414 Gerygone tenebrosa                   Dusky Gerygone
+116 5415 Gerygone sulphurea                   Golden-bellied Gerygone
+116 5416 Gerygone inornata                    Plain Gerygone
+116 5417 Gerygone dorsalis                    Rufous-sided Gerygone
+116 5418 Gerygone ruficollis                  Brown-breasted Gerygone
+116 5419 Gerygone levigaster                  Mangrove Gerygone
+116 5420 Gerygone fusca                       Western Gerygone
+116 5421 Gerygone insularis                   Lord Howe Island Gerygone
+116 5422 Gerygone mouki                       Brown Gerygone
+116 5423 Gerygone modesta                     Norfolk Island Gerygone
+116 5424 Gerygone igata                       Grey Gerygone
+116 5425 Gerygone albofrontata                Chatham Islands Gerygone
+116 5426 Gerygone flavolateralis              Fan-tailed Gerygone
+116 5427 Aphelocephala leucopsis              Southern Whiteface
+116 5428 Aphelocephala pectoralis             Chestnut-breasted Whiteface
+116 5429 Aphelocephala nigricincta            Banded Whiteface
+117 5430 Amalocichla sclateriana              Greater Ground-robin
+117 5431 Amalocichla incerta                  Lesser Ground-robin
+117 5432 Monachella muelleriana               Torrent Robin
+117 5433 Microeca fascinans                   Jacky-winter
+117 5434 Microeca hemixantha                  Golden-bellied Flyrobin
+117 5435 Microeca flavigaster                 Lemon-bellied Flyrobin
+117 5436 Microeca griseoceps                  Yellow-legged Flyrobin
+117 5437 Microeca flavovirescens              Olive Flyrobin
+117 5438 Microeca papuana                     Canary Flyrobin
+117 5439 Eugerygone rubra                     Garnet Robin
+117 5440 Petroica bivittata                   Alpine Robin
+117 5441 Petroica archboldi                   Snow Mountain Robin
+117 5442 Petroica multicolor                  Scarlet Robin
+117 5443 Petroica macrocephala                Tomtit
+117 5444 Petroica goodenovii                  Red-capped Robin
+117 5445 Petroica phoenicea                   Flame Robin
+117 5446 Petroica rosea                       Rose Robin
+117 5447 Petroica rodinogaster                Pink Robin
+117 5448 Petroica australis                   New Zealand Robin
+117 5449 Petroica traversi                    Chatham Islands Robin
+117 5450 Melanodryas cucullata                Hooded Robin
+117 5451 Melanodryas vittata                  Dusky Robin
+117 5452 Tregellasia leucops                  White-faced Robin
+117 5453 Tregellasia capito                   Pale-yellow Robin
+117 5454 Eopsaltria australis                 Yellow Robin
+117 5455 Eopsaltria griseogularis             Grey-breasted Robin
+117 5456 Eopsaltria flaviventris              Yellow-bellied Robin
+117 5457 Eopsaltria georgiana                 White-breasted Robin
+117 5458 Eopsaltria pulverulenta              Mangrove Robin
+117 5459 Poecilodryas brachyura               Black-chinned Robin
+117 5460 Poecilodryas hypoleuca               Black-sided Robin
+117 5461 Poecilodryas superciliosa            White-browed Robin
+117 5462 Poecilodryas placens                 Olive-yellow Robin
+117 5463 Poecilodryas albonotata              Black-throated Robin
+117 5464 Peneothello sigillatus               White-winged Robin
+117 5465 Peneothello cryptoleucus             Smoky Robin
+117 5466 Peneothello cyanus                   Blue-grey Robin
+117 5467 Peneothello bimaculatus              White-rumped Robin
+117 5468 Heteromyias albispecularis           Ashy Robin
+117 5469 Heteromyias cinereifrons             Grey-headed Robin
+117 5470 Pachycephalopsis hattamensis         Green-backed Robin
+117 5471 Pachycephalopsis poliosoma           White-eyed Robin
+117 5472 Drymodes superciliaris               Northern Scrub-Robin
+117 5473 Drymodes brunneopygia                Southern Scrub-Robin
+118 5474 Irena puella                         Asian Fairy-bluebird
+118 5475 Irena cyanogaster                    Philippine Fairy-bluebird
+118 5476 Chloropsis flavipennis               Philippine Leafbird
+118 5477 Chloropsis palawanensis              Yellow-throated Leafbird
+118 5478 Chloropsis sonnerati                 Greater Green Leafbird
+118 5479 Chloropsis cyanopogon                Lesser Green Leafbird
+118 5480 Chloropsis cochinchinensis           Blue-winged Leafbird
+118 5481 Chloropsis aurifrons                 Golden-fronted Leafbird
+118 5482 Chloropsis hardwickii                Orange-bellied Leafbird
+118 5483 Chloropsis venusta                   Blue-masked Leafbird
+119 5484 Orthonyx temminckii                  Logrunner
+119 5485 Orthonyx spaldingii                  Chowchilla
+120 5486 Pomatostomus isidorei                New Guinea Babbler
+120 5487 Pomatostomus temporalis              Grey-crowned Babbler
+120 5488 Pomatostomus superciliosus           White-browed Babbler
+120 5489 Pomatostomus halli                   Hall's Babbler
+120 5490 Pomatostomus ruficeps                Chestnut-crowned Babbler
+121 5491 Lanius tigrinus                      Tiger Shrike
+121 5492 Lanius bucephalus                    Bull-headed Shrike
+121 5493 Lanius collurio                      Red-backed Shrike
+121 5494 Lanius isabellinus                   Rufous-tailed Shrike
+121 5495 Lanius cristatus                     Brown Shrike
+121 5496 Lanius collurioides                  Burmese Shrike
+121 5497 Lanius gubernator                    Emin's Shrike
+121 5498 Lanius souzae                        Souza's Shrike
+121 5499 Lanius vittatus                      Bay-backed Shrike
+121 5500 Lanius schach                        Long-tailed Shrike
+121 5501 Lanius tephronotus                   Grey-backed Shrike
+121 5502 Lanius validirostris                 Mountain Shrike
+121 5503 Lanius minor                         Lesser Grey Shrike
+121 5504 Lanius ludovicianus                  Loggerhead Shrike
+121 5505 Lanius excubitor                     Northern Shrike
+121 5506 Lanius sphenocercus                  Chinese Grey Shrike
+121 5507 Lanius excubitoroides                Grey-backed Fiscal
+121 5508 Lanius cabanisi                      Long-tailed Fiscal
+121 5509 Lanius dorsalis                      Teita Fiscal
+121 5510 Lanius somalicus                     Somali Fiscal
+121 5511 Lanius mackinnoni                    Mackinnon's Shrike
+121 5512 Lanius collaris                      Common Fiscal
+121 5513 Lanius newtoni                       Newton's Fiscal
+121 5514 Lanius marwitzi                      Uhehe Fiscal
+121 5515 Lanius senator                       Woodchat Shrike
+121 5516 Lanius nubicus                       Masked Shrike
+121 5517 Corvinella corvina                   Yellow-billed Shrike
+121 5518 Corvinella melanoleuca               Magpie Shrike
+121 5519 Eurocephalus rueppelli               White-rumped Shrike
+121 5520 Eurocephalus anguitimens             White-crowned Shrike
+122 5521 Cyclarhis gujanensis                 Rufous-browed Peppershrike
+122 5522 Cyclarhis nigrirostris               Black-billed Peppershrike
+122 5523 Vireolanius melitophrys              Chestnut-sided Shrike-Vireo
+122 5524 Vireolanius pulchellus               Green Shrike-Vireo
+122 5525 Vireolanius eximius                  Yellow-browed Shrike-Vireo
+122 5526 Vireolanius leucotis                 Slaty-capped Shrike-Vireo
+122 5527 Vireo brevipennis                    Slaty Vireo
+122 5528 Vireo bellii                         Bell's Vireo
+122 5529 Vireo atricapillus                   Black-capped Vireo
+122 5530 Vireo nelsoni                        Dwarf Vireo
+122 5531 Vireo huttoni                        Hutton's Vireo
+122 5532 Vireo carmioli                       Yellow-winged Vireo
+122 5533 Vireo griseus                        White-eyed Vireo
+122 5534 Vireo pallens                        Mangrove Vireo
+122 5535 Vireo bairdi                         Cozumel Vireo
+122 5536 Vireo gundlachii                     Cuban Vireo
+122 5537 Vireo crassirostris                  Thick-billed Vireo
+122 5538 Vireo caribaeus                      St. Andrew Vireo
+122 5539 Vireo vicinior                       Grey Vireo
+122 5540 Vireo hypochryseus                   Golden Vireo
+122 5541 Vireo modestus                       Jamaican Vireo
+122 5542 Vireo nanus                          Flat-billed Vireo
+122 5543 Vireo latimeri                       Puerto Rican Vireo
+122 5544 Vireo osburni                        Blue Mountain Vireo
+122 5545 Vireo cassinii                       Cassin's Vireo
+122 5546 Vireo plumbeus                       Plumbeous Vireo
+122 5547 Vireo solitarius                     Blue-headed Vireo
+122 5548 Vireo flavifrons                     Yellow-throated Vireo
+122 5549 Vireo philadelphicus                 Philadelphia Vireo
+122 5550 Vireo olivaceus                      Red-eyed Vireo
+122 5551 Vireo flavoviridis                   Yellow-green Vireo
+122 5552 Vireo gracilirostris                 Noronha Vireo
+122 5553 Vireo altiloquus                     Black-whiskered Vireo
+122 5554 Vireo magister                       Yucatan Vireo
+122 5555 Vireo swainsonii                     Western Warbling-Vireo
+122 5556 Vireo gilvus                         Eastern Warbling-Vireo
+122 5557 Vireo leucophrys                     Brown-capped Vireo
+122 5558 Hylophilus amaurocephalus            Grey-eyed Greenlet
+122 5559 Hylophilus poicilotis                Rufous-crowned Greenlet
+122 5560 Hylophilus thoracicus                Lemon-chested Greenlet
+122 5561 Hylophilus semicinereus              Grey-chested Greenlet
+122 5562 Hylophilus pectoralis                Ashy-headed Greenlet
+122 5563 Hylophilus sclateri                  Tepui Greenlet
+122 5564 Hylophilus muscicapinus              Buff-cheeked Greenlet
+122 5565 Hylophilus brunneiceps               Brown-headed Greenlet
+122 5566 Hylophilus hypoxanthus               Dusky-capped Greenlet
+122 5567 Hylophilus semibrunneus              Rufous-naped Greenlet
+122 5568 Hylophilus aurantiifrons             Golden-fronted Greenlet
+122 5569 Hylophilus flavipes                  Scrub Greenlet
+122 5570 Hylophilus olivaceus                 Olivaceous Greenlet
+122 5571 Hylophilus ochraceiceps              Tawny-crowned Greenlet
+122 5572 Hylophilus decurtatus                Lesser Greenlet
+123 5573 Androphobus viridis                  Papuan Whipbird
+123 5574 Psophodes olivaceus                  Eastern Whipbird
+123 5575 Psophodes nigrogularis               Western Whipbird
+123 5576 Psophodes occidentalis               Chiming Wedgebill
+123 5577 Psophodes cristatus                  Chirruping Wedgebill
+123 5578 Cinclosoma punctatum                 Spotted Quail-thrush
+123 5579 Cinclosoma castanotus                Chestnut Quail-thrush
+123 5580 Cinclosoma castaneothorax            Chestnut-breasted Quail-thrush
+123 5581 Cinclosoma cinnamomeum               Cinnamon Quail-thrush
+123 5582 Cinclosoma ajax                      Painted Quail-thrush
+123 5583 Ptilorrhoa leucosticta               Spotted Jewel-babbler
+123 5584 Ptilorrhoa caerulescens              Blue Jewel-babbler
+123 5585 Ptilorrhoa castanonota               Chestnut-backed Jewel-babbler
+123 5586 Eupetes macrocerus                   Malaysian Rail-babbler
+123 5587 Ifrita kowaldi                       Ifrit
+123 5588 Corcorax melanorhamphos              White-winged Chough
+123 5589 Struthidea cinerea                   Apostlebird
+123 5590 Daphoenositta chrysoptera            Varied Sittella
+123 5591 Daphoenositta miranda                Black Sittella
+123 5592 Mohoua albicilla                     Whitehead
+123 5593 Mohoua ochrocephala                  Yellowhead
+123 5594 Mohoua novaeseelandiae               Pipipi
+123 5595 Falcunculus frontatus                Crested Shrike-tit
+123 5596 Oreoica gutturalis                   Crested Bellbird
+123 5597 Rhagologus leucostigma               Mottled Whistler
+123 5598 Pachycare flavogrisea                Goldenface
+123 5599 Hylocitrea bonensis                  Olive-flanked Whistler
+123 5600 Coracornis raveni                    Maroon-backed Whistler
+123 5601 Aleadryas rufinucha                  Rufous-naped Whistler
+123 5602 Pachycephala olivacea                Olive Whistler
+123 5603 Pachycephala rufogularis             Red-lored Whistler
+123 5604 Pachycephala inornata                Gilbert's Whistler
+123 5605 Pachycephala grisola                 Mangrove Whistler
+123 5606 Pachycephala albiventris             Green-backed Whistler
+123 5607 Pachycephala homeyeri                White-vented Whistler
+123 5608 Pachycephala phaionotus              Island Whistler
+123 5609 Pachycephala hyperythra              Rusty Whistler
+123 5610 Pachycephala modesta                 Brown-backed Whistler
+123 5611 Pachycephala hypoxantha              Bornean Whistler
+123 5612 Pachycephala sulfuriventer           Sulphur-bellied Whistler
+123 5613 Pachycephala philippinensis          Yellow-bellied Whistler
+123 5614 Pachycephala meyeri                  Vogelkop Whistler
+123 5615 Pachycephala griseiceps              Grey-headed Whistler
+123 5616 Pachycephala simplex                 Brown Whistler
+123 5617 Pachycephala orpheus                 Fawn-breasted Whistler
+123 5618 Pachycephala pectoralis              Golden Whistler
+123 5619 Pachycephala soror                   Sclater's Whistler
+123 5620 Pachycephala lorentzi                Lorentz's Whistler
+123 5621 Pachycephala melanura                Black-tailed Whistler
+123 5622 Pachycephala caledonica              New Caledonian Whistler
+123 5623 Pachycephala flavifrons              Samoan Whistler
+123 5624 Pachycephala jacquinoti              Tongan Whistler
+123 5625 Pachycephala schlegelii              Regent Whistler
+123 5626 Pachycephala nudigula                Bare-throated Whistler
+123 5627 Pachycephala implicata               Hooded Whistler
+123 5628 Pachycephala aurea                   Golden-backed Whistler
+123 5629 Pachycephala griseonota              Drab Whistler
+123 5630 Pachycephala arctitorquis            Wallacean Whistler
+123 5631 Pachycephala monacha                 Black-headed Whistler
+123 5632 Pachycephala leucogastra             White-bellied Whistler
+123 5633 Pachycephala rufiventris             Rufous Whistler
+123 5634 Pachycephala lanioides               White-breasted Whistler
+123 5635 Colluricincla umbrina                Sooty Shrike-thrush
+123 5636 Colluricincla megarhyncha            Little Shrike-thrush
+123 5637 Colluricincla boweri                 Bower's Shrike-thrush
+123 5638 Colluricincla woodwardi              Sandstone Shrike-thrush
+123 5639 Colluricincla harmonica              Grey Shrike-thrush
+123 5640 Colluricincla tenebrosa              Morningbird
+123 5641 Pitohui kirhocephalus                Variable Pitohui
+123 5642 Pitohui dichrous                     Hooded Pitohui
+123 5643 Pitohui incertus                     White-bellied Pitohui
+123 5644 Pitohui ferrugineus                  Rusty Pitohui
+123 5645 Pitohui cristatus                    Crested Pitohui
+123 5646 Pitohui nigrescens                   Black Pitohui
+123 5647 Eulacestoma nigropectus              Wattled Ploughbill
+123 5648 Turnagra capensis                    Piopio
+123 5649 Platylophus galericulatus            Crested Jay
+123 5650 Platysmurus leucopterus              Black Magpie
+123 5651 Gymnorhinus cyanocephalus            Pinyon Jay
+123 5652 Cyanocitta cristata                  Blue Jay
+123 5653 Cyanocitta stelleri                  Steller's Jay
+123 5654 Aphelocoma insularis                 Santa Cruz Jay
+123 5655 Aphelocoma californica               Scrub Jay
+123 5656 Aphelocoma coerulescens              Florida Jay
+123 5657 Aphelocoma ultramarina               Mexican Jay
+123 5658 Aphelocoma unicolor                  Unicolored Jay
+123 5659 Cyanolyca armillata                  Black-collared Jay
+123 5660 Cyanolyca turcosa                    Turquoise Jay
+123 5661 Cyanolyca viridicyana                White-collared Jay
+123 5662 Cyanolyca cucullata                  Azure-hooded Jay
+123 5663 Cyanolyca pulchra                    Beautiful Jay
+123 5664 Cyanolyca pumilo                     Black-throated Jay
+123 5665 Cyanolyca nana                       Dwarf Jay
+123 5666 Cyanolyca mirabilis                  White-throated Jay
+123 5667 Cyanolyca argentigula                Silvery-throated Jay
+123 5668 Cyanocorax melanocyaneus             Bushy-crested Jay
+123 5669 Cyanocorax sanblasianus              San Blas Jay
+123 5670 Cyanocorax yucatanicus               Yucatan Jay
+123 5671 Cyanocorax beecheii                  Purplish-backed Jay
+123 5672 Cyanocorax cyanomelas                Purplish Jay
+123 5673 Cyanocorax caeruleus                 Azure Jay
+123 5674 Cyanocorax violaceus                 Violaceous Jay
+123 5675 Cyanocorax cristatellus              Curl-crested Jay
+123 5676 Cyanocorax heilprini                 Azure-naped Jay
+123 5677 Cyanocorax cayanus                   Cayenne Jay
+123 5678 Cyanocorax affinis                   Black-chested Jay
+123 5679 Cyanocorax dickeyi                   Tufted Jay
+123 5680 Cyanocorax chrysops                  Plush-crested Jay
+123 5681 Cyanocorax cyanopogon                White-naped Jay
+123 5682 Cyanocorax mystacalis                White-tailed Jay
+123 5683 Cyanocorax yncas                     Green Jay
+123 5684 Psilorhinus morio                    Brown Jay
+123 5685 Calocitta colliei                    Black-throated Magpie-Jay
+123 5686 Calocitta formosa                    White-throated Magpie-Jay
+123 5687 Garrulus glandarius                  Eurasian Jay
+123 5688 Garrulus lanceolatus                 Black-headed Jay
+123 5689 Garrulus lidthi                      Lidth's Jay
+123 5690 Perisoreus infaustus                 Siberian Jay
+123 5691 Perisoreus internigrans              Sichuan Jay
+123 5692 Perisoreus canadensis                Grey Jay
+123 5693 Urocissa ornata                      Ceylon Magpie
+123 5694 Urocissa caerulea                    Formosan Magpie
+123 5695 Urocissa flavirostris                Gold-billed Magpie
+123 5696 Urocissa erythrorhyncha              Blue Magpie
+123 5697 Urocissa whiteheadi                  White-winged Magpie
+123 5698 Cissa chinensis                      Green Magpie
+123 5699 Cissa hypoleuca                      Yellow-breasted Magpie
+123 5700 Cissa thalassina                     Short-tailed Magpie
+123 5701 Cyanopica cyana                      Azure-winged Magpie
+123 5702 Dendrocitta vagabunda                Rufous Treepie
+123 5703 Dendrocitta formosae                 Grey Treepie
+123 5704 Dendrocitta occipitalis              Sunda Treepie
+123 5705 Dendrocitta leucogastra              White-bellied Treepie
+123 5706 Dendrocitta frontalis                Collared Treepie
+123 5707 Dendrocitta bayleyi                  Andaman Treepie
+123 5708 Crypsirina temia                     Racket-tailed Treepie
+123 5709 Crypsirina cucullata                 Hooded Treepie
+123 5710 Temnurus temnurus                    Ratchet-tailed Treepie
+123 5711 Pica pica                            Black-billed Magpie
+123 5712 Pica nuttalli                        Yellow-billed Magpie
+123 5713 Zavattariornis stresemanni           Stresemann's Bush-Crow
+123 5714 Podoces hendersoni                   Mongolian Ground-Jay
+123 5715 Podoces biddulphi                    Xinjiang Ground-Jay
+123 5716 Podoces panderi                      Turkestan Ground-Jay
+123 5717 Podoces pleskei                      Iranian Ground-Jay
+123 5718 Pseudopodoces humilis                Tibetan Ground-Jay
+123 5719 Nucifraga columbiana                 Clark's Nutcracker
+123 5720 Nucifraga caryocatactes              Spotted Nutcracker
+123 5721 Pyrrhocorax pyrrhocorax              Red-billed Chough
+123 5722 Pyrrhocorax graculus                 Yellow-billed Chough
+123 5723 Ptilostomus afer                     Piapiac
+123 5724 Corvus monedula                      Eurasian Jackdaw
+123 5725 Corvus dauuricus                     Daurian Jackdaw
+123 5726 Corvus splendens                     House Crow
+123 5727 Corvus moneduloides                  New Caledonian Crow
+123 5728 Corvus enca                          Slender-billed Crow
+123 5729 Corvus typicus                       Piping Crow
+123 5730 Corvus unicolor                      Banggai Crow
+123 5731 Corvus florensis                     Flores Crow
+123 5732 Corvus kubaryi                       Mariana Crow
+123 5733 Corvus validus                       Long-billed Crow
+123 5734 Corvus meeki                         Bougainville Crow
+123 5735 Corvus woodfordi                     White-billed Crow
+123 5736 Corvus fuscicapillus                 Brown-headed Crow
+123 5737 Corvus tristis                       Grey Crow
+123 5738 Corvus capensis                      Cape Crow
+123 5739 Corvus frugilegus                    Rook
+123 5740 Corvus caurinus                      Northwestern Crow
+123 5741 Corvus brachyrhynchos                American Crow
+123 5742 Corvus ossifragus                    Fish Crow
+123 5743 Corvus imparatus                     Tamaulipas Crow
+123 5744 Corvus sinaloae                      Sinaloa Crow
+123 5745 Corvus palmarum                      Palm Crow
+123 5746 Corvus jamaicensis                   Jamaican Crow
+123 5747 Corvus nasicus                       Cuban Crow
+123 5748 Corvus leucognaphalus                White-necked Crow
+123 5749 Corvus corone                        Carrion Crow
+123 5750 Corvus macrorhynchos                 Large-billed Crow
+123 5751 Corvus levaillantii                  Jungle Crow
+123 5752 Corvus orru                          Torresian Crow
+123 5753 Corvus bennetti                      Little Crow
+123 5754 Corvus coronoides                    Australian Raven
+123 5755 Corvus mellori                       Little Raven
+123 5756 Corvus boreus                        Relict Raven
+123 5757 Corvus tasmanicus                    Forest Raven
+123 5758 Corvus torquatus                     Collared Crow
+123 5759 Corvus hawaiiensis                   Hawaiian Crow
+123 5760 Corvus cryptoleucus                  Chihuahuan Raven
+123 5761 Corvus albus                         Pied Crow
+123 5762 Corvus ruficollis                    Brown-necked Raven
+123 5763 Corvus corax                         Common Raven
+123 5764 Corvus rhipidurus                    Fan-tailed Raven
+123 5765 Corvus albicollis                    White-necked Raven
+123 5766 Corvus crassirostris                 Thick-billed Raven
+123 5767 Melampitta lugubris                  Lesser Melampitta
+123 5768 Melampitta gigantea                  Greater Melampitta
+123 5769 Loboparadisea sericea                Yellow-breasted Bird-of-paradise
+123 5770 Cnemophilus macgregorii              Crested Bird-of-paradise
+123 5771 Cnemophilus loriae                   Loria's Bird-of-paradise
+123 5772 Macgregoria pulchra                  Macgregor's Bird-of-paradise
+123 5773 Lycocorax pyrrhopterus               Paradise-crow
+123 5774 Manucodia atra                       Glossy-mantled Manucode
+123 5775 Manucodia chalybata                  Crinkle-collared Manucode
+123 5776 Manucodia comrii                     Curl-crested Manucode
+123 5777 Manucodia jobiensis                  Jobi Manucode
+123 5778 Manucodia keraudrenii                Trumpet Manucode
+123 5779 Semioptera wallacii                  Standardwing
+123 5780 Paradigalla carunculata              Long-tailed Paradigalla
+123 5781 Paradigalla brevicauda               Short-tailed Paradigalla
+123 5782 Epimachus fastuosus                  Black Sicklebill
+123 5783 Epimachus meyeri                     Brown Sicklebill
+123 5784 Epimachus albertisi                  Black-billed Sicklebill
+123 5785 Epimachus bruijnii                   Pale-billed Sicklebill
+123 5786 Lophorina superba                    Superb Bird-of-paradise
+123 5787 Parotia sefilata                     Western Parotia
+123 5788 Parotia carolae                      Carola's Parotia
+123 5789 Parotia lawesii                      Lawes's Parotia
+123 5790 Parotia helenae                      Eastern Parotia
+123 5791 Parotia wahnesi                      Wahnes's Parotia
+123 5792 Ptiloris magnificus                  Magnificent Riflebird
+123 5793 Ptiloris intercedens                 Eastern Riflebird
+123 5794 Ptiloris victoriae                   Victoria's Riflebird
+123 5795 Ptiloris paradiseus                  Paradise Riflebird
+123 5796 Cicinnurus magnificus                Magnificent Bird-of-paradise
+123 5797 Cicinnurus respublica                Wilson's Bird-of-paradise
+123 5798 Cicinnurus regius                    King Bird-of-paradise
+123 5799 Astrapia nigra                       Arfak Astrapia
+123 5800 Astrapia splendidissima              Splendid Astrapia
+123 5801 Astrapia mayeri                      Ribbon-tailed Astrapia
+123 5802 Astrapia stephaniae                  Stephanie's Astrapia
+123 5803 Astrapia rothschildi                 Huon Astrapia
+123 5804 Pteridophora alberti                 King-of-Saxony Bird-of-paradise
+123 5805 Seleucidis melanoleuca               Twelve-wired Bird-of-paradise
+123 5806 Paradisaea rubra                     Red Bird-of-paradise
+123 5807 Paradisaea minor                     Lesser Bird-of-paradise
+123 5808 Paradisaea apoda                     Greater Bird-of-paradise
+123 5809 Paradisaea raggiana                  Raggiana Bird-of-paradise
+123 5810 Paradisaea decora                    Goldie's Bird-of-paradise
+123 5811 Paradisaea guilielmi                 Emperor Bird-of-paradise
+123 5812 Paradisaea rudolphi                  Blue Bird-of-paradise
+123 5813 Cracticus mentalis                   Black-backed Butcherbird
+123 5814 Cracticus torquatus                  Grey Butcherbird
+123 5815 Cracticus cassicus                   Hooded Butcherbird
+123 5816 Cracticus louisiadensis              Tagula Butcherbird
+123 5817 Cracticus nigrogularis               Pied Butcherbird
+123 5818 Cracticus quoyi                      Black Butcherbird
+123 5819 Gymnorhina tibicen                   Australian Magpie
+123 5820 Strepera graculina                   Pied Currawong
+123 5821 Strepera fuliginosa                  Black Currawong
+123 5822 Strepera versicolor                  Grey Currawong
+123 5823 Artamus fuscus                       Ashy Woodswallow
+123 5824 Artamus leucorynchus                 White-breasted Woodswallow
+123 5825 Artamus monachus                     Ivory-backed Woodswallow
+123 5826 Artamus maximus                      Great Woodswallow
+123 5827 Artamus insignis                     Bismarck Woodswallow
+123 5828 Artamus mentalis                     Fiji Woodswallow
+123 5829 Artamus personatus                   Masked Woodswallow
+123 5830 Artamus superciliosus                White-browed Woodswallow
+123 5831 Artamus cinereus                     Black-faced Woodswallow
+123 5832 Artamus cyanopterus                  Dusky Woodswallow
+123 5833 Artamus minor                        Little Woodswallow
+123 5834 Pityriasis gymnocephala              Bornean Bristlehead
+123 5835 Peltops blainvillii                  Lowland Peltops
+123 5836 Peltops montanus                     Mountain Peltops
+123 5837 Oriolus melanotis                    Olive-brown Oriole
+123 5838 Oriolus bouroensis                   Black-eared Oriole
+123 5839 Oriolus forsteni                     Grey-collared Oriole
+123 5840 Oriolus phaeochromus                 Dusky-brown Oriole
+123 5841 Oriolus szalayi                      Brown Oriole
+123 5842 Oriolus sagittatus                   Olive-backed Oriole
+123 5843 Oriolus flavocinctus                 Green Oriole
+123 5844 Oriolus xanthonotus                  Dark-throated Oriole
+123 5845 Oriolus steerii                      Philippine Oriole
+123 5846 Oriolus albiloris                    White-lored Oriole
+123 5847 Oriolus isabellae                    Isabela Oriole
+123 5848 Oriolus oriolus                      Eurasian Golden-Oriole
+123 5849 Oriolus auratus                      African Golden-Oriole
+123 5850 Oriolus chinensis                    Black-naped Oriole
+123 5851 Oriolus tenuirostris                 Slender-billed Oriole
+123 5852 Oriolus chlorocephalus               Green-headed Oriole
+123 5853 Oriolus crassirostris                Sao Tome Oriole
+123 5854 Oriolus brachyrhynchus               Western Black-headed Oriole
+123 5855 Oriolus monacha                      Dark-headed Oriole
+123 5856 Oriolus larvatus                     African Black-headed Oriole
+123 5857 Oriolus percivali                    Black-tailed Oriole
+123 5858 Oriolus nigripennis                  Black-winged Oriole
+123 5859 Oriolus xanthornus                   Black-hooded Oriole
+123 5860 Oriolus hosii                        Black Oriole
+123 5861 Oriolus cruentus                     Black-and-crimson Oriole
+123 5862 Oriolus traillii                     Maroon Oriole
+123 5863 Oriolus mellianus                    Silver Oriole
+123 5864 Sphecotheres hypoleucus              Wetar Figbird
+123 5865 Sphecotheres viridis                 Green Figbird
+123 5866 Coracina maxima                      Ground Cuckooshrike
+123 5867 Coracina larvata                     Sunda Cuckooshrike
+123 5868 Coracina macei                       Large Cuckooshrike
+123 5869 Coracina javensis                    Javan Cuckooshrike
+123 5870 Coracina schistacea                  Slaty Cuckooshrike
+123 5871 Coracina personata                   Wallacean Cuckooshrike
+123 5872 Coracina atriceps                    Moluccan Cuckooshrike
+123 5873 Coracina fortis                      Buru Cuckooshrike
+123 5874 Coracina caledonica                  Melanesian Cuckooshrike
+123 5875 Coracina novaehollandiae             Black-faced Cuckooshrike
+123 5876 Coracina caeruleogrisea              Stout-billed Cuckooshrike
+123 5877 Coracina temminckii                  Cerulean Cuckooshrike
+123 5878 Coracina striata                     Bar-bellied Cuckooshrike
+123 5879 Coracina bicolor                     Pied Cuckooshrike
+123 5880 Coracina lineata                     Yellow-eyed Cuckooshrike
+123 5881 Coracina boyeri                      Boyer's Cuckooshrike
+123 5882 Coracina leucopygia                  White-rumped Cuckooshrike
+123 5883 Coracina papuensis                   White-bellied Cuckooshrike
+123 5884 Coracina longicauda                  Hooded Cuckooshrike
+123 5885 Coracina parvula                     Halmahera Cuckooshrike
+123 5886 Coracina abbotti                     Pygmy Cuckooshrike
+123 5887 Coracina analis                      New Caledonian Cuckooshrike
+123 5888 Coracina pectoralis                  White-breasted Cuckooshrike
+123 5889 Coracina caesia                      Grey Cuckooshrike
+123 5890 Coracina azurea                      Blue Cuckooshrike
+123 5891 Coracina graueri                     Grauer's Cuckooshrike
+123 5892 Coracina cinerea                     Ashy Cuckooshrike
+123 5893 Coracina typica                      Mauritius Cuckooshrike
+123 5894 Coracina newtoni                     Reunion Cuckooshrike
+123 5895 Coracina coerulescens                Blackish Cuckooshrike
+123 5896 Coracina tenuirostris                Slender-billed Cicadabird
+123 5897 Coracina dohertyi                    Sumba Cicadabird
+123 5898 Coracina sula                        Sula Cicadabird
+123 5899 Coracina dispar                      Kai Cicadabird
+123 5900 Coracina mindanensis                 Black-bibbed Cicadabird
+123 5901 Coracina morio                       Sulawesi Cicadabird
+123 5902 Coracina ceramensis                  Pale Cicadabird
+123 5903 Coracina incerta                     Black-shouldered Cicadabird
+123 5904 Coracina schisticeps                 Grey-headed Cuckooshrike
+123 5905 Coracina melas                       New Guinea Cuckooshrike
+123 5906 Coracina montana                     Black-bellied Cuckooshrike
+123 5907 Coracina holopolia                   Solomon Islands Cuckooshrike
+123 5908 Coracina mcgregori                   McGregor's Cuckooshrike
+123 5909 Coracina ostenta                     White-winged Cuckooshrike
+123 5910 Coracina polioptera                  Indochinese Cuckooshrike
+123 5911 Coracina melaschistos                Black-winged Cuckooshrike
+123 5912 Coracina fimbriata                   Lesser Cuckooshrike
+123 5913 Coracina melanoptera                 Black-headed Cuckooshrike
+123 5914 Campochaera sloetii                  Golden Cuckooshrike
+123 5915 Lalage melanoleuca                   Black-and-white Triller
+123 5916 Lalage nigra                         Pied Triller
+123 5917 Lalage leucopygialis                 White-rumped Triller
+123 5918 Lalage sueurii                       White-shouldered Triller
+123 5919 Lalage tricolor                      White-winged Triller
+123 5920 Lalage aurea                         Rufous-bellied Triller
+123 5921 Lalage moesta                        White-browed Triller
+123 5922 Lalage atrovirens                    Black-browed Triller
+123 5923 Lalage leucomela                     Varied Triller
+123 5924 Lalage maculosa                      Polynesian Triller
+123 5925 Lalage sharpei                       Samoan Triller
+123 5926 Lalage leucopyga                     Long-tailed Triller
+123 5927 Campephaga petiti                    Petit's Cuckoo-shrike
+123 5928 Campephaga flava                     Black Cuckoo-shrike
+123 5929 Campephaga phoenicea                 Red-shouldered Cuckoo-shrike
+123 5930 Campephaga quiscalina                Purple-throated Cuckoo-shrike
+123 5931 Campephaga lobata                    Ghana Cuckoo-shrike
+123 5932 Campephaga oriolina                  Oriole Cuckoo-shrike
+123 5933 Pericrocotus roseus                  Rosy Minivet
+123 5934 Pericrocotus cantonensis             Brown-rumped Minivet
+123 5935 Pericrocotus divaricatus             Ashy Minivet
+123 5936 Pericrocotus tegimae                 Ryukyu Minivet
+123 5937 Pericrocotus cinnamomeus             Small Minivet
+123 5938 Pericrocotus igneus                  Fiery Minivet
+123 5939 Pericrocotus lansbergei              Flores Minivet
+123 5940 Pericrocotus erythropygius           White-bellied Minivet
+123 5941 Pericrocotus solaris                 Grey-chinned Minivet
+123 5942 Pericrocotus ethologus               Long-tailed Minivet
+123 5943 Pericrocotus brevirostris            Short-billed Minivet
+123 5944 Pericrocotus miniatus                Sunda Minivet
+123 5945 Pericrocotus flammeus                Scarlet Minivet
+123 5946 Hemipus picatus                      Bar-winged Flycatcher-shrike
+123 5947 Hemipus hirundinaceus                Black-winged Flycatcher-shrike
+123 5948 Rhipidura hypoxantha                 Yellow-bellied Fantail
+123 5949 Rhipidura superciliaris              Blue Fantail
+123 5950 Rhipidura cyaniceps                  Blue-headed Fantail
+123 5951 Rhipidura phoenicura                 Rufous-tailed Fantail
+123 5952 Rhipidura nigrocinnamomea            Black-and-cinnamon Fantail
+123 5953 Rhipidura albicollis                 White-throated Fantail
+123 5954 Rhipidura euryura                    White-bellied Fantail
+123 5955 Rhipidura aureola                    White-browed Fantail
+123 5956 Rhipidura javanica                   Pied Fantail
+123 5957 Rhipidura perlata                    Spotted Fantail
+123 5958 Rhipidura leucophrys                 Willie-wagtail
+123 5959 Rhipidura diluta                     Brown-capped Fantail
+123 5960 Rhipidura rufiventris                Northern Fantail
+123 5961 Rhipidura fuscorufa                  Cinnamon-tailed Fantail
+123 5962 Rhipidura cockerelli                 White-winged Fantail
+123 5963 Rhipidura threnothorax               Sooty Thicket-Fantail
+123 5964 Rhipidura maculipectus               Black Thicket-Fantail
+123 5965 Rhipidura leucothorax                White-bellied Thicket-Fantail
+123 5966 Rhipidura atra                       Black Fantail
+123 5967 Rhipidura hyperythra                 Chestnut-bellied Fantail
+123 5968 Rhipidura albolimbata                Friendly Fantail
+123 5969 Rhipidura phasiana                   Mangrove Fantail
+123 5970 Rhipidura fuliginosa                 Grey Fantail
+123 5971 Rhipidura drownei                    Brown Fantail
+123 5972 Rhipidura tenebrosa                  Dusky Fantail
+123 5973 Rhipidura rennelliana                Rennell Fantail
+123 5974 Rhipidura spilodera                  Streaked Fantail
+123 5975 Rhipidura personata                  Kadavu Fantail
+123 5976 Rhipidura nebulosa                   Samoan Fantail
+123 5977 Rhipidura brachyrhyncha              Dimorphic Fantail
+123 5978 Rhipidura teysmanni                  Rusty-bellied Fantail
+123 5979 Rhipidura superflua                  Tawny-backed Fantail
+123 5980 Rhipidura dedemi                     Streaky-breasted Fantail
+123 5981 Rhipidura opistherythra              Long-tailed Fantail
+123 5982 Rhipidura lepida                     Palau Fantail
+123 5983 Rhipidura rufidorsa                  Rufous-backed Fantail
+123 5984 Rhipidura dahli                      Bismarck Fantail
+123 5985 Rhipidura matthiae                   Matthias Fantail
+123 5986 Rhipidura malaitae                   Malaita Fantail
+123 5987 Rhipidura kubaryi                    Pohnpei Fantail
+123 5988 Rhipidura rufifrons                  Rufous Fantail
+123 5989 Rhipidura semirubra                  Manus Fantail
+123 5990 Chaetorhynchus papuensis             Pygmy Drongo
+123 5991 Dicrurus ludwigii                    Square-tailed Drongo
+123 5992 Dicrurus atripennis                  Shining Drongo
+123 5993 Dicrurus adsimilis                   Fork-tailed Drongo
+123 5994 Dicrurus modestus                    Velvet-mantled Drongo
+123 5995 Dicrurus aldabranus                  Aldabra Drongo
+123 5996 Dicrurus fuscipennis                 Comoro Drongo
+123 5997 Dicrurus forficatus                  Crested Drongo
+123 5998 Dicrurus waldenii                    Mayotte Drongo
+123 5999 Dicrurus macrocercus                 Black Drongo
+123 6000 Dicrurus leucophaeus                 Ashy Drongo
+123 6001 Dicrurus caerulescens                White-bellied Drongo
+123 6002 Dicrurus annectans                   Crow-billed Drongo
+123 6003 Dicrurus aeneus                      Bronzed Drongo
+123 6004 Dicrurus remifer                     Lesser Racket-tailed Drongo
+123 6005 Dicrurus hottentottus                Hair-crested Drongo
+123 6006 Dicrurus sumatranus                  Sumatran Drongo
+123 6007 Dicrurus montanus                    Sulawesi Drongo
+123 6008 Dicrurus densus                      Wallacean Drongo
+123 6009 Dicrurus balicassius                 Balicassiao
+123 6010 Dicrurus bracteatus                  Spangled Drongo
+123 6011 Dicrurus megarhynchus                Ribbon-tailed Drongo
+123 6012 Dicrurus andamanensis                Andaman Drongo
+123 6013 Dicrurus paradiseus                  Greater Racket-tailed Drongo
+123 6014 Erythrocercus mccallii               Chestnut-capped Flycatcher
+123 6015 Erythrocercus holochlorus            Yellow Flycatcher
+123 6016 Erythrocercus livingstonei           Livingstone's Flycatcher
+123 6017 Elminia longicauda                   African Blue-Flycatcher
+123 6018 Elminia albicauda                    White-tailed Blue-Flycatcher
+123 6019 Trochocercus nigromitratus           Dusky Crested-Flycatcher
+123 6020 Trochocercus albiventris             White-bellied Crested-Flycatcher
+123 6021 Trochocercus albonotatus             White-tailed Crested-Flycatcher
+123 6022 Trochocercus nitens                  Blue-headed Crested-Flycatcher
+123 6023 Trochocercus cyanomelas              African Crested-Flycatcher
+123 6024 Hypothymis helenae                   Short-crested Monarch
+123 6025 Hypothymis coelestis                 Celestial Monarch
+123 6026 Hypothymis azurea                    Black-naped Monarch
+123 6027 Eutrichomyias rowleyi                Cerulean Paradise-Flycatcher
+123 6028 Terpsiphone rufiventer               Black-headed Paradise-Flycatcher
+123 6029 Terpsiphone bedfordi                 Bedford's Paradise-Flycatcher
+123 6030 Terpsiphone rufocinerea              Rufous-vented Paradise-Flycatcher
+123 6031 Terpsiphone viridis                  African Paradise-Flycatcher
+123 6032 Terpsiphone atrochalybeia            Sao Tome Paradise-Flycatcher
+123 6033 Terpsiphone mutata                   Madagascar Paradise-Flycatcher
+123 6034 Terpsiphone corvina                  Seychelles Paradise-Flycatcher
+123 6035 Terpsiphone bourbonnensis            Mascarene Paradise-Flycatcher
+123 6036 Terpsiphone paradisi                 Asian Paradise-Flycatcher
+123 6037 Terpsiphone atrocaudata              Japanese Paradise-Flycatcher
+123 6038 Terpsiphone cinnamomea               Rufous Paradise-Flycatcher
+123 6039 Terpsiphone cyanescens               Blue Paradise-Flycatcher
+123 6040 Chasiempis sandwichensis             Elepaio
+123 6041 Pomarea dimidiata                    Rarotonga Monarch
+123 6042 Pomarea nigra                        Tahiti Monarch
+123 6043 Pomarea iphis                        Iphis Monarch
+123 6044 Pomarea mendozae                     Marquesan Monarch
+123 6045 Pomarea whitneyi                     Fatuhiva Monarch
+123 6046 Mayrornis versicolor                 Ogea Monarch
+123 6047 Mayrornis lessoni                    Slaty Monarch
+123 6048 Mayrornis schistaceus                Vanikoro Monarch
+123 6049 Neolalage banksiana                  Buff-bellied Monarch
+123 6050 Clytorhynchus pachycephaloides       Southern Shrikebill
+123 6051 Clytorhynchus vitiensis              Fiji Shrikebill
+123 6052 Clytorhynchus nigrogularis           Black-throated Shrikebill
+123 6053 Clytorhynchus hamlini                Rennell Shrikebill
+123 6054 Metabolus rugensis                   Truk Monarch
+123 6055 Monarcha axillaris                   Black Monarch
+123 6056 Monarcha rubiensis                   Rufous Monarch
+123 6057 Monarcha cinerascens                 Island Monarch
+123 6058 Monarcha frater                      Black-winged Monarch
+123 6059 Monarcha melanopsis                  Black-faced Monarch
+123 6060 Monarcha erythrostictus              Bougainville Monarch
+123 6061 Monarcha castaneiventris             Chestnut-bellied Monarch
+123 6062 Monarcha richardsii                  White-capped Monarch
+123 6063 Monarcha pileatus                    White-naped Monarch
+123 6064 Monarcha castus                      Loetoe Monarch
+123 6065 Monarcha leucotis                    White-eared Monarch
+123 6066 Monarcha guttulus                    Spot-winged Monarch
+123 6067 Monarcha mundus                      Black-bibbed Monarch
+123 6068 Monarcha trivirgatus                 Spectacled Monarch
+123 6069 Monarcha sacerdotum                  Flores Monarch
+123 6070 Monarcha everetti                    White-tipped Monarch
+123 6071 Monarcha loricatus                   Black-tipped Monarch
+123 6072 Monarcha boanensis                   Black-chinned Monarch
+123 6073 Monarcha leucurus                    White-tailed Monarch
+123 6074 Monarcha julianae                    Black-backed Monarch
+123 6075 Monarcha manadensis                  Hooded Monarch
+123 6076 Monarcha brehmii                     Biak Monarch
+123 6077 Monarcha infelix                     Manus Monarch
+123 6078 Monarcha menckei                     White-breasted Monarch
+123 6079 Monarcha verticalis                  Black-tailed Monarch
+123 6080 Monarcha barbatus                    Black-and-white Monarch
+123 6081 Monarcha browni                      Kulambangra Monarch
+123 6082 Monarcha viduus                      White-collared Monarch
+123 6083 Monarcha godeffroyi                  Yap Monarch
+123 6084 Monarcha takatsukasae                Tinian Monarch
+123 6085 Monarcha chrysomela                  Golden Monarch
+123 6086 Arses telescophthalmus               Frilled Monarch
+123 6087 Arses insularis                      Rufous-collared Monarch
+123 6088 Arses kaupi                          Pied Monarch
+123 6089 Myiagra freycineti                   Guam Flycatcher
+123 6090 Myiagra erythrops                    Mangrove Flycatcher
+123 6091 Myiagra oceanica                     Oceanic Flycatcher
+123 6092 Myiagra pluto                        Pohnpei Flycatcher
+123 6093 Myiagra atra                         Biak Flycatcher
+123 6094 Myiagra galeata                      Dark-grey Flycatcher
+123 6095 Myiagra rubecula                     Leaden Flycatcher
+123 6096 Myiagra ferrocyanea                  Steel-blue Flycatcher
+123 6097 Myiagra cervinicauda                 Ochre-headed Flycatcher
+123 6098 Myiagra caledonica                   Melanesian Flycatcher
+123 6099 Myiagra vanikorensis                 Vanikoro Flycatcher
+123 6100 Myiagra albiventris                  Samoan Flycatcher
+123 6101 Myiagra azureocapilla                Blue-crested Flycatcher
+123 6102 Myiagra ruficollis                   Broad-billed Flycatcher
+123 6103 Myiagra cyanoleuca                   Satin Flycatcher
+123 6104 Myiagra inquieta                     Restless Flycatcher
+123 6105 Myiagra alecto                       Shining Flycatcher
+123 6106 Myiagra hebetior                     Dull Flycatcher
+123 6107 Lamprolia victoriae                  Silktail
+123 6108 Machaerirhynchus flaviventer         Yellow-breasted Boatbill
+123 6109 Machaerirhynchus nigripectus         Black-breasted Boatbill
+123 6110 Grallina cyanoleuca                  Magpie-lark
+123 6111 Grallina bruijni                     Torrent-lark
+123 6112 Aegithina tiphia                     Common Iora
+123 6113 Aegithina nigrolutea                 White-tailed Iora
+123 6114 Aegithina viridissima                Green Iora
+123 6115 Aegithina lafresnayei                Great Iora
+123 6116 Lanioturdus torquatus                Chatshrike
+123 6117 Nilaus afer                          Brubru
+123 6118 Dryoscopus gambensis                 Northern Puffback
+123 6119 Dryoscopus pringlii                  Pringle's Puffback
+123 6120 Dryoscopus cubla                     Black-backed Puffback
+123 6121 Dryoscopus senegalensis              Red-eyed Puffback
+123 6122 Dryoscopus angolensis                Pink-footed Puffback
+123 6123 Dryoscopus sabini                    Large-billed Puffback
+123 6124 Tchagra minuta                       Marsh Tchagra
+123 6125 Tchagra anchietae                    Anchieta's Tchagra
+123 6126 Tchagra senegala                     Black-crowned Tchagra
+123 6127 Tchagra australis                    Brown-crowned Tchagra
+123 6128 Tchagra jamesi                       Three-streaked Tchagra
+123 6129 Tchagra tchagra                      Southern Tchagra
+123 6130 Laniarius ruficeps                   Red-naped Bushshrike
+123 6131 Laniarius luehderi                   Luehder's Bushshrike
+123 6132 Laniarius brauni                     Orange-breasted Bushshrike
+123 6133 Laniarius amboimensis                Gabela Bushshrike
+123 6134 Laniarius liberatus                  Bulo Burti Boubou
+123 6135 Laniarius turatii                    Turati's Boubou
+123 6136 Laniarius aethiopicus                Tropical Boubou
+123 6137 Laniarius bicolor                    Gabon Boubou
+123 6138 Laniarius ferrugineus                Southern Boubou
+123 6139 Laniarius barbarus                   Common Gonolek
+123 6140 Laniarius erythrogaster              Black-headed Gonolek
+123 6141 Laniarius atrococcineus              Crimson-breasted Gonolek
+123 6142 Laniarius mufumbiri                  Papyrus Gonolek
+123 6143 Laniarius atroflavus                 Yellow-breasted Boubou
+123 6144 Laniarius funebris                   Slate-colored Boubou
+123 6145 Laniarius leucorhynchus              Sooty Boubou
+123 6146 Laniarius poensis                    Mountain Boubou
+123 6147 Laniarius fuelleborni                Fuelleborn's Boubou
+123 6148 Rhodophoneus cruentus                Rosy-patched Bushshrike
+123 6149 Telophorus zeylonus                  Bokmakierie Bushshrike
+123 6150 Telophorus bocagei                   Grey-green Bushshrike
+123 6151 Telophorus sulfureopectus            Sulphur-breasted Bushshrike
+123 6152 Telophorus olivaceus                 Olive Bushshrike
+123 6153 Telophorus multicolor                Many-colored Bushshrike
+123 6154 Telophorus nigrifrons                Black-fronted Bushshrike
+123 6155 Telophorus kupeensis                 Serle's Bushshrike
+123 6156 Telophorus viridis                   Perrin's Bushshrike
+123 6157 Telophorus dohertyi                  Doherty's Bushshrike
+123 6158 Telophorus quadricolor               Four-colored Bushshrike
+123 6159 Malaconotus cruentus                 Fiery-breasted Bushshrike
+123 6160 Malaconotus lagdeni                  Lagden's Bushshrike
+123 6161 Malaconotus gladiator                Green-breasted Bushshrike
+123 6162 Malaconotus blanchoti                Grey-headed Bushshrike
+123 6163 Malaconotus monteiri                 Monteiro's Bushshrike
+123 6164 Malaconotus alius                    Uluguru Bushshrike
+123 6165 Prionops plumatus                    White Helmetshrike
+123 6166 Prionops poliolophus                 Grey-crested Helmetshrike
+123 6167 Prionops alberti                     Yellow-crested Helmetshrike
+123 6168 Prionops caniceps                    Chestnut-bellied Helmetshrike
+123 6169 Prionops rufiventris                 Gabon Helmetshrike
+123 6170 Prionops retzii                      Retz's Helmetshrike
+123 6171 Prionops gabela                      Angola Helmetshrike
+123 6172 Prionops scopifrons                  Chestnut-fronted Helmetshrike
+123 6173 Bias flammulatus                     African Shrike-flycatcher
+123 6174 Bias musicus                         Black-and-white Shrike-flycatcher
+123 6175 Pseudobias wardi                     Ward's Shrike-flycatcher
+123 6176 Batis diops                          Ruwenzori Batis
+123 6177 Batis margaritae                     Boulton's Batis
+123 6178 Batis mixta                          Short-tailed Batis
+123 6179 Batis reichenowi                     Reichenow's Batis
+123 6180 Batis dimorpha                       Malawi Batis
+123 6181 Batis capensis                       Cape Batis
+123 6182 Batis fratrum                        Zululand Batis
+123 6183 Batis molitor                        Chinspot Batis
+123 6184 Batis soror                          Pale Batis
+123 6185 Batis pririt                         Pririt Batis
+123 6186 Batis senegalensis                   Senegal Batis
+123 6187 Batis orientalis                     Grey-headed Batis
+123 6188 Batis minor                          Black-headed Batis
+123 6189 Batis perkeo                         Pygmy Batis
+123 6190 Batis minima                         Verreaux's Batis
+123 6191 Batis ituriensis                     Ituri Batis
+123 6192 Batis occulta                        West African Batis
+123 6193 Batis poensis                        Fernando Po Batis
+123 6194 Batis minulla                        Angola Batis
+123 6195 Platysteira cyanea                   Brown-throated Wattle-eye
+123 6196 Platysteira laticincta               Banded Wattle-eye
+123 6197 Platysteira albifrons                White-fronted Wattle-eye
+123 6198 Platysteira peltata                  Black-throated Wattle-eye
+123 6199 Platysteira castanea                 Chestnut Wattle-eye
+123 6200 Platysteira tonsa                    White-spotted Wattle-eye
+123 6201 Platysteira blissetti                Red-cheeked Wattle-eye
+123 6202 Platysteira chalybea                 Black-necked Wattle-eye
+123 6203 Platysteira jamesoni                 Jameson's Wattle-eye
+123 6204 Platysteira concreta                 Yellow-bellied Wattle-eye
+123 6205 Philentoma pyrhopterum               Rufous-winged Philentoma
+123 6206 Philentoma velatum                   Maroon-breasted Philentoma
+123 6207 Tephrodornis gularis                 Large Woodshrike
+123 6208 Tephrodornis pondicerianus           Common Woodshrike
+123 6209 Calicalicus madagascariensis         Red-tailed Vanga
+123 6210 Schetba rufa                         Rufous Vanga
+123 6211 Vanga curvirostris                   Hook-billed Vanga
+123 6212 Xenopirostris xenopirostris          Lafresnaye's Vanga
+123 6213 Xenopirostris damii                  Van Dam's Vanga
+123 6214 Xenopirostris polleni                Pollen's Vanga
+123 6215 Artamella viridis                    White-headed Vanga
+123 6216 Falculea palliata                    Sickle-billed Vanga
+123 6217 Leptopterus chabert                  Chabert's Vanga
+123 6218 Cyanolanius madagascarinus           Blue Vanga
+123 6219 Oriolia bernieri                     Bernier's Vanga
+123 6220 Euryceros prevostii                  Helmet Vanga
+123 6221 Tylas eduardi                        Tylas Vanga
+123 6222 Hypositta corallirostris             Nuthatch Vanga
+124 6223 Callaeas cinerea                     Kokako
+124 6224 Philesturnus carunculatus            Saddleback
+124 6225 Heteralocha acutirostris             Huia
+125 6226 Chaetops frenatus                    Rufous Rock-jumper
+125 6227 Chaetops aurantius                   Orange-breasted Rock-jumper
+125 6228 Picathartes gymnocephalus            White-necked Rockfowl
+125 6229 Picathartes oreas                    Grey-necked Rockfowl
+126 6230 Dulus dominicus                      Palmchat
+126 6231 Ptilogonys cinereus                  Grey Silky-flycatcher
+126 6232 Ptilogonys caudatus                  Long-tailed Silky-flycatcher
+126 6233 Phainopepla nitens                   Phainopepla
+126 6234 Phainoptila melanoxantha             Black-and-yellow Silky-flycatcher
+126 6235 Bombycilla garrulus                  Bohemian Waxwing
+126 6236 Bombycilla japonica                  Japanese Waxwing
+126 6237 Bombycilla cedrorum                  Cedar Waxwing
+127 6238 Cinclus cinclus                      White-throated Dipper
+127 6239 Cinclus pallasii                     Brown Dipper
+127 6240 Cinclus mexicanus                    American Dipper
+127 6241 Cinclus leucocephalus                White-capped Dipper
+127 6242 Cinclus schulzi                      Rufous-throated Dipper
+128 6243 Neocossyphus finschii                Finsch's Flycatcher-Thrush
+128 6244 Neocossyphus fraseri                 Rufous Flycatcher-Thrush
+128 6245 Neocossyphus rufus                   Red-tailed Ant-Thrush
+128 6246 Neocossyphus poensis                 White-tailed Ant-Thrush
+128 6247 Pseudocossyphus sharpei              Forest Rock-Thrush
+128 6248 Pseudocossyphus bensoni              Benson's Rock-Thrush
+128 6249 Pseudocossyphus imerinus             Littoral Rock-Thrush
+128 6250 Monticola rupestris                  Cape Rock-Thrush
+128 6251 Monticola explorator                 Sentinel Rock-Thrush
+128 6252 Monticola brevipes                   Short-toed Rock-Thrush
+128 6253 Monticola pretoriae                  Transvaal Rock-Thrush
+128 6254 Monticola angolensis                 Miombo Rock-Thrush
+128 6255 Monticola saxatilis                  Rufous-tailed Rock-Thrush
+128 6256 Monticola rufocinereus               Little Rock-Thrush
+128 6257 Monticola cinclorhynchus             Blue-capped Rock-Thrush
+128 6258 Monticola gularis                    White-throated Rock-Thrush
+128 6259 Monticola rufiventris                Chestnut-bellied Rock-Thrush
+128 6260 Monticola solitarius                 Blue Rock-Thrush
+128 6261 Myiophonus blighi                    Ceylon Whistling-Thrush
+128 6262 Myiophonus melanurus                 Shiny Whistling-Thrush
+128 6263 Myiophonus glaucinus                 Sunda Whistling-Thrush
+128 6264 Myiophonus robinsoni                 Malayan Whistling-Thrush
+128 6265 Myiophonus horsfieldii               Malabar Whistling-Thrush
+128 6266 Myiophonus caeruleus                 Blue Whistling-Thrush
+128 6267 Myiophonus insularis                 Formosan Whistling-Thrush
+128 6268 Geomalia heinrichi                   Geomalia
+128 6269 Zoothera schistacea                  Slaty-backed Thrush
+128 6270 Zoothera dumasi                      Moluccan Thrush
+128 6271 Zoothera interpres                   Chestnut-capped Thrush
+128 6272 Zoothera erythronota                 Red-backed Thrush
+128 6273 Zoothera dohertyi                    Chestnut-backed Thrush
+128 6274 Zoothera wardii                      Pied Thrush
+128 6275 Zoothera cinerea                     Ashy Thrush
+128 6276 Zoothera peronii                     Orange-banded Thrush
+128 6277 Zoothera citrina                     Orange-headed Thrush
+128 6278 Zoothera everetti                    Everett's Thrush
+128 6279 Zoothera sibirica                    Siberian Thrush
+128 6280 Zoothera naevia                      Varied Thrush
+128 6281 Zoothera pinicola                    Aztec Thrush
+128 6282 Zoothera piaggiae                    Abyssinian Ground-Thrush
+128 6283 Zoothera tanganjicae                 Kivu Ground-Thrush
+128 6284 Zoothera crossleyi                   Crossley's Ground-Thrush
+128 6285 Zoothera gurneyi                     Orange Ground-Thrush
+128 6286 Zoothera oberlaenderi                Oberlaender's Ground-Thrush
+128 6287 Zoothera cameronensis                Black-eared Ground-Thrush
+128 6288 Zoothera princei                     Grey Ground-Thrush
+128 6289 Zoothera kibalensis                  Kibale Ground-Thrush
+128 6290 Zoothera guttata                     Spotted Ground-Thrush
+128 6291 Zoothera spiloptera                  Spot-winged Thrush
+128 6292 Zoothera andromedae                  Sunda Thrush
+128 6293 Zoothera mollissima                  Plain-backed Thrush
+128 6294 Zoothera dixoni                      Long-tailed Thrush
+128 6295 Zoothera dauma                       Scaly Thrush
+128 6296 Zoothera major                       Amami Thrush
+128 6297 Zoothera horsfieldi                  Horsfield's Thrush
+128 6298 Zoothera machiki                     Fawn-breasted Thrush
+128 6299 Zoothera lunulata                    Olive-tailed Thrush
+128 6300 Zoothera heinei                      Russet-tailed Thrush
+128 6301 Zoothera talaseae                    New Britain Thrush
+128 6302 Zoothera margaretae                  San Cristobal Thrush
+128 6303 Zoothera monticola                   Long-billed Thrush
+128 6304 Zoothera marginata                   Dark-sided Thrush
+128 6305 Zoothera terrestris                  Bonin Thrush
+128 6306 Cataponera turdoides                 Sulawesi Thrush
+128 6307 Nesocichla eremita                   Tristan Thrush
+128 6308 Cichlherminia lherminieri            Forest Thrush
+128 6309 Sialia sialis                        Eastern Bluebird
+128 6310 Sialia mexicana                      Western Bluebird
+128 6311 Sialia currucoides                   Mountain Bluebird
+128 6312 Myadestes myadestinus                Kamao
+128 6313 Myadestes oahensis                   Amaui
+128 6314 Myadestes lanaiensis                 Olomao
+128 6315 Myadestes obscurus                   Omao
+128 6316 Myadestes palmeri                    Puaiohi
+128 6317 Myadestes townsendi                  Townsend's Solitaire
+128 6318 Myadestes occidentalis               Brown-backed Solitaire
+128 6319 Myadestes elisabeth                  Cuban Solitaire
+128 6320 Myadestes genibarbis                 Rufous-throated Solitaire
+128 6321 Myadestes melanops                   Black-faced Solitaire
+128 6322 Myadestes coloratus                  Varied Solitaire
+128 6323 Myadestes ralloides                  Andean Solitaire
+128 6324 Myadestes unicolor                   Slate-colored Solitaire
+128 6325 Cichlopsis leucogenys                Rufous-brown Solitaire
+128 6326 Entomodestes leucotis                White-eared Solitaire
+128 6327 Entomodestes coracinus               Black Solitaire
+128 6328 Catharus gracilirostris              Black-billed Nightingale-Thrush
+128 6329 Catharus aurantiirostris             Orange-billed Nightingale-Thrush
+128 6330 Catharus fuscater                    Slaty-backed Nightingale-Thrush
+128 6331 Catharus occidentalis                Russet Nightingale-Thrush
+128 6332 Catharus frantzii                    Ruddy-capped Nightingale-Thrush
+128 6333 Catharus mexicanus                   Black-headed Nightingale-Thrush
+128 6334 Catharus dryas                       Spotted Nightingale-Thrush
+128 6335 Catharus fuscescens                  Veery
+128 6336 Catharus minimus                     Grey-cheeked Thrush
+128 6337 Catharus ustulatus                   Swainson's Thrush
+128 6338 Catharus guttatus                    Hermit Thrush
+128 6339 Catharus mustelinus                  Wood Thrush
+128 6340 Platycichla flavipes                 Yellow-legged Thrush
+128 6341 Platycichla leucops                  Pale-eyed Thrush
+128 6342 Psophocichla litsipsirupa            Groundscraper Thrush
+128 6343 Turdus pelios                        African Thrush
+128 6344 Turdus tephronotus                   Bare-eyed Thrush
+128 6345 Turdus libonyanus                    Kurrichane Thrush
+128 6346 Turdus olivaceofuscus                Olivaceous Thrush
+128 6347 Turdus olivaceus                     Olive Thrush
+128 6348 Turdus menachensis                   Yemen Thrush
+128 6349 Turdus bewsheri                      Comoro Thrush
+128 6350 Turdus hortulorum                    Grey-backed Thrush
+128 6351 Turdus unicolor                      Tickell's Thrush
+128 6352 Turdus dissimilis                    Black-breasted Thrush
+128 6353 Turdus cardis                        Japanese Thrush
+128 6354 Turdus albocinctus                   White-collared Blackbird
+128 6355 Turdus torquatus                     Ring Ouzel
+128 6356 Turdus boulboul                      Grey-winged Blackbird
+128 6357 Turdus merula                        Eurasian Blackbird
+128 6358 Turdus poliocephalus                 Island Thrush
+128 6359 Turdus rubrocanus                    Chestnut Thrush
+128 6360 Turdus kessleri                      White-backed Thrush
+128 6361 Turdus feae                          Grey-sided Thrush
+128 6362 Turdus obscurus                      Eyebrowed Thrush
+128 6363 Turdus pallidus                      Pale Thrush
+128 6364 Turdus chrysolaus                    Brown-headed Thrush
+128 6365 Turdus celaenops                     Izu Thrush
+128 6366 Turdus ruficollis                    Dark-throated Thrush
+128 6367 Turdus naumanni                      Dusky Thrush
+128 6368 Turdus pilaris                       Fieldfare
+128 6369 Turdus iliacus                       Redwing
+128 6370 Turdus philomelos                    Song Thrush
+128 6371 Turdus mupinensis                    Chinese Thrush
+128 6372 Turdus viscivorus                    Mistle Thrush
+128 6373 Turdus aurantius                     White-chinned Thrush
+128 6374 Turdus ravidus                       Grand Cayman Thrush
+128 6375 Turdus plumbeus                      Red-legged Thrush
+128 6376 Turdus chiguanco                     Chiguanco Thrush
+128 6377 Turdus nigrescens                    Sooty Thrush
+128 6378 Turdus fuscater                      Great Thrush
+128 6379 Turdus infuscatus                    Black Thrush
+128 6380 Turdus serranus                      Glossy-black Thrush
+128 6381 Turdus nigriceps                     Andean Slaty-Thrush
+128 6382 Turdus subalaris                     Eastern Slaty Slaty-Thrush
+128 6383 Turdus reevei                        Plumbeous-backed Thrush
+128 6384 Turdus olivater                      Black-hooded Thrush
+128 6385 Turdus maranonicus                   Maranon Thrush
+128 6386 Turdus fulviventris                  Chestnut-bellied Thrush
+128 6387 Turdus rufiventris                   Rufous-bellied Thrush
+128 6388 Turdus falcklandii                   Austral Thrush
+128 6389 Turdus leucomelas                    Pale-breasted Thrush
+128 6390 Turdus amaurochalinus                Creamy-bellied Thrush
+128 6391 Turdus plebejus                      American Mountain Thrush
+128 6392 Turdus ignobilis                     Black-billed Thrush
+128 6393 Turdus lawrencii                     Lawrence's Thrush
+128 6394 Turdus obsoletus                     Pale-vented Thrush
+128 6395 Turdus fumigatus                     Cocoa Thrush
+128 6396 Turdus hauxwelli                     Hauxwell's Thrush
+128 6397 Turdus grayi                         Clay-colored Thrush
+128 6398 Turdus nudigenis                     Yellow-eyed Thrush
+128 6399 Turdus maculirostris                 Ecuadorian Thrush
+128 6400 Turdus haplochrous                   Unicolored Thrush
+128 6401 Turdus jamaicensis                   White-eyed Thrush
+128 6402 Turdus assimilis                     White-throated Thrush
+128 6403 Turdus albicollis                    White-necked Thrush
+128 6404 Turdus rufopalliatus                 Rufous-backed Thrush
+128 6405 Turdus graysoni                      Grayson's Thrush
+128 6406 Turdus swalesi                       La Selle Thrush
+128 6407 Turdus migratorius                   American Robin
+128 6408 Turdus rufitorques                   Rufous-collared Robin
+128 6409 Chlamydochaera jefferyi              Black-breasted Fruit-hunter
+128 6410 Brachypteryx stellata                Gould's Shortwing
+128 6411 Brachypteryx hyperythra              Rusty-bellied Shortwing
+128 6412 Brachypteryx major                   White-bellied Shortwing
+128 6413 Brachypteryx leucophrys              Lesser Shortwing
+128 6414 Brachypteryx montana                 White-browed Shortwing
+128 6415 Heinrichia calligyna                 Great Shortwing
+128 6416 Alethe poliocephala                  Brown-chested Alethe
+128 6417 Alethe poliophrys                    Red-throated Alethe
+128 6418 Alethe fuelleborni                   White-chested Alethe
+128 6419 Alethe choloensis                    Cholo Alethe
+128 6420 Alethe diademata                     White-tailed Alethe
+128 6421 Alethe castanea                      Fire-crested Alethe
+128 6422 Empidornis semipartitus              Silverbird
+128 6423 Bradornis pallidus                   Pale Flycatcher
+128 6424 Bradornis infuscatus                 Chat Flycatcher
+128 6425 Bradornis mariquensis                Mariqua Flycatcher
+128 6426 Bradornis pumilus                    Little Grey Flycatcher
+128 6427 Bradornis microrhynchus              Large Flycatcher
+128 6428 Dioptrornis chocolatinus             Abyssinian Slaty-Flycatcher
+128 6429 Dioptrornis fischeri                 White-eyed Slaty-Flycatcher
+128 6430 Dioptrornis brunneus                 Angola Slaty-Flycatcher
+128 6431 Melaenornis edolioides               Northern Black-Flycatcher
+128 6432 Melaenornis pammelaina               Southern Black-Flycatcher
+128 6433 Melaenornis ardesiacus               Yellow-eyed Black-Flycatcher
+128 6434 Melaenornis annamarulae              West African Black-Flycatcher
+128 6435 Fraseria ocreata                     African Forest-Flycatcher
+128 6436 Fraseria cinerascens                 White-browed Forest-Flycatcher
+128 6437 Sigelus silens                       Fiscal Flycatcher
+128 6438 Rhinomyias addita                    Streaky-breasted Jungle-Flycatcher
+128 6439 Rhinomyias oscillans                 Russet-backed Jungle-Flycatcher
+128 6440 Rhinomyias brunneata                 Brown-chested Jungle-Flycatcher
+128 6441 Rhinomyias olivacea                  Fulvous-chested Jungle-Flycatcher
+128 6442 Rhinomyias umbratilis                Grey-chested Jungle-Flycatcher
+128 6443 Rhinomyias ruficauda                 Rufous-tailed Jungle-Flycatcher
+128 6444 Rhinomyias colonus                   Henna-tailed Jungle-Flycatcher
+128 6445 Rhinomyias gularis                   Eyebrowed Jungle-Flycatcher
+128 6446 Rhinomyias insignis                  White-browed Jungle-Flycatcher
+128 6447 Rhinomyias albigularis               White-throated Jungle-Flycatcher
+128 6448 Rhinomyias goodfellowi               Slaty-backed Jungle-Flycatcher
+128 6449 Muscicapa striata                    Spotted Flycatcher
+128 6450 Muscicapa gambagae                   Gambaga Flycatcher
+128 6451 Muscicapa griseisticta               Grey-streaked Flycatcher
+128 6452 Muscicapa sibirica                   Dark-sided Flycatcher
+128 6453 Muscicapa dauurica                   Asian Brown Flycatcher
+128 6454 Muscicapa randi                      Ashy-breasted Flycatcher
+128 6455 Muscicapa segregata                  Sumba Brown Flycatcher
+128 6456 Muscicapa ruficauda                  Rusty-tailed Flycatcher
+128 6457 Muscicapa muttui                     Brown-breasted Flycatcher
+128 6458 Muscicapa ferruginea                 Ferruginous Flycatcher
+128 6459 Muscicapa ussheri                    Ussher's Flycatcher
+128 6460 Muscicapa infuscata                  Sooty Flycatcher
+128 6461 Muscicapa boehmi                     Boehm's Flycatcher
+128 6462 Muscicapa aquatica                   Swamp Alseonax
+128 6463 Muscicapa olivascens                 Olivaceous Alseonax
+128 6464 Muscicapa lendu                      Chapin's Alseonax
+128 6465 Muscicapa itombwensis                Itombwe Alseonax
+128 6466 Muscicapa adusta                     Dusky Alseonax
+128 6467 Muscicapa epulata                    Little Grey Alseonax
+128 6468 Muscicapa sethsmithi                 Yellow-footed Alseonax
+128 6469 Muscicapa comitata                   Dusky-blue Flycatcher
+128 6470 Muscicapa tessmanni                  Tessmann's Flycatcher
+128 6471 Muscicapa cassini                    Cassin's Alseonax
+128 6472 Muscicapa caerulescens               Ashy Alseonax
+128 6473 Myioparus griseigularis              Grey-throated Tit-Flycatcher
+128 6474 Myioparus plumbeus                   Grey Tit-Flycatcher
+128 6475 Humblotia flavirostris               Humblot's Flycatcher
+128 6476 Ficedula hypoleuca                   European Pied Flycatcher
+128 6477 Ficedula albicollis                  Collared Flycatcher
+128 6478 Ficedula semitorquata                Semicollared Flycatcher
+128 6479 Ficedula zanthopygia                 Yellow-rumped Flycatcher
+128 6480 Ficedula narcissina                  Narcissus Flycatcher
+128 6481 Ficedula mugimaki                    Mugimaki Flycatcher
+128 6482 Ficedula hodgsonii                   Slaty-backed Flycatcher
+128 6483 Ficedula strophiata                  Rufous-gorgeted Flycatcher
+128 6484 Ficedula parva                       Red-breasted Flycatcher
+128 6485 Ficedula subrubra                    Kashmir Flycatcher
+128 6486 Ficedula monileger                   White-gorgeted Flycatcher
+128 6487 Ficedula solitaris                   Rufous-browed Flycatcher
+128 6488 Ficedula hyperythra                  Snowy-browed Flycatcher
+128 6489 Ficedula dumetoria                   Rufous-chested Flycatcher
+128 6490 Ficedula rufigula                    Rufous-throated Flycatcher
+128 6491 Ficedula buruensis                   Cinnamon-chested Flycatcher
+128 6492 Ficedula basilanica                  Little Slaty Flycatcher
+128 6493 Ficedula henrici                     Damar Flycatcher
+128 6494 Ficedula harterti                    Sumba Flycatcher
+128 6495 Ficedula platenae                    Palawan Flycatcher
+128 6496 Ficedula crypta                      Cryptic Flycatcher
+128 6497 Ficedula bonthaina                   Lompobattang Flycatcher
+128 6498 Ficedula westermanni                 Little Pied Flycatcher
+128 6499 Ficedula superciliaris               Ultramarine Flycatcher
+128 6500 Ficedula tricolor                    Slaty-blue Flycatcher
+128 6501 Ficedula sapphira                    Sapphire Flycatcher
+128 6502 Ficedula nigrorufa                   Black-and-rufous Flycatcher
+128 6503 Ficedula timorensis                  Black-banded Flycatcher
+128 6504 Cyanoptila cyanomelana               Blue-and-white Flycatcher
+128 6505 Eumyias thalassina                   Verditer Flycatcher
+128 6506 Eumyias sordida                      Dull-blue Flycatcher
+128 6507 Eumyias panayensis                   Island Flycatcher
+128 6508 Eumyias albicaudata                  Nilgiri Flycatcher
+128 6509 Eumyias indigo                       Indigo Flycatcher
+128 6510 Niltava grandis                      Large Niltava
+128 6511 Niltava macgrigoriae                 Small Niltava
+128 6512 Niltava davidi                       Fujian Niltava
+128 6513 Niltava sundara                      Rufous-bellied Niltava
+128 6514 Niltava sumatrana                    Rufous-vented Niltava
+128 6515 Niltava vivida                       Vivid Niltava
+128 6516 Cyornis sanfordi                     Matinan Flycatcher
+128 6517 Cyornis hoevelli                     Blue-fronted Flycatcher
+128 6518 Cyornis hyacinthinus                 Timor Blue-Flycatcher
+128 6519 Cyornis concretus                    White-tailed Flycatcher
+128 6520 Cyornis ruckii                       Rueck's Blue-Flycatcher
+128 6521 Cyornis herioti                      Blue-breasted Flycatcher
+128 6522 Cyornis hainanus                     Hainan Blue-Flycatcher
+128 6523 Cyornis pallipes                     White-bellied Blue-Flycatcher
+128 6524 Cyornis poliogenys                   Pale-chinned Blue-Flycatcher
+128 6525 Cyornis unicolor                     Pale Blue-Flycatcher
+128 6526 Cyornis rubeculoides                 Blue-throated Flycatcher
+128 6527 Cyornis banyumas                     Hill Blue-Flycatcher
+128 6528 Cyornis lemprieri                    Palawan Blue-Flycatcher
+128 6529 Cyornis superbus                     Bornean Blue-Flycatcher
+128 6530 Cyornis caerulatus                   Large-billed Blue-Flycatcher
+128 6531 Cyornis turcosus                     Malaysian Blue-Flycatcher
+128 6532 Cyornis tickelliae                   Tickell's Blue-Flycatcher
+128 6533 Cyornis rufigaster                   Mangrove Blue-Flycatcher
+128 6534 Cyornis omissus                      Sulawesi Blue-Flycatcher
+128 6535 Muscicapella hodgsoni                Pygmy Blue-Flycatcher
+128 6536 Culicicapa ceylonensis               Grey-headed Canary-Flycatcher
+128 6537 Culicicapa helianthea                Citrine Canary-Flycatcher
+128 6538 Horizorhinus dohrni                  Dohrn's Flycatcher
+128 6539 Pogonocichla stellata                White-starred Robin
+128 6540 Swynnertonia swynnertoni             Swynnerton's Robin
+128 6541 Stiphrornis erythrothorax            Forest Robin
+128 6542 Sheppardia poensis                   Alexander's Akalat
+128 6543 Sheppardia bocagei                   Bocage's Akalat
+128 6544 Sheppardia cyornithopsis             Lowland Akalat
+128 6545 Sheppardia aequatorialis             Equatorial Akalat
+128 6546 Sheppardia sharpei                   Sharpe's Akalat
+128 6547 Sheppardia gunningi                  East Coast Akalat
+128 6548 Sheppardia gabela                    Gabela Akalat
+128 6549 Sheppardia montana                   Usambara Akalat
+128 6550 Sheppardia lowei                     Iringa Akalat
+128 6551 Erithacus rubecula                   European Robin
+128 6552 Erithacus akahige                    Japanese Robin
+128 6553 Erithacus komadori                   Ryukyu Robin
+128 6554 Luscinia sibilans                    Rufous-tailed Robin
+128 6555 Luscinia luscinia                    Thrush Nightingale
+128 6556 Luscinia megarhynchos                Common Nightingale
+128 6557 Luscinia calliope                    Siberian Rubythroat
+128 6558 Luscinia pectoralis                  White-tailed Rubythroat
+128 6559 Luscinia svecica                     Bluethroat
+128 6560 Luscinia ruficeps                    Rufous-headed Robin
+128 6561 Luscinia obscura                     Black-throated Blue Robin
+128 6562 Luscinia pectardens                  Firethroat
+128 6563 Luscinia brunnea                     Indian Blue Robin
+128 6564 Luscinia cyane                       Siberian Blue Robin
+128 6565 Tarsiger cyanurus                    Orange-flanked Bush-Robin
+128 6566 Tarsiger chrysaeus                   Golden Bush-Robin
+128 6567 Tarsiger indicus                     White-browed Bush-Robin
+128 6568 Tarsiger hyperythrus                 Rufous-breasted Bush-Robin
+128 6569 Tarsiger johnstoniae                 Collared Bush-Robin
+128 6570 Irania gutturalis                    White-throated Robin
+128 6571 Cossypha isabellae                   Mountain Robin-Chat
+128 6572 Cossypha roberti                     White-bellied Robin-Chat
+128 6573 Cossypha archeri                     Archer's Robin-Chat
+128 6574 Cossypha anomala                     Olive-flanked Robin-Chat
+128 6575 Cossypha caffra                      Cape Robin-Chat
+128 6576 Cossypha humeralis                   White-throated Robin-Chat
+128 6577 Cossypha cyanocampter                Blue-shouldered Robin-Chat
+128 6578 Cossypha polioptera                  Grey-winged Robin-Chat
+128 6579 Cossypha semirufa                    Rueppell's Robin-Chat
+128 6580 Cossypha heuglini                    White-browed Robin-Chat
+128 6581 Cossypha natalensis                  Red-capped Robin-Chat
+128 6582 Cossypha dichroa                     Chorister Robin-Chat
+128 6583 Cossypha heinrichi                   White-headed Robin-Chat
+128 6584 Cossypha niveicapilla                Snowy-crowned Robin-Chat
+128 6585 Cossypha albicapilla                 White-crowned Robin-Chat
+128 6586 Xenocopsychus ansorgei               Angola Cave-Chat
+128 6587 Cichladusa arquata                   Collared Palm-Thrush
+128 6588 Cichladusa ruficauda                 Rufous-tailed Palm-Thrush
+128 6589 Cichladusa guttata                   Spotted Morning-Thrush
+128 6590 Cercotrichas leucosticta             Forest Scrub-Robin
+128 6591 Cercotrichas quadrivirgata           Bearded Scrub-Robin
+128 6592 Cercotrichas barbata                 Miombo Scrub-Robin
+128 6593 Cercotrichas signata                 Brown Scrub-Robin
+128 6594 Cercotrichas hartlaubi               Brown-backed Scrub-Robin
+128 6595 Cercotrichas leucophrys              Red-backed Scrub-Robin
+128 6596 Cercotrichas galactotes              Rufous-tailed Scrub-Robin
+128 6597 Cercotrichas paena                   Kalahari Scrub-Robin
+128 6598 Cercotrichas coryphaeus              Karoo Scrub-Robin
+128 6599 Cercotrichas podobe                  Black Scrub-Robin
+128 6600 Namibornis herero                    Herero Chat
+128 6601 Copsychus sechellarum                Seychelles Magpie-Robin
+128 6602 Copsychus albospecularis             Madagascar Magpie-Robin
+128 6603 Copsychus saularis                   Oriental Magpie-Robin
+128 6604 Copsychus malabaricus                White-rumped Shama
+128 6605 Copsychus stricklandii               White-crowned Shama
+128 6606 Copsychus luzoniensis                White-browed Shama
+128 6607 Copsychus niger                      White-vented Shama
+128 6608 Copsychus cebuensis                  Black Shama
+128 6609 Trichixos pyrropyga                  Rufous-tailed Shama
+128 6610 Saxicoloides fulicata                Indian Robin
+128 6611 Phoenicurus alaschanicus             Ala Shan Redstart
+128 6612 Phoenicurus erythronota              Rufous-backed Redstart
+128 6613 Phoenicurus caeruleocephalus         Blue-capped Redstart
+128 6614 Phoenicurus ochruros                 Black Redstart
+128 6615 Phoenicurus phoenicurus              Common Redstart
+128 6616 Phoenicurus hodgsoni                 Hodgson's Redstart
+128 6617 Phoenicurus schisticeps              White-throated Redstart
+128 6618 Phoenicurus auroreus                 Daurian Redstart
+128 6619 Phoenicurus moussieri                Moussier's Redstart
+128 6620 Phoenicurus erythrogaster            White-winged Redstart
+128 6621 Phoenicurus frontalis                Blue-fronted Redstart
+128 6622 Chaimarrornis leucocephalus          White-capped Water-Redstart
+128 6623 Rhyacornis fuliginosus               Plumbeous Water-Redstart
+128 6624 Rhyacornis bicolor                   Luzon Water-Redstart
+128 6625 Hodgsonius phaenicuroides            White-bellied Redstart
+128 6626 Cinclidium leucurum                  White-tailed Robin
+128 6627 Cinclidium diana                     Sunda Robin
+128 6628 Cinclidium frontale                  Blue-fronted Robin
+128 6629 Grandala coelicolor                  Grandala
+128 6630 Enicurus scouleri                    Little Forktail
+128 6631 Enicurus velatus                     Sunda Forktail
+128 6632 Enicurus ruficapillus                Chestnut-naped Forktail
+128 6633 Enicurus immaculatus                 Black-backed Forktail
+128 6634 Enicurus schistaceus                 Slaty-backed Forktail
+128 6635 Enicurus leschenaulti                White-crowned Forktail
+128 6636 Enicurus maculatus                   Spotted Forktail
+128 6637 Cochoa purpurea                      Purple Cochoa
+128 6638 Cochoa viridis                       Green Cochoa
+128 6639 Cochoa beccarii                      Sumatran Cochoa
+128 6640 Cochoa azurea                        Javan Cochoa
+128 6641 Saxicola rubetra                     Whinchat
+128 6642 Saxicola macrorhyncha                White-browed Bushchat
+128 6643 Saxicola insignis                    White-throated Bushchat
+128 6644 Saxicola dacotiae                    Canary Islands Chat
+128 6645 Saxicola torquata                    Common Stonechat
+128 6646 Saxicola tectes                      Reunion Stonechat
+128 6647 Saxicola leucura                     White-tailed Stonechat
+128 6648 Saxicola caprata                     Pied Bushchat
+128 6649 Saxicola jerdoni                     Jerdon's Bushchat
+128 6650 Saxicola ferrea                      Grey Bushchat
+128 6651 Saxicola gutturalis                  White-bellied Bushchat
+128 6652 Saxicola bifasciata                  Buff-streaked Chat
+128 6653 Oenanthe leucopyga                   White-tailed Wheatear
+128 6654 Oenanthe monacha                     Hooded Wheatear
+128 6655 Oenanthe alboniger                   Hume's Wheatear
+128 6656 Oenanthe leucura                     Black Wheatear
+128 6657 Oenanthe monticola                   Mountain Wheatear
+128 6658 Oenanthe phillipsi                   Somali Wheatear
+128 6659 Oenanthe oenanthe                    Northern Wheatear
+128 6660 Oenanthe lugens                      Mourning Wheatear
+128 6661 Oenanthe lugentoides                 Arabian Wheatear
+128 6662 Oenanthe lugubris                    Schalow's Wheatear
+128 6663 Oenanthe finschii                    Finsch's Wheatear
+128 6664 Oenanthe picata                      Variable Wheatear
+128 6665 Oenanthe moesta                      Red-rumped Wheatear
+128 6666 Oenanthe hispanica                   Black-eared Wheatear
+128 6667 Oenanthe pleschanka                  Pied Wheatear
+128 6668 Oenanthe cypriaca                    Cyprus Wheatear
+128 6669 Oenanthe xanthoprymna                Rufous-tailed Wheatear
+128 6670 Oenanthe deserti                     Desert Wheatear
+128 6671 Oenanthe pileata                     Capped Wheatear
+128 6672 Oenanthe isabellina                  Isabelline Wheatear
+128 6673 Oenanthe bottae                      Botta's Wheatear
+128 6674 Oenanthe heuglini                    Heuglin's Wheatear
+128 6675 Cercomela sinuata                    Sicklewing Chat
+128 6676 Cercomela schlegelii                 Karoo Chat
+128 6677 Cercomela tractrac                   Tractrac Chat
+128 6678 Cercomela familiaris                 Familiar Chat
+128 6679 Cercomela scotocerca                 Brown-tailed Chat
+128 6680 Cercomela fusca                      Indian Chat
+128 6681 Cercomela dubia                      Sombre Chat
+128 6682 Cercomela melanura                   Blackstart
+128 6683 Cercomela sordida                    Moorland Chat
+128 6684 Myrmecocichla tholloni               Congo Moor-Chat
+128 6685 Myrmecocichla aethiops               Northern Anteater-Chat
+128 6686 Myrmecocichla formicivora            Southern Anteater-Chat
+128 6687 Myrmecocichla nigra                  Sooty Chat
+128 6688 Myrmecocichla melaena                Rueppell's Chat
+128 6689 Myrmecocichla albifrons              White-fronted Black-Chat
+128 6690 Myrmecocichla arnotti                White-headed Black-Chat
+128 6691 Thamnolaea cinnamomeiventris         Mocking Cliff-Chat
+128 6692 Thamnolaea coronata                  White-crowned Cliff-Chat
+128 6693 Thamnolaea semirufa                  White-winged Cliff-Chat
+128 6694 Pinarornis plumosus                  Boulder Chat
+129 6695 Aplonis zelandica                    Rusty-winged Starling
+129 6696 Aplonis santovestris                 Mountain Starling
+129 6697 Aplonis pelzelni                     Pohnpei Starling
+129 6698 Aplonis atrifusca                    Samoan Starling
+129 6699 Aplonis corvina                      Kosrae Starling
+129 6700 Aplonis mavornata                    Mysterious Starling
+129 6701 Aplonis cinerascens                  Rarotonga Starling
+129 6702 Aplonis tabuensis                    Polynesian Starling
+129 6703 Aplonis striata                      Striated Starling
+129 6704 Aplonis fusca                        Norfolk Starling
+129 6705 Aplonis opaca                        Micronesian Starling
+129 6706 Aplonis crassa                       Tanimbar Starling
+129 6707 Aplonis cantoroides                  Singing Starling
+129 6708 Aplonis feadensis                    Atoll Starling
+129 6709 Aplonis insularis                    Rennell Starling
+129 6710 Aplonis grandis                      Brown-winged Starling
+129 6711 Aplonis dichroa                      San Cristobal Starling
+129 6712 Aplonis mysolensis                   Moluccan Starling
+129 6713 Aplonis minor                        Short-tailed Starling
+129 6714 Aplonis panayensis                   Asian Glossy Starling
+129 6715 Aplonis metallica                    Metallic Starling
+129 6716 Aplonis magna                        Long-tailed Starling
+129 6717 Aplonis mystacea                     Yellow-eyed Starling
+129 6718 Aplonis brunneicapilla               White-eyed Starling
+129 6719 Poeoptera stuhlmanni                 Stuhlmann's Starling
+129 6720 Poeoptera kenricki                   Kenrick's Starling
+129 6721 Poeoptera lugubris                   Narrow-tailed Starling
+129 6722 Grafisia torquata                    White-collared Starling
+129 6723 Onychognathus walleri                Waller's Starling
+129 6724 Onychognathus nabouroup              Pale-winged Starling
+129 6725 Onychognathus tristramii             Tristram's Starling
+129 6726 Onychognathus morio                  Red-winged Starling
+129 6727 Onychognathus blythii                Somali Starling
+129 6728 Onychognathus frater                 Socotra Starling
+129 6729 Onychognathus fulgidus               Chestnut-winged Starling
+129 6730 Onychognathus tenuirostris           Slender-billed Starling
+129 6731 Onychognathus albirostris            White-billed Starling
+129 6732 Onychognathus salvadorii             Bristle-crowned Starling
+129 6733 Coccycolius iris                     Iris Glossy-Starling
+129 6734 Lamprotornis cupreocauda             Copper-tailed Glossy-Starling
+129 6735 Lamprotornis purpureiceps            Purple-headed Glossy-Starling
+129 6736 Lamprotornis corruscus               Black-bellied Glossy-Starling
+129 6737 Lamprotornis purpureus               Purple Glossy-Starling
+129 6738 Lamprotornis nitens                  Red-shouldered Glossy-Starling
+129 6739 Lamprotornis chalcurus               Bronze-tailed Glossy-Starling
+129 6740 Lamprotornis chalybaeus              Greater Blue-eared Glossy-Starling
+129 6741 Lamprotornis chloropterus            Lesser Blue-eared Glossy-Starling
+129 6742 Lamprotornis elisabeth               Southern Blue-eared Glossy-Starling
+129 6743 Lamprotornis acuticaudus             Sharp-tailed Glossy-Starling
+129 6744 Lamprotornis splendidus              Splendid Glossy-Starling
+129 6745 Lamprotornis ornatus                 Principe Glossy-Starling
+129 6746 Lamprotornis australis               Burchell's Glossy-Starling
+129 6747 Lamprotornis mevesii                 Meves's Glossy-Starling
+129 6748 Lamprotornis caudatus                Long-tailed Glossy-Starling
+129 6749 Lamprotornis purpuropterus           Rueppell's Glossy-Starling
+129 6750 Lamprotornis superbus                Superb Starling
+129 6751 Lamprotornis pulcher                 Chestnut-bellied Starling
+129 6752 Lamprotornis shelleyi                Shelley's Starling
+129 6753 Lamprotornis hildebrandti            Hildebrandt's Starling
+129 6754 Cinnyricinclus sharpii               Sharpe's Starling
+129 6755 Cinnyricinclus femoralis             Abbott's Starling
+129 6756 Cinnyricinclus leucogaster           Violet-backed Starling
+129 6757 Speculipastor bicolor                Magpie Starling
+129 6758 Neocichla gutturalis                 Babbling Starling
+129 6759 Spreo fischeri                       Fischer's Starling
+129 6760 Spreo bicolor                        African Pied Starling
+129 6761 Spreo albicapillus                   White-crowned Starling
+129 6762 Cosmopsarus regius                   Golden-breasted Starling
+129 6763 Cosmopsarus unicolor                 Ashy Starling
+129 6764 Saroglossa aurata                    Madagascar Starling
+129 6765 Saroglossa spiloptera                Spot-winged Starling
+129 6766 Creatophora cinerea                  Wattled Starling
+129 6767 Necropsar rodericanus                Rodriguez Starling
+129 6768 Fregilupus varius                    Reunion Starling
+129 6769 Sturnus senex                        White-faced Starling
+129 6770 Sturnus malabaricus                  Chestnut-tailed Starling
+129 6771 Sturnus erythropygius                White-headed Starling
+129 6772 Sturnus pagodarum                    Brahminy Starling
+129 6773 Sturnus sericeus                     Red-billed Starling
+129 6774 Sturnus sturninus                    Purple-backed Starling
+129 6775 Sturnus philippensis                 Chestnut-cheeked Starling
+129 6776 Sturnus sinensis                     White-shouldered Starling
+129 6777 Sturnus roseus                       Rosy Starling
+129 6778 Sturnus vulgaris                     Common Starling
+129 6779 Sturnus unicolor                     Spotless Starling
+129 6780 Sturnus cineraceus                   White-cheeked Starling
+129 6781 Sturnus contra                       Asian Pied Starling
+129 6782 Sturnus nigricollis                  Black-collared Starling
+129 6783 Sturnus burmannicus                  Vinous-breasted Starling
+129 6784 Sturnus melanopterus                 Black-winged Starling
+129 6785 Leucopsar rothschildi                Bali Myna
+129 6786 Acridotheres tristis                 Common Myna
+129 6787 Acridotheres ginginianus             Bank Myna
+129 6788 Acridotheres fuscus                  Jungle Myna
+129 6789 Acridotheres grandis                 White-vented Myna
+129 6790 Acridotheres cinereus                Pale-bellied Myna
+129 6791 Acridotheres albocinctus             Collared Myna
+129 6792 Acridotheres cristatellus            Crested Myna
+129 6793 Ampeliceps coronatus                 Golden-crested Myna
+129 6794 Mino anais                           Golden Myna
+129 6795 Mino dumontii                        Yellow-faced Myna
+129 6796 Basilornis celebensis                Sulawesi Myna
+129 6797 Basilornis galeatus                  Helmeted Myna
+129 6798 Basilornis corythaix                 Long-crested Myna
+129 6799 Basilornis miranda                   Apo Myna
+129 6800 Streptocitta albicollis              White-necked Myna
+129 6801 Streptocitta albertinae              Bare-eyed Myna
+129 6802 Sarcops calvus                       Coleto
+129 6803 Gracula ptilogenys                   Ceylon Myna
+129 6804 Gracula religiosa                    Hill Myna
+129 6805 Enodes erythrophris                  Fiery-browed Myna
+129 6806 Scissirostrum dubium                 Finch-billed Myna
+129 6807 Buphagus africanus                   Yellow-billed Oxpecker
+129 6808 Buphagus erythrorhynchus             Red-billed Oxpecker
+129 6809 Dumetella carolinensis               Grey Catbird
+129 6810 Melanoptila glabrirostris            Black Catbird
+129 6811 Melanotis caerulescens               Blue Mockingbird
+129 6812 Melanotis hypoleucus                 Blue-and-white Mockingbird
+129 6813 Mimus polyglottos                    Northern Mockingbird
+129 6814 Mimus gilvus                         Tropical Mockingbird
+129 6815 Mimus gundlachii                     Bahama Mockingbird
+129 6816 Mimus saturninus                     Chalk-browed Mockingbird
+129 6817 Mimus patagonicus                    Patagonian Mockingbird
+129 6818 Mimus dorsalis                       Brown-backed Mockingbird
+129 6819 Mimus triurus                        White-banded Mockingbird
+129 6820 Mimus longicaudatus                  Long-tailed Mockingbird
+129 6821 Mimus thenca                         Chilean Mockingbird
+129 6822 Nesomimus parvulus                   Galapagos Mockingbird
+129 6823 Nesomimus trifasciatus               Charles Mockingbird
+129 6824 Nesomimus macdonaldi                 Hood Mockingbird
+129 6825 Nesomimus melanotis                  San Cristobal Mockingbird
+129 6826 Mimodes graysoni                     Socorro Mockingbird
+129 6827 Oreoscoptes montanus                 Sage Thrasher
+129 6828 Toxostoma rufum                      Brown Thrasher
+129 6829 Toxostoma longirostre                Long-billed Thrasher
+129 6830 Toxostoma guttatum                   Cozumel Thrasher
+129 6831 Toxostoma bendirei                   Bendire's Thrasher
+129 6832 Toxostoma cinereum                   Grey Thrasher
+129 6833 Toxostoma curvirostre                Curve-billed Thrasher
+129 6834 Toxostoma ocellatum                  Ocellated Thrasher
+129 6835 Toxostoma lecontei                   Le Conte's Thrasher
+129 6836 Toxostoma redivivum                  California Thrasher
+129 6837 Toxostoma crissale                   Crissal Thrasher
+129 6838 Cinclocerthia ruficauda              Brown Trembler
+129 6839 Cinclocerthia gutturalis             Grey Trembler
+129 6840 Ramphocinclus brachyurus             White-breasted Thrasher
+129 6841 Margarops fuscus                     Scaly-breasted Thrasher
+129 6842 Margarops fuscatus                   Pearly-eyed Thrasher
+130 6843 Sitta europaea                       Wood Nuthatch
+130 6844 Sitta nagaensis                      Chestnut-vented Nuthatch
+130 6845 Sitta cashmirensis                   Kashmir Nuthatch
+130 6846 Sitta castanea                       Chestnut-bellied Nuthatch
+130 6847 Sitta himalayensis                   White-tailed Nuthatch
+130 6848 Sitta victoriae                      White-browed Nuthatch
+130 6849 Sitta pygmaea                        Pygmy Nuthatch
+130 6850 Sitta pusilla                        Brown-headed Nuthatch
+130 6851 Sitta whiteheadi                     Corsican Nuthatch
+130 6852 Sitta ledanti                        Kabylie Nuthatch
+130 6853 Sitta krueperi                       Krueper's Nuthatch
+130 6854 Sitta villosa                        Snowy-browed Nuthatch
+130 6855 Sitta yunnanensis                    Yunnan Nuthatch
+130 6856 Sitta canadensis                     Red-breasted Nuthatch
+130 6857 Sitta leucopsis                      White-cheeked Nuthatch
+130 6858 Sitta carolinensis                   White-breasted Nuthatch
+130 6859 Sitta neumayer                       Western Rock-Nuthatch
+130 6860 Sitta tephronota                     Eastern Rock-Nuthatch
+130 6861 Sitta frontalis                      Velvet-fronted Nuthatch
+130 6862 Sitta solangiae                      Yellow-billed Nuthatch
+130 6863 Sitta oenochlamys                    Sulphur-billed Nuthatch
+130 6864 Sitta azurea                         Blue Nuthatch
+130 6865 Sitta magna                          Giant Nuthatch
+130 6866 Sitta formosa                        Beautiful Nuthatch
+130 6867 Tichodroma muraria                   Wallcreeper
+131 6868 Certhia familiaris                   Eurasian Tree-Creeper
+131 6869 Certhia americana                    American Tree-Creeper
+131 6870 Certhia brachydactyla                Short-toed Tree-Creeper
+131 6871 Certhia himalayana                   Bar-tailed Tree-Creeper
+131 6872 Certhia nipalensis                   Rusty-flanked Tree-Creeper
+131 6873 Certhia discolor                     Brown-throated Tree-Creeper
+131 6874 Salpornis spilonotus                 Spotted Tree-Creeper
+131 6875 Donacobius atricapillus              Black-capped Donacobius
+131 6876 Campylorhynchus gularis              Spotted Wren
+131 6877 Campylorhynchus brunneicapillus      Cactus Wren
+131 6878 Campylorhynchus jocosus              Boucard's Wren
+131 6879 Campylorhynchus yucatanicus          Yucatan Wren
+131 6880 Campylorhynchus chiapensis           Giant Wren
+131 6881 Campylorhynchus griseus              Bicolored Wren
+131 6882 Campylorhynchus rufinucha            Rufous-naped Wren
+131 6883 Campylorhynchus turdinus             Thrush-like Wren
+131 6884 Campylorhynchus megalopterus         Grey-barred Wren
+131 6885 Campylorhynchus zonatus              Band-backed Wren
+131 6886 Campylorhynchus albobrunneus         White-headed Wren
+131 6887 Campylorhynchus nuchalis             Stripe-backed Wren
+131 6888 Campylorhynchus fasciatus            Fasciated Wren
+131 6889 Odontorchilus branickii              Grey-mantled Wren
+131 6890 Odontorchilus cinereus               Tooth-billed Wren
+131 6891 Salpinctes obsoletus                 Rock Wren
+131 6892 Catherpes mexicanus                  Canyon Wren
+131 6893 Hylorchilus sumichrasti              Slender-billed Wren
+131 6894 Cinnycerthia unirufa                 Rufous Wren
+131 6895 Cinnycerthia peruana                 Sepia-brown Wren
+131 6896 Cistothorus platensis                Sedge Wren
+131 6897 Cistothorus apolinari                Apolinar's Wren
+131 6898 Cistothorus meridae                  Merida Wren
+131 6899 Cistothorus palustris                Marsh Wren
+131 6900 Thryomanes bewickii                  Bewick's Wren
+131 6901 Thryomanes sissonii                  Socorro Wren
+131 6902 Ferminia cerverai                    Zapata Wren
+131 6903 Thryothorus atrogularis              Black-throated Wren
+131 6904 Thryothorus spadix                   Sooty-headed Wren
+131 6905 Thryothorus fasciatoventris          Black-bellied Wren
+131 6906 Thryothorus euophrys                 Plain-tailed Wren
+131 6907 Thryothorus eisenmanni               Inca Wren
+131 6908 Thryothorus mystacalis               Whiskered Wren
+131 6909 Thryothorus genibarbis               Moustached Wren
+131 6910 Thryothorus coraya                   Coraya Wren
+131 6911 Thryothorus felix                    Happy Wren
+131 6912 Thryothorus maculipectus             Spot-breasted Wren
+131 6913 Thryothorus rutilus                  Rufous-breasted Wren
+131 6914 Thryothorus sclateri                 Speckle-breasted Wren
+131 6915 Thryothorus semibadius               Riverside Wren
+131 6916 Thryothorus nigricapillus            Bay Wren
+131 6917 Thryothorus thoracicus               Stripe-breasted Wren
+131 6918 Thryothorus leucopogon               Stripe-throated Wren
+131 6919 Thryothorus pleurostictus            Banded Wren
+131 6920 Thryothorus ludovicianus             Carolina Wren
+131 6921 Thryothorus rufalbus                 Rufous-and-white Wren
+131 6922 Thryothorus nicefori                 Niceforo's Wren
+131 6923 Thryothorus sinaloa                  Sinaloa Wren
+131 6924 Thryothorus modestus                 Plain Wren
+131 6925 Thryothorus leucotis                 Buff-breasted Wren
+131 6926 Thryothorus superciliaris            Superciliated Wren
+131 6927 Thryothorus guarayanus               Fawn-breasted Wren
+131 6928 Thryothorus longirostris             Long-billed Wren
+131 6929 Thryothorus griseus                  Grey Wren
+131 6930 Troglodytes troglodytes              Winter Wren
+131 6931 Troglodytes aedon                    House Wren
+131 6932 Troglodytes tanneri                  Clarion Wren
+131 6933 Troglodytes rufociliatus             Rufous-browed Wren
+131 6934 Troglodytes ochraceus                Ochraceous Wren
+131 6935 Troglodytes monticola                Santa Marta Wren
+131 6936 Troglodytes solstitialis             Mountain Wren
+131 6937 Troglodytes rufulus                  Tepui Wren
+131 6938 Thryorchilus browni                  Timberline Wren
+131 6939 Uropsila leucogastra                 White-bellied Wren
+131 6940 Henicorhina leucosticta              White-breasted Wood-Wren
+131 6941 Henicorhina leucophrys               Grey-breasted Wood-Wren
+131 6942 Henicorhina leucoptera               Bar-winged Wood-Wren
+131 6943 Microcerculus philomela              Northern Nightingale-Wren
+131 6944 Microcerculus marginatus             Southern Nightingale-Wren
+131 6945 Microcerculus ustulatus              Flutist Wren
+131 6946 Microcerculus bambla                 Wing-banded Wren
+131 6947 Cyphorhinus phaeocephalus            Song Wren
+131 6948 Cyphorhinus thoracicus               Chestnut-breasted Wren
+131 6949 Cyphorhinus aradus                   Musician Wren
+131 6950 Auriparus flaviceps                  Verdin
+131 6951 Microbates collaris                  Collared Gnatwren
+131 6952 Microbates cinereiventris            Tawny-faced Gnatwren
+131 6953 Ramphocaenus melanurus               Long-billed Gnatwren
+131 6954 Polioptila caerulea                  Blue-grey Gnatcatcher
+131 6955 Polioptila californica               California Gnatcatcher
+131 6956 Polioptila melanura                  Black-tailed Gnatcatcher
+131 6957 Polioptila lembeyei                  Cuban Gnatcatcher
+131 6958 Polioptila nigriceps                 Black-capped Gnatcatcher
+131 6959 Polioptila albiloris                 White-lored Gnatcatcher
+131 6960 Polioptila plumbea                   Tropical Gnatcatcher
+131 6961 Polioptila lactea                    Creamy-bellied Gnatcatcher
+131 6962 Polioptila guianensis                Guianan Gnatcatcher
+131 6963 Polioptila schistaceigula            Slate-throated Gnatcatcher
+131 6964 Polioptila dumicola                  Masked Gnatcatcher
+132 6965 Remiz pendulinus                     Eurasian Penduline-Tit
+132 6966 Remiz coronatus                      White-crowned Penduline-Tit
+132 6967 Remiz consobrinus                    Chinese Penduline-Tit
+132 6968 Anthoscopus punctifrons              Sennar Penduline-Tit
+132 6969 Anthoscopus parvulus                 Yellow Penduline-Tit
+132 6970 Anthoscopus musculus                 Mouse-colored Penduline-Tit
+132 6971 Anthoscopus flavifrons               Forest Penduline-Tit
+132 6972 Anthoscopus caroli                   African Penduline-Tit
+132 6973 Anthoscopus sylviella                Buff-bellied Penduline-Tit
+132 6974 Anthoscopus minutus                  Southern Penduline-Tit
+132 6975 Cephalopyrus flammiceps              Fire-capped Tit
+132 6976 Pholidornis rushiae                  Tit-hylia
+132 6977 Parus palustris                      Marsh Tit
+132 6978 Parus lugubris                       Sombre Tit
+132 6979 Parus montanus                       Willow Tit
+132 6980 Parus carolinensis                   Carolina Chickadee
+132 6981 Parus atricapillus                   Black-capped Chickadee
+132 6982 Parus gambeli                        Mountain Chickadee
+132 6983 Parus sclateri                       Mexican Chickadee
+132 6984 Parus superciliosus                  White-browed Tit
+132 6985 Parus davidi                         Rusty-breasted Tit
+132 6986 Parus cinctus                        Siberian Tit
+132 6987 Parus hudsonicus                     Boreal Chickadee
+132 6988 Parus rufescens                      Chestnut-backed Chickadee
+132 6989 Parus rufonuchalis                   Dark-grey Tit
+132 6990 Parus rubidiventris                  Rufous-vented Tit
+132 6991 Parus melanolophus                   Black-crested Tit
+132 6992 Parus ater                           Coal Tit
+132 6993 Parus venustulus                     Yellow-bellied Tit
+132 6994 Parus elegans                        Elegant Tit
+132 6995 Parus amabilis                       Palawan Tit
+132 6996 Parus cristatus                      Crested Tit
+132 6997 Parus dichrous                       Grey-crested Tit
+132 6998 Parus guineensis                     White-shouldered Tit
+132 6999 Parus leucomelas                     White-winged Tit
+132 7000 Parus niger                          Black Tit
+132 7001 Parus albiventris                    White-bellied Tit
+132 7002 Parus leuconotus                     White-backed Tit
+132 7003 Parus funereus                       Dusky Tit
+132 7004 Parus rufiventris                    Rufous-bellied Tit
+132 7005 Parus pallidiventris                 Cinnamon-breasted Tit
+132 7006 Parus fringillinus                   Red-throated Tit
+132 7007 Parus fasciiventer                   Stripe-breasted Tit
+132 7008 Parus thruppi                        Somali Tit
+132 7009 Parus griseiventris                  Miombo Tit
+132 7010 Parus cinerascens                    Ashy Tit
+132 7011 Parus afer                           Grey Tit
+132 7012 Parus major                          Great Tit
+132 7013 Parus bokharensis                    Turkestan Tit
+132 7014 Parus monticolus                     Green-backed Tit
+132 7015 Parus nuchalis                       White-naped Tit
+132 7016 Parus xanthogenys                    Black-lored Tit
+132 7017 Parus spilonotus                     Yellow-cheeked Tit
+132 7018 Parus holsti                         Yellow Tit
+132 7019 Parus caeruleus                      Blue Tit
+132 7020 Parus cyanus                         Azure Tit
+132 7021 Parus flavipectus                    Yellow-breasted Tit
+132 7022 Parus varius                         Varied Tit
+132 7023 Parus semilarvatus                   White-fronted Tit
+132 7024 Parus wollweberi                     Bridled Titmouse
+132 7025 Parus inornatus                      Plain Titmouse
+132 7026 Parus bicolor                        Tufted Titmouse
+132 7027 Parus atricristatus                  Black-crested Titmouse
+132 7028 Sylviparus modestus                  Yellow-browed Tit
+132 7029 Melanochlora sultanea                Sultan Tit
+133 7030 Aegithalos caudatus                  Long-tailed Tit
+133 7031 Aegithalos leucogenys                White-cheeked Tit
+133 7032 Aegithalos concinnus                 Black-throated Tit
+133 7033 Aegithalos niveogularis              White-throated Tit
+133 7034 Aegithalos iouschistos               Black-browed Tit
+133 7035 Aegithalos fuliginosus               White-necklaced Tit
+133 7036 Psaltriparus minimus                 Bushtit
+133 7037 Psaltria exilis                      Pygmy Tit
+134 7038 Pseudochelidon eurystomina           African River-Martin
+134 7039 Pseudochelidon sirintarae            White-eyed River-Martin
+134 7040 Tachycineta bicolor                  Tree Swallow
+134 7041 Tachycineta albilinea                Mangrove Swallow
+134 7042 Tachycineta albiventer               White-winged Swallow
+134 7043 Tachycineta leucorrhoa               White-rumped Swallow
+134 7044 Tachycineta meyeni                   Chilean Swallow
+134 7045 Tachycineta thalassina               Violet-green Swallow
+134 7046 Tachycineta cyaneoviridis            Bahama Swallow
+134 7047 Tachycineta euchrysea                Golden Swallow
+134 7048 Phaeoprogne tapera                   Brown-chested Martin
+134 7049 Progne subis                         Purple Martin
+134 7050 Progne cryptoleuca                   Cuban Martin
+134 7051 Progne dominicensis                  Caribbean Martin
+134 7052 Progne sinaloae                      Sinaloa Martin
+134 7053 Progne chalybea                      Grey-breasted Martin
+134 7054 Progne modesta                       Southern Martin
+134 7055 Notiochelidon murina                 Brown-bellied Swallow
+134 7056 Notiochelidon cyanoleuca             Blue-and-white Swallow
+134 7057 Notiochelidon flavipes               Pale-footed Swallow
+134 7058 Notiochelidon pileata                Black-capped Swallow
+134 7059 Atticora fasciata                    White-banded Swallow
+134 7060 Atticora melanoleuca                 Black-collared Swallow
+134 7061 Neochelidon tibialis                 White-thighed Swallow
+134 7062 Stelgidopteryx fucata                Tawny-headed Swallow
+134 7063 Stelgidopteryx serripennis           Northern Rough-winged Swallow
+134 7064 Stelgidopteryx ridgwayi              Ridgway's Rough-winged Swallow
+134 7065 Stelgidopteryx ruficollis            Southern Rough-winged Swallow
+134 7066 Cheramoeca leucosternus              White-backed Swallow
+134 7067 Riparia riparia                      Sand Martin
+134 7068 Riparia paludicola                   Plain Martin
+134 7069 Riparia congica                      Congo Martin
+134 7070 Riparia cincta                       Banded Martin
+134 7071 Phedina borbonica                    Mascarene Martin
+134 7072 Phedina brazzae                      Brazza's Martin
+134 7073 Hirundo griseopyga                   Grey-rumped Swallow
+134 7074 Hirundo rupestris                    Eurasian Crag-Martin
+134 7075 Hirundo obsoleta                     Pale Crag-Martin
+134 7076 Hirundo fuligula                     Rock Martin
+134 7077 Hirundo concolor                     Dusky Crag-Martin
+134 7078 Hirundo rustica                      Barn Swallow
+134 7079 Hirundo lucida                       Red-chested Swallow
+134 7080 Hirundo aethiopica                   Ethiopian Swallow
+134 7081 Hirundo angolensis                   Angola Swallow
+134 7082 Hirundo albigularis                  White-throated Swallow
+134 7083 Hirundo domicola                     Hill Swallow
+134 7084 Hirundo tahitica                     Pacific Swallow
+134 7085 Hirundo neoxena                      Welcome Swallow
+134 7086 Hirundo smithii                      Wire-tailed Swallow
+134 7087 Hirundo nigrita                      White-throated Blue Swallow
+134 7088 Hirundo nigrorufa                    Black-and-rufous Swallow
+134 7089 Hirundo atrocaerulea                 Blue Swallow
+134 7090 Hirundo leucosoma                    Pied-winged Swallow
+134 7091 Hirundo megaensis                    White-tailed Swallow
+134 7092 Hirundo dimidiata                    Pearl-breasted Swallow
+134 7093 Hirundo cucullata                    Greater Striped-Swallow
+134 7094 Hirundo abyssinica                   Lesser Striped-Swallow
+134 7095 Hirundo semirufa                     Rufous-chested Swallow
+134 7096 Hirundo senegalensis                 Mosque Swallow
+134 7097 Hirundo daurica                      Red-rumped Swallow
+134 7098 Hirundo domicella                    West African Swallow
+134 7099 Hirundo striolata                    Striated Swallow
+134 7100 Hirundo perdita                      Red Sea Swallow
+134 7101 Hirundo preussi                      Preuss's Swallow
+134 7102 Hirundo rufigula                     Red-throated Swallow
+134 7103 Hirundo spilodera                    South African Swallow
+134 7104 Hirundo andecola                     Andean Swallow
+134 7105 Hirundo pyrrhonota                   Cliff Swallow
+134 7106 Hirundo fulva                        Cave Swallow
+134 7107 Hirundo rufocollaris                 Chestnut-collared Swallow
+134 7108 Hirundo nigricans                    Tree Martin
+134 7109 Hirundo fluvicola                    Streak-throated Swallow
+134 7110 Hirundo ariel                        Fairy Martin
+134 7111 Hirundo fuliginosa                   Forest Swallow
+134 7112 Delichon urbica                      Northern House-Martin
+134 7113 Delichon dasypus                     Asian House-Martin
+134 7114 Delichon nipalensis                  Nepal House-Martin
+134 7115 Psalidoprocne nitens                 Square-tailed Sawwing
+134 7116 Psalidoprocne fuliginosa             Mountain Sawwing
+134 7117 Psalidoprocne albiceps               White-headed Sawwing
+134 7118 Psalidoprocne chalybea               Shari Sawwing
+134 7119 Psalidoprocne petiti                 Petit's Sawwing
+134 7120 Psalidoprocne mangbettorum           Mangbettu Sawwing
+134 7121 Psalidoprocne oleaginea              Ethiopian Sawwing
+134 7122 Psalidoprocne pristoptera            Blue Sawwing
+134 7123 Psalidoprocne antinorii              Brown Sawwing
+134 7124 Psalidoprocne orientalis             Eastern Sawwing
+134 7125 Psalidoprocne holomelas              Black Sawwing
+134 7126 Psalidoprocne obscura                Fanti Sawwing
+135 7127 Regulus calendula                    Ruby-crowned Kinglet
+135 7128 Regulus regulus                      Goldcrest
+135 7129 Regulus teneriffae                   Canary Islands Kinglet
+135 7130 Regulus goodfellowi                  Flamecrest
+135 7131 Regulus ignicapillus                 Firecrest
+135 7132 Regulus satrapa                      Golden-crowned Kinglet
+136 7133 Spizixos canifrons                   Crested Finchbill
+136 7134 Spizixos semitorques                 Collared Finchbill
+136 7135 Pycnonotus zeylanicus                Straw-headed Bulbul
+136 7136 Pycnonotus striatus                  Striated Bulbul
+136 7137 Pycnonotus leucogrammicus            Cream-striped Bulbul
+136 7138 Pycnonotus tympanistrigus            Spot-necked Bulbul
+136 7139 Pycnonotus melanoleucos              Black-and-white Bulbul
+136 7140 Pycnonotus priocephalus              Grey-headed Bulbul
+136 7141 Pycnonotus atriceps                  Black-headed Bulbul
+136 7142 Pycnonotus melanicterus              Black-crested Bulbul
+136 7143 Pycnonotus squamatus                 Scaly-breasted Bulbul
+136 7144 Pycnonotus cyaniventris              Grey-bellied Bulbul
+136 7145 Pycnonotus jocosus                   Red-whiskered Bulbul
+136 7146 Pycnonotus xanthorrhous              Brown-breasted Bulbul
+136 7147 Pycnonotus sinensis                  Light-vented Bulbul
+136 7148 Pycnonotus taivanus                  Styan's Bulbul
+136 7149 Pycnonotus barbatus                  Garden Bulbul
+136 7150 Pycnonotus somaliensis               Somali Bulbul
+136 7151 Pycnonotus dodsoni                   Dodson's Bulbul
+136 7152 Pycnonotus tricolor                  Dark-capped Bulbul
+136 7153 Pycnonotus nigricans                 Black-fronted Bulbul
+136 7154 Pycnonotus capensis                  Cape Bulbul
+136 7155 Pycnonotus xanthopygos               White-spectacled Bulbul
+136 7156 Pycnonotus leucotis                  White-eared Bulbul
+136 7157 Pycnonotus leucogenys                Himalayan Bulbul
+136 7158 Pycnonotus cafer                     Red-vented Bulbul
+136 7159 Pycnonotus aurigaster                Sooty-headed Bulbul
+136 7160 Pycnonotus eutilotus                 Puff-backed Bulbul
+136 7161 Pycnonotus nieuwenhuisii             Blue-wattled Bulbul
+136 7162 Pycnonotus urostictus                Yellow-wattled Bulbul
+136 7163 Pycnonotus bimaculatus               Orange-spotted Bulbul
+136 7164 Pycnonotus finlaysoni                Stripe-throated Bulbul
+136 7165 Pycnonotus xantholaemus              Yellow-throated Bulbul
+136 7166 Pycnonotus penicillatus              Yellow-eared Bulbul
+136 7167 Pycnonotus flavescens                Flavescent Bulbul
+136 7168 Pycnonotus luteolus                  White-browed Bulbul
+136 7169 Pycnonotus goiavier                  Yellow-vented Bulbul
+136 7170 Pycnonotus plumosus                  Olive-winged Bulbul
+136 7171 Pycnonotus blanfordi                 Streak-eared Bulbul
+136 7172 Pycnonotus simplex                   Cream-vented Bulbul
+136 7173 Pycnonotus brunneus                  Red-eyed Bulbul
+136 7174 Pycnonotus erythropthalmos           Spectacled Bulbul
+136 7175 Andropadus montanus                  Cameroon Greenbul
+136 7176 Andropadus kakamegae                 Kakamega Greenbul
+136 7177 Andropadus masukuensis               Shelley's Greenbul
+136 7178 Andropadus virens                    Little Greenbul
+136 7179 Andropadus hallae                    Hall's Greenbul
+136 7180 Andropadus gracilis                  Grey Greenbul
+136 7181 Andropadus ansorgei                  Ansorge's Greenbul
+136 7182 Andropadus curvirostris              Plain Greenbul
+136 7183 Andropadus gracilirostris            Slender-billed Greenbul
+136 7184 Andropadus importunus                Sombre Greenbul
+136 7185 Andropadus latirostris               Yellow-whiskered Greenbul
+136 7186 Andropadus tephrolaemus              Grey-throated Greenbul
+136 7187 Andropadus nigriceps                 Mountain Greenbul
+136 7188 Andropadus chlorigula                Green-throated Greenbul
+136 7189 Andropadus olivaceiceps              Olive-headed Greenbul
+136 7190 Andropadus milanjensis               Stripe-cheeked Greenbul
+136 7191 Calyptocichla serina                 Golden Greenbul
+136 7192 Baeopogon indicator                  Honeyguide Greenbul
+136 7193 Baeopogon clamans                    White-tailed Greenbul
+136 7194 Ixonotus guttatus                    Spotted Greenbul
+136 7195 Chlorocichla simplex                 Simple Greenbul
+136 7196 Chlorocichla flavicollis             Yellow-throated Greenbul
+136 7197 Chlorocichla falkensteini            Yellow-necked Greenbul
+136 7198 Chlorocichla flaviventris            Yellow-bellied Greenbul
+136 7199 Chlorocichla laetissima              Joyful Greenbul
+136 7200 Chlorocichla prigoginei              Prigogine's Greenbul
+136 7201 Thescelocichla leucopleura           Swamp Greenbul
+136 7202 Phyllastrephus scandens              Leaf-love
+136 7203 Phyllastrephus cabanisi              Cabanis's Greenbul
+136 7204 Phyllastrephus fischeri              Fischer's Greenbul
+136 7205 Phyllastrephus placidus              Placid Greenbul
+136 7206 Phyllastrephus terrestris            Terrestrial Brownbul
+136 7207 Phyllastrephus strepitans            Northern Brownbul
+136 7208 Phyllastrephus fulviventris          Pale-olive Greenbul
+136 7209 Phyllastrephus cerviniventris        Grey-olive Greenbul
+136 7210 Phyllastrephus baumanni              Baumann's Olive-Greenbul
+136 7211 Phyllastrephus poensis               Cameroon Olive-Greenbul
+136 7212 Phyllastrephus hypochloris           Toro Olive-Greenbul
+136 7213 Phyllastrephus lorenzi               Sassi's Greenbul
+136 7214 Phyllastrephus poliocephalus         Grey-headed Greenbul
+136 7215 Phyllastrephus flavostriatus         Yellow-streaked Greenbul
+136 7216 Phyllastrephus alfredi               Sharpe's Greenbul
+136 7217 Phyllastrephus debilis               Tiny Greenbul
+136 7218 Phyllastrephus albigularis           White-throated Greenbul
+136 7219 Phyllastrephus icterinus             Icterine Greenbul
+136 7220 Phyllastrephus leucolepis            Liberian Greenbul
+136 7221 Phyllastrephus xavieri               Xavier's Greenbul
+136 7222 Phyllastrephus madagascariensis      Long-billed Greenbul
+136 7223 Phyllastrephus zosterops             Spectacled Greenbul
+136 7224 Phyllastrephus apperti               Appert's Greenbul
+136 7225 Phyllastrephus tenebrosus            Dusky Greenbul
+136 7226 Phyllastrephus cinereiceps           Grey-crowned Greenbul
+136 7227 Bleda syndactyla                     Common Bristlebill
+136 7228 Bleda eximia                         Green-tailed Bristlebill
+136 7229 Bleda canicapilla                    Grey-headed Bristlebill
+136 7230 Nicator chloris                      Yellow-spotted Nicator
+136 7231 Nicator gularis                      Eastern Nicator
+136 7232 Nicator vireo                        Yellow-throated Nicator
+136 7233 Criniger barbatus                    Bearded Bulbul
+136 7234 Criniger chloronotus                 Green-backed Bulbul
+136 7235 Criniger calurus                     Red-tailed Bulbul
+136 7236 Criniger olivaceus                   Yellow-bearded Bulbul
+136 7237 Criniger ndussumensis                White-bearded Bulbul
+136 7238 Alophoixus finschii                  Finsch's Bulbul
+136 7239 Alophoixus flaveolus                 White-throated Bulbul
+136 7240 Alophoixus pallidus                  Puff-throated Bulbul
+136 7241 Alophoixus ochraceus                 Ochraceous Bulbul
+136 7242 Alophoixus bres                      Grey-cheeked Bulbul
+136 7243 Alophoixus phaeocephalus             Yellow-bellied Bulbul
+136 7244 Alophoixus affinis                   Golden Bulbul
+136 7245 Setornis criniger                    Hook-billed Bulbul
+136 7246 Tricholestes criniger                Hairy-backed Bulbul
+136 7247 Iole virescens                       Olive Bulbul
+136 7248 Iole propinqua                       Grey-eyed Bulbul
+136 7249 Iole olivacea                        Buff-vented Bulbul
+136 7250 Iole indica                          Yellow-browed Bulbul
+136 7251 Ixos palawanensis                    Sulphur-bellied Bulbul
+136 7252 Ixos philippinus                     Philippine Bulbul
+136 7253 Ixos rufigularis                     Zamboanga Bulbul
+136 7254 Ixos siquijorensis                   Streak-breasted Bulbul
+136 7255 Ixos amaurotis                       Brown-eared Bulbul
+136 7256 Ixos everetti                        Yellowish Bulbul
+136 7257 Ixos malaccensis                     Streaked Bulbul
+136 7258 Hemixos flavala                      Ashy Bulbul
+136 7259 Hemixos castanonotus                 Chestnut Bulbul
+136 7260 Hypsipetes mcclellandii              Mountain Bulbul
+136 7261 Hypsipetes virescens                 Green-winged Bulbul
+136 7262 Hypsipetes madagascariensis          Madagascar Bulbul
+136 7263 Hypsipetes crassirostris             Seychelles Bulbul
+136 7264 Hypsipetes parvirostris              Comoro Bulbul
+136 7265 Hypsipetes borbonicus                Olivaceous Bulbul
+136 7266 Hypsipetes leucocephalus             Black Bulbul
+136 7267 Hypsipetes nicobariensis             Nicobar Bulbul
+136 7268 Hypsipetes thompsoni                 White-headed Bulbul
+136 7269 Neolestes torquatus                  Black-collared Bulbul
+136 7270 Malia grata                          Malia
+137 7271 Hypocolius ampelinus                 Grey Hypocolius
+138 7272 Cisticola erythrops                  Red-faced Cisticola
+138 7273 Cisticola lepe                       Lepe Cisticola
+138 7274 Cisticola cantans                    Singing Cisticola
+138 7275 Cisticola lateralis                  Whistling Cisticola
+138 7276 Cisticola anonymus                   Chattering Cisticola
+138 7277 Cisticola woosnami                   Trilling Cisticola
+138 7278 Cisticola bulliens                   Bubbling Cisticola
+138 7279 Cisticola discolor                   Brown-backed Cisticola
+138 7280 Cisticola chubbi                     Chubb's Cisticola
+138 7281 Cisticola hunteri                    Hunter's Cisticola
+138 7282 Cisticola nigriloris                 Black-lored Cisticola
+138 7283 Cisticola emini                      Rock-loving Cisticola
+138 7284 Cisticola aberrans                   Lazy Cisticola
+138 7285 Cisticola bodessa                    Boran Cisticola
+138 7286 Cisticola chinianus                  Rattling Cisticola
+138 7287 Cisticola cinereolus                 Ashy Cisticola
+138 7288 Cisticola ruficeps                   Red-pate Cisticola
+138 7289 Cisticola mongalla                   Mongalla Cisticola
+138 7290 Cisticola dorsti                     Dorst's Cisticola
+138 7291 Cisticola rufilatus                  Grey Cisticola
+138 7292 Cisticola subruficapillus            Red-headed Cisticola
+138 7293 Cisticola lais                       Wailing Cisticola
+138 7294 Cisticola distinctus                 Lynes's Cisticola
+138 7295 Cisticola restrictus                 Tana River Cisticola
+138 7296 Cisticola njombe                     Churring Cisticola
+138 7297 Cisticola galactotes                 Winding Cisticola
+138 7298 Cisticola pipiens                    Chirping Cisticola
+138 7299 Cisticola carruthersi                Carruthers's Cisticola
+138 7300 Cisticola tinniens                   Tinkling Cisticola
+138 7301 Cisticola angolensis                 Angola Cisticola
+138 7302 Cisticola robustus                   Stout Cisticola
+138 7303 Cisticola aberdare                   Aberdare Cisticola
+138 7304 Cisticola natalensis                 Croaking Cisticola
+138 7305 Cisticola fulvicapillus              Piping Cisticola
+138 7306 Cisticola angusticauda               Tabora Cisticola
+138 7307 Cisticola melanurus                  Black-tailed Cisticola
+138 7308 Cisticola brachypterus               Siffling Cisticola
+138 7309 Cisticola rufus                      Rufous Cisticola
+138 7310 Cisticola troglodytes                Foxy Cisticola
+138 7311 Cisticola nanus                      Tiny Cisticola
+138 7312 Cisticola incanus                    Socotra Cisticola
+138 7313 Cisticola juncidis                   Zitting Cisticola
+138 7314 Cisticola haesitatus                 Island Cisticola
+138 7315 Cisticola cherinus                   Madagascar Cisticola
+138 7316 Cisticola aridulus                   Desert Cisticola
+138 7317 Cisticola textrix                    Tink-tink Cisticola
+138 7318 Cisticola eximius                    Black-necked Cisticola
+138 7319 Cisticola dambo                      Cloud-scraping Cisticola
+138 7320 Cisticola brunnescens                Pectoral-patch Cisticola
+138 7321 Cisticola ayresii                    Wing-snapping Cisticola
+138 7322 Cisticola exilis                     Golden-headed Cisticola
+138 7323 Scotocerca inquieta                  Streaked Scrub-Warbler
+138 7324 Rhopophilus pekinensis               White-browed Chinese Warbler
+138 7325 Prinia burnesii                      Rufous-vented Prinia
+138 7326 Prinia criniger                      Striated Prinia
+138 7327 Prinia polychroa                     Brown Prinia
+138 7328 Prinia atrogularis                   Hill Prinia
+138 7329 Prinia cinereocapilla                Grey-crowned Prinia
+138 7330 Prinia buchanani                     Rufous-fronted Prinia
+138 7331 Prinia rufescens                     Rufescent Prinia
+138 7332 Prinia hodgsonii                     Grey-breasted Prinia
+138 7333 Prinia gracilis                      Graceful Prinia
+138 7334 Prinia sylvatica                     Jungle Prinia
+138 7335 Prinia familiaris                    Bar-winged Prinia
+138 7336 Prinia flaviventris                  Yellow-bellied Prinia
+138 7337 Prinia socialis                      Ashy Prinia
+138 7338 Prinia subflava                      Tawny-flanked Prinia
+138 7339 Prinia somalica                      Pale Prinia
+138 7340 Prinia inornata                      Plain Prinia
+138 7341 Prinia fluviatilis                   River Prinia
+138 7342 Prinia flavicans                     Black-chested Prinia
+138 7343 Prinia maculosa                      Karoo Prinia
+138 7344 Prinia molleri                       Sao Tome Prinia
+138 7345 Prinia leontica                      Sierra Leone Prinia
+138 7346 Prinia leucopogon                    White-chinned Prinia
+138 7347 Prinia bairdii                       Banded Prinia
+138 7348 Prinia melanops                      Black-faced Prinia
+138 7349 Phragmacia substriata                Namaqua Warbler
+138 7350 Oreophilais robertsi                 Briar Warbler
+138 7351 Heliolais erythroptera               Red-winged Warbler
+138 7352 Malcorus pectoralis                  Rufous-eared Warbler
+138 7353 Drymocichla incana                   Red-winged Grey Warbler
+138 7354 Urolais epichlora                    Green Longtail
+138 7355 Spiloptila clamans                   Cricket Longtail
+138 7356 Apalis pulchra                       Black-collared Apalis
+138 7357 Apalis ruwenzorii                    Collared Apalis
+138 7358 Apalis thoracica                     Bar-throated Apalis
+138 7359 Apalis nigriceps                     Black-capped Apalis
+138 7360 Apalis jacksoni                      Black-throated Apalis
+138 7361 Apalis chariessa                     White-winged Apalis
+138 7362 Apalis binotata                      Masked Apalis
+138 7363 Apalis personata                     Black-faced Apalis
+138 7364 Apalis flavida                       Yellow-breasted Apalis
+138 7365 Apalis viridiceps                    Brown-tailed Apalis
+138 7366 Apalis ruddi                         Rudd's Apalis
+138 7367 Apalis sharpii                       Sharpe's Apalis
+138 7368 Apalis rufogularis                   Buff-throated Apalis
+138 7369 Apalis argentea                      Kungwe Apalis
+138 7370 Apalis bamendae                      Bamenda Apalis
+138 7371 Apalis goslingi                      Gosling's Apalis
+138 7372 Apalis porphyrolaema                 Chestnut-throated Apalis
+138 7373 Apalis kaboboensis                   Kabobo Apalis
+138 7374 Apalis chapini                       Chapin's Apalis
+138 7375 Apalis melanocephala                 Black-headed Apalis
+138 7376 Apalis chirindensis                  Chirinda Apalis
+138 7377 Apalis cinerea                       Grey Apalis
+138 7378 Apalis alticola                      Brown-headed Apalis
+138 7379 Apalis karamojae                     Karamoja Apalis
+138 7380 Apalis rufifrons                     Red-faced Apalis
+138 7381 Hypergerus atriceps                  Oriole Warbler
+138 7382 Eminia lepida                        Grey-capped Warbler
+138 7383 Camaroptera brevicaudata             Grey-backed Camaroptera
+138 7384 Camaroptera harterti                 Hartert's Camaroptera
+138 7385 Camaroptera brachyura                Green-backed Camaroptera
+138 7386 Camaroptera superciliaris            Yellow-browed Camaroptera
+138 7387 Camaroptera chloronota               Olive-green Camaroptera
+138 7388 Calamonastes simplex                 Grey Wren-Warbler
+138 7389 Calamonastes stierlingi              Stierling's Wren-Warbler
+138 7390 Calamonastes fasciolatus             Barred Wren-Warbler
+138 7391 Euryptila subcinnamomea              Kopje Warbler
+139 7392 Speirops melanocephalus              Cameroon Speirops
+139 7393 Speirops lugubris                    Black-capped Speirops
+139 7394 Speirops brunneus                    Fernando Po Speirops
+139 7395 Speirops leucophoeus                 Principe Speirops
+139 7396 Zosterops senegalensis               African Yellow White-eye
+139 7397 Zosterops vaughani                   Pemba White-eye
+139 7398 Zosterops mayottensis                Chestnut-sided White-eye
+139 7399 Zosterops poliogaster                Broad-ringed White-eye
+139 7400 Zosterops abyssinicus                White-breasted White-eye
+139 7401 Zosterops pallidus                   Pale White-eye
+139 7402 Zosterops maderaspatanus             Malagasy White-eye
+139 7403 Zosterops mouroniensis               Comoro White-eye
+139 7404 Zosterops ficedulinus                Principe White-eye
+139 7405 Zosterops griseovirescens            Annobon White-eye
+139 7406 Zosterops borbonicus                 Mascarene Grey White-eye
+139 7407 Zosterops olivaceus                  Reunion Olive White-eye
+139 7408 Zosterops chloronothos               Mauritius Olive White-eye
+139 7409 Zosterops modestus                   Seychelles Grey White-eye
+139 7410 Zosterops ceylonensis                Ceylon White-eye
+139 7411 Zosterops erythropleurus             Chestnut-flanked White-eye
+139 7412 Zosterops palpebrosus                Oriental White-eye
+139 7413 Zosterops japonicus                  Japanese White-eye
+139 7414 Zosterops meyeni                     Lowland White-eye
+139 7415 Zosterops salvadorii                 Enggano White-eye
+139 7416 Zosterops conspicillatus             Bridled White-eye
+139 7417 Zosterops hypolais                   Plain White-eye
+139 7418 Zosterops semperi                    Caroline Islands White-eye
+139 7419 Zosterops atricapillus               Black-capped White-eye
+139 7420 Zosterops everetti                   Everett's White-eye
+139 7421 Zosterops nigrorum                   Golden-yellow White-eye
+139 7422 Zosterops montanus                   Mountain White-eye
+139 7423 Zosterops natalis                    Christmas Island White-eye
+139 7424 Zosterops flavus                     Javan White-eye
+139 7425 Zosterops chloris                    Lemon-bellied White-eye
+139 7426 Zosterops citrinellus                Ashy-bellied White-eye
+139 7427 Zosterops grayi                      Pearl-bellied White-eye
+139 7428 Zosterops uropygialis                Golden-bellied White-eye
+139 7429 Zosterops consobrinorum              Pale-bellied White-eye
+139 7430 Zosterops anomalus                   Lemon-throated White-eye
+139 7431 Zosterops wallacei                   Yellow-spectacled White-eye
+139 7432 Zosterops atrifrons                  Black-crowned White-eye
+139 7433 Zosterops atriceps                   Creamy-throated White-eye
+139 7434 Zosterops minor                      Black-fronted White-eye
+139 7435 Zosterops meeki                      White-throated White-eye
+139 7436 Zosterops hypoxanthus                Black-headed White-eye
+139 7437 Zosterops mysorensis                 Biak White-eye
+139 7438 Zosterops fuscicapillus              Capped White-eye
+139 7439 Zosterops buruensis                  Buru Yellow White-eye
+139 7440 Zosterops kuehni                     Ambon Yellow White-eye
+139 7441 Zosterops novaeguineae               New Guinea White-eye
+139 7442 Zosterops luteus                     Australian Yellow White-eye
+139 7443 Zosterops griseotinctus              Louisiade White-eye
+139 7444 Zosterops rennellianus               Rennell White-eye
+139 7445 Zosterops vellalavella               Banded White-eye
+139 7446 Zosterops splendidus                 Ganongga White-eye
+139 7447 Zosterops luteirostris               Splendid White-eye
+139 7448 Zosterops kulambangrae               Solomon Islands White-eye
+139 7449 Zosterops murphyi                    Hermit White-eye
+139 7450 Zosterops metcalfii                  Yellow-throated White-eye
+139 7451 Zosterops rendovae                   Grey-throated White-eye
+139 7452 Zosterops stresemanni                Malaita White-eye
+139 7453 Zosterops sanctaecrucis              Santa Cruz White-eye
+139 7454 Zosterops lateralis                  Silvereye
+139 7455 Zosterops tephropleurus              Lord Howe Island White-eye
+139 7456 Zosterops strenuus                   Robust White-eye
+139 7457 Zosterops tenuirostris               Slender-billed White-eye
+139 7458 Zosterops albogularis                White-chested White-eye
+139 7459 Zosterops inornatus                  Large Lifu White-eye
+139 7460 Zosterops explorator                 Layard's White-eye
+139 7461 Zosterops flavifrons                 Yellow-fronted White-eye
+139 7462 Zosterops xanthochrous               Green-backed White-eye
+139 7463 Zosterops minutus                    Small Lifu White-eye
+139 7464 Zosterops samoensis                  Samoan White-eye
+139 7465 Zosterops finschii                   Dusky White-eye
+139 7466 Zosterops cinereus                   Grey-brown White-eye
+139 7467 Zosterops oleagineus                 Yap Olive White-eye
+139 7468 Rukia longirostra                    Long-billed White-eye
+139 7469 Rukia ruki                           Truk White-eye
+139 7470 Cleptornis marchei                   Golden White-eye
+139 7471 Tephrozosterops stalkeri             Bicolored White-eye
+139 7472 Madanga ruficollis                   Rufous-throated White-eye
+139 7473 Lophozosterops javanicus             Javan Grey-throated White-eye
+139 7474 Lophozosterops squamiceps            Streaky-headed White-eye
+139 7475 Lophozosterops goodfellowi           Black-masked White-eye
+139 7476 Lophozosterops superciliaris         Yellow-browed White-eye
+139 7477 Lophozosterops pinaiae               Grey-hooded White-eye
+139 7478 Lophozosterops dohertyi              Crested White-eye
+139 7479 Oculocincta squamifrons              Pygmy White-eye
+139 7480 Heleia crassirostris                 Thick-billed White-eye
+139 7481 Heleia muelleri                      Spot-breasted White-eye
+139 7482 Chlorocharis emiliae                 Mountain Blackeye
+139 7483 Woodfordia superciliosa              Bare-eyed White-eye
+139 7484 Woodfordia lacertosa                 Sanford's White-eye
+139 7485 Megazosterops palauensis             Giant White-eye
+139 7486 Hypocryptadius cinnamomeus           Cinnamon Ibon
+140 7487 Tesia castaneocoronata               Chestnut-headed Tesia
+140 7488 Tesia olivea                         Slaty-bellied Tesia
+140 7489 Tesia cyaniventer                    Grey-bellied Tesia
+140 7490 Tesia superciliaris                  Javan Tesia
+140 7491 Tesia everetti                       Russet-capped Tesia
+140 7492 Urosphena subulata                   Timor Stubtail
+140 7493 Urosphena whiteheadi                 Bornean Stubtail
+140 7494 Urosphena squameiceps                Asian Stubtail
+140 7495 Cettia pallidipes                    Pale-footed Bush-Warbler
+140 7496 Cettia canturians                    Manchurian Bush-Warbler
+140 7497 Cettia diphone                       Japanese Bush-Warbler
+140 7498 Cettia seebohmi                      Philippine Bush-Warbler
+140 7499 Cettia annae                         Palau Bush-Warbler
+140 7500 Cettia parens                        Shade Warbler
+140 7501 Cettia ruficapilla                   Fiji Bush-Warbler
+140 7502 Cettia fortipes                      Brownish-flanked Bush-Warbler
+140 7503 Cettia vulcania                      Sunda Bush-Warbler
+140 7504 Cettia carolinae                     Tanimbar Bush-Warbler
+140 7505 Cettia major                         Chestnut-crowned Bush-Warbler
+140 7506 Cettia flavolivacea                  Aberrant Bush-Warbler
+140 7507 Cettia acanthizoides                 Yellowish-bellied Bush-Warbler
+140 7508 Cettia brunnifrons                   Grey-sided Bush-Warbler
+140 7509 Cettia cetti                         Cetti's Warbler
+140 7510 Bradypterus baboecala                African Bush-Warbler
+140 7511 Bradypterus grandis                  Ja River Scrub-Warbler
+140 7512 Bradypterus carpalis                 White-winged Scrub-Warbler
+140 7513 Bradypterus graueri                  Grauer's Scrub-Warbler
+140 7514 Bradypterus alfredi                  Bamboo Scrub-Warbler
+140 7515 Bradypterus sylvaticus               Knysna Scrub-Warbler
+140 7516 Bradypterus lopezi                   Cameroon Scrub-Warbler
+140 7517 Bradypterus mariae                   Evergreen Forest Warbler
+140 7518 Bradypterus barratti                 African Scrub-Warbler
+140 7519 Bradypterus cinnamomeus              Cinnamon Bracken-Warbler
+140 7520 Bradypterus victorini                Victorin's Scrub-Warbler
+140 7521 Bradypterus thoracicus               Spotted Bush-Warbler
+140 7522 Bradypterus major                    Long-billed Bush-Warbler
+140 7523 Bradypterus tacsanowskius            Chinese Bush-Warbler
+140 7524 Bradypterus luteoventris             Brown Bush-Warbler
+140 7525 Bradypterus seebohmi                 Russet Bush-Warbler
+140 7526 Bradypterus palliseri                Ceylon Bush-Warbler
+140 7527 Bradypterus caudatus                 Long-tailed Bush-Warbler
+140 7528 Bradypterus accentor                 Friendly Bush-Warbler
+140 7529 Bradypterus castaneus                Chestnut-backed Bush-Warbler
+140 7530 Dromaeocercus brunneus               Brown Emu-tail
+140 7531 Bathmocercus cerviniventris          Black-capped Rufous Warbler
+140 7532 Bathmocercus rufus                   Black-faced Rufous Warbler
+140 7533 Scepomycter winifredae               Mrs. Moreau's Warbler
+140 7534 Nesillas aldabrana                   Aldabra Brush-Warbler
+140 7535 Nesillas longicaudata                Anjouan Brush-Warbler
+140 7536 Nesillas typica                      Madagascar Brush-Warbler
+140 7537 Nesillas brevicaudata                Grand Comoro Brush-Warbler
+140 7538 Nesillas mariae                      Moheli Brush-Warbler
+140 7539 Thamnornis chloropetoides            Thamnornis Warbler
+140 7540 Melocichla mentalis                  Moustached Grass-Warbler
+140 7541 Achaetops pycnopygius                Damara Rock-jumper
+140 7542 Sphenoeacus afer                     Cape Grass-Warbler
+140 7543 Locustella lanceolata                Lanceolated Warbler
+140 7544 Locustella naevia                    Common Grasshopper-Warbler
+140 7545 Locustella certhiola                 Pallas's Grasshopper-Warbler
+140 7546 Locustella ochotensis                Middendorff's Grasshopper-Warbler
+140 7547 Locustella pleskei                   Pleske's Grasshopper-Warbler
+140 7548 Locustella fluviatilis               Eurasian River Warbler
+140 7549 Locustella luscinioides              Savi's Warbler
+140 7550 Locustella fasciolata                Gray's Grasshopper-Warbler
+140 7551 Acrocephalus melanopogon             Moustached Warbler
+140 7552 Acrocephalus paludicola              Aquatic Warbler
+140 7553 Acrocephalus schoenobaenus           Sedge Warbler
+140 7554 Acrocephalus sorghophilus            Streaked Reed-Warbler
+140 7555 Acrocephalus bistrigiceps            Black-browed Reed-Warbler
+140 7556 Acrocephalus agricola                Paddyfield Warbler
+140 7557 Acrocephalus concinens               Blunt-winged Warbler
+140 7558 Acrocephalus scirpaceus              Eurasian Reed-Warbler
+140 7559 Acrocephalus baeticatus              African Reed-Warbler
+140 7560 Acrocephalus dumetorum               Blyth's Reed-Warbler
+140 7561 Acrocephalus palustris               Marsh Warbler
+140 7562 Acrocephalus arundinaceus            Great Reed-Warbler
+140 7563 Acrocephalus stentoreus              Clamorous Reed-Warbler
+140 7564 Acrocephalus griseldis               Basra Reed-Warbler
+140 7565 Acrocephalus australis               Australian Reed-Warbler
+140 7566 Acrocephalus luscinia                Nightingale Reed-Warbler
+140 7567 Acrocephalus syrinx                  Caroline Islands Reed-Warbler
+140 7568 Acrocephalus rehsei                  Nauru Reed-Warbler
+140 7569 Acrocephalus familiaris              Millerbird
+140 7570 Acrocephalus aequinoctialis          Bokikokiko
+140 7571 Acrocephalus caffer                  Tahiti Reed-Warbler
+140 7572 Acrocephalus mendanae                Marquesan Reed-Warbler
+140 7573 Acrocephalus atyphus                 Tuamotu Reed-Warbler
+140 7574 Acrocephalus kerearako               Cook Islands Reed-Warbler
+140 7575 Acrocephalus rimatarae               Rimatara Reed-Warbler
+140 7576 Acrocephalus vaughani                Pitcairn Reed-Warbler
+140 7577 Acrocephalus taiti                   Henderson Island Reed-Warbler
+140 7578 Acrocephalus rufescens               Greater Swamp-Warbler
+140 7579 Acrocephalus brevipennis             Cape Verde Swamp-Warbler
+140 7580 Acrocephalus gracilirostris          Lesser Swamp-Warbler
+140 7581 Acrocephalus newtoni                 Madagascar Swamp-Warbler
+140 7582 Acrocephalus aedon                   Thick-billed Warbler
+140 7583 Bebrornis rodericanus                Rodriguez Brush-Warbler
+140 7584 Bebrornis sechellensis               Seychelles Brush-Warbler
+140 7585 Hippolais caligata                   Booted Warbler
+140 7586 Hippolais rama                       Sykes's Warbler
+140 7587 Hippolais pallida                    Olivaceous Warbler
+140 7588 Hippolais languida                   Upcher's Warbler
+140 7589 Hippolais olivetorum                 Olive-tree Warbler
+140 7590 Hippolais polyglotta                 Melodious Warbler
+140 7591 Hippolais icterina                   Icterine Warbler
+140 7592 Chloropeta natalensis                Yellow Flycatcher-Warbler
+140 7593 Chloropeta similis                   Mountain Flycatcher-Warbler
+140 7594 Chloropeta gracilirostris            Thin-billed Flycatcher-Warbler
+140 7595 Stenostira scita                     Fairy Warbler
+140 7596 Phyllolais pulchella                 Buff-bellied Warbler
+140 7597 Orthotomus metopias                  African Tailorbird
+140 7598 Orthotomus moreaui                   Long-billed Tailorbird
+140 7599 Orthotomus cuculatus                 Mountain Tailorbird
+140 7600 Orthotomus heterolaemus              Rufous-headed Tailorbird
+140 7601 Orthotomus sutorius                  Common Tailorbird
+140 7602 Orthotomus atrogularis               Dark-necked Tailorbird
+140 7603 Orthotomus castaneiceps              Philippine Tailorbird
+140 7604 Orthotomus frontalis                 Rufous-fronted Tailorbird
+140 7605 Orthotomus derbianus                 Grey-backed Tailorbird
+140 7606 Orthotomus sericeus                  Rufous-tailed Tailorbird
+140 7607 Orthotomus ruficeps                  Ashy Tailorbird
+140 7608 Orthotomus sepium                    Olive-backed Tailorbird
+140 7609 Orthotomus samarensis                Yellow-breasted Tailorbird
+140 7610 Orthotomus nigriceps                 Black-headed Tailorbird
+140 7611 Orthotomus cinereiceps               White-eared Tailorbird
+140 7612 Poliolais lopezi                     White-tailed Warbler
+140 7613 Graueria vittata                     Grauer's Warbler
+140 7614 Eremomela icteropygialis             Yellow-bellied Eremomela
+140 7615 Eremomela salvadorii                 Salvadori's Eremomela
+140 7616 Eremomela flavicrissalis             Yellow-vented Eremomela
+140 7617 Eremomela pusilla                    Senegal Eremomela
+140 7618 Eremomela canescens                  Green-backed Eremomela
+140 7619 Eremomela scotops                    Greencap Eremomela
+140 7620 Eremomela gregalis                   Yellow-rumped Eremomela
+140 7621 Eremomela badiceps                   Rufous-crowned Eremomela
+140 7622 Eremomela turneri                    Turner's Eremomela
+140 7623 Eremomela atricollis                 Black-necked Eremomela
+140 7624 Eremomela usticollis                 Burnt-neck Eremomela
+140 7625 Randia pseudozosterops               Rand's Warbler
+140 7626 Newtonia amphichroa                  Dark Newtonia
+140 7627 Newtonia brunneicauda                Common Newtonia
+140 7628 Newtonia archboldi                   Archbold's Newtonia
+140 7629 Newtonia fanovanae                   Red-tailed Newtonia
+140 7630 Sylvietta virens                     Green Crombec
+140 7631 Sylvietta denti                      Lemon-bellied Crombec
+140 7632 Sylvietta chapini                    Chapin's Crombec
+140 7633 Sylvietta leucophrys                 White-browed Crombec
+140 7634 Sylvietta brachyura                  Northern Crombec
+140 7635 Sylvietta philippae                  Short-billed Crombec
+140 7636 Sylvietta ruficapilla                Red-capped Crombec
+140 7637 Sylvietta whytii                     Red-faced Crombec
+140 7638 Sylvietta isabellina                 Somali Crombec
+140 7639 Sylvietta rufescens                  Cape Crombec
+140 7640 Hemitesia neumanni                   Neumann's Warbler
+140 7641 Macrosphenus kempi                   Kemp's Longbill
+140 7642 Macrosphenus flavicans               Yellow Longbill
+140 7643 Macrosphenus concolor                Grey Longbill
+140 7644 Macrosphenus pulitzeri               Pulitzer's Longbill
+140 7645 Macrosphenus kretschmeri             Kretschmer's Longbill
+140 7646 Amaurocichla bocagii                 Bocage's Longbill
+140 7647 Hylia prasina                        Green Hylia
+140 7648 Leptopoecile sophiae                 White-browed Tit-Warbler
+140 7649 Leptopoecile elegans                 Crested Tit-Warbler
+140 7650 Phylloscopus laetus                  Red-faced Woodland-Warbler
+140 7651 Phylloscopus laurae                  Laura's Woodland-Warbler
+140 7652 Phylloscopus ruficapillus            Yellow-throated Woodland-Warbler
+140 7653 Phylloscopus herberti                Black-capped Woodland-Warbler
+140 7654 Phylloscopus budongoensis            Uganda Woodland-Warbler
+140 7655 Phylloscopus umbrovirens             Brown Woodland-Warbler
+140 7656 Phylloscopus trochilus               Willow Warbler
+140 7657 Phylloscopus collybita               Common Chiffchaff
+140 7658 Phylloscopus lorenzii                Caucasian Chiffchaff
+140 7659 Phylloscopus neglectus               Plain Leaf-Warbler
+140 7660 Phylloscopus bonelli                 Bonelli's Warbler
+140 7661 Phylloscopus sibilatrix              Wood Warbler
+140 7662 Phylloscopus fuscatus                Dusky Warbler
+140 7663 Phylloscopus fuligiventer            Smoky Warbler
+140 7664 Phylloscopus affinis                 Tickell's Leaf-Warbler
+140 7665 Phylloscopus subaffinis              Buff-throated Warbler
+140 7666 Phylloscopus griseolus               Sulphur-bellied Warbler
+140 7667 Phylloscopus armandii                Yellow-streaked Warbler
+140 7668 Phylloscopus schwarzi                Radde's Warbler
+140 7669 Phylloscopus pulcher                 Buff-barred Warbler
+140 7670 Phylloscopus maculipennis            Ashy-throated Warbler
+140 7671 Phylloscopus proregulus              Lemon-rumped Warbler
+140 7672 Phylloscopus chloronotus             Pale-rumped Warbler
+140 7673 Phylloscopus subviridis              Brooks's Leaf-Warbler
+140 7674 Phylloscopus inornatus               Inornate Warbler
+140 7675 Phylloscopus borealis                Arctic Warbler
+140 7676 Phylloscopus trochiloides            Greenish Warbler
+140 7677 Phylloscopus tenellipes              Pale-legged Leaf-Warbler
+140 7678 Phylloscopus borealoides             Sakhalin Leaf-Warbler
+140 7679 Phylloscopus magnirostris            Large-billed Leaf-Warbler
+140 7680 Phylloscopus tytleri                 Tytler's Leaf-Warbler
+140 7681 Phylloscopus occipitalis             Western Crowned-Warbler
+140 7682 Phylloscopus coronatus               Eastern Crowned-Warbler
+140 7683 Phylloscopus ijimae                  Ijima's Leaf-Warbler
+140 7684 Phylloscopus reguloides              Blyth's Leaf-Warbler
+140 7685 Phylloscopus davisoni                White-tailed Leaf-Warbler
+140 7686 Phylloscopus cantator                Yellow-vented Warbler
+140 7687 Phylloscopus ricketti                Sulphur-breasted Warbler
+140 7688 Phylloscopus olivaceus               Philippine Leaf-Warbler
+140 7689 Phylloscopus cebuensis               Lemon-throated Leaf-Warbler
+140 7690 Phylloscopus trivirgatus             Mountain Leaf-Warbler
+140 7691 Phylloscopus sarasinorum             Sulawesi Leaf-Warbler
+140 7692 Phylloscopus presbytes               Timor Leaf-Warbler
+140 7693 Phylloscopus poliocephala            Island Leaf-Warbler
+140 7694 Phylloscopus makirensis              San Cristobal Leaf-Warbler
+140 7695 Phylloscopus amoenus                 Sombre Leaf-Warbler
+140 7696 Seicercus burkii                     Golden-spectacled Warbler
+140 7697 Seicercus xanthoschistos             Grey-hooded Warbler
+140 7698 Seicercus affinis                    White-spectacled Warbler
+140 7699 Seicercus poliogenys                 Grey-cheeked Warbler
+140 7700 Seicercus castaniceps                Chestnut-crowned Warbler
+140 7701 Seicercus montis                     Yellow-breasted Warbler
+140 7702 Seicercus grammiceps                 Sunda Warbler
+140 7703 Tickellia hodgsoni                   Broad-billed Warbler
+140 7704 Abroscopus albogularis               Rufous-faced Warbler
+140 7705 Abroscopus schisticeps               Black-faced Warbler
+140 7706 Abroscopus superciliaris             Yellow-bellied Warbler
+140 7707 Hyliota flavigaster                  Yellow-bellied Hyliota
+140 7708 Hyliota australis                    Southern Hyliota
+140 7709 Hyliota violacea                     Violet-backed Hyliota
+140 7710 Amphilais seebohmi                   Grey Emu-tail
+140 7711 Megalurus pryeri                     Marsh Grassbird
+140 7712 Megalurus timoriensis                Tawny Grassbird
+140 7713 Megalurus palustris                  Striated Grassbird
+140 7714 Megalurus albolimbatus               Fly River Grassbird
+140 7715 Megalurus gramineus                  Little Grassbird
+140 7716 Megalurus punctatus                  New Zealand Fernbird
+140 7717 Megalurus rufescens                  Chatham Islands Fernbird
+140 7718 Cincloramphus cruralis               Brown Songlark
+140 7719 Cincloramphus mathewsi               Rufous Songlark
+140 7720 Eremiornis carteri                   Spinifex-bird
+140 7721 Buettikoferella bivittata            Buff-banded Grassbird
+140 7722 Megalurulus mariei                   New Caledonian Grassbird
+140 7723 Megalurulus grosvenori               Bismarck Thicketbird
+140 7724 Megalurulus llaneae                  Bougainville Thicketbird
+140 7725 Megalurulus whitneyi                 Guadalcanal Thicketbird
+140 7726 Megalurulus rubiginosus              Rusty Thicketbird
+140 7727 Trichocichla rufa                    Long-legged Thicketbird
+140 7728 Chaetornis striatus                  Bristled Grassbird
+140 7729 Graminicola bengalensis              Rufous-rumped Grassbird
+140 7730 Schoenicola brevirostris             Fan-tailed Grassbird
+140 7731 Schoenicola platyura                 Broad-tailed Grassbird
+140 7732 Garrulax cinereifrons                Ashy-headed Laughingthrush
+140 7733 Garrulax palliatus                   Sunda Laughingthrush
+140 7734 Garrulax rufifrons                   Rufous-fronted Laughingthrush
+140 7735 Garrulax perspicillatus              Masked Laughingthrush
+140 7736 Garrulax albogularis                 White-throated Laughingthrush
+140 7737 Garrulax leucolophus                 White-crested Laughingthrush
+140 7738 Garrulax monileger                   Lesser Necklaced Laughingthrush
+140 7739 Garrulax pectoralis                  Greater Necklaced Laughingthrush
+140 7740 Garrulax lugubris                    Black Laughingthrush
+140 7741 Garrulax calvus                      Bare-headed Laughingthrush
+140 7742 Garrulax striatus                    Striated Laughingthrush
+140 7743 Garrulax strepitans                  White-necked Laughingthrush
+140 7744 Garrulax milleti                     Black-hooded Laughingthrush
+140 7745 Garrulax maesi                       Grey Laughingthrush
+140 7746 Garrulax ruficollis                  Rufous-necked Laughingthrush
+140 7747 Garrulax nuchalis                    Chestnut-backed Laughingthrush
+140 7748 Garrulax chinensis                   Black-throated Laughingthrush
+140 7749 Garrulax vassali                     White-cheeked Laughingthrush
+140 7750 Garrulax galbanus                    Yellow-throated Laughingthrush
+140 7751 Garrulax delesserti                  Wynaad Laughingthrush
+140 7752 Garrulax gularis                     Rufous-vented Laughingthrush
+140 7753 Garrulax davidi                      Plain Laughingthrush
+140 7754 Garrulax sukatschewi                 Snowy-cheeked Laughingthrush
+140 7755 Garrulax cineraceus                  Moustached Laughingthrush
+140 7756 Garrulax rufogularis                 Rufous-chinned Laughingthrush
+140 7757 Garrulax lunulatus                   Barred Laughingthrush
+140 7758 Garrulax bieti                       White-speckled Laughingthrush
+140 7759 Garrulax maximus                     Giant Laughingthrush
+140 7760 Garrulax ocellatus                   Spotted Laughingthrush
+140 7761 Garrulax caerulatus                  Grey-sided Laughingthrush
+140 7762 Garrulax poecilorhynchus             Rusty Laughingthrush
+140 7763 Garrulax mitratus                    Chestnut-capped Laughingthrush
+140 7764 Garrulax merulinus                   Spot-breasted Laughingthrush
+140 7765 Garrulax canorus                     Hwamei
+140 7766 Garrulax sannio                      White-browed Laughingthrush
+140 7767 Garrulax cachinnans                  Rufous-breasted Laughingthrush
+140 7768 Garrulax jerdoni                     Grey-breasted Laughingthrush
+140 7769 Garrulax lineatus                    Streaked Laughingthrush
+140 7770 Garrulax virgatus                    Striped Laughingthrush
+140 7771 Garrulax austeni                     Brown-capped Laughingthrush
+140 7772 Garrulax squamatus                   Blue-winged Laughingthrush
+140 7773 Garrulax subunicolor                 Scaly Laughingthrush
+140 7774 Garrulax elliotii                    Elliot's Laughingthrush
+140 7775 Garrulax variegatus                  Variegated Laughingthrush
+140 7776 Garrulax henrici                     Brown-cheeked Laughingthrush
+140 7777 Garrulax affinis                     Black-faced Laughingthrush
+140 7778 Garrulax morrisonianus               White-whiskered Laughingthrush
+140 7779 Garrulax erythrocephalus             Chestnut-crowned Laughingthrush
+140 7780 Garrulax yersini                     Collared Laughingthrush
+140 7781 Garrulax formosus                    Red-winged Laughingthrush
+140 7782 Garrulax milnei                      Red-tailed Laughingthrush
+140 7783 Liocichla phoenicea                  Red-faced Liocichla
+140 7784 Liocichla omeiensis                  Omei Shan Liocichla
+140 7785 Liocichla steerii                    Steere's Liocichla
+140 7786 Modulatrix stictigula                Spot-throat
+140 7787 Arcanator orostruthus                Dapple-throat
+140 7788 Trichastoma rostratum                White-chested Babbler
+140 7789 Trichastoma celebense                Sulawesi Babbler
+140 7790 Trichastoma bicolor                  Ferruginous Babbler
+140 7791 Trichastoma woodi                    Bagobo Babbler
+140 7792 Malacocincla abbotti                 Abbott's Babbler
+140 7793 Malacocincla sepiarium               Horsfield's Babbler
+140 7794 Malacocincla vanderbilti             Vanderbilt's Babbler
+140 7795 Malacocincla perspicillata           Black-browed Babbler
+140 7796 Malacocincla malaccensis             Short-tailed Babbler
+140 7797 Malacocincla cinereiceps             Ashy-headed Babbler
+140 7798 Pellorneum tickelli                  Buff-breasted Babbler
+140 7799 Pellorneum pyrrogenys                Temminck's Babbler
+140 7800 Pellorneum albiventre                Spot-throated Babbler
+140 7801 Pellorneum palustre                  Marsh Babbler
+140 7802 Pellorneum ruficeps                  Puff-throated Babbler
+140 7803 Pellorneum fuscocapillum             Brown-capped Babbler
+140 7804 Pellorneum capistratum               Black-capped Babbler
+140 7805 Malacopteron magnirostre             Moustached Babbler
+140 7806 Malacopteron affine                  Sooty-capped Babbler
+140 7807 Malacopteron cinereum                Scaly-crowned Babbler
+140 7808 Malacopteron magnum                  Rufous-crowned Babbler
+140 7809 Malacopteron palawanense             Melodious Babbler
+140 7810 Malacopteron albogulare              Grey-breasted Babbler
+140 7811 Illadopsis cleaveri                  Blackcap Illadopsis
+140 7812 Illadopsis albipectus                Scaly-breasted Illadopsis
+140 7813 Illadopsis rufescens                 Rufous-winged Illadopsis
+140 7814 Illadopsis puveli                    Puvel's Illadopsis
+140 7815 Illadopsis rufipennis                Pale-breasted Illadopsis
+140 7816 Illadopsis fulvescens                Brown Illadopsis
+140 7817 Illadopsis pyrrhoptera               Mountain Illadopsis
+140 7818 Illadopsis atriceps                  Ruwenzori Hill-Babbler
+140 7819 Illadopsis abyssinica                Abyssinian Hill-Babbler
+140 7820 Kakamega poliothorax                 Grey-chested Illadopsis
+140 7821 Ptyrticus turdinus                   Thrush Babbler
+140 7822 Pomatorhinus hypoleucos              Large Scimitar-Babbler
+140 7823 Pomatorhinus erythrocnemis           Spot-breasted Scimitar-Babbler
+140 7824 Pomatorhinus erythrogenys            Rusty-cheeked Scimitar-Babbler
+140 7825 Pomatorhinus horsfieldii             Indian Scimitar-Babbler
+140 7826 Pomatorhinus schisticeps             White-browed Scimitar-Babbler
+140 7827 Pomatorhinus montanus                Chestnut-backed Scimitar-Babbler
+140 7828 Pomatorhinus ruficollis              Streak-breasted Scimitar-Babbler
+140 7829 Pomatorhinus ochraceiceps            Red-billed Scimitar-Babbler
+140 7830 Pomatorhinus ferruginosus            Coral-billed Scimitar-Babbler
+140 7831 Xiphirhynchus superciliaris          Slender-billed Scimitar-Babbler
+140 7832 Jabouilleia danjoui                  Short-tailed Scimitar-Babbler
+140 7833 Rimator malacoptilus                 Long-billed Wren-Babbler
+140 7834 Ptilocichla leucogrammica            Bornean Wren-Babbler
+140 7835 Ptilocichla mindanensis              Striated Wren-Babbler
+140 7836 Ptilocichla falcata                  Falcated Wren-Babbler
+140 7837 Kenopia striata                      Striped Wren-Babbler
+140 7838 Napothera macrodactyla               Large Wren-Babbler
+140 7839 Napothera rufipectus                 Rusty-breasted Wren-Babbler
+140 7840 Napothera atrigularis                Black-throated Wren-Babbler
+140 7841 Napothera marmorata                  Marbled Wren-Babbler
+140 7842 Napothera crispifrons                Limestone Wren-Babbler
+140 7843 Napothera brevicaudata               Streaked Wren-Babbler
+140 7844 Napothera crassa                     Mountain Wren-Babbler
+140 7845 Napothera rabori                     Rabor's Wren-Babbler
+140 7846 Napothera epilepidota                Eyebrowed Wren-Babbler
+140 7847 Pnoepyga albiventer                  Scaly-breasted Wren-Babbler
+140 7848 Pnoepyga immaculata                  Nepal Wren-Babbler
+140 7849 Pnoepyga pusilla                     Pygmy Wren-Babbler
+140 7850 Spelaeornis caudatus                 Rufous-throated Wren-Babbler
+140 7851 Spelaeornis badeigularis             Rusty-throated Wren-Babbler
+140 7852 Spelaeornis troglodytoides           Bar-winged Wren-Babbler
+140 7853 Spelaeornis formosus                 Spotted Wren-Babbler
+140 7854 Spelaeornis chocolatinus             Long-tailed Wren-Babbler
+140 7855 Spelaeornis longicaudatus            Tawny-breasted Wren-Babbler
+140 7856 Sphenocichla humei                   Wedge-billed Wren-Babbler
+140 7857 Neomixis tenella                     Common Jery
+140 7858 Neomixis viridis                     Green Jery
+140 7859 Neomixis striatigula                 Stripe-throated Jery
+140 7860 Neomixis flavoviridis                Wedge-tailed Jery
+140 7861 Stachyris rodolphei                  Deignan's Babbler
+140 7862 Stachyris ambigua                    Buff-chested Babbler
+140 7863 Stachyris rufifrons                  Rufous-fronted Babbler
+140 7864 Stachyris ruficeps                   Rufous-capped Babbler
+140 7865 Stachyris pyrrhops                   Black-chinned Babbler
+140 7866 Stachyris chrysaea                   Golden Babbler
+140 7867 Stachyris plateni                    Pygmy Babbler
+140 7868 Stachyris dennistouni                Golden-crowned Babbler
+140 7869 Stachyris nigrocapitata              Black-crowned Babbler
+140 7870 Stachyris capitalis                  Rusty-crowned Babbler
+140 7871 Stachyris speciosa                   Flame-templed Babbler
+140 7872 Stachyris whiteheadi                 Chestnut-faced Babbler
+140 7873 Stachyris striata                    Luzon Striped-Babbler
+140 7874 Stachyris latistriata                Panay Striped-Babbler
+140 7875 Stachyris nigrorum                   Negros Striped-Babbler
+140 7876 Stachyris hypogrammica               Palawan Striped-Babbler
+140 7877 Stachyris grammiceps                 White-breasted Babbler
+140 7878 Stachyris herberti                   Sooty Babbler
+140 7879 Stachyris nigriceps                  Grey-throated Babbler
+140 7880 Stachyris poliocephala               Grey-headed Babbler
+140 7881 Stachyris oglei                      Snowy-throated Babbler
+140 7882 Stachyris striolata                  Spot-necked Babbler
+140 7883 Stachyris leucotis                   White-necked Babbler
+140 7884 Stachyris nigricollis                Black-throated Babbler
+140 7885 Stachyris thoracica                  White-bibbed Babbler
+140 7886 Stachyris maculata                   Chestnut-rumped Babbler
+140 7887 Stachyris erythroptera               Chestnut-winged Babbler
+140 7888 Stachyris melanothorax               Crescent-chested Babbler
+140 7889 Dumetia hyperythra                   Tawny-bellied Babbler
+140 7890 Rhopocichla atriceps                 Dark-fronted Babbler
+140 7891 Macronous gularis                    Striped Tit-Babbler
+140 7892 Macronous flavicollis                Grey-cheeked Tit-Babbler
+140 7893 Macronous kelleyi                    Grey-faced Tit-Babbler
+140 7894 Macronous striaticeps                Brown Tit-Babbler
+140 7895 Macronous ptilosus                   Fluffy-backed Tit-Babbler
+140 7896 Micromacronus leytensis              Miniature Tit-Babbler
+140 7897 Timalia pileata                      Chestnut-capped Babbler
+140 7898 Chrysomma sinense                    Yellow-eyed Babbler
+140 7899 Chrysomma altirostre                 Jerdon's Babbler
+140 7900 Chrysomma poecilotis                 Rufous-tailed Babbler
+140 7901 Turdoides nipalensis                 Spiny Babbler
+140 7902 Turdoides altirostris                Iraq Babbler
+140 7903 Turdoides caudatus                   Common Babbler
+140 7904 Turdoides earlei                     Striated Babbler
+140 7905 Turdoides gularis                    White-throated Babbler
+140 7906 Turdoides longirostris               Slender-billed Babbler
+140 7907 Turdoides malcolmi                   Large Grey Babbler
+140 7908 Turdoides squamiceps                 Arabian Babbler
+140 7909 Turdoides fulvus                     Fulvous Chatterer
+140 7910 Turdoides aylmeri                    Scaly Chatterer
+140 7911 Turdoides rubiginosus                Rufous Chatterer
+140 7912 Turdoides subrufus                   Rufous Babbler
+140 7913 Turdoides striatus                   Jungle Babbler
+140 7914 Turdoides rufescens                  Orange-billed Babbler
+140 7915 Turdoides affinis                    Yellow-billed Babbler
+140 7916 Turdoides reinwardtii                Blackcap Babbler
+140 7917 Turdoides tenebrosus                 Dusky Babbler
+140 7918 Turdoides melanops                   Black-lored Babbler
+140 7919 Turdoides squamulatus                Scaly Babbler
+140 7920 Turdoides leucopygius                White-rumped Babbler
+140 7921 Turdoides hartlaubii                 Angola Babbler
+140 7922 Turdoides bicolor                    Southern Pied-Babbler
+140 7923 Turdoides sharpei                    Sharpe's Pied-Babbler
+140 7924 Turdoides hypoleucus                 Northern Pied-Babbler
+140 7925 Turdoides hindei                     Hinde's Pied-Babbler
+140 7926 Turdoides plebejus                   Brown Babbler
+140 7927 Turdoides leucocephalus              Cretschmar's Babbler
+140 7928 Turdoides jardineii                  Arrow-marked Babbler
+140 7929 Turdoides gymnogenys                 Bare-cheeked Babbler
+140 7930 Babax lanceolatus                    Chinese Babax
+140 7931 Babax waddelli                       Giant Babax
+140 7932 Babax koslowi                        Tibetan Babax
+140 7933 Leiothrix argentauris                Silver-eared Mesia
+140 7934 Leiothrix lutea                      Red-billed Leiothrix
+140 7935 Cutia nipalensis                     Cutia
+140 7936 Pteruthius rufiventer                Black-headed Shrike-Babbler
+140 7937 Pteruthius flaviscapis               White-browed Shrike-Babbler
+140 7938 Pteruthius xanthochlorus             Green Shrike-Babbler
+140 7939 Pteruthius melanotis                 Black-eared Shrike-Babbler
+140 7940 Pteruthius aenobarbus                Chestnut-fronted Shrike-Babbler
+140 7941 Gampsorhynchus rufulus               White-hooded Babbler
+140 7942 Actinodura egertoni                  Rusty-fronted Barwing
+140 7943 Actinodura ramsayi                   Spectacled Barwing
+140 7944 Actinodura nipalensis                Hoary-throated Barwing
+140 7945 Actinodura waldeni                   Streak-throated Barwing
+140 7946 Actinodura souliei                   Streaked Barwing
+140 7947 Actinodura morrisoniana              Formosan Barwing
+140 7948 Minla cyanouroptera                  Blue-winged Minla
+140 7949 Minla strigula                       Chestnut-tailed Minla
+140 7950 Minla ignotincta                     Red-tailed Minla
+140 7951 Alcippe chrysotis                    Golden-breasted Fulvetta
+140 7952 Alcippe variegaticeps                Gold-fronted Fulvetta
+140 7953 Alcippe cinerea                      Yellow-throated Fulvetta
+140 7954 Alcippe castaneceps                  Rufous-winged Fulvetta
+140 7955 Alcippe vinipectus                   White-browed Fulvetta
+140 7956 Alcippe striaticollis                Chinese Fulvetta
+140 7957 Alcippe ruficapilla                  Spectacled Fulvetta
+140 7958 Alcippe cinereiceps                  Streak-throated Fulvetta
+140 7959 Alcippe ludlowi                      Ludlow's Fulvetta
+140 7960 Alcippe rufogularis                  Rufous-throated Fulvetta
+140 7961 Alcippe brunnea                      Dusky Fulvetta
+140 7962 Alcippe dubia                        Rusty-capped Fulvetta
+140 7963 Alcippe brunneicauda                 Brown Fulvetta
+140 7964 Alcippe poioicephala                 Brown-cheeked Fulvetta
+140 7965 Alcippe pyrrhoptera                  Javan Fulvetta
+140 7966 Alcippe peracensis                   Mountain Fulvetta
+140 7967 Alcippe morrisonia                   Grey-cheeked Fulvetta
+140 7968 Alcippe nipalensis                   Nepal Fulvetta
+140 7969 Lioptilus nigricapillus              Blackcap Mountain-Babbler
+140 7970 Kupeornis gilberti                   White-throated Mountain-Babbler
+140 7971 Kupeornis rufocinctus                Red-collared Mountain-Babbler
+140 7972 Kupeornis chapini                    Chapin's Mountain-Babbler
+140 7973 Parophasma galinieri                 Abyssinian Catbird
+140 7974 Phyllanthus atripennis               Capuchin Babbler
+140 7975 Crocias langbianis                   Grey-crowned Crocias
+140 7976 Crocias albonotatus                  Spotted Crocias
+140 7977 Heterophasia annectens               Rufous-backed Sibia
+140 7978 Heterophasia capistrata              Rufous Sibia
+140 7979 Heterophasia gracilis                Grey Sibia
+140 7980 Heterophasia melanoleuca             Black-headed Sibia
+140 7981 Heterophasia auricularis             White-eared Sibia
+140 7982 Heterophasia pulchella               Beautiful Sibia
+140 7983 Heterophasia picaoides               Long-tailed Sibia
+140 7984 Yuhina castaniceps                   Striated Yuhina
+140 7985 Yuhina everetti                      Chestnut-crested Yuhina
+140 7986 Yuhina bakeri                        White-naped Yuhina
+140 7987 Yuhina flavicollis                   Whiskered Yuhina
+140 7988 Yuhina humilis                       Burmese Yuhina
+140 7989 Yuhina gularis                       Stripe-throated Yuhina
+140 7990 Yuhina diademata                     White-collared Yuhina
+140 7991 Yuhina occipitalis                   Rufous-vented Yuhina
+140 7992 Yuhina brunneiceps                   Formosan Yuhina
+140 7993 Yuhina nigrimenta                    Black-chinned Yuhina
+140 7994 Yuhina zantholeuca                   White-bellied Yuhina
+140 7995 Myzornis pyrrhoura                   Fire-tailed Myzornis
+140 7996 Oxylabes madagascariensis            White-throated Oxylabes
+140 7997 Crossleyia xanthophrys               Yellow-browed Oxylabes
+140 7998 Mystacornis crossleyi                Crossley's Babbler
+140 7999 Panurus biarmicus                    Bearded Parrotbill
+140 8000 Conostoma oemodium                   Great Parrotbill
+140 8001 Paradoxornis paradoxus               Three-toed Parrotbill
+140 8002 Paradoxornis unicolor                Brown Parrotbill
+140 8003 Paradoxornis gularis                 Grey-headed Parrotbill
+140 8004 Paradoxornis flavirostris            Black-breasted Parrotbill
+140 8005 Paradoxornis guttaticollis           Spot-breasted Parrotbill
+140 8006 Paradoxornis conspicillatus          Spectacled Parrotbill
+140 8007 Paradoxornis webbianus               Vinous-throated Parrotbill
+140 8008 Paradoxornis brunneus                Brown-winged Parrotbill
+140 8009 Paradoxornis alphonsianus            Ashy-throated Parrotbill
+140 8010 Paradoxornis zappeyi                 Grey-hooded Parrotbill
+140 8011 Paradoxornis przewalskii             Rusty-throated Parrotbill
+140 8012 Paradoxornis fulvifrons              Fulvous Parrotbill
+140 8013 Paradoxornis nipalensis              Black-throated Parrotbill
+140 8014 Paradoxornis verreauxi               Golden Parrotbill
+140 8015 Paradoxornis davidianus              Short-tailed Parrotbill
+140 8016 Paradoxornis atrosuperciliaris       Black-browed Parrotbill
+140 8017 Paradoxornis ruficeps                Rufous-headed Parrotbill
+140 8018 Paradoxornis heudei                  Reed Parrotbill
+140 8019 Rhabdornis mystacalis                Stripe-sided Rhabdornis
+140 8020 Rhabdornis grandis                   Long-billed Rhabdornis
+140 8021 Rhabdornis inornatus                 Stripe-breasted Rhabdornis
+140 8022 Chamaea fasciata                     Wrentit
+140 8023 Sylvia buryi                         Yemen Warbler
+140 8024 Sylvia lugens                        Brown Warbler
+140 8025 Sylvia boehmi                        Banded Warbler
+140 8026 Sylvia layardi                       Layard's Warbler
+140 8027 Sylvia subcaeruleum                  Rufous-vented Warbler
+140 8028 Sylvia atricapilla                   Blackcap
+140 8029 Sylvia borin                         Garden Warbler
+140 8030 Sylvia communis                      Common Whitethroat
+140 8031 Sylvia curruca                       Lesser Whitethroat
+140 8032 Sylvia minula                        Small Whitethroat
+140 8033 Sylvia althaea                       Hume's Whitethroat
+140 8034 Sylvia nana                          Desert Warbler
+140 8035 Sylvia nisoria                       Barred Warbler
+140 8036 Sylvia hortensis                     Orphean Warbler
+140 8037 Sylvia leucomelaena                  Red Sea Warbler
+140 8038 Sylvia rueppelli                     Rueppell's Warbler
+140 8039 Sylvia melanocephala                 Sardinian Warbler
+140 8040 Sylvia melanothorax                  Cyprus Warbler
+140 8041 Sylvia cantillans                    Subalpine Warbler
+140 8042 Sylvia mystacea                      Menetries's Warbler
+140 8043 Sylvia conspicillata                 Spectacled Warbler
+140 8044 Sylvia deserticola                   Tristram's Warbler
+140 8045 Sylvia undata                        Dartford Warbler
+140 8046 Sylvia sarda                         Marmora's Warbler
+141 8047 Mirafra passerina                    Monotonous Lark
+141 8048 Mirafra cantillans                   Singing Lark
+141 8049 Mirafra javanica                     Australasian Lark
+141 8050 Mirafra cheniana                     Latakoo Lark
+141 8051 Mirafra albicauda                    White-tailed Lark
+141 8052 Mirafra hova                         Madagascar Lark
+141 8053 Mirafra cordofanica                  Kordofan Lark
+141 8054 Mirafra williamsi                    Williams's Lark
+141 8055 Mirafra pulpa                        Friedmann's Lark
+141 8056 Mirafra hypermetra                   Red-winged Lark
+141 8057 Mirafra somalica                     Somali Long-billed Lark
+141 8058 Mirafra ashi                         Ash's Lark
+141 8059 Mirafra africana                     Rufous-naped Lark
+141 8060 Mirafra sharpii                      Somali Lark
+141 8061 Mirafra angolensis                   Angola Lark
+141 8062 Mirafra rufocinnamomea               Flappet Lark
+141 8063 Mirafra apiata                       Clapper Lark
+141 8064 Mirafra collaris                     Collared Lark
+141 8065 Mirafra africanoides                 Fawn-colored Lark
+141 8066 Mirafra alopex                       Abyssinian Lark
+141 8067 Mirafra erythroptera                 Indian Lark
+141 8068 Mirafra assamica                     Rufous-winged Lark
+141 8069 Mirafra rufa                         Rusty Lark
+141 8070 Mirafra gilletti                     Gillett's Lark
+141 8071 Mirafra poecilosterna                Pink-breasted Lark
+141 8072 Mirafra degodiensis                  Degodi Lark
+141 8073 Mirafra naevia                       Bradfield's Lark
+141 8074 Mirafra sabota                       Sabota Lark
+141 8075 Pinarocorys erythropygia             Rufous-rumped Lark
+141 8076 Pinarocorys nigricans                Dusky Lark
+141 8077 Heteromirafra archeri                Archer's Lark
+141 8078 Heteromirafra sidamoensis            Sidamo Lark
+141 8079 Heteromirafra ruddi                  Rudd's Lark
+141 8080 Certhilauda curvirostris             Long-billed Lark
+141 8081 Certhilauda chuana                   Short-clawed Lark
+141 8082 Certhilauda erythrochlamys           Dune Lark
+141 8083 Certhilauda albescens                Karoo Lark
+141 8084 Certhilauda burra                    Ferruginous Lark
+141 8085 Chersomanes albofasciata             Spike-heeled Lark
+141 8086 Eremopterix leucotis                 Chestnut-backed Sparrow-Lark
+141 8087 Eremopterix australis                Black-eared Sparrow-Lark
+141 8088 Eremopterix verticalis               Grey-backed Sparrow-Lark
+141 8089 Eremopterix leucopareia              Fischer's Sparrow-Lark
+141 8090 Eremopterix signata                  Chestnut-headed Sparrow-Lark
+141 8091 Eremopterix nigriceps                Black-crowned Sparrow-Lark
+141 8092 Eremopterix grisea                   Ashy-crowned Sparrow-Lark
+141 8093 Ammomanes cincturus                  Bar-tailed Lark
+141 8094 Ammomanes phoenicurus                Rufous-tailed Lark
+141 8095 Ammomanes deserti                    Desert Lark
+141 8096 Ammomanes grayi                      Gray's Lark
+141 8097 Alaemon alaudipes                    Greater Hoopoe-Lark
+141 8098 Alaemon hamertoni                    Lesser Hoopoe-Lark
+141 8099 Ramphocoris clotbey                  Thick-billed Lark
+141 8100 Melanocorypha calandra               Calandra Lark
+141 8101 Melanocorypha bimaculata             Bimaculated Lark
+141 8102 Melanocorypha maxima                 Tibetan Lark
+141 8103 Melanocorypha mongolica              Mongolian Lark
+141 8104 Melanocorypha leucoptera             White-winged Lark
+141 8105 Melanocorypha yeltoniensis           Black Lark
+141 8106 Calandrella brachydactyla            Greater Short-toed Lark
+141 8107 Calandrella blanfordi                Blanford's Lark
+141 8108 Calandrella erlangeri                Erlanger's Lark
+141 8109 Calandrella cinerea                  Red-capped Lark
+141 8110 Calandrella acutirostris             Hume's Lark
+141 8111 Calandrella rufescens                Lesser Short-toed Lark
+141 8112 Calandrella cheleensis               Asian Short-toed Lark
+141 8113 Calandrella raytal                   Indian Short-toed Lark
+141 8114 Calandrella somalica                 Rufous Short-toed Lark
+141 8115 Calandrella athensis                 Athi Short-toed Lark
+141 8116 Spizocorys conirostris               Pink-billed Lark
+141 8117 Spizocorys sclateri                  Sclater's Lark
+141 8118 Spizocorys obbiensis                 Obbia Lark
+141 8119 Spizocorys personata                 Masked Lark
+141 8120 Spizocorys fringillaris              Botha's Lark
+141 8121 Eremalauda starki                    Stark's Lark
+141 8122 Eremalauda dunni                     Dunn's Lark
+141 8123 Chersophilus duponti                 Dupont's Lark
+141 8124 Galerida cristata                    Crested Lark
+141 8125 Galerida theklae                     Thekla Lark
+141 8126 Galerida malabarica                  Malabar Lark
+141 8127 Galerida deva                        Tawny Lark
+141 8128 Galerida modesta                     Sun Lark
+141 8129 Galerida magnirostris                Large-billed Lark
+141 8130 Pseudalaemon fremantlii              Short-tailed Lark
+141 8131 Lullula arborea                      Wood Lark
+141 8132 Alauda arvensis                      Eurasian Skylark
+141 8133 Alauda japonica                      Japanese Skylark
+141 8134 Alauda gulgula                       Oriental Skylark
+141 8135 Alauda razae                         Razo Lark
+141 8136 Eremophila alpestris                 Horned Lark
+141 8137 Eremophila bilopha                   Temminck's Lark
+142 8138 Promerops gurneyi                    Gurney's Sugarbird
+142 8139 Promerops cafer                      Cape Sugarbird
+142 8140 Prionochilus olivaceus               Olive-backed Flowerpecker
+142 8141 Prionochilus maculatus               Yellow-breasted Flowerpecker
+142 8142 Prionochilus percussus               Crimson-breasted Flowerpecker
+142 8143 Prionochilus plateni                 Palawan Flowerpecker
+142 8144 Prionochilus xanthopygius            Yellow-rumped Flowerpecker
+142 8145 Prionochilus thoracicus              Scarlet-breasted Flowerpecker
+142 8146 Dicaeum annae                        Golden-rumped Flowerpecker
+142 8147 Dicaeum agile                        Thick-billed Flowerpecker
+142 8148 Dicaeum aeruginosum                  Striped Flowerpecker
+142 8149 Dicaeum everetti                     Brown-backed Flowerpecker
+142 8150 Dicaeum proprium                     Whiskered Flowerpecker
+142 8151 Dicaeum chrysorrheum                 Yellow-vented Flowerpecker
+142 8152 Dicaeum melanoxanthum                Yellow-bellied Flowerpecker
+142 8153 Dicaeum vincens                      White-throated Flowerpecker
+142 8154 Dicaeum aureolimbatum                Yellow-sided Flowerpecker
+142 8155 Dicaeum nigrilore                    Olive-capped Flowerpecker
+142 8156 Dicaeum anthonyi                     Flame-crowned Flowerpecker
+142 8157 Dicaeum bicolor                      Bicolored Flowerpecker
+142 8158 Dicaeum quadricolor                  Cebu Flowerpecker
+142 8159 Dicaeum australe                     Red-striped Flowerpecker
+142 8160 Dicaeum retrocinctum                 Scarlet-collared Flowerpecker
+142 8161 Dicaeum trigonostigma                Orange-bellied Flowerpecker
+142 8162 Dicaeum hypoleucum                   Buzzing Flowerpecker
+142 8163 Dicaeum erythrorhynchos              Pale-billed Flowerpecker
+142 8164 Dicaeum concolor                     Plain Flowerpecker
+142 8165 Dicaeum pygmaeum                     Pygmy Flowerpecker
+142 8166 Dicaeum nehrkorni                    Crimson-crowned Flowerpecker
+142 8167 Dicaeum erythrothorax                Flame-breasted Flowerpecker
+142 8168 Dicaeum vulneratum                   Ashy Flowerpecker
+142 8169 Dicaeum pectorale                    Olive-crowned Flowerpecker
+142 8170 Dicaeum geelvinkianum                Red-capped Flowerpecker
+142 8171 Dicaeum nitidum                      Louisiade Flowerpecker
+142 8172 Dicaeum eximium                      Red-banded Flowerpecker
+142 8173 Dicaeum aeneum                       Midget Flowerpecker
+142 8174 Dicaeum tristrami                    Mottled Flowerpecker
+142 8175 Dicaeum igniferum                    Black-fronted Flowerpecker
+142 8176 Dicaeum maugei                       Red-chested Flowerpecker
+142 8177 Dicaeum ignipectus                   Fire-breasted Flowerpecker
+142 8178 Dicaeum monticolum                   Black-sided Flowerpecker
+142 8179 Dicaeum celebicum                    Grey-sided Flowerpecker
+142 8180 Dicaeum sanguinolentum               Blood-breasted Flowerpecker
+142 8181 Dicaeum hirundinaceum                Mistletoebird
+142 8182 Dicaeum cruentatum                   Scarlet-backed Flowerpecker
+142 8183 Dicaeum trochileum                   Scarlet-headed Flowerpecker
+142 8184 Anthreptes fraseri                   Scarlet-tufted Sunbird
+142 8185 Anthreptes axillaris                 Grey-headed Sunbird
+142 8186 Anthreptes reichenowi                Plain-backed Sunbird
+142 8187 Anthreptes anchietae                 Anchieta's Sunbird
+142 8188 Anthreptes simplex                   Plain Sunbird
+142 8189 Anthreptes malacensis                Plain-throated Sunbird
+142 8190 Anthreptes rhodolaema                Red-throated Sunbird
+142 8191 Anthreptes singalensis               Ruby-cheeked Sunbird
+142 8192 Anthreptes gabonicus                 Mouse-brown Sunbird
+142 8193 Anthreptes longuemarei               Western Violet-backed Sunbird
+142 8194 Anthreptes orientalis                Kenya Violet-backed Sunbird
+142 8195 Anthreptes neglectus                 Uluguru Violet-backed Sunbird
+142 8196 Anthreptes aurantium                 Violet-tailed Sunbird
+142 8197 Anthreptes pallidigaster             Amani Sunbird
+142 8198 Anthreptes rectirostris              Green Sunbird
+142 8199 Anthreptes rubritorques              Banded Sunbird
+142 8200 Anthreptes collaris                  Collared Sunbird
+142 8201 Anthreptes platurus                  Pygmy Sunbird
+142 8202 Anthreptes metallicus                Nile Valley Sunbird
+142 8203 Hypogramma hypogrammicum             Purple-naped Sunbird
+142 8204 Nectarinia seimundi                  Little Green Sunbird
+142 8205 Nectarinia batesi                    Bates's Sunbird
+142 8206 Nectarinia olivacea                  Olive Sunbird
+142 8207 Nectarinia violacea                  Orange-breasted Sunbird
+142 8208 Nectarinia veroxii                   Mouse-colored Sunbird
+142 8209 Nectarinia reichenbachii             Reichenbach's Sunbird
+142 8210 Nectarinia hartlaubii                Principe Sunbird
+142 8211 Nectarinia newtonii                  Newton's Sunbird
+142 8212 Nectarinia thomensis                 Sao Tome Sunbird
+142 8213 Nectarinia oritis                    Cameroon Sunbird
+142 8214 Nectarinia alinae                    Blue-headed Sunbird
+142 8215 Nectarinia verticalis                Green-headed Sunbird
+142 8216 Nectarinia bannermani                Bannerman's Sunbird
+142 8217 Nectarinia cyanolaema                Blue-throated Brown Sunbird
+142 8218 Nectarinia balfouri                  Socotra Sunbird
+142 8219 Nectarinia dussumieri                Seychelles Sunbird
+142 8220 Nectarinia fuliginosa                Carmelite Sunbird
+142 8221 Nectarinia amethystina               Amethyst Sunbird
+142 8222 Nectarinia rubescens                 Green-throated Sunbird
+142 8223 Nectarinia senegalensis              Scarlet-chested Sunbird
+142 8224 Nectarinia hunteri                   Hunter's Sunbird
+142 8225 Nectarinia adelberti                 Buff-throated Sunbird
+142 8226 Nectarinia zeylonica                 Purple-rumped Sunbird
+142 8227 Nectarinia minima                    Crimson-backed Sunbird
+142 8228 Nectarinia sperata                   Purple-throated Sunbird
+142 8229 Nectarinia aspasia                   Black Sunbird
+142 8230 Nectarinia calcostetha               Copper-throated Sunbird
+142 8231 Nectarinia jugularis                 Olive-backed Sunbird
+142 8232 Nectarinia buettikoferi              Apricot-breasted Sunbird
+142 8233 Nectarinia solaris                   Flame-breasted Sunbird
+142 8234 Nectarinia sovimanga                 Souimanga Sunbird
+142 8235 Nectarinia humbloti                  Humblot's Sunbird
+142 8236 Nectarinia comorensis                Anjouan Sunbird
+142 8237 Nectarinia coquerellii               Mayotte Sunbird
+142 8238 Nectarinia venusta                   Variable Sunbird
+142 8239 Nectarinia ursulae                   Ursula's Sunbird
+142 8240 Nectarinia talatala                  White-breasted Sunbird
+142 8241 Nectarinia oustaleti                 Oustalet's Sunbird
+142 8242 Nectarinia bouvieri                  Orange-tufted Sunbird
+142 8243 Nectarinia osea                      Palestine Sunbird
+142 8244 Nectarinia asiatica                  Purple Sunbird
+142 8245 Nectarinia habessinica               Shining Sunbird
+142 8246 Nectarinia lotenia                   Long-billed Sunbird
+142 8247 Nectarinia manoensis                 Miombo Double-collared Sunbird
+142 8248 Nectarinia chalybea                  Southern Double-collared Sunbird
+142 8249 Nectarinia ludovicensis              Montane Double-collared Sunbird
+142 8250 Nectarinia prigoginei                Prigogine's Double-collared Sunbird
+142 8251 Nectarinia stuhlmanni                Stuhlmann's Double-collared Sunbird
+142 8252 Nectarinia preussi                   Northern Double-collared Sunbird
+142 8253 Nectarinia afra                      Greater Double-collared Sunbird
+142 8254 Nectarinia mediocris                 Eastern Double-collared Sunbird
+142 8255 Nectarinia neergaardi                Neergaard's Sunbird
+142 8256 Nectarinia chloropygia               Olive-bellied Sunbird
+142 8257 Nectarinia minulla                   Tiny Sunbird
+142 8258 Nectarinia regia                     Regal Sunbird
+142 8259 Nectarinia loveridgei                Loveridge's Sunbird
+142 8260 Nectarinia moreaui                   Moreau's Sunbird
+142 8261 Nectarinia rockefelleri              Rockefeller's Sunbird
+142 8262 Nectarinia cuprea                    Copper Sunbird
+142 8263 Nectarinia fusca                     Dusky Sunbird
+142 8264 Nectarinia rufipennis                Rufous-winged Sunbird
+142 8265 Nectarinia tacazze                   Tacazze Sunbird
+142 8266 Nectarinia purpureiventris           Purple-breasted Sunbird
+142 8267 Nectarinia bocagii                   Bocage's Sunbird
+142 8268 Nectarinia kilimensis                Bronze Sunbird
+142 8269 Nectarinia reichenowi                Golden-winged Sunbird
+142 8270 Nectarinia famosa                    Malachite Sunbird
+142 8271 Nectarinia johnstoni                 Red-tufted Sunbird
+142 8272 Nectarinia shelleyi                  Shelley's Sunbird
+142 8273 Nectarinia erythrocerca              Red-chested Sunbird
+142 8274 Nectarinia congensis                 Congo Sunbird
+142 8275 Nectarinia mariquensis               Mariqua Sunbird
+142 8276 Nectarinia bifasciata                Purple-banded Sunbird
+142 8277 Nectarinia pembae                    Violet-breasted Sunbird
+142 8278 Nectarinia notata                    Long-billed Green Sunbird
+142 8279 Nectarinia coccinigaster             Splendid Sunbird
+142 8280 Nectarinia johannae                  Johanna's Sunbird
+142 8281 Nectarinia superba                   Superb Sunbird
+142 8282 Nectarinia pulchella                 Beautiful Sunbird
+142 8283 Nectarinia nectarinioides            Black-bellied Sunbird
+142 8284 Aethopyga primigenius                Grey-hooded Sunbird
+142 8285 Aethopyga boltoni                    Apo Sunbird
+142 8286 Aethopyga flagrans                   Flaming Sunbird
+142 8287 Aethopyga pulcherrima                Metallic-winged Sunbird
+142 8288 Aethopyga duyvenbodei                Elegant Sunbird
+142 8289 Aethopyga shelleyi                   Lovely Sunbird
+142 8290 Aethopyga gouldiae                   Gould's Sunbird
+142 8291 Aethopyga nipalensis                 Green-tailed Sunbird
+142 8292 Aethopyga eximia                     White-flanked Sunbird
+142 8293 Aethopyga christinae                 Fork-tailed Sunbird
+142 8294 Aethopyga saturata                   Black-throated Sunbird
+142 8295 Aethopyga siparaja                   Crimson Sunbird
+142 8296 Aethopyga mystacalis                 Scarlet Sunbird
+142 8297 Aethopyga ignicauda                  Fire-tailed Sunbird
+142 8298 Arachnothera longirostra             Little Spiderhunter
+142 8299 Arachnothera crassirostris           Thick-billed Spiderhunter
+142 8300 Arachnothera robusta                 Long-billed Spiderhunter
+142 8301 Arachnothera flavigaster             Spectacled Spiderhunter
+142 8302 Arachnothera chrysogenys             Yellow-eared Spiderhunter
+142 8303 Arachnothera clarae                  Naked-faced Spiderhunter
+142 8304 Arachnothera affinis                 Grey-breasted Spiderhunter
+142 8305 Arachnothera everetti                Bornean Spiderhunter
+142 8306 Arachnothera magna                   Streaked Spiderhunter
+142 8307 Arachnothera juliae                  Whitehead's Spiderhunter
+143 8308 Melanocharis arfakiana               Obscure Berrypecker
+143 8309 Melanocharis nigra                   Black Berrypecker
+143 8310 Melanocharis longicauda              Lemon-breasted Berrypecker
+143 8311 Melanocharis versteri                Fan-tailed Berrypecker
+143 8312 Melanocharis striativentris          Streaked Berrypecker
+143 8313 Melanocharis crassirostris           Spotted Berrypecker
+143 8314 Toxorhamphus poliopterus             Grey-winged Longbill
+143 8315 Toxorhamphus novaeguineae            Green-crowned Longbill
+143 8316 Toxorhamphus iliolophus              Plumed Longbill
+143 8317 Oedistoma pygmaeum                   Pygmy Longbill
+144 8318 Oreocharis arfaki                    Tit Berrypecker
+144 8319 Paramythia montium                   Crested Berrypecker
+145 8320 Passer ammodendri                    Saxaul Sparrow
+145 8321 Passer domesticus                    House Sparrow
+145 8322 Passer hispaniolensis                Spanish Sparrow
+145 8323 Passer pyrrhonotus                   Sind Sparrow
+145 8324 Passer castanopterus                 Somali Sparrow
+145 8325 Passer rutilans                      Russet Sparrow
+145 8326 Passer flaveolus                     Plain-backed Sparrow
+145 8327 Passer moabiticus                    Dead Sea Sparrow
+145 8328 Passer iagoensis                     Iago Sparrow
+145 8329 Passer rufocinctus                   Kenya Rufous-Sparrow
+145 8330 Passer insularis                     Socotra Sparrow
+145 8331 Passer motitensis                    Southern Rufous-Sparrow
+145 8332 Passer melanurus                     Mossie
+145 8333 Passer griseus                       Grey-headed Sparrow
+145 8334 Passer swainsonii                    Swainson's Sparrow
+145 8335 Passer gongonensis                   Parrot-billed Sparrow
+145 8336 Passer suahelicus                    Swahili Sparrow
+145 8337 Passer diffusus                      Cape Sparrow
+145 8338 Passer simplex                       Desert Sparrow
+145 8339 Passer montanus                      Eurasian Tree Sparrow
+145 8340 Passer luteus                        Sudan Golden-Sparrow
+145 8341 Passer euchlorus                     Arabian Golden-Sparrow
+145 8342 Passer eminibey                      Chestnut Sparrow
+145 8343 Petronia pyrgita                     Yellow-spotted Petronia
+145 8344 Petronia xanthocollis                Chestnut-shouldered Petronia
+145 8345 Petronia superciliaris               Yellow-throated Petronia
+145 8346 Petronia dentata                     Bush Petronia
+145 8347 Petronia petronia                    Rock Sparrow
+145 8348 Carpospiza brachydactyla             Pale Rock-Finch
+145 8349 Montifringilla nivalis               White-winged Snowfinch
+145 8350 Montifringilla adamsi                Black-winged Snowfinch
+145 8351 Montifringilla taczanowskii          White-rumped Snowfinch
+145 8352 Montifringilla davidiana             Small Snowfinch
+145 8353 Montifringilla ruficollis            Rufous-necked Snowfinch
+145 8354 Montifringilla blanfordi             Plain-backed Snowfinch
+145 8355 Montifringilla theresae              Afghan Snowfinch
+145 8356 Dendronanthus indicus                Forest Wagtail
+145 8357 Motacilla alba                       White Wagtail
+145 8358 Motacilla lugens                     Black-backed Wagtail
+145 8359 Motacilla grandis                    Japanese Wagtail
+145 8360 Motacilla madaraspatensis            White-browed Wagtail
+145 8361 Motacilla aguimp                     African Pied Wagtail
+145 8362 Motacilla capensis                   Cape Wagtail
+145 8363 Motacilla flaviventris               Madagascar Wagtail
+145 8364 Motacilla citreola                   Citrine Wagtail
+145 8365 Motacilla flava                      Yellow Wagtail
+145 8366 Motacilla cinerea                    Grey Wagtail
+145 8367 Motacilla clara                      Mountain Wagtail
+145 8368 Tmetothylacus tenellus               Golden Pipit
+145 8369 Macronyx croceus                     Yellow-throated Longclaw
+145 8370 Macronyx fuellebornii                Fuelleborn's Longclaw
+145 8371 Macronyx capensis                    Cape Longclaw
+145 8372 Macronyx flavicollis                 Abyssinian Longclaw
+145 8373 Macronyx ameliae                     Rosy-throated Longclaw
+145 8374 Macronyx aurantiigula                Pangani Longclaw
+145 8375 Macronyx grimwoodi                   Grimwood's Longclaw
+145 8376 Anthus sharpei                       Sharpe's Pipit
+145 8377 Anthus chloris                       Yellow-breasted Pipit
+145 8378 Anthus lineiventris                  Striped Pipit
+145 8379 Anthus crenatus                      Yellow-tufted Pipit
+145 8380 Anthus cinnamomeus                   African Pipit
+145 8381 Anthus camaroonensis                 Cameroon Pipit
+145 8382 Anthus hoeschi                       Mountain Pipit
+145 8383 Anthus richardi                      Richard's Pipit
+145 8384 Anthus rufulus                       Paddyfield Pipit
+145 8385 Anthus novaeseelandiae               Australasian Pipit
+145 8386 Anthus leucophrys                    Plain-backed Pipit
+145 8387 Anthus vaalensis                     Buffy Pipit
+145 8388 Anthus pallidiventris                Long-legged Pipit
+145 8389 Anthus melindae                      Malindi Pipit
+145 8390 Anthus campestris                    Tawny Pipit
+145 8391 Anthus godlewskii                    Blyth's Pipit
+145 8392 Anthus berthelotii                   Berthelot's Pipit
+145 8393 Anthus bannermani                    Bannerman's Pipit
+145 8394 Anthus latistriatus                  Jackson's Pipit
+145 8395 Anthus similis                       Long-billed Pipit
+145 8396 Anthus nyassae                       Woodland Pipit
+145 8397 Anthus brachyurus                    Short-tailed Pipit
+145 8398 Anthus caffer                        Bush Pipit
+145 8399 Anthus sokokensis                    Sokoke Pipit
+145 8400 Anthus trivialis                     Tree Pipit
+145 8401 Anthus hodgsoni                      Olive-backed Pipit
+145 8402 Anthus gustavi                       Pechora Pipit
+145 8403 Anthus pratensis                     Meadow Pipit
+145 8404 Anthus cervinus                      Red-throated Pipit
+145 8405 Anthus roseatus                      Rosy Pipit
+145 8406 Anthus petrosus                      Rock Pipit
+145 8407 Anthus spinoletta                    Water Pipit
+145 8408 Anthus rubescens                     American Pipit
+145 8409 Anthus sylvanus                      Upland Pipit
+145 8410 Anthus nilghiriensis                 Nilgiri Pipit
+145 8411 Anthus correndera                    Correndera Pipit
+145 8412 Anthus antarcticus                   South Georgia Pipit
+145 8413 Anthus spragueii                     Sprague's Pipit
+145 8414 Anthus furcatus                      Short-billed Pipit
+145 8415 Anthus hellmayri                     Hellmayr's Pipit
+145 8416 Anthus bogotensis                    Paramo Pipit
+145 8417 Anthus lutescens                     Yellowish Pipit
+145 8418 Anthus chacoensis                    Chaco Pipit
+145 8419 Anthus nattereri                     Ochre-breasted Pipit
+145 8420 Anthus gutturalis                    Alpine Pipit
+145 8421 Prunella collaris                    Alpine Accentor
+145 8422 Prunella himalayana                  Rufous-streaked Accentor
+145 8423 Prunella rubeculoides                Robin Accentor
+145 8424 Prunella strophiata                  Rufous-breasted Accentor
+145 8425 Prunella montanella                  Siberian Accentor
+145 8426 Prunella ocularis                    Radde's Accentor
+145 8427 Prunella fagani                      Yemen Accentor
+145 8428 Prunella fulvescens                  Brown Accentor
+145 8429 Prunella atrogularis                 Black-throated Accentor
+145 8430 Prunella koslowi                     Mongolian Accentor
+145 8431 Prunella modularis                   Hedge Accentor
+145 8432 Prunella rubida                      Japanese Accentor
+145 8433 Prunella immaculata                  Maroon-backed Accentor
+145 8434 Bubalornis albirostris               White-billed Buffalo-Weaver
+145 8435 Bubalornis niger                     Red-billed Buffalo-Weaver
+145 8436 Dinemellia dinemelli                 White-headed Buffalo-Weaver
+145 8437 Sporopipes frontalis                 Speckle-fronted Weaver
+145 8438 Sporopipes squamifrons               Scaly Weaver
+145 8439 Plocepasser mahali                   White-browed Sparrow-Weaver
+145 8440 Plocepasser superciliosus            Chestnut-crowned Sparrow-Weaver
+145 8441 Plocepasser rufoscapulatus           Chestnut-backed Sparrow-Weaver
+145 8442 Plocepasser donaldsoni               Donaldson-Smith's Sparrow-Weaver
+145 8443 Histurgops ruficauda                 Rufous-tailed Weaver
+145 8444 Pseudonigrita arnaudi                Grey-headed Social-Weaver
+145 8445 Pseudonigrita cabanisi               Black-capped Social-Weaver
+145 8446 Philetairus socius                   Sociable Weaver
+145 8447 Ploceus bannermani                   Bannerman's Weaver
+145 8448 Ploceus batesi                       Bates's Weaver
+145 8449 Ploceus nigrimentum                  Black-chinned Weaver
+145 8450 Ploceus baglafecht                   Baglafecht Weaver
+145 8451 Ploceus bertrandi                    Bertrand's Weaver
+145 8452 Ploceus pelzelni                     Slender-billed Weaver
+145 8453 Ploceus subpersonatus                Loango Weaver
+145 8454 Ploceus luteolus                     Little Weaver
+145 8455 Ploceus intermedius                  Lesser Masked Weaver
+145 8456 Ploceus ocularis                     Spectacled Weaver
+145 8457 Ploceus nigricollis                  Black-necked Weaver
+145 8458 Ploceus melanogaster                 Black-billed Weaver
+145 8459 Ploceus alienus                      Strange Weaver
+145 8460 Ploceus temporalis                   Bocage's Weaver
+145 8461 Ploceus capensis                     Cape Weaver
+145 8462 Ploceus subaureus                    African Golden-Weaver
+145 8463 Ploceus xanthops                     Holub's Golden-Weaver
+145 8464 Ploceus princeps                     Principe Golden-Weaver
+145 8465 Ploceus aurantius                    Orange Weaver
+145 8466 Ploceus bojeri                       Golden Palm Weaver
+145 8467 Ploceus castaneiceps                 Taveta Golden Weaver
+145 8468 Ploceus xanthopterus                 Southern Brown-throated Weaver
+145 8469 Ploceus castanops                    Northern Brown-throated Weaver
+145 8470 Ploceus burnieri                     Kilombero Weaver
+145 8471 Ploceus galbula                      Rueppell's Weaver
+145 8472 Ploceus heuglini                     Heuglin's Masked-Weaver
+145 8473 Ploceus taeniopterus                 Northern Masked-Weaver
+145 8474 Ploceus victoriae                    Victoria Masked-Weaver
+145 8475 Ploceus vitellinus                   Vitelline Masked-Weaver
+145 8476 Ploceus velatus                      Southern Masked-Weaver
+145 8477 Ploceus katangae                     Katanga Masked-Weaver
+145 8478 Ploceus ruweti                       Ruwet's Masked-Weaver
+145 8479 Ploceus reichardi                    Tanzania Masked-Weaver
+145 8480 Ploceus cucullatus                   Village Weaver
+145 8481 Ploceus grandis                      Giant Weaver
+145 8482 Ploceus spekei                       Speke's Weaver
+145 8483 Ploceus spekeoides                   Fox's Weaver
+145 8484 Ploceus nigerrimus                   Vieillot's Black Weaver
+145 8485 Ploceus weynsi                       Weyns's Weaver
+145 8486 Ploceus golandi                      Clarke's Weaver
+145 8487 Ploceus melanocephalus               Black-headed Weaver
+145 8488 Ploceus dicrocephalus                Salvadori's Weaver
+145 8489 Ploceus jacksoni                     Golden-backed Weaver
+145 8490 Ploceus badius                       Cinnamon Weaver
+145 8491 Ploceus rubiginosus                  Chestnut Weaver
+145 8492 Ploceus aureonucha                   Golden-naped Weaver
+145 8493 Ploceus tricolor                     Yellow-mantled Weaver
+145 8494 Ploceus albinucha                    Maxwell's Black Weaver
+145 8495 Ploceus nelicourvi                   Nelicourvi Weaver
+145 8496 Ploceus sakalava                     Sakalava Weaver
+145 8497 Ploceus benghalensis                 Black-breasted Weaver
+145 8498 Ploceus manyar                       Streaked Weaver
+145 8499 Ploceus philippinus                  Baya Weaver
+145 8500 Ploceus hypoxanthus                  Asian Golden Weaver
+145 8501 Ploceus megarhynchus                 Yellow Weaver
+145 8502 Ploceus bicolor                      Forest Weaver
+145 8503 Ploceus preussi                      Preuss's Weaver
+145 8504 Ploceus dorsomaculatus               Yellow-capped Weaver
+145 8505 Ploceus nicolli                      Usambara Weaver
+145 8506 Ploceus olivaceiceps                 Olive-headed Weaver
+145 8507 Ploceus insignis                     Brown-capped Weaver
+145 8508 Ploceus angolensis                   Bar-winged Weaver
+145 8509 Ploceus sanctithomae                 Sao Tome Weaver
+145 8510 Pachyphantes superciliosus           Compact Weaver
+145 8511 Malimbus flavipes                    Yellow-legged Malimbe
+145 8512 Malimbus coronatus                   Red-crowned Malimbe
+145 8513 Malimbus cassini                     Black-throated Malimbe
+145 8514 Malimbus ballmanni                   Ballmann's Malimbe
+145 8515 Malimbus racheliae                   Rachel's Malimbe
+145 8516 Malimbus scutatus                    Red-vented Malimbe
+145 8517 Malimbus ibadanensis                 Ibadan Malimbe
+145 8518 Malimbus erythrogaster               Red-bellied Malimbe
+145 8519 Malimbus nitens                      Gray's Malimbe
+145 8520 Malimbus malimbicus                  Crested Malimbe
+145 8521 Malimbus rubricollis                 Red-headed Malimbe
+145 8522 Anaplectes rubriceps                 Red-headed Weaver
+145 8523 Brachycope anomala                   Bob-tailed Weaver
+145 8524 Quelea cardinalis                    Cardinal Quelea
+145 8525 Quelea erythrops                     Red-headed Quelea
+145 8526 Quelea quelea                        Red-billed Quelea
+145 8527 Foudia madagascariensis              Madagascar Red Fody
+145 8528 Foudia eminentissima                 Red-headed Fody
+145 8529 Foudia omissa                        Forest Fody
+145 8530 Foudia rubra                         Mauritius Fody
+145 8531 Foudia sechellarum                   Seychelles Fody
+145 8532 Foudia flavicans                     Yellow Fody
+145 8533 Euplectes afer                       Yellow-crowned Bishop
+145 8534 Euplectes diadematus                 Fire-fronted Bishop
+145 8535 Euplectes gierowii                   Black Bishop
+145 8536 Euplectes hordeaceus                 Black-winged Bishop
+145 8537 Euplectes franciscanus               Orange Bishop
+145 8538 Euplectes orix                       Red Bishop
+145 8539 Euplectes nigroventris               Zanzibar Bishop
+145 8540 Euplectes aureus                     Golden-backed Bishop
+145 8541 Euplectes capensis                   Yellow Bishop
+145 8542 Euplectes axillaris                  Fan-tailed Widowbird
+145 8543 Euplectes macrourus                  Yellow-shouldered Widowbird
+145 8544 Euplectes albonotatus                White-winged Widowbird
+145 8545 Euplectes ardens                     Red-collared Widowbird
+145 8546 Euplectes hartlaubi                  Marsh Widowbird
+145 8547 Euplectes psammocromius              Buff-shouldered Widowbird
+145 8548 Euplectes progne                     Long-tailed Widowbird
+145 8549 Euplectes jacksoni                   Jackson's Widowbird
+145 8550 Anomalospiza imberbis                Parasitic Weaver
+145 8551 Amblyospiza albifrons                Grosbeak Weaver
+145 8552 Parmoptila rubrifrons                Jameson's Antpecker
+145 8553 Parmoptila woodhousei                Woodhouse's Antpecker
+145 8554 Nigrita fusconota                    White-breasted Negrofinch
+145 8555 Nigrita bicolor                      Chestnut-breasted Negrofinch
+145 8556 Nigrita luteifrons                   Pale-fronted Negrofinch
+145 8557 Nigrita canicapilla                  Grey-headed Negrofinch
+145 8558 Nesocharis shelleyi                  Fernando Po Oliveback
+145 8559 Nesocharis ansorgei                  White-collared Oliveback
+145 8560 Nesocharis capistrata                Grey-headed Oliveback
+145 8561 Pytilia phoenicoptera                Red-winged Pytilia
+145 8562 Pytilia lineata                      Lineated Pytilia
+145 8563 Pytilia afra                         Orange-winged Pytilia
+145 8564 Pytilia melba                        Green-winged Pytilia
+145 8565 Pytilia hypogrammica                 Red-faced Pytilia
+145 8566 Mandingoa nitidula                   Green-backed Twinspot
+145 8567 Cryptospiza reichenovii              Red-faced Crimson-wing
+145 8568 Cryptospiza salvadorii               Abyssinian Crimson-wing
+145 8569 Cryptospiza jacksoni                 Dusky Crimson-wing
+145 8570 Cryptospiza shelleyi                 Shelley's Crimson-wing
+145 8571 Pyrenestes sanguineus                Crimson Seedcracker
+145 8572 Pyrenestes ostrinus                  Black-bellied Seedcracker
+145 8573 Pyrenestes minor                     Lesser Seedcracker
+145 8574 Spermophaga poliogenys               Grant's Bluebill
+145 8575 Spermophaga haematina                Western Bluebill
+145 8576 Spermophaga ruficapilla              Red-headed Bluebill
+145 8577 Clytospiza monteiri                  Brown Twinspot
+145 8578 Hypargos niveoguttatus               Peters's Twinspot
+145 8579 Hypargos margaritatus                Pink-throated Twinspot
+145 8580 Euschistospiza dybowskii             Dybowski's Twinspot
+145 8581 Euschistospiza cinereovinacea        Dusky Twinspot
+145 8582 Lagonosticta rufopicta               Bar-breasted Firefinch
+145 8583 Lagonosticta nitidula                Brown Firefinch
+145 8584 Lagonosticta senegala                Red-billed Firefinch
+145 8585 Lagonosticta rara                    Black-bellied Firefinch
+145 8586 Lagonosticta rubricata               African Firefinch
+145 8587 Lagonosticta landanae                Pale-billed Firefinch
+145 8588 Lagonosticta virata                  Mali Firefinch
+145 8589 Lagonosticta umbrinodorsalis         Reichenow's Firefinch
+145 8590 Lagonosticta rhodopareia             Jameson's Firefinch
+145 8591 Lagonosticta vinacea                 Black-faced Firefinch
+145 8592 Lagonosticta larvata                 Black-throated Firefinch
+145 8593 Uraeginthus angolensis               Blue-breasted Cordonbleu
+145 8594 Uraeginthus bengalus                 Red-cheeked Cordonbleu
+145 8595 Uraeginthus cyanocephalus            Blue-capped Cordonbleu
+145 8596 Uraeginthus ianthinogaster           Purple Grenadier
+145 8597 Uraeginthus granatina                Common Grenadier
+145 8598 Estrilda caerulescens                Lavender Waxbill
+145 8599 Estrilda perreini                    Black-tailed Waxbill
+145 8600 Estrilda thomensis                   Cinderella Waxbill
+145 8601 Estrilda quartinia                   Yellow-bellied Waxbill
+145 8602 Estrilda melanotis                   Swee Waxbill
+145 8603 Estrilda poliopareia                 Anambra Waxbill
+145 8604 Estrilda paludicola                  Fawn-breasted Waxbill
+145 8605 Estrilda ochrogaster                 Abyssinian Waxbill
+145 8606 Estrilda melpoda                     Orange-cheeked Waxbill
+145 8607 Estrilda rhodopyga                   Crimson-rumped Waxbill
+145 8608 Estrilda rufibarba                   Arabian Waxbill
+145 8609 Estrilda troglodytes                 Black-rumped Waxbill
+145 8610 Estrilda astrild                     Common Waxbill
+145 8611 Estrilda nigriloris                  Black-faced Waxbill
+145 8612 Estrilda nonnula                     Black-crowned Waxbill
+145 8613 Estrilda atricapilla                 Black-headed Waxbill
+145 8614 Estrilda kandti                      Kandt's Waxbill
+145 8615 Estrilda erythronotos                Black-cheeked Waxbill
+145 8616 Estrilda charmosyna                  Red-rumped Waxbill
+145 8617 Amandava amandava                    Red Avadavat
+145 8618 Amandava formosa                     Green Avadavat
+145 8619 Amandava subflava                    Zebra Waxbill
+145 8620 Ortygospiza atricollis               African Quailfinch
+145 8621 Ortygospiza gabonensis               Red-billed Quailfinch
+145 8622 Ortygospiza locustella               Locustfinch
+145 8623 Emblema pictum                       Painted Firetail
+145 8624 Stagonopleura bella                  Beautiful Firetail
+145 8625 Stagonopleura oculata                Red-eared Firetail
+145 8626 Stagonopleura guttata                Diamond Firetail
+145 8627 Oreostruthus fuliginosus             Mountain Firetail
+145 8628 Neochmia temporalis                  Red-browed Firetail
+145 8629 Neochmia phaeton                     Crimson Finch
+145 8630 Neochmia ruficauda                   Star Finch
+145 8631 Neochmia modesta                     Plum-headed Finch
+145 8632 Taeniopygia guttata                  Zebra Finch
+145 8633 Taeniopygia bichenovii               Double-barred Finch
+145 8634 Poephila personata                   Masked Finch
+145 8635 Poephila acuticauda                  Long-tailed Finch
+145 8636 Poephila cincta                      Black-throated Finch
+145 8637 Erythrura hyperythra                 Tawny-breasted Parrotfinch
+145 8638 Erythrura prasina                    Pin-tailed Parrotfinch
+145 8639 Erythrura viridifacies               Green-faced Parrotfinch
+145 8640 Erythrura tricolor                   Tricolored Parrotfinch
+145 8641 Erythrura trichroa                   Blue-faced Parrotfinch
+145 8642 Erythrura coloria                    Red-eared Parrotfinch
+145 8643 Erythrura papuana                    Papuan Parrotfinch
+145 8644 Erythrura psittacea                  Red-throated Parrotfinch
+145 8645 Erythrura pealii                     Fiji Parrotfinch
+145 8646 Erythrura cyaneovirens               Red-headed Parrotfinch
+145 8647 Erythrura regia                      Royal Parrotfinch
+145 8648 Erythrura kleinschmidti              Pink-billed Parrot-finch
+145 8649 Chloebia gouldiae                    Gouldian Finch
+145 8650 Lemuresthes nana                     Madagascar Munia
+145 8651 Lonchura cantans                     African Silverbill
+145 8652 Lonchura malabarica                  White-throated Munia
+145 8653 Lonchura griseicapilla               Grey-headed Silverbill
+145 8654 Lonchura cucullata                   Bronze Munia
+145 8655 Lonchura bicolor                     Black-and-white Munia
+145 8656 Lonchura nigriceps                   Brown-backed Munia
+145 8657 Lonchura fringilloides               Magpie Munia
+145 8658 Lonchura striata                     White-rumped Munia
+145 8659 Lonchura leucogastroides             Javan Munia
+145 8660 Lonchura fuscans                     Dusky Munia
+145 8661 Lonchura molucca                     Black-faced Munia
+145 8662 Lonchura kelaarti                    Black-throated Munia
+145 8663 Lonchura punctulata                  Scaly-breasted Munia
+145 8664 Lonchura leucogastra                 White-bellied Munia
+145 8665 Lonchura tristissima                 Streak-headed Munia
+145 8666 Lonchura leucosticta                 White-spotted Munia
+145 8667 Lonchura malacca                     Black-headed Munia
+145 8668 Lonchura ferruginosa                 White-capped Munia
+145 8669 Lonchura quinticolor                 Five-colored Munia
+145 8670 Lonchura maja                        White-headed Munia
+145 8671 Lonchura pallida                     Pale-headed Munia
+145 8672 Lonchura grandis                     Grand Munia
+145 8673 Lonchura vana                        Grey-banded Munia
+145 8674 Lonchura caniceps                    Grey-headed Munia
+145 8675 Lonchura nevermanni                  Grey-crowned Munia
+145 8676 Lonchura spectabilis                 Hooded Munia
+145 8677 Lonchura hunsteini                   Mottled Munia
+145 8678 Lonchura forbesi                     New Ireland Munia
+145 8679 Lonchura nigerrima                   New Hanover Munia
+145 8680 Lonchura flaviprymna                 Yellow-rumped Munia
+145 8681 Lonchura castaneothorax              Chestnut-breasted Munia
+145 8682 Lonchura stygia                      Black Munia
+145 8683 Lonchura teerinki                    Black-breasted Munia
+145 8684 Lonchura montana                     Snow Mountain Munia
+145 8685 Lonchura monticola                   Alpine Munia
+145 8686 Lonchura melaena                     Bismarck Munia
+145 8687 Heteromunia pectoralis               Pictorella Munia
+145 8688 Padda oryzivora                      Java Sparrow
+145 8689 Padda fuscata                        Timor Sparrow
+145 8690 Amadina fasciata                     Cut-throat
+145 8691 Amadina erythrocephala               Red-headed Finch
+145 8692 Vidua chalybeata                     Village Indigobird
+145 8693 Vidua raricola                       Jambandu Indigobird
+145 8694 Vidua larvaticola                    Baka Indigobird
+145 8695 Vidua funerea                        Variable Indigobird
+145 8696 Vidua codringtoni                    Twinspot Indigobird
+145 8697 Vidua purpurascens                   Dusky Indigobird
+145 8698 Vidua wilsoni                        Pale-winged Indigobird
+145 8699 Vidua hypocherina                    Steel-blue Whydah
+145 8700 Vidua fischeri                       Straw-tailed Whydah
+145 8701 Vidua regia                          Queen Whydah
+145 8702 Vidua macroura                       Pin-tailed Whydah
+145 8703 Vidua orientalis                     Northern Paradise-Whydah
+145 8704 Vidua togoensis                      Togo Paradise-Whydah
+145 8705 Vidua interjecta                     Long-tailed Paradise-Whydah
+145 8706 Vidua paradisaea                     Eastern Paradise-Whydah
+145 8707 Vidua obtusa                         Broad-tailed Paradise-Whydah
+146 8708 Peucedramus taeniatus                Olive Warbler
+146 8709 Fringilla coelebs                    Chaffinch
+146 8710 Fringilla teydea                     Teydefinch
+146 8711 Fringilla montifringilla             Brambling
+146 8712 Serinus pusillus                     Fire-fronted Serin
+146 8713 Serinus serinus                      European Serin
+146 8714 Serinus syriacus                     Syrian Serin
+146 8715 Serinus canaria                      Island Canary
+146 8716 Serinus citrinella                   Citril Finch
+146 8717 Serinus thibetanus                   Tibetan Serin
+146 8718 Serinus canicollis                   Cape Canary
+146 8719 Serinus nigriceps                    Abyssinian Siskin
+146 8720 Serinus citrinelloides               African Citril
+146 8721 Serinus frontalis                    Western Citril
+146 8722 Serinus hypostictus                  East African Citril
+146 8723 Serinus capistratus                  Black-faced Canary
+146 8724 Serinus koliensis                    Papyrus Canary
+146 8725 Serinus scotops                      Forest Canary
+146 8726 Serinus leucopygius                  White-rumped Seedeater
+146 8727 Serinus rothschildi                  Olive-rumped Serin
+146 8728 Serinus flavigula                    Yellow-throated Seedeater
+146 8729 Serinus xanthopygius                 Abyssinian Yellow-rumped Seedeater
+146 8730 Serinus reichenowi                   Kenya Yellow-rumped Seedeater
+146 8731 Serinus atrogularis                  Southern Yellow-rumped Seedeater
+146 8732 Serinus citrinipectus                Lemon-breasted Seedeater
+146 8733 Serinus mozambicus                   Yellow-fronted Canary
+146 8734 Serinus donaldsoni                   Abyssinian Grosbeak-Canary
+146 8735 Serinus buchanani                    Kenya Grosbeak-Canary
+146 8736 Serinus dorsostriatus                White-bellied Canary
+146 8737 Serinus flaviventris                 Yellow Canary
+146 8738 Serinus sulphuratus                  Brimstone Canary
+146 8739 Serinus albogularis                  White-throated Canary
+146 8740 Serinus canicapillus                 West African Seedeater
+146 8741 Serinus reichardi                    Reichard's Seedeater
+146 8742 Serinus gularis                      Streaky-headed Seedeater
+146 8743 Serinus mennelli                     Black-eared Seedeater
+146 8744 Serinus tristriatus                  Brown-rumped Seedeater
+146 8745 Serinus menachensis                  Yemen Serin
+146 8746 Serinus ankoberensis                 Ankober Serin
+146 8747 Serinus striolatus                   Streaky Seedeater
+146 8748 Serinus whytii                       Yellow-browed Seedeater
+146 8749 Serinus burtoni                      Thick-billed Seedeater
+146 8750 Serinus rufobrunneus                 Principe Seedeater
+146 8751 Serinus melanochrous                 Kipengere Seedeater
+146 8752 Serinus leucopterus                  White-winged Seedeater
+146 8753 Serinus totta                        Cape Siskin
+146 8754 Serinus symonsi                      Drakensberg Siskin
+146 8755 Serinus leucolaema                   Damara Canary
+146 8756 Serinus alario                       Black-headed Canary
+146 8757 Serinus estherae                     Mountain Serin
+146 8758 Neospiza concolor                    Sao Tome Canary
+146 8759 Linurgus olivaceus                   Oriole Finch
+146 8760 Rhynchostruthus socotranus           Golden-winged Grosbeak
+146 8761 Carduelis chloris                    European Greenfinch
+146 8762 Carduelis sinica                     Grey-capped Greenfinch
+146 8763 Carduelis spinoides                  Yellow-breasted Greenfinch
+146 8764 Carduelis ambigua                    Black-headed Greenfinch
+146 8765 Carduelis monguilloti                Vietnam Greenfinch
+146 8766 Carduelis spinus                     Eurasian Siskin
+146 8767 Carduelis pinus                      Pine Siskin
+146 8768 Carduelis atriceps                   Black-capped Siskin
+146 8769 Carduelis spinescens                 Andean Siskin
+146 8770 Carduelis yarrellii                  Yellow-faced Siskin
+146 8771 Carduelis cucullata                  Red Siskin
+146 8772 Carduelis crassirostris              Thick-billed Siskin
+146 8773 Carduelis magellanica                Hooded Siskin
+146 8774 Carduelis siemiradzkii               Saffron Siskin
+146 8775 Carduelis olivacea                   Olivaceous Siskin
+146 8776 Carduelis notata                     Black-headed Siskin
+146 8777 Carduelis barbata                    Black-chinned Siskin
+146 8778 Carduelis xanthogastra               Yellow-bellied Siskin
+146 8779 Carduelis atrata                     Black Siskin
+146 8780 Carduelis uropygialis                Yellow-rumped Siskin
+146 8781 Carduelis tristis                    American Goldfinch
+146 8782 Carduelis psaltria                   Lesser Goldfinch
+146 8783 Carduelis lawrencei                  Lawrence's Goldfinch
+146 8784 Carduelis dominicensis               Antillean Siskin
+146 8785 Carduelis carduelis                  European Goldfinch
+146 8786 Carduelis hornemanni                 Hoary Redpoll
+146 8787 Carduelis flammea                    Common Redpoll
+146 8788 Carduelis flavirostris               Twite
+146 8789 Carduelis cannabina                  Eurasian Linnet
+146 8790 Carduelis yemenensis                 Yemen Linnet
+146 8791 Carduelis johannis                   Warsangli Linnet
+146 8792 Leucosticte nemoricola               Plain Mountain-Finch
+146 8793 Leucosticte brandti                  Black-headed Mountain-Finch
+146 8794 Leucosticte arctoa                   Asian Rosy-Finch
+146 8795 Leucosticte tephrocotis              Gray-crowned Rosy-Finch
+146 8796 Leucosticte atrata                   Black Rosy-Finch
+146 8797 Leucosticte australis                Brown-capped Rosy-Finch
+146 8798 Callacanthis burtoni                 Spectacled Finch
+146 8799 Rhodopechys sanguinea                Crimson-winged Finch
+146 8800 Rhodopechys githaginea               Trumpeter Finch
+146 8801 Rhodopechys mongolica                Mongolian Finch
+146 8802 Rhodopechys obsoleta                 Desert Finch
+146 8803 Uragus sibiricus                     Long-tailed Rosefinch
+146 8804 Carpodacus rubescens                 Crimson Rosefinch
+146 8805 Carpodacus nipalensis                Dark-breasted Rosefinch
+146 8806 Carpodacus purpureus                 Purple Finch
+146 8807 Carpodacus erythrinus                Common Rosefinch
+146 8808 Carpodacus cassinii                  Cassin's Finch
+146 8809 Carpodacus mexicanus                 House Finch
+146 8810 Carpodacus pulcherrimus              Beautiful Rosefinch
+146 8811 Carpodacus eos                       Pink-rumped Rosefinch
+146 8812 Carpodacus rodochrous                Pink-browed Rosefinch
+146 8813 Carpodacus vinaceus                  Vinaceous Rosefinch
+146 8814 Carpodacus edwardsii                 Dark-rumped Rosefinch
+146 8815 Carpodacus synoicus                  Pale Rosefinch
+146 8816 Carpodacus roseus                    Pallas's Rosefinch
+146 8817 Carpodacus trifasciatus              Three-banded Rosefinch
+146 8818 Carpodacus rodopeplus                Spot-winged Rosefinch
+146 8819 Carpodacus thura                     White-browed Rosefinch
+146 8820 Carpodacus rhodochlamys              Red-mantled Rosefinch
+146 8821 Carpodacus rubicilloides             Streaked Rosefinch
+146 8822 Carpodacus rubicilla                 Great Rosefinch
+146 8823 Carpodacus puniceus                  Red-fronted Rosefinch
+146 8824 Carpodacus roborowskii               Tibetan Rosefinch
+146 8825 Chaunoproctus ferreorostris          Bonin Grosbeak
+146 8826 Pinicola enucleator                  Pine Grosbeak
+146 8827 Pinicola subhimachalus               Crimson-browed Finch
+146 8828 Haematospiza sipahi                  Scarlet Finch
+146 8829 Loxia pytyopsittacus                 Parrot Crossbill
+146 8830 Loxia scotica                        Scottish Crossbill
+146 8831 Loxia curvirostra                    Red Crossbill
+146 8832 Loxia leucoptera                     White-winged Crossbill
+146 8833 Pyrrhula nipalensis                  Brown Bullfinch
+146 8834 Pyrrhula leucogenis                  White-cheeked Bullfinch
+146 8835 Pyrrhula aurantiaca                  Orange Bullfinch
+146 8836 Pyrrhula erythrocephala              Red-headed Bullfinch
+146 8837 Pyrrhula erythaca                    Grey-headed Bullfinch
+146 8838 Pyrrhula pyrrhula                    Eurasian Bullfinch
+146 8839 Coccothraustes coccothraustes        Hawfinch
+146 8840 Eophona migratoria                   Yellow-billed Grosbeak
+146 8841 Eophona personata                    Japanese Grosbeak
+146 8842 Mycerobas icterioides                Black-and-yellow Grosbeak
+146 8843 Mycerobas affinis                    Collared Grosbeak
+146 8844 Mycerobas melanozanthos              Spot-winged Grosbeak
+146 8845 Mycerobas carnipes                   White-winged Grosbeak
+146 8846 Hesperiphona vespertina              Evening Grosbeak
+146 8847 Hesperiphona abeillei                Hooded Grosbeak
+146 8848 Pyrrhoplectes epauletta              Gold-naped Finch
+146 8849 Telespiza ultima                     Nihoa Finch
+146 8850 Telespiza cantans                    Laysan Finch
+146 8851 Psittirostra psittacea               Ou
+146 8852 Dysmorodrepanis munroi               Lanai Hookbill
+146 8853 Loxioides bailleui                   Palila
+146 8854 Rhodacanthis flaviceps               Lesser Koa-Finch
+146 8855 Rhodacanthis palmeri                 Greater Koa-Finch
+146 8856 Chloridops kona                      Grosbeak Finch
+146 8857 Pseudonestor xanthophrys             Maui Parrotbill
+146 8858 Viridonia stejnegeri                 Kauai Amakihi
+146 8859 Viridonia virens                     Common Amakihi
+146 8860 Viridonia parva                      Anianiau
+146 8861 Viridonia sagittirostris             Greater Amakihi
+146 8862 Hemignathus obscurus                 Akialoa
+146 8863 Hemignathus lucidus                  Nukupuu
+146 8864 Hemignathus wilsoni                  Akiapolaau
+146 8865 Oreomystis bairdi                    Kauai Creeper
+146 8866 Oreomystis mana                      Hawaii Creeper
+146 8867 Paroreomyza montana                  Maui Creeper
+146 8868 Paroreomyza flammea                  Molokai Creeper
+146 8869 Paroreomyza maculata                 Oahu Creeper
+146 8870 Loxops caeruleirostris               Akekee
+146 8871 Loxops coccineus                     Akepa
+146 8872 Ciridops anna                        Ula-ai-hawane
+146 8873 Vestiaria coccinea                   Iiwi
+146 8874 Drepanis pacifica                    Hawaii Mamo
+146 8875 Drepanis funerea                     Black Mamo
+146 8876 Palmeria dolei                       Akohekohe
+146 8877 Himatione sanguinea                  Apapane
+146 8878 Melamprosops phaeosoma               Poo-uli
+146 8879 Urocynchramus pylzowi                Pink-tailed Bunting
+146 8880 Melophus lathami                     Crested Bunting
+146 8881 Latoucheornis siemsseni              Slaty Bunting
+146 8882 Emberiza citrinella                  Yellowhammer
+146 8883 Emberiza leucocephalos               Pine Bunting
+146 8884 Emberiza stewarti                    Chestnut-breasted Bunting
+146 8885 Emberiza cirlus                      Cirl Bunting
+146 8886 Emberiza koslowi                     Tibetan Bunting
+146 8887 Emberiza cia                         Rock Bunting
+146 8888 Emberiza godlewskii                  Godlewski's Bunting
+146 8889 Emberiza cioides                     Meadow Bunting
+146 8890 Emberiza jankowskii                  Rufous-backed Bunting
+146 8891 Emberiza buchanani                   Grey-necked Bunting
+146 8892 Emberiza cineracea                   Cinereous Bunting
+146 8893 Emberiza hortulana                   Ortolan Bunting
+146 8894 Emberiza caesia                      Cretzschmar's Bunting
+146 8895 Emberiza striolata                   House Bunting
+146 8896 Emberiza impetuani                   Lark-like Bunting
+146 8897 Emberiza tahapisi                    Cinnamon-breasted Bunting
+146 8898 Emberiza socotrana                   Socotra Bunting
+146 8899 Emberiza capensis                    Cape Bunting
+146 8900 Emberiza tristrami                   Tristram's Bunting
+146 8901 Emberiza fucata                      Chestnut-eared Bunting
+146 8902 Emberiza pusilla                     Little Bunting
+146 8903 Emberiza chrysophrys                 Yellow-browed Bunting
+146 8904 Emberiza rustica                     Rustic Bunting
+146 8905 Emberiza elegans                     Yellow-throated Bunting
+146 8906 Emberiza aureola                     Yellow-breasted Bunting
+146 8907 Emberiza rutila                      Chestnut Bunting
+146 8908 Emberiza flaviventris                African Golden-breasted Bunting
+146 8909 Emberiza poliopleura                 Somali Golden-breasted Bunting
+146 8910 Emberiza affinis                     Brown-rumped Bunting
+146 8911 Emberiza cabanisi                    Cabanis's Bunting
+146 8912 Emberiza melanocephala               Black-headed Bunting
+146 8913 Emberiza bruniceps                   Red-headed Bunting
+146 8914 Emberiza sulphurata                  Yellow Bunting
+146 8915 Emberiza spodocephala                Black-faced Bunting
+146 8916 Emberiza variabilis                  Grey Bunting
+146 8917 Emberiza pallasi                     Pallas's Bunting
+146 8918 Emberiza schoeniclus                 Reed Bunting
+146 8919 Emberiza yessoensis                  Ochre-rumped Bunting
+146 8920 Miliaria calandra                    Corn Bunting
+146 8921 Calcarius mccownii                   McCown's Longspur
+146 8922 Calcarius lapponicus                 Lapland Longspur
+146 8923 Calcarius pictus                     Smith's Longspur
+146 8924 Calcarius ornatus                    Chestnut-collared Longspur
+146 8925 Plectrophenax nivalis                Snow Bunting
+146 8926 Plectrophenax hyperboreus            McKay's Bunting
+146 8927 Calamospiza melanocorys              Lark Bunting
+146 8928 Passerella iliaca                    Fox Sparrow
+146 8929 Melospiza melodia                    Song Sparrow
+146 8930 Melospiza lincolnii                  Lincoln's Sparrow
+146 8931 Melospiza georgiana                  Swamp Sparrow
+146 8932 Zonotrichia capensis                 Rufous-collared Sparrow
+146 8933 Zonotrichia querula                  Harris's Sparrow
+146 8934 Zonotrichia albicollis               White-throated Sparrow
+146 8935 Zonotrichia leucophrys               White-crowned Sparrow
+146 8936 Zonotrichia atricapilla              Golden-crowned Sparrow
+146 8937 Junco vulcani                        Volcano Junco
+146 8938 Junco hyemalis                       Dark-eyed Junco
+146 8939 Junco insularis                      Guadalupe Junco
+146 8940 Junco phaeonotus                     Yellow-eyed Junco
+146 8941 Passerculus sandwichensis            Savannah Sparrow
+146 8942 Passerculus rostratus                Large-billed Sparrow
+146 8943 Ammodramus maritimus                 Seaside Sparrow
+146 8944 Ammodramus caudacutus                Sharp-tailed Sparrow
+146 8945 Ammodramus leconteii                 Le Conte's Sparrow
+146 8946 Ammodramus henslowii                 Henslow's Sparrow
+146 8947 Ammodramus bairdii                   Baird's Sparrow
+146 8948 Ammodramus savannarum                Grasshopper Sparrow
+146 8949 Ammodramus humeralis                 Grassland Sparrow
+146 8950 Ammodramus aurifrons                 Yellow-browed Sparrow
+146 8951 Xenospiza baileyi                    Sierra Madre Sparrow
+146 8952 Spizella arborea                     American Tree Sparrow
+146 8953 Spizella passerina                   Chipping Sparrow
+146 8954 Spizella pallida                     Clay-colored Sparrow
+146 8955 Spizella taverneri                   Timberline Sparrow
+146 8956 Spizella breweri                     Brewer's Sparrow
+146 8957 Spizella pusilla                     Field Sparrow
+146 8958 Spizella wortheni                    Worthen's Sparrow
+146 8959 Spizella atrogularis                 Black-chinned Sparrow
+146 8960 Pooecetes gramineus                  Vesper Sparrow
+146 8961 Chondestes grammacus                 Lark Sparrow
+146 8962 Amphispiza bilineata                 Black-throated Sparrow
+146 8963 Amphispiza belli                     Sage Sparrow
+146 8964 Aimophila quinquestriata             Five-striped Sparrow
+146 8965 Aimophila mystacalis                 Bridled Sparrow
+146 8966 Aimophila humeralis                  Black-chested Sparrow
+146 8967 Aimophila ruficauda                  Stripe-headed Sparrow
+146 8968 Aimophila sumichrasti                Cinnamon-tailed Sparrow
+146 8969 Aimophila strigiceps                 Stripe-capped Sparrow
+146 8970 Aimophila stolzmanni                 Tumbes Sparrow
+146 8971 Aimophila aestivalis                 Bachman's Sparrow
+146 8972 Aimophila botterii                   Botteri's Sparrow
+146 8973 Aimophila cassinii                   Cassin's Sparrow
+146 8974 Aimophila carpalis                   Rufous-winged Sparrow
+146 8975 Aimophila ruficeps                   Rufous-crowned Sparrow
+146 8976 Aimophila notosticta                 Oaxaca Sparrow
+146 8977 Aimophila rufescens                  Rusty Sparrow
+146 8978 Torreornis inexpectata               Zapata Sparrow
+146 8979 Oriturus superciliosus               Striped Sparrow
+146 8980 Pipilo chlorurus                     Green-tailed Towhee
+146 8981 Pipilo ocai                          Collared Towhee
+146 8982 Pipilo erythrophthalmus              Rufous-sided Towhee
+146 8983 Pipilo aberti                        Abert's Towhee
+146 8984 Pipilo crissalis                     California Towhee
+146 8985 Pipilo fuscus                        Canyon Towhee
+146 8986 Pipilo albicollis                    White-throated Towhee
+146 8987 Melozone kieneri                     Rusty-crowned Ground-Sparrow
+146 8988 Melozone biarcuatum                  Prevost's Ground-Sparrow
+146 8989 Melozone leucotis                    White-eared Ground-Sparrow
+146 8990 Arremon aurantiirostris              Orange-billed Sparrow
+146 8991 Arremon schlegeli                    Golden-winged Sparrow
+146 8992 Arremon taciturnus                   Pectoral Sparrow
+146 8993 Arremon abeillei                     Black-capped Sparrow
+146 8994 Arremon flavirostris                 Saffron-billed Sparrow
+146 8995 Arremonops rufivirgatus              Olive Sparrow
+146 8996 Arremonops tocuyensis                Tocuyo Sparrow
+146 8997 Arremonops chloronotus               Green-backed Sparrow
+146 8998 Arremonops conirostris               Black-striped Sparrow
+146 8999 Atlapetes albinucha                  White-naped Brush-Finch
+146 9000 Atlapetes gutturalis                 Yellow-throated Brush-Finch
+146 9001 Atlapetes pallidinucha               Pale-naped Brush-Finch
+146 9002 Atlapetes rufinucha                  Rufous-naped Brush-Finch
+146 9003 Atlapetes leucopis                   White-rimmed Brush-Finch
+146 9004 Atlapetes pileatus                   Rufous-capped Brush-Finch
+146 9005 Atlapetes melanocephalus             Santa Marta Brush-Finch
+146 9006 Atlapetes flaviceps                  Olive-headed Brush-Finch
+146 9007 Atlapetes fuscoolivaceus             Dusky-headed Brush-Finch
+146 9008 Atlapetes tricolor                   Tricolored Brush-Finch
+146 9009 Atlapetes albofrenatus               Moustached Brush-Finch
+146 9010 Atlapetes schistaceus                Slaty Brush-Finch
+146 9011 Atlapetes seebohmi                   Bay-crowned Brush-Finch
+146 9012 Atlapetes nationi                    Rusty-bellied Brush-Finch
+146 9013 Atlapetes leucopterus                White-winged Brush-Finch
+146 9014 Atlapetes albiceps                   White-headed Brush-Finch
+146 9015 Atlapetes pallidiceps                Pale-headed Brush-Finch
+146 9016 Atlapetes rufigenis                  Rufous-eared Brush-Finch
+146 9017 Atlapetes semirufus                  Ochre-breasted Brush-Finch
+146 9018 Atlapetes personatus                 Tepui Brush-Finch
+146 9019 Atlapetes fulviceps                  Fulvous-headed Brush-Finch
+146 9020 Atlapetes citrinellus                Yellow-striped Brush-Finch
+146 9021 Atlapetes brunneinucha               Chestnut-capped Brush-Finch
+146 9022 Atlapetes virenticeps                Green-striped Brush-Finch
+146 9023 Atlapetes atricapillus               Black-headed Brush-Finch
+146 9024 Atlapetes torquatus                  Stripe-headed Brush-Finch
+146 9025 Pezopetes capitalis                  Large-footed Finch
+146 9026 Pselliophorus tibialis               Yellow-thighed Finch
+146 9027 Pselliophorus luteoviridis           Yellow-green Finch
+146 9028 Lysurus crassirostris                Sooty-faced Finch
+146 9029 Lysurus castaneiceps                 Olive Finch
+146 9030 Gubernatrix cristata                 Yellow Cardinal
+146 9031 Paroaria coronata                    Red-crested Cardinal
+146 9032 Paroaria dominicana                  Red-cowled Cardinal
+146 9033 Paroaria gularis                     Red-capped Cardinal
+146 9034 Paroaria baeri                       Crimson-fronted Cardinal
+146 9035 Paroaria capitata                    Yellow-billed Cardinal
+146 9036 Vermivora bachmanii                  Bachman's Warbler
+146 9037 Vermivora pinus                      Blue-winged Warbler
+146 9038 Vermivora chrysoptera                Golden-winged Warbler
+146 9039 Vermivora peregrina                  Tennessee Warbler
+146 9040 Vermivora celata                     Orange-crowned Warbler
+146 9041 Vermivora ruficapilla                Nashville Warbler
+146 9042 Vermivora virginiae                  Virginia's Warbler
+146 9043 Vermivora crissalis                  Colima Warbler
+146 9044 Vermivora luciae                     Lucy's Warbler
+146 9045 Parula americana                     Northern Parula
+146 9046 Parula pitiayumi                     Tropical Parula
+146 9047 Parula superciliosa                  Crescent-chested Warbler
+146 9048 Parula gutturalis                    Flame-throated Warbler
+146 9049 Dendroica petechia                   Yellow Warbler
+146 9050 Dendroica pensylvanica               Chestnut-sided Warbler
+146 9051 Dendroica magnolia                   Magnolia Warbler
+146 9052 Dendroica tigrina                    Cape May Warbler
+146 9053 Dendroica caerulescens               Black-throated Blue Warbler
+146 9054 Dendroica coronata                   Yellow-rumped Warbler
+146 9055 Dendroica nigrescens                 Black-throated Grey Warbler
+146 9056 Dendroica townsendi                  Townsend's Warbler
+146 9057 Dendroica occidentalis               Hermit Warbler
+146 9058 Dendroica virens                     Black-throated Green Warbler
+146 9059 Dendroica chrysoparia                Golden-cheeked Warbler
+146 9060 Dendroica fusca                      Blackburnian Warbler
+146 9061 Dendroica dominica                   Yellow-throated Warbler
+146 9062 Dendroica graciae                    Grace's Warbler
+146 9063 Dendroica adelaidae                  Adelaide's Warbler
+146 9064 Dendroica pityophila                 Olive-capped Warbler
+146 9065 Dendroica pinus                      Pine Warbler
+146 9066 Dendroica kirtlandii                 Kirtland's Warbler
+146 9067 Dendroica discolor                   Prairie Warbler
+146 9068 Dendroica vitellina                  Vitelline Warbler
+146 9069 Dendroica palmarum                   Palm Warbler
+146 9070 Dendroica castanea                   Bay-breasted Warbler
+146 9071 Dendroica striata                    Blackpoll Warbler
+146 9072 Dendroica cerulea                    Cerulean Warbler
+146 9073 Dendroica plumbea                    Plumbeous Warbler
+146 9074 Dendroica pharetra                   Arrowhead Warbler
+146 9075 Dendroica angelae                    Elfin-woods Warbler
+146 9076 Catharopeza bishopi                  Whistling Warbler
+146 9077 Mniotilta varia                      Black-and-white Warbler
+146 9078 Setophaga ruticilla                  American Redstart
+146 9079 Protonotaria citrea                  Prothonotary Warbler
+146 9080 Helmitheros vermivorus               Worm-eating Warbler
+146 9081 Limnothlypis swainsonii              Swainson's Warbler
+146 9082 Seiurus aurocapillus                 Ovenbird
+146 9083 Seiurus noveboracensis               Northern Waterthrush
+146 9084 Seiurus motacilla                    Louisiana Waterthrush
+146 9085 Oporornis formosus                   Kentucky Warbler
+146 9086 Oporornis agilis                     Connecticut Warbler
+146 9087 Oporornis philadelphia               Mourning Warbler
+146 9088 Oporornis tolmiei                    MacGillivray's Warbler
+146 9089 Geothlypis trichas                   Common Yellowthroat
+146 9090 Geothlypis beldingi                  Belding's Yellowthroat
+146 9091 Geothlypis flavovelata               Altamira Yellowthroat
+146 9092 Geothlypis rostrata                  Bahama Yellowthroat
+146 9093 Geothlypis semiflava                 Olive-crowned Yellowthroat
+146 9094 Geothlypis speciosa                  Black-polled Yellowthroat
+146 9095 Geothlypis nelsoni                   Hooded Yellowthroat
+146 9096 Geothlypis aequinoctialis            Masked Yellowthroat
+146 9097 Geothlypis poliocephala              Grey-crowned Yellowthroat
+146 9098 Microligea palustris                 Green-tailed Warbler
+146 9099 Teretistris fernandinae              Yellow-headed Warbler
+146 9100 Teretistris fornsi                   Oriente Warbler
+146 9101 Leucopeza semperi                    Semper's Warbler
+146 9102 Wilsonia citrina                     Hooded Warbler
+146 9103 Wilsonia pusilla                     Wilson's Warbler
+146 9104 Wilsonia canadensis                  Canada Warbler
+146 9105 Cardellina rubrifrons                Red-faced Warbler
+146 9106 Ergaticus ruber                      Red Warbler
+146 9107 Ergaticus versicolor                 Pink-headed Warbler
+146 9108 Myioborus pictus                     Painted Redstart
+146 9109 Myioborus miniatus                   Slate-throated Redstart
+146 9110 Myioborus castaneocapillus           Tepui Redstart
+146 9111 Myioborus brunniceps                 Brown-capped Redstart
+146 9112 Myioborus pariae                     Yellow-faced Redstart
+146 9113 Myioborus albifacies                 White-faced Redstart
+146 9114 Myioborus cardonai                   Saffron-breasted Redstart
+146 9115 Myioborus torquatus                  Collared Redstart
+146 9116 Myioborus melanocephalus             Spectacled Redstart
+146 9117 Myioborus ornatus                    Golden-fronted Redstart
+146 9118 Myioborus albifrons                  White-fronted Redstart
+146 9119 Myioborus flavivertex                Yellow-crowned Redstart
+146 9120 Euthlypis lachrymosa                 Fan-tailed Warbler
+146 9121 Basileuterus fraseri                 Grey-and-gold Warbler
+146 9122 Basileuterus bivittatus              Two-banded Warbler
+146 9123 Basileuterus chrysogaster            Golden-bellied Warbler
+146 9124 Basileuterus signatus                Pale-legged Warbler
+146 9125 Basileuterus luteoviridis            Citrine Warbler
+146 9126 Basileuterus nigrocristatus          Black-crested Warbler
+146 9127 Basileuterus griseiceps              Grey-headed Warbler
+146 9128 Basileuterus basilicus               Santa Marta Warbler
+146 9129 Basileuterus cinereicollis           Grey-throated Warbler
+146 9130 Basileuterus conspicillatus          White-lored Warbler
+146 9131 Basileuterus coronatus               Russet-crowned Warbler
+146 9132 Basileuterus culicivorus             Golden-crowned Warbler
+146 9133 Basileuterus trifasciatus            Three-banded Warbler
+146 9134 Basileuterus hypoleucus              White-bellied Warbler
+146 9135 Basileuterus rufifrons               Rufous-capped Warbler
+146 9136 Basileuterus belli                   Golden-browed Warbler
+146 9137 Basileuterus melanogenys             Black-cheeked Warbler
+146 9138 Basileuterus ignotus                 Pirre Warbler
+146 9139 Basileuterus tristriatus             Three-striped Warbler
+146 9140 Basileuterus leucoblepharus          White-browed Warbler
+146 9141 Basileuterus leucophrys              White-striped Warbler
+146 9142 Basileuterus flaveolus               Flavescent Warbler
+146 9143 Basileuterus fulvicauda              Buff-rumped Warbler
+146 9144 Basileuterus rivularis               Neotropical River Warbler
+146 9145 Zeledonia coronata                   Wrenthrush
+146 9146 Icteria virens                       Yellow-breasted Chat
+146 9147 Granatellus venustus                 Red-breasted Chat
+146 9148 Granatellus sallaei                  Grey-throated Chat
+146 9149 Granatellus pelzelni                 Rose-breasted Chat
+146 9150 Xenoligea montana                    White-winged Warbler
+146 9151 Coereba flaveola                     Bananaquit
+146 9152 Conirostrum speciosum                Chestnut-vented Conebill
+146 9153 Conirostrum leucogenys               White-eared Conebill
+146 9154 Conirostrum bicolor                  Bicolored Conebill
+146 9155 Conirostrum margaritae               Pearly-breasted Conebill
+146 9156 Conirostrum cinereum                 Cinereous Conebill
+146 9157 Conirostrum tamarugense              Tamarugo Conebill
+146 9158 Conirostrum ferrugineiventre         White-browed Conebill
+146 9159 Conirostrum rufum                    Rufous-browed Conebill
+146 9160 Conirostrum sitticolor               Blue-backed Conebill
+146 9161 Conirostrum albifrons                Capped Conebill
+146 9162 Oreomanes fraseri                    Giant Conebill
+146 9163 Orchesticus abeillei                 Brown Tanager
+146 9164 Schistochlamys ruficapillus          Cinnamon Tanager
+146 9165 Schistochlamys melanopis             Black-faced Tanager
+146 9166 Neothraupis fasciata                 White-banded Tanager
+146 9167 Cypsnagra hirundinacea               White-rumped Tanager
+146 9168 Conothraupis speculigera             Black-and-white Tanager
+146 9169 Conothraupis mesoleuca               Cone-billed Tanager
+146 9170 Lamprospiza melanoleuca              Red-billed Pied Tanager
+146 9171 Cissopis leveriana                   Magpie Tanager
+146 9172 Chlorornis riefferii                 Grass-green Tanager
+146 9173 Compsothraupis loricata              Scarlet-throated Tanager
+146 9174 Sericossypha albocristata            White-capped Tanager
+146 9175 Nesospingus speculiferus             Puerto Rican Tanager
+146 9176 Chlorospingus ophthalmicus           Common Bush-Tanager
+146 9177 Chlorospingus tacarcunae             Tacarcuna Bush-Tanager
+146 9178 Chlorospingus inornatus              Pirre Bush-Tanager
+146 9179 Chlorospingus semifuscus             Dusky Bush-Tanager
+146 9180 Chlorospingus pileatus               Sooty-capped Bush-Tanager
+146 9181 Chlorospingus parvirostris           Yellow-whiskered Bush-Tanager
+146 9182 Chlorospingus flavigularis           Yellow-throated Bush-Tanager
+146 9183 Chlorospingus flavovirens            Yellow-green Bush-Tanager
+146 9184 Chlorospingus canigularis            Ashy-throated Bush-Tanager
+146 9185 Cnemoscopus rubrirostris             Grey-hooded Bush-Tanager
+146 9186 Hemispingus atropileus               Black-capped Hemispingus
+146 9187 Hemispingus calophrys                Orange-browed Hemispingus
+146 9188 Hemispingus parodii                  Parodi's Hemispingus
+146 9189 Hemispingus superciliaris            Superciliaried Hemispingus
+146 9190 Hemispingus reyi                     Grey-capped Hemispingus
+146 9191 Hemispingus frontalis                Oleaginous Hemispingus
+146 9192 Hemispingus melanotis                Black-eared Hemispingus
+146 9193 Hemispingus goeringi                 Slaty-backed Hemispingus
+146 9194 Hemispingus rufosuperciliaris        Rufous-browed Hemispingus
+146 9195 Hemispingus verticalis               Black-headed Hemispingus
+146 9196 Hemispingus xanthophthalmus          Drab Hemispingus
+146 9197 Hemispingus trifasciatus             Three-striped Hemispingus
+146 9198 Pyrrhocoma ruficeps                  Chestnut-headed Tanager
+146 9199 Thlypopsis fulviceps                 Fulvous-headed Tanager
+146 9200 Thlypopsis ornata                    Rufous-chested Tanager
+146 9201 Thlypopsis pectoralis                Brown-flanked Tanager
+146 9202 Thlypopsis sordida                   Orange-headed Tanager
+146 9203 Thlypopsis inornata                  Buff-bellied Tanager
+146 9204 Thlypopsis ruficeps                  Rust-and-yellow Tanager
+146 9205 Hemithraupis guira                   Guira Tanager
+146 9206 Hemithraupis ruficapilla             Rufous-headed Tanager
+146 9207 Hemithraupis flavicollis             Yellow-backed Tanager
+146 9208 Chrysothlypis chrysomelas            Black-and-yellow Tanager
+146 9209 Chrysothlypis salmoni                Scarlet-and-white Tanager
+146 9210 Nemosia pileata                      Hooded Tanager
+146 9211 Nemosia rourei                       Cherry-throated Tanager
+146 9212 Phaenicophilus palmarum              Black-crowned Palm-Tanager
+146 9213 Phaenicophilus poliocephalus         Grey-crowned Palm-Tanager
+146 9214 Calyptophilus frugivorus             Chat Tanager
+146 9215 Rhodinocichla rosea                  Rosy Thrush-Tanager
+146 9216 Mitrospingus cassinii                Dusky-faced Tanager
+146 9217 Mitrospingus oleagineus              Olive-backed Tanager
+146 9218 Chlorothraupis carmioli              Olive Tanager
+146 9219 Chlorothraupis olivacea              Lemon-spectacled Tanager
+146 9220 Chlorothraupis stolzmanni            Ochre-breasted Tanager
+146 9221 Orthogonys chloricterus              Olive-green Tanager
+146 9222 Eucometis penicillata                Grey-headed Tanager
+146 9223 Lanio fulvus                         Fulvous Shrike-Tanager
+146 9224 Lanio versicolor                     White-winged Shrike-Tanager
+146 9225 Lanio aurantius                      Black-throated Shrike-Tanager
+146 9226 Lanio leucothorax                    White-throated Shrike-Tanager
+146 9227 Creurgops verticalis                 Rufous-crested Tanager
+146 9228 Creurgops dentata                    Slaty Tanager
+146 9229 Heterospingus rubrifrons             Sulphur-rumped Tanager
+146 9230 Heterospingus xanthopygius           Scarlet-browed Tanager
+146 9231 Tachyphonus cristatus                Flame-crested Tanager
+146 9232 Tachyphonus rufiventer               Yellow-crested Tanager
+146 9233 Tachyphonus surinamus                Fulvous-crested Tanager
+146 9234 Tachyphonus luctuosus                White-shouldered Tanager
+146 9235 Tachyphonus delatrii                 Tawny-crested Tanager
+146 9236 Tachyphonus coronatus                Ruby-crowned Tanager
+146 9237 Tachyphonus rufus                    White-lined Tanager
+146 9238 Tachyphonus phoenicius               Red-shouldered Tanager
+146 9239 Trichothraupis melanops              Black-goggled Tanager
+146 9240 Habia rubica                         Red-crowned Ant-Tanager
+146 9241 Habia fuscicauda                     Red-throated Ant-Tanager
+146 9242 Habia gutturalis                     Sooty Ant-Tanager
+146 9243 Habia atrimaxillaris                 Black-cheeked Ant-Tanager
+146 9244 Habia cristata                       Crested Ant-Tanager
+146 9245 Piranga bidentata                    Flame-colored Tanager
+146 9246 Piranga flava                        Hepatic Tanager
+146 9247 Piranga rubra                        Summer Tanager
+146 9248 Piranga roseogularis                 Rose-throated Tanager
+146 9249 Piranga olivacea                     Scarlet Tanager
+146 9250 Piranga ludoviciana                  Western Tanager
+146 9251 Piranga leucoptera                   White-winged Tanager
+146 9252 Piranga erythrocephala               Red-headed Tanager
+146 9253 Piranga rubriceps                    Red-hooded Tanager
+146 9254 Calochaetes coccineus                Vermilion Tanager
+146 9255 Ramphocelus sanguinolentus           Crimson-collared Tanager
+146 9256 Ramphocelus nigrogularis             Masked Crimson Tanager
+146 9257 Ramphocelus dimidiatus               Crimson-backed Tanager
+146 9258 Ramphocelus melanogaster             Huallaga Tanager
+146 9259 Ramphocelus carbo                    Silver-beaked Tanager
+146 9260 Ramphocelus bresilius                Brazilian Tanager
+146 9261 Ramphocelus passerinii               Scarlet-rumped Tanager
+146 9262 Ramphocelus flammigerus              Flame-rumped Tanager
+146 9263 Spindalis zena                       Stripe-headed Tanager
+146 9264 Thraupis episcopus                   Blue-grey Tanager
+146 9265 Thraupis glaucocolpa                 Glaucous Tanager
+146 9266 Thraupis sayaca                      Sayaca Tanager
+146 9267 Thraupis cyanoptera                  Azure-shouldered Tanager
+146 9268 Thraupis ornata                      Golden-chevroned Tanager
+146 9269 Thraupis abbas                       Yellow-winged Tanager
+146 9270 Thraupis palmarum                    Palm Tanager
+146 9271 Thraupis cyanocephala                Blue-capped Tanager
+146 9272 Thraupis bonariensis                 Blue-and-yellow Tanager
+146 9273 Cyanicterus cyanicterus              Blue-backed Tanager
+146 9274 Bangsia arcaei                       Blue-and-gold Tanager
+146 9275 Bangsia melanochlamys                Black-and-gold Tanager
+146 9276 Bangsia rothschildi                  Golden-chested Tanager
+146 9277 Bangsia edwardsi                     Moss-backed Tanager
+146 9278 Bangsia aureocincta                  Gold-ringed Tanager
+146 9279 Buthraupis montana                   Hooded Mountain-Tanager
+146 9280 Buthraupis eximia                    Black-chested Mountain-Tanager
+146 9281 Buthraupis aureodorsalis             Golden-backed Mountain-Tanager
+146 9282 Buthraupis wetmorei                  Masked Mountain-Tanager
+146 9283 Wetmorethraupis sterrhopteron        Orange-throated Tanager
+146 9284 Anisognathus melanogenys             Santa Marta Mountain-Tanager
+146 9285 Anisognathus lacrymosus              Lacrimose Mountain-Tanager
+146 9286 Anisognathus igniventris             Scarlet-bellied Mountain-Tanager
+146 9287 Anisognathus somptuosus              Blue-winged Mountain-Tanager
+146 9288 Anisognathus notabilis               Black-chinned Mountain-Tanager
+146 9289 Stephanophorus diadematus            Diademed Tanager
+146 9290 Iridosornis porphyrocephala          Purplish-mantled Tanager
+146 9291 Iridosornis analis                   Yellow-throated Tanager
+146 9292 Iridosornis jelskii                  Golden-collared Tanager
+146 9293 Iridosornis rufivertex               Golden-crowned Tanager
+146 9294 Iridosornis reinhardti               Yellow-scarfed Tanager
+146 9295 Dubusia taeniata                     Buff-breasted Mountain-Tanager
+146 9296 Delothraupis castaneoventris         Chestnut-bellied Mountain-Tanager
+146 9297 Pipraeidea melanonota                Fawn-breasted Tanager
+146 9298 Euphonia jamaica                     Jamaican Euphonia
+146 9299 Euphonia plumbea                     Plumbeous Euphonia
+146 9300 Euphonia affinis                     Scrub Euphonia
+146 9301 Euphonia luteicapilla                Yellow-crowned Euphonia
+146 9302 Euphonia chlorotica                  Purple-throated Euphonia
+146 9303 Euphonia trinitatis                  Trinidad Euphonia
+146 9304 Euphonia concinna                    Velvet-fronted Euphonia
+146 9305 Euphonia saturata                    Orange-crowned Euphonia
+146 9306 Euphonia finschi                     Finsch's Euphonia
+146 9307 Euphonia violacea                    Violaceous Euphonia
+146 9308 Euphonia laniirostris                Thick-billed Euphonia
+146 9309 Euphonia hirundinacea                Yellow-throated Euphonia
+146 9310 Euphonia chalybea                    Green-chinned Euphonia
+146 9311 Euphonia elegantissima               Blue-rumped Euphonia
+146 9312 Euphonia musica                      Antillean Euphonia
+146 9313 Euphonia cyanocephala                Golden-rumped Euphonia
+146 9314 Euphonia imitans                     Spot-crowned Euphonia
+146 9315 Euphonia fulvicrissa                 Fulvous-vented Euphonia
+146 9316 Euphonia gouldi                      Olive-backed Euphonia
+146 9317 Euphonia chrysopasta                 White-lored Euphonia
+146 9318 Euphonia mesochrysa                  Bronze-green Euphonia
+146 9319 Euphonia minuta                      White-vented Euphonia
+146 9320 Euphonia anneae                      Tawny-capped Euphonia
+146 9321 Euphonia xanthogaster                Orange-bellied Euphonia
+146 9322 Euphonia rufiventris                 Rufous-bellied Euphonia
+146 9323 Euphonia cayennensis                 Golden-sided Euphonia
+146 9324 Euphonia pectoralis                  Chestnut-bellied Euphonia
+146 9325 Chlorophonia flavirostris            Yellow-collared Chlorophonia
+146 9326 Chlorophonia cyanea                  Blue-naped Chlorophonia
+146 9327 Chlorophonia pyrrhophrys             Chestnut-breasted Chlorophonia
+146 9328 Chlorophonia occipitalis             Blue-crowned Chlorophonia
+146 9329 Chlorophonia callophrys              Golden-browed Chlorophonia
+146 9330 Chlorochrysa phoenicotis             Glistening-green Tanager
+146 9331 Chlorochrysa calliparaea             Orange-eared Tanager
+146 9332 Chlorochrysa nitidissima             Multicolored Tanager
+146 9333 Tangara inornata                     Plain-colored Tanager
+146 9334 Tangara mexicana                     Turquoise Tanager
+146 9335 Tangara cabanisi                     Azure-rumped Tanager
+146 9336 Tangara palmeri                      Grey-and-gold Tanager
+146 9337 Tangara chilensis                    Paradise Tanager
+146 9338 Tangara fastuosa                     Seven-colored Tanager
+146 9339 Tangara seledon                      Green-headed Tanager
+146 9340 Tangara cyanocephala                 Red-necked Tanager
+146 9341 Tangara desmaresti                   Brassy-breasted Tanager
+146 9342 Tangara cyanoventris                 Gilt-edged Tanager
+146 9343 Tangara johannae                     Blue-whiskered Tanager
+146 9344 Tangara schrankii                    Green-and-gold Tanager
+146 9345 Tangara florida                      Emerald Tanager
+146 9346 Tangara arthus                       Golden Tanager
+146 9347 Tangara icterocephala                Silver-throated Tanager
+146 9348 Tangara xanthocephala                Saffron-crowned Tanager
+146 9349 Tangara chrysotis                    Golden-eared Tanager
+146 9350 Tangara parzudakii                   Flame-faced Tanager
+146 9351 Tangara xanthogastra                 Yellow-bellied Tanager
+146 9352 Tangara punctata                     Spotted Tanager
+146 9353 Tangara guttata                      Speckled Tanager
+146 9354 Tangara varia                        Dotted Tanager
+146 9355 Tangara rufigula                     Rufous-throated Tanager
+146 9356 Tangara gyrola                       Bay-headed Tanager
+146 9357 Tangara lavinia                      Rufous-winged Tanager
+146 9358 Tangara cayana                       Burnished-buff Tanager
+146 9359 Tangara cucullata                    Lesser Antillean Tanager
+146 9360 Tangara peruviana                    Black-backed Tanager
+146 9361 Tangara preciosa                     Chestnut-backed Tanager
+146 9362 Tangara vitriolina                   Scrub Tanager
+146 9363 Tangara meyerdeschauenseei           Green-capped Tanager
+146 9364 Tangara rufigenis                    Rufous-cheeked Tanager
+146 9365 Tangara ruficervix                   Golden-naped Tanager
+146 9366 Tangara labradorides                 Metallic-green Tanager
+146 9367 Tangara cyanotis                     Blue-browed Tanager
+146 9368 Tangara cyanicollis                  Blue-necked Tanager
+146 9369 Tangara larvata                      Golden-hooded Tanager
+146 9370 Tangara nigrocincta                  Masked Tanager
+146 9371 Tangara dowii                        Spangle-cheeked Tanager
+146 9372 Tangara fucosa                       Green-naped Tanager
+146 9373 Tangara nigroviridis                 Beryl-spangled Tanager
+146 9374 Tangara vassorii                     Blue-and-black Tanager
+146 9375 Tangara heinei                       Black-capped Tanager
+146 9376 Tangara phillipsi                    Sira Tanager
+146 9377 Tangara viridicollis                 Silver-backed Tanager
+146 9378 Tangara argyrofenges                 Straw-backed Tanager
+146 9379 Tangara cyanoptera                   Black-headed Tanager
+146 9380 Tangara velia                        Opal-rumped Tanager
+146 9381 Tangara callophrys                   Opal-crowned Tanager
+146 9382 Iridophanes pulcherrima              Golden-collared Honeycreeper
+146 9383 Pseudodacnis hartlaubi               Turquoise Dacnis-Tanager
+146 9384 Dacnis albiventris                   White-bellied Dacnis
+146 9385 Dacnis lineata                       Black-faced Dacnis
+146 9386 Dacnis flaviventer                   Yellow-bellied Dacnis
+146 9387 Dacnis nigripes                      Black-legged Dacnis
+146 9388 Dacnis venusta                       Scarlet-thighed Dacnis
+146 9389 Dacnis cayana                        Blue Dacnis
+146 9390 Dacnis viguieri                      Viridian Dacnis
+146 9391 Dacnis berlepschi                    Scarlet-breasted Dacnis
+146 9392 Chlorophanes spiza                   Green Honeycreeper
+146 9393 Cyanerpes nitidus                    Short-billed Honeycreeper
+146 9394 Cyanerpes lucidus                    Shining Honeycreeper
+146 9395 Cyanerpes caeruleus                  Purple Honeycreeper
+146 9396 Cyanerpes cyaneus                    Red-legged Honeycreeper
+146 9397 Xenodacnis parina                    Tit-like Dacnis
+146 9398 Tersina viridis                      Swallow Tanager
+146 9399 Catamblyrhynchus diadema             Plushcap
+146 9400 Oreothraupis arremonops              Tanager Finch
+146 9401 Urothraupis stolzmanni               Black-backed Bush-Tanager
+146 9402 Nephelornis oneillei                 Pardusco
+146 9403 Charitospiza eucosma                 Coal-crested Finch
+146 9404 Coryphaspiza melanotis               Black-masked Finch
+146 9405 Saltatricula multicolor              Many-colored Chaco-Finch
+146 9406 Coryphospingus pileatus              Pileated Finch
+146 9407 Coryphospingus cucullatus            Red-crested Finch
+146 9408 Rhodospingus cruentus                Crimson Finch-Tanager
+146 9409 Phrygilus atriceps                   Black-hooded Sierra-Finch
+146 9410 Phrygilus punensis                   Peruvian Sierra-Finch
+146 9411 Phrygilus gayi                       Grey-hooded Sierra-Finch
+146 9412 Phrygilus patagonicus                Patagonian Sierra-Finch
+146 9413 Phrygilus fruticeti                  Mourning Sierra-Finch
+146 9414 Phrygilus unicolor                   Plumbeous Sierra-Finch
+146 9415 Phrygilus dorsalis                   Red-backed Sierra-Finch
+146 9416 Phrygilus erythronotus               White-throated Sierra-Finch
+146 9417 Phrygilus plebejus                   Ash-breasted Sierra-Finch
+146 9418 Phrygilus carbonarius                Carbonated Sierra-Finch
+146 9419 Phrygilus alaudinus                  Band-tailed Sierra-Finch
+146 9420 Melanodera melanodera                Canary-winged Finch
+146 9421 Melanodera xanthogramma              Yellow-bridled Finch
+146 9422 Haplospiza rustica                   Slaty Finch
+146 9423 Haplospiza unicolor                  Uniform Finch
+146 9424 Acanthidops bairdii                  Peg-billed Finch
+146 9425 Lophospingus pusillus                Black-crested Finch
+146 9426 Lophospingus griseocristatus         Grey-crested Finch
+146 9427 Donacospiza albifrons                Long-tailed Reed-Finch
+146 9428 Rowettia goughensis                  Gough Finch
+146 9429 Nesospiza acunhae                    Nightingale Finch
+146 9430 Nesospiza wilkinsi                   Wilkins's Finch
+146 9431 Diuca speculifera                    White-winged Diuca-Finch
+146 9432 Diuca diuca                          Common Diuca-Finch
+146 9433 Idiopsar brachyurus                  Short-tailed Finch
+146 9434 Piezorhina cinerea                   Cinereous Finch
+146 9435 Xenospingus concolor                 Slender-billed Finch
+146 9436 Incaspiza pulchra                    Great Inca-Finch
+146 9437 Incaspiza personata                  Rufous-backed Inca-Finch
+146 9438 Incaspiza ortizi                     Grey-winged Inca-Finch
+146 9439 Incaspiza laeta                      Buff-bridled Inca-Finch
+146 9440 Incaspiza watkinsi                   Little Inca-Finch
+146 9441 Poospiza thoracica                   Bay-chested Warbling-Finch
+146 9442 Poospiza boliviana                   Bolivian Warbling-Finch
+146 9443 Poospiza alticola                    Plain-tailed Warbling-Finch
+146 9444 Poospiza hypochondria                Rufous-sided Warbling-Finch
+146 9445 Poospiza ornata                      Cinnamon Warbling-Finch
+146 9446 Poospiza erythrophrys                Rusty-browed Warbling-Finch
+146 9447 Poospiza whitii                      Black-and-chestnut Warbling-Finch
+146 9448 Poospiza assistufa                   Black-and-rufous Warbling-Finch
+146 9449 Poospiza lateralis                   Red-rumped Warbling-Finch
+146 9450 Poospiza rubecula                    Rufous-breasted Warbling-Finch
+146 9451 Poospiza garleppi                    Cochabamba Mountain-Finch
+146 9452 Poospiza baeri                       Tucuman Mountain-Finch
+146 9453 Poospiza caesar                      Chestnut-breasted Mountain-Finch
+146 9454 Poospiza hispaniolensis              Collared Warbling-Finch
+146 9455 Poospiza torquata                    Ringed Warbling-Finch
+146 9456 Poospiza melanoleuca                 Black-capped Warbling-Finch
+146 9457 Poospiza cinerea                     Cinereous Warbling-Finch
+146 9458 Sicalis citrina                      Stripe-tailed Yellow-Finch
+146 9459 Sicalis lutea                        Puna Yellow-Finch
+146 9460 Sicalis uropygialis                  Bright-rumped Yellow-Finch
+146 9461 Sicalis luteocephala                 Citron-headed Yellow-Finch
+146 9462 Sicalis auriventris                  Greater Yellow-Finch
+146 9463 Sicalis olivascens                   Greenish Yellow-Finch
+146 9464 Sicalis lebruni                      Patagonian Yellow-Finch
+146 9465 Sicalis columbiana                   Orange-fronted Yellow-Finch
+146 9466 Sicalis flaveola                     Saffron Finch
+146 9467 Sicalis luteola                      Grassland Yellow-Finch
+146 9468 Sicalis luteiventris                 Misto Yellow-Finch
+146 9469 Sicalis raimondii                    Raimondi's Yellow-Finch
+146 9470 Sicalis taczanowskii                 Sulphur-throated Finch
+146 9471 Emberizoides herbicola               Wedge-tailed Grass-Finch
+146 9472 Emberizoides duidae                  Duida Grass-Finch
+146 9473 Emberizoides ypiranganus             Grey-cheeked Grass-Finch
+146 9474 Embernagra platensis                 Great Pampa-Finch
+146 9475 Embernagra longicauda                Pale-throated Pampa-Finch
+146 9476 Volatinia jacarina                   Blue-black Grassquit
+146 9477 Sporophila frontalis                 Buffy-fronted Seedeater
+146 9478 Sporophila falcirostris              Temminck's Seedeater
+146 9479 Sporophila schistacea                Slate-colored Seedeater
+146 9480 Sporophila intermedia                Grey Seedeater
+146 9481 Sporophila plumbea                   Plumbeous Seedeater
+146 9482 Sporophila americana                 Variable Seedeater
+146 9483 Sporophila torqueola                 White-collared Seedeater
+146 9484 Sporophila collaris                  Rusty-collared Seedeater
+146 9485 Sporophila bouvronides               Lesson's Seedeater
+146 9486 Sporophila lineola                   Lined Seedeater
+146 9487 Sporophila luctuosa                  Black-and-white Seedeater
+146 9488 Sporophila nigricollis               Yellow-bellied Seedeater
+146 9489 Sporophila ardesiaca                 Dubois's Seedeater
+146 9490 Sporophila melanops                  Hooded Seedeater
+146 9491 Sporophila caerulescens              Double-collared Seedeater
+146 9492 Sporophila albogularis               White-throated Seedeater
+146 9493 Sporophila leucoptera                White-bellied Seedeater
+146 9494 Sporophila peruviana                 Parrot-billed Seedeater
+146 9495 Sporophila simplex                   Drab Seedeater
+146 9496 Sporophila nigrorufa                 Black-and-tawny Seedeater
+146 9497 Sporophila bouvreuil                 Capped Seedeater
+146 9498 Sporophila minuta                    Ruddy-breasted Seedeater
+146 9499 Sporophila hypoxantha                Tawny-bellied Seedeater
+146 9500 Sporophila ruficollis                Dark-throated Seedeater
+146 9501 Sporophila palustris                 Marsh Seedeater
+146 9502 Sporophila castaneiventris           Chestnut-bellied Seedeater
+146 9503 Sporophila hypochroma                Grey-and-chestnut Seedeater
+146 9504 Sporophila cinnamomea                Chestnut Seedeater
+146 9505 Sporophila zelichi                   Narosky's Seedeater
+146 9506 Sporophila melanogaster              Black-bellied Seedeater
+146 9507 Sporophila telasco                   Chestnut-throated Seedeater
+146 9508 Sporophila insulata                  Tumaco Seedeater
+146 9509 Oryzoborus nuttingi                  Nicaraguan Seed-Finch
+146 9510 Oryzoborus crassirostris             Large-billed Seed-Finch
+146 9511 Oryzoborus atrirostris               Black-billed Seed-Finch
+146 9512 Oryzoborus maximiliani               Great-billed Seed-Finch
+146 9513 Oryzoborus angolensis                Lesser Seed-Finch
+146 9514 Amaurospiza concolor                 Blue Seedeater
+146 9515 Amaurospiza moesta                   Blackish-blue Seedeater
+146 9516 Melopyrrha nigra                     Cuban Bullfinch
+146 9517 Dolospingus fringilloides            White-naped Seedeater
+146 9518 Catamenia analis                     Band-tailed Seedeater
+146 9519 Catamenia inornata                   Plain-colored Seedeater
+146 9520 Catamenia homochroa                  Paramo Seedeater
+146 9521 Tiaris obscura                       Dull-colored Grassquit
+146 9522 Tiaris canora                        Cuban Grassquit
+146 9523 Tiaris olivacea                      Yellow-faced Grassquit
+146 9524 Tiaris bicolor                       Black-faced Grassquit
+146 9525 Tiaris fuliginosa                    Sooty Grassquit
+146 9526 Loxipasser anoxanthus                Yellow-shouldered Grassquit
+146 9527 Loxigilla portoricensis              Puerto Rican Bullfinch
+146 9528 Loxigilla violacea                   Greater Antillean Bullfinch
+146 9529 Loxigilla noctis                     Lesser Antillean Bullfinch
+146 9530 Diglossa baritula                    Cinnamon-bellied Flower-piercer
+146 9531 Diglossa plumbea                     Slaty Flower-piercer
+146 9532 Diglossa sittoides                   Rusty Flower-piercer
+146 9533 Diglossa venezuelensis               Venezuelan Flower-piercer
+146 9534 Diglossa albilatera                  White-sided Flower-piercer
+146 9535 Diglossa gloriosissima               Chestnut-bellied Flower-piercer
+146 9536 Diglossa lafresnayii                 Glossy Flower-piercer
+146 9537 Diglossa mystacalis                  Moustached Flower-piercer
+146 9538 Diglossa gloriosa                    Merida Flower-piercer
+146 9539 Diglossa humeralis                   Black Flower-piercer
+146 9540 Diglossa brunneiventris              Black-throated Flower-piercer
+146 9541 Diglossa carbonaria                  Grey-bellied Flower-piercer
+146 9542 Diglossa duidae                      Scaled Flower-piercer
+146 9543 Diglossa major                       Greater Flower-piercer
+146 9544 Diglossopis indigotica               Indigo Flower-piercer
+146 9545 Diglossopis glauca                   Deep-blue Flower-piercer
+146 9546 Diglossopis caerulescens             Bluish Flower-piercer
+146 9547 Diglossopis cyanea                   Masked Flower-piercer
+146 9548 Euneornis campestris                 Orangequit
+146 9549 Melanospiza richardsoni              St. Lucia Black Finch
+146 9550 Geospiza magnirostris                Large Ground-Finch
+146 9551 Geospiza fortis                      Medium Ground-Finch
+146 9552 Geospiza fuliginosa                  Small Ground-Finch
+146 9553 Geospiza difficilis                  Sharp-beaked Ground-Finch
+146 9554 Geospiza scandens                    Common Cactus-Finch
+146 9555 Geospiza conirostris                 Large Cactus-Finch
+146 9556 Camarhynchus crassirostris           Vegetarian Finch
+146 9557 Camarhynchus psittacula              Large Tree-Finch
+146 9558 Camarhynchus pauper                  Medium Tree-Finch
+146 9559 Camarhynchus parvulus                Small Tree-Finch
+146 9560 Camarhynchus pallidus                Woodpecker Finch
+146 9561 Camarhynchus heliobates              Mangrove Finch
+146 9562 Certhidea olivacea                   Warbler Finch
+146 9563 Pinaroloxias inornata                Cocos Island Finch
+146 9564 Spiza americana                      Dickcissel
+146 9565 Pheucticus chrysopeplus              Yellow Grosbeak
+146 9566 Pheucticus chrysogaster              Golden-bellied Grosbeak
+146 9567 Pheucticus tibialis                  Black-thighed Grosbeak
+146 9568 Pheucticus aureoventris              Black-backed Grosbeak
+146 9569 Pheucticus ludovicianus              Rose-breasted Grosbeak
+146 9570 Pheucticus melanocephalus            Black-headed Grosbeak
+146 9571 Cardinalis cardinalis                Northern Cardinal
+146 9572 Cardinalis phoeniceus                Vermilion Cardinal
+146 9573 Cardinalis sinuatus                  Pyrrhuloxia
+146 9574 Caryothraustes poliogaster           Black-faced Grosbeak
+146 9575 Caryothraustes canadensis            Yellow-green Grosbeak
+146 9576 Caryothraustes humeralis             Yellow-shouldered Grosbeak
+146 9577 Rhodothraupis celaeno                Crimson-collared Grosbeak
+146 9578 Periporphyrus erythromelas           Red-and-black Grosbeak
+146 9579 Pitylus grossus                      Slate-colored Grosbeak
+146 9580 Pitylus fuliginosus                  Black-throated Grosbeak
+146 9581 Saltator atriceps                    Black-headed Saltator
+146 9582 Saltator maximus                     Buff-throated Saltator
+146 9583 Saltator atripennis                  Black-winged Saltator
+146 9584 Saltator coerulescens                Greyish Saltator
+146 9585 Saltator similis                     Green-winged Saltator
+146 9586 Saltator orenocensis                 Orinocan Saltator
+146 9587 Saltator nigriceps                   Black-cowled Saltator
+146 9588 Saltator aurantiirostris             Golden-billed Saltator
+146 9589 Saltator maxillosus                  Thick-billed Saltator
+146 9590 Saltator cinctus                     Masked Saltator
+146 9591 Saltator atricollis                  Black-throated Saltator
+146 9592 Saltator rufiventris                 Rufous-bellied Saltator
+146 9593 Saltator albicollis                  Streaked Saltator
+146 9594 Cyanoloxia glaucocaerulea            Indigo Grosbeak
+146 9595 Cyanocompsa cyanoides                Blue-black Grosbeak
+146 9596 Cyanocompsa parellina                Blue Bunting
+146 9597 Cyanocompsa brissonii                Ultramarine Grosbeak
+146 9598 Guiraca caerulea                     Blue Grosbeak
+146 9599 Passerina amoena                     Lazuli Bunting
+146 9600 Passerina cyanea                     Indigo Bunting
+146 9601 Passerina versicolor                 Varied Bunting
+146 9602 Passerina ciris                      Painted Bunting
+146 9603 Passerina rositae                    Rose-bellied Bunting
+146 9604 Passerina leclancherii               Orange-breasted Bunting
+146 9605 Porphyrospiza caerulescens           Yellow-billed Blue Finch
+146 9606 Psarocolius oseryi                   Casqued Oropendola
+146 9607 Psarocolius decumanus                Crested Oropendola
+146 9608 Psarocolius viridis                  Green Oropendola
+146 9609 Psarocolius atrovirens               Dusky-green Oropendola
+146 9610 Psarocolius angustifrons             Russet-backed Oropendola
+146 9611 Psarocolius wagleri                  Chestnut-headed Oropendola
+146 9612 Ocyalus latirostris                  Band-tailed Oropendola
+146 9613 Gymnostinops montezuma               Montezuma Oropendola
+146 9614 Gymnostinops cassini                 Baudo Oropendola
+146 9615 Gymnostinops bifasciatus             Amazonian Oropendola
+146 9616 Gymnostinops guatimozinus            Black Oropendola
+146 9617 Cacicus cela                         Yellow-rumped Cacique
+146 9618 Cacicus haemorrhous                  Red-rumped Cacique
+146 9619 Cacicus uropygialis                  Scarlet-rumped Cacique
+146 9620 Cacicus koepckeae                    Selva Cacique
+146 9621 Cacicus chrysopterus                 Golden-winged Cacique
+146 9622 Cacicus chrysonotus                  Mountain Cacique
+146 9623 Cacicus sclateri                     Ecuadorian Cacique
+146 9624 Cacicus solitarius                   Solitary Cacique
+146 9625 Cacicus melanicterus                 Yellow-winged Cacique
+146 9626 Amblycercus holosericeus             Yellow-billed Cacique
+146 9627 Icterus chrysocephalus               Moriche Oriole
+146 9628 Icterus cayanensis                   Epaulet Oriole
+146 9629 Icterus graduacauda                  Audubon's Oriole
+146 9630 Icterus chrysater                    Yellow-backed Oriole
+146 9631 Icterus nigrogularis                 Yellow Oriole
+146 9632 Icterus leucopteryx                  Jamaican Oriole
+146 9633 Icterus auratus                      Orange Oriole
+146 9634 Icterus mesomelas                    Yellow-tailed Oriole
+146 9635 Icterus auricapillus                 Orange-crowned Oriole
+146 9636 Icterus graceannae                   White-edged Oriole
+146 9637 Icterus pectoralis                   Spot-breasted Oriole
+146 9638 Icterus gularis                      Altamira Oriole
+146 9639 Icterus pustulatus                   Streak-backed Oriole
+146 9640 Icterus icterus                      Troupial
+146 9641 Icterus jamacaii                     Campo Oriole
+146 9642 Icterus galbula                      Northern Oriole
+146 9643 Icterus cucullatus                   Hooded Oriole
+146 9644 Icterus spurius                      Orchard Oriole
+146 9645 Icterus wagleri                      Black-vented Oriole
+146 9646 Icterus dominicensis                 Black-cowled Oriole
+146 9647 Icterus oberi                        Montserrat Oriole
+146 9648 Icterus bonana                       Martinique Oriole
+146 9649 Icterus laudabilis                   St. Lucia Oriole
+146 9650 Icterus maculialatus                 Bar-winged Oriole
+146 9651 Icterus parisorum                    Scott's Oriole
+146 9652 Nesopsar nigerrimus                  Jamaican Blackbird
+146 9653 Gymnomystax mexicanus                Oriole Blackbird
+146 9654 Xanthocephalus xanthocephalus        Yellow-headed Blackbird
+146 9655 Agelaius flavus                      Saffron-cowled Blackbird
+146 9656 Agelaius xanthophthalmus             Pale-eyed Blackbird
+146 9657 Agelaius thilius                     Yellow-winged Blackbird
+146 9658 Agelaius cyanopus                    Unicolored Blackbird
+146 9659 Agelaius phoeniceus                  Red-winged Blackbird
+146 9660 Agelaius tricolor                    Tricolored Blackbird
+146 9661 Agelaius icterocephalus              Yellow-hooded Blackbird
+146 9662 Agelaius humeralis                   Tawny-shouldered Blackbird
+146 9663 Agelaius xanthomus                   Yellow-shouldered Blackbird
+146 9664 Agelaius ruficapillus                Chestnut-capped Blackbird
+146 9665 Leistes militaris                    Red-breasted Blackbird
+146 9666 Leistes superciliaris                White-browed Blackbird
+146 9667 Sturnella bellicosa                  Peruvian Meadowlark
+146 9668 Sturnella militaris                  Pampas Meadowlark
+146 9669 Sturnella loyca                      Long-tailed Meadowlark
+146 9670 Sturnella magna                      Eastern Meadowlark
+146 9671 Sturnella lilianae                   Lilian's Meadowlark
+146 9672 Sturnella neglecta                   Western Meadowlark
+146 9673 Pseudoleistes guirahuro              Yellow-rumped Marshbird
+146 9674 Pseudoleistes virescens              Brown-and-yellow Marshbird
+146 9675 Amblyramphus holosericeus            Scarlet-headed Blackbird
+146 9676 Hypopyrrhus pyrohypogaster           Red-bellied Grackle
+146 9677 Curaeus curaeus                      Austral Blackbird
+146 9678 Curaeus forbesi                      Forbes's Blackbird
+146 9679 Gnorimopsar chopi                    Chopi Blackbird
+146 9680 Oreopsar bolivianus                  Bolivian Blackbird
+146 9681 Lampropsar tanagrinus                Velvet-fronted Grackle
+146 9682 Macroagelaius imthurni               Golden-tufted Grackle
+146 9683 Macroagelaius subalaris              Mountain Grackle
+146 9684 Dives atroviolacea                   Cuban Blackbird
+146 9685 Dives dives                          Melodious Blackbird
+146 9686 Dives warszewiczi                    Scrub Blackbird
+146 9687 Quiscalus mexicanus                  Great-tailed Grackle
+146 9688 Quiscalus major                      Boat-tailed Grackle
+146 9689 Quiscalus palustris                  Slender-billed Grackle
+146 9690 Quiscalus nicaraguensis              Nicaraguan Grackle
+146 9691 Quiscalus quiscula                   Common Grackle
+146 9692 Quiscalus niger                      Greater Antillean Grackle
+146 9693 Quiscalus lugubris                   Carib Grackle
+146 9694 Euphagus carolinus                   Rusty Blackbird
+146 9695 Euphagus cyanocephalus               Brewer's Blackbird
+146 9696 Molothrus badius                     Bay-winged Cowbird
+146 9697 Molothrus rufoaxillaris              Screaming Cowbird
+146 9698 Molothrus bonariensis                Shiny Cowbird
+146 9699 Molothrus aeneus                     Bronzed Cowbird
+146 9700 Molothrus ater                       Brown-headed Cowbird
+146 9701 Scaphidura oryzivora                 Giant Cowbird
+146 9702 Dolichonyx oryzivorus                Bobolink
+
+BACK TO
+CES Departmental Library
+Envis Homepage
+CES Homepage
+*********************************************************************
