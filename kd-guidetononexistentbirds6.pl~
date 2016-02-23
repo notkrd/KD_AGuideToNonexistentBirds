@@ -823,7 +823,7 @@ distribution_sentence(LISTED_BIRD,DIST_SENT):-
 	clime_somePlace(WHAT_WEATHER,WHERE),
 	rarity_advRarity(HOW_MANY,HOW_MANYLY),
 	desc_name(cardDir,POINT_WHERE,WHERE_POINTED),
-	strs_flatten(["They are ",HOW_MANYLY," found in ",WHERE,"."],DIST_SENT).
+	strs_flatten(["They are ",HOW_MANYLY," found in ",WHERE_POINTED," ",WHAT_WEATHER," regions ",WHERE,"."],DIST_SENT).
 
 /*
  * THIRTEEN WAYS OF LOOKING AT A BLACKBIRD
