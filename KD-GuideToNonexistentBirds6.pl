@@ -8,8 +8,9 @@
  * debate on this question - read the Neruda poem, all the comments I
  * wrote (I'm attached to a few of them), the Wallace Stevens in its
  * entirety but only once, skip the Keats except for a few lines for
- * atmosphere, 13 or so birds, and don't bother with the code except for
- * a few carefully named variables)
+ * atmosphere, the Bukowski won't take up too much of your time, read 13
+ * or so birds, and don't bother with the code except for a few
+ * carefully named variables)
  */
 
 /*
@@ -51,7 +52,8 @@
 % inconvenience this causes and, pending venture capital funding,
 % are working on developing a solution to this problem.
 
-strs_flatten(STR_LIST,FLAT_STR) :- maplist(string_chars, STR_LIST, CHAR_LISTS),
+strs_flatten(STR_LIST,FLAT_STR) :-
+	maplist(string_chars, STR_LIST, CHAR_LISTS),
 	flatten(CHAR_LISTS, FLAT_CHARS),
 	string_chars(FLAT_STR,FLAT_CHARS).
 
@@ -61,6 +63,14 @@ make_pairs([H1|T1],[H2|T2],PAIRS):-
 	FIRST_PAIR = [H1,H2],
 	make_pairs(T1,T2,REST_OF_PAIRS),
 	PAIRS = [FIRST_PAIR|REST_OF_PAIRS].
+
+capitalize_first(STR,STR_START_CAPITALIZED):-
+	string_chars(STR,CHARS),
+	CHARS = [H|R],
+	upcase_atom(H,CH),
+	NEW_CHARS = [CH|R],
+	string_chars(STR_START_CAPITALIZED,NEW_CHARS).
+
 
 get_head([H|_],H).
 get_second([_,S],S).
@@ -91,7 +101,8 @@ fibonacci(N, FIB_N):-
 % bird-imaginer
 
 
-birdFamilies(["thrush","egret","hawk","eagle","duck","grebe","coot","swallow","vulture","gull","flycatcher","swift"]).
+birdFamilies(["thrush","tinamou","egret","hawk","eagle","duck","partridge","brush-turkey","grebe","coot","swallow","grouse","guineafowl","woodpecker","shellduck","barbet","vulture","gull","flycatcher","swift","albatross"]).
+
 colors(["brown","blue","red","golden","crimson","white","black","gray","yellow","violet"]).
 birdParts(["tail","wing","head","beak","throat","shoulder","breast","crest","neck"]).
 climes(["tropical","arctic","coastal","prairie","river","forest","mountain"]).
@@ -99,16 +110,15 @@ cardDirs(["north","south","east","west"]).
 rarities(["common","uncommon","rare"]).
 descTypes([coloredPart,clime,cardDir,rarity]).
 partFeatures(["speckled","mottled","tufted","striped","narrow","large","bright"]).
+birdDiets(small_vegetarian,omnivorous,carnivorous,pescatarian).
 
 clime_climePlaces("tropical",["swamps","undergrowth","canopies","rivers"]).
 clime_climePlaces("arctic",["tundra","mountain tops","conifers"]).
-clime_climePlaces("coastal",["estuaries","beaches","undergrowth"]).
+clime_climePlaces("coastal",["estuaries","beaches","undergrowth","bushes"]).
 clime_climePlaces("prairie",["treetops","shrubbery","lakes"]).
 clime_climePlaces("river",["reeds","ponds","bushes"]).
-clime_climePlaces("forest",["treetops","undergrowth","thick bushes"]).
+clime_climePlaces("forest",["treetops","undergrowth","bushes","branches"]).
 clime_climePlaces("mountain",["cliffsides","pine stands","bushes"]).
-
-a_clime_climePlace(THE_CLIME,THE_PLACE):- clime_climePlaces(THE_CLIME,POSSIBLE_PLACES), random_member(THE_PLACE,POSSIBLE_PLACES).
 
 /*
  * THIRTEEN WAYS OF LOOKING AT A BLACKBIRD
@@ -122,7 +132,7 @@ a_clime_climePlace(THE_CLIME,THE_PLACE):- clime_climePlaces(THE_CLIME,POSSIBLE_P
  */
 
 % And start naming them - maybe pointing in a room of taxidermied
-% coots, grebes, eagles, and egrets, watching you from paper-mached
+% coots and grebes, eagles and egrets, watching you from paper-mached
 % perches.
 
 birdFamily(FAMILY):- birdFamilies(THE_FAMS), member(FAMILY,THE_FAMS).
@@ -132,6 +142,7 @@ clime(CLIME):- climes(THE_CLIMES), member(CLIME,THE_CLIMES).
 cardDir(CARD_DIR):- cardDirs(THE_CARD_DIRS), member(CARD_DIR,THE_CARD_DIRS).
 rarity(RARITY):- rarities(THE_RARITIES), member(RARITY,THE_RARITIES).
 descType(DESC_TYPE):- descTypes(THE_DESC_TYPES), member(DESC_TYPE,THE_DESC_TYPES).
+birdDiet(DIET):-birdDiets(THE_DIETS), member(DIET,THE_DIETS).
 partFeature(PART_FEATURE):- partFeatures(THE_PART_FEATURES), member(PART_FEATURE,THE_PART_FEATURES).
 
 /*
@@ -151,20 +162,30 @@ partFeature(PART_FEATURE):- partFeatures(THE_PART_FEATURES), member(PART_FEATURE
  */
 
 % But, standing in rain-pants in some swamp, hopeful binoculars held
-% chest high, what wings will you spot, under bush or over roof?
+% chest high, what wings will you spot silhouetted, under
+% bush or over roof?
 
-birdFamily_seed("thrush",SEED):- SEED < 0.1.
+birdFamily_seed("thrush",SEED):- SEED < 0.08.
+birdFamily_seed("tinamou",SEED):- SEED >= 0.08, SEED < 0.1.
 birdFamily_seed("egret",SEED):- SEED >= 0.1, SEED < 0.15.
 birdFamily_seed("hawk",SEED):- SEED >= 0.15, SEED < 0.3.
 birdFamily_seed("eagle",SEED):- SEED >= 0.3, SEED < 0.35.
-birdFamily_seed("duck",SEED):- SEED >= 0.35, SEED < 0.45.
-birdFamily_seed("grebe",SEED):- SEED >= 0.45, SEED < 0.5.
+birdFamily_seed("duck",SEED):- SEED >= 0.35, SEED < 0.42.
+birdFamily_seed("partridge",SEED):- SEED >= 0.42, SEED < 0.45.
+birdFamily_seed("brush-turkey",SEED):- SEED >= 0.45, SEED < 0.46.
+birdFamily_seed("grebe",SEED):- SEED >= 0.46, SEED < 0.5.
 birdFamily_seed("coot",SEED):- SEED >= 0.5, SEED < 0.55.
-birdFamily_seed("swallow",SEED):- SEED >= 0.55, SEED < 0.75.
-birdFamily_seed("vulture",SEED):- SEED >= 0.75, SEED < 0.8.
+birdFamily_seed("swallow",SEED):- SEED >= 0.55, SEED < 0.63.
+birdFamily_seed("grouse",SEED):- SEED >= 0.63, SEED < 0.66.
+birdFamily_seed("guineafowl",SEED):- SEED >= 0.66, SEED < 0.69.
+birdFamily_seed("shellduck",SEED):- SEED >= 0.69, SEED < 0.71.
+birdFamily_seed("woodpecker",SEED):- SEED >= 0.71, SEED < 0.75.
+birdFamily_seed("barbet",SEED):- SEED >= 0.75, SEED < 0.76.
+birdFamily_seed("vulture",SEED):- SEED >= 0.76, SEED < 0.8.
 birdFamily_seed("gull",SEED):- SEED >= 0.8, SEED < 0.85.
 birdFamily_seed("flycatcher",SEED):- SEED >= 0.85, SEED < 0.90.
-birdFamily_seed("swift",SEED):- SEED >= 0.9.
+birdFamily_seed("swift",SEED):- SEED >= 0.9, SEED < 0.98.
+birdFamily_seed("albatross",SEED):- SEED >= 0.98.
 
 color_seed("brown",SEED):- SEED < 0.15.
 color_seed("blue",SEED):- SEED >= 0.15, SEED < 0.2.
@@ -218,7 +239,8 @@ partFeature_seed("oversized",SEED):- SEED >= 0.8.
 
 % Build the birdhouse, and paint it; buy from Lowe's or Home Depot a bag
 % of birdseeds; fill the little bowl with water; fill the floor with the
-% seeds; see if something comes; hope it isn't a squirrel.
+% seeds; see if something comes; hope it isn't a squirrel (throw dirt
+% clods if it is, watch from the windows if not).
 
 a_birdFamily(BIRD_FAMILY):- random(S), birdFamily_seed(BIRD_FAMILY,S).
 a_color(COLOR):- random(S), color_seed(COLOR,S).
@@ -268,7 +290,8 @@ attribute_desc(cardDir,[THAT_BIRDS_PREFERENCE_IN_COMPASSES]):-
 
 % Standing in a city rock doves with green glimmering throats
 % twitter around you; under the ornamental bridge, gliding mallards
-% congregate; to the dead hedgehog flesh-headed vultures swoop
+% congregate; to the dead hedgehog flesh-headed vultures swoop; on
+% imagined branches that flicker wingless blackbirds land
 
 an_attribute_desc(family,[A_FAMILY_FOR_THAT_BIRD_AUNTS_UNCLES_SIBLINGS]):-
 	a_birdFamily(A_FAMILY_FOR_THAT_BIRD_AUNTS_UNCLES_SIBLINGS).
@@ -341,10 +364,9 @@ desc_name(family, [THE_FAMILY], THE_DESC_STR):-
  * still be stuck in human time and things))
  */
 
-% Now sit behind your backyard window, grab some scrap paper, an extra
-% page accidentally printed - find a pencil, and start sketching. Take
-% out the watercolors, and brush in, moving from light to dark, quick
-% washes.
+% Now sit behind your backyard window, grab an extra page accidentally
+% printed - find a pencil, and start making its shape. Take out the
+% watercolors, and brush in, moving from light to dark, quick washes.
 
 that_piece_of_that_bird_in_that_color(THAT_PIECE_OF_THAT_BIRD,[THAT_PIECE_OF_THAT_BIRD,IN_THAT_COLOR]):-
 	birdPart(THAT_PIECE_OF_THAT_BIRD),
@@ -449,15 +471,15 @@ a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT):-
 	random_between(1,10,WEIGH_IT),
 	a_name_ofType(A_NAME_TYPE,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS).
 
-% To note the bird quickly, note the shape of the wings in profile,
+% To identify a bird quickly, note the shape of the wings in profile,
 % black against sunlight; or count toes; forget the background tree,
 % forget the ruffle of feathers, but maybe count a flock; dappled
-% sunlight is distracting but forgetting the sunlight, the distinction
-% between speckled and striped is a sure way to tell thrush from thrush;
-% the difference, between 2 and 5 cm, in the length of a white
-% brow stripe can identify Siberian from East Asian variants of a
-% swallow; plumage patterns of the juvenile are different and require
-% another chart.
+% sunlight is distracting but forgetting it, as painters but not
+% cameras do, the distinction between speckled and striped is a sure
+% way to tell thrush from thrush; the difference, between 2 and 5 cm, in
+% the length of a white brow stripe can identify Siberian from East
+% Asian variants of a swallow; plumage patterns of the juvenile are
+% different and require another chart.
 
 list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT):-
 	ABOUT_A_BIRD = [NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT].
@@ -562,27 +584,40 @@ a_relationList(OLD_BIRD,RELATED_BIRD):-
  *
  */
 
-birdFamily_type(FAMILY,small_vegetarian):-
+%  birdFamilies(["thrush","tinamou","egret","hawk","eagle","duck","partridge","brush-turkey","grebe","coot","swallow","grouse","guineafowl","shellduck","barbet","woodpecker","vulture","gull","flycatcher","swift","albatross"]).
+
+
+birdFamily_diet(FAMILY,small_vegetarian):-
 	FAMILY = "thrush";
 	FAMILY = "swallow";
 	FAMILY = "swift";
-	FAMILY = "flycatcher".
+	FAMILY = "flycatcher";
+	FAMILY = "barbet".
 
-birdFamily_type(FAMILY,water):-
+birdFamily_diet(FAMILY,omnivorous):-
+	FAMILY = "tinamou";
+	FAMILY = "partridge";
+	FAMILY = "grouse";
+	FAMILY = "guineafowl";
+	FAMILY = "woodpecker".
+
+birdFamily_diet(FAMILY,pescatarian):-
 	FAMILY = "egret";
 	FAMILY = "grebe";
 	FAMILY = "coot";
 	FAMILY = "duck";
-	FAMILY = "gull".
+	FAMILY = "shellduck";
+	FAMILY = "gull";
+	FAMILY = "albatross".
 
-birdFamily_type(FAMILY,of_prey):-
+birdFamily_type(FAMILY,carnivorous):-
 	FAMILY = "hawk";
 	FAMILY = "eagle";
 	FAMILY = "vulture".
 
 % Weigh a pile of feathers against an egg; measure wingspan in talons;
 % look for stripes and count spots; compare speckling and distinguish
-% shades of blue
+% blue hues
 
 comparison_intensifier(NUM1,NUM2,INTS_STR):-
 	integer(NUM1), integer(NUM2),
@@ -791,7 +826,7 @@ descriptive_sentence(LISTED_BIRD,DESC_SENT):-
 	descriptiveInfo_sentence(BIRD_NAME,DESC1,DESC2,DESC_SENT).
 
 identificatoryInfo_sentence(PART1_FEATURE, PART1, PART2_FEATURE, PART2, ID_SENT):-
-	strs_flatten(["It can be identified by its ", PART1_FEATURE," ", PART1, " and its ", PART2_FEATURE," ",PART2],ID_SENT).
+	strs_flatten(["One can be identified by its ", PART1_FEATURE," ", PART1, " and its ", PART2_FEATURE," ",PART2,". "],ID_SENT).
 
 
 identificatory_sentence(_,ID_SENT):-
@@ -803,11 +838,6 @@ identificatory_sentence(_,ID_SENT):-
 	a_partFeature(PART2_FEATURE),
 	identificatoryInfo_sentence(PART1_FEATURE, PART1, PART2_FEATURE, PART2, ID_SENT).
 
-rarity_advRarity(RARE,RARELY):-
-	strs_flatten([RARE,"ly"],RARELY).
-
-clime_somePlace(WHAT_PLACE,SOMEWHERE_IN_IT):- a_clime_climePlace(WHAT_PLACE,SOMEWHERE_IN_IT).
-
 % There are estimated to be 19,000,000 mallards to 50 crested
 % shellducks. Between 350 and 1500 scarlet banded barbets on the summit
 % of a solitary Peruvian mountain to between 73.5 million and 216
@@ -816,14 +846,60 @@ clime_somePlace(WHAT_PLACE,SOMEWHERE_IN_IT):- a_clime_climePlace(WHAT_PLACE,SOME
 % billions, overall. Someone sits on the rocky beach in rain-pants
 % twisting bands round roughly feathered legs.
 
+rarity_advRarity(RARE,RARELY):-
+	strs_flatten([RARE,"ly"],RARELY).
+
+clime_somePlace(THE_CLIME,THE_PLACE):- clime_climePlaces(THE_CLIME,POSSIBLE_PLACES), random_member(THE_PLACE,POSSIBLE_PLACES).
+
+clime_someOtherPlace(THE_CLIME,THAT_PLACE,ANOTHER_PLACE):- clime_climePlaces(THE_CLIME,POSSIBLE_PLACES),delete(POSSIBLE_PLACES,THAT_PLACE,REMAINING_PLACES),random_member(ANOTHER_PLACE,REMAINING_PLACES).
+
+
+% 8 COUNT
+% Charles Bukowski
+%
+% from my bed
+% I watch
+% 3 birds
+% on a telephone
+% wire.
+%
+% one flies
+% off.
+% then
+% another.
+%
+% one is left,
+% then
+% it too
+% is gone
+%
+% my typewriter is
+% tombstone still.
+%
+% and I am
+% reduced to bird
+% watching.
+%
+% just thought I'd
+% let you
+% know,
+% fucker.
+
 distribution_sentence(LISTED_BIRD,DIST_SENT):-
+	birdList_birdName(LISTED_BIRD,NAME_FOR_EM),
 	birdList_birdRarity(LISTED_BIRD,[HOW_MANY]),
 	birdList_birdDir(LISTED_BIRD,POINT_WHERE),
 	birdList_birdClime(LISTED_BIRD,[WHAT_WEATHER]),
 	clime_somePlace(WHAT_WEATHER,WHERE),
+	clime_someOtherPlace(WHAT_WEATHER,WHERE,WHERE_ELSE),
 	rarity_advRarity(HOW_MANY,HOW_MANYLY),
 	desc_name(cardDir,POINT_WHERE,WHERE_POINTED),
-	strs_flatten(["They are ",HOW_MANYLY," found in ",WHERE,"."],DIST_SENT).
+	capitalize_first(NAME_FOR_EM,THEM_NAMED),
+	distributionInfo_sentence(THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,DIST_SENT).
+
+distributionInfo_sentence(THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,DIST_SENT):-
+	strs_flatten([THEM_NAMED,"s are ",HOW_MANYLY," found in ",WHERE_POINTED," ",WHERE," or ",WHERE_ELSE,"."],DIST_SENT).
+
 
 /*
  * THIRTEEN WAYS OF LOOKING AT A BLACKBIRD
@@ -912,27 +988,28 @@ distribution_sentence(LISTED_BIRD,DIST_SENT):-
 
 first_bird([BIRD],WORDS):-
 	a_birdList(BIRD),
-	descriptive_sentence(BIRD,WORDS).
+	descriptive_text(BIRD,WORDS).
 
 % Some birds names are people's names. But to invent the names of birds,
 % named after people, would requiring inventing people, and that is
 % beyond the scope of this particular project.
 
+comparative_text([LIST_BIRD1,LIST_BIRD2],COMP_TEXT):-
+	comparative_sentence(LIST_BIRD1,LIST_BIRD2,COMP_SENT),
+	identificatory_sentence(LIST_BIRD1,ID_SENT),
+	distribution_sentence(LIST_BIRD1,DIST_SENT),
+	strs_flatten([COMP_SENT,ID_SENT,DIST_SENT,'\n \n'],COMP_TEXT).
+
+descriptive_text(LISTED_BIRD,DESC_TEXT):-
+	descriptive_sentence(LISTED_BIRD,DESC_SENT),
+	identificatory_sentence(LISTED_BIRD,ID_SENT),
+	distribution_sentence(LISTED_BIRD,DIST_SENT),
+	strs_flatten([DESC_SENT,ID_SENT,DIST_SENT,'\n \n'],DESC_TEXT).
+
 new_birds(0,WHAT_OLD_BIRDS,RELATED_BIRDS,RELATION_WORDS):-
 	maplist(a_relationList,WHAT_OLD_BIRDS,RELATED_BIRDS),
 	make_pairs(RELATED_BIRDS,WHAT_OLD_BIRDS,RELATED_PAIRS),
-	maplist(comparative_sentence,RELATED_PAIRS,RELATION_WORDS).
-
-% Don't ask me about existent birds though. I own the latest
-% edition of the Sibley Guide, but have only used it to
-% identify some kind of swallow that was filling up the nearby tres, and
-% one common crane. I took a class on animal diversity and we did a unit
-% on birds of paradise - their varying calls, the particular excesses of
-% their tails and plumage - but I skipped class that week and never got
-% around to making up the reading. I did like birds of prey when young,
-% but mostly because of their speed and killing. But I do stop, even
-% when a little late, to stare a moment at a thrush in a tree, or to
-% watch a chicken, it's head bouncing, peck up grubs.
+	maplist(comparative_text,RELATED_PAIRS,RELATION_WORDS).
 
 new_birds(HOW_MANY,WHAT_OLD_BIRDS,NEW_BIRDS,NEW_WORDS):-
 	HOW_MANY > 0,
@@ -940,24 +1017,29 @@ new_birds(HOW_MANY,WHAT_OLD_BIRDS,NEW_BIRDS,NEW_WORDS):-
 	maplist(a_birdList,NEW_NUMBERS,FRESH_BIRDS),
 	maplist(a_relationList,WHAT_OLD_BIRDS,RELATED_BIRDS),
 	make_pairs(RELATED_BIRDS,WHAT_OLD_BIRDS,RELATED_PAIRS),
-	maplist(comparative_sentence,RELATED_PAIRS,RELATION_WORDS),
-	maplist(descriptive_sentence,FRESH_BIRDS,FRESH_WORDS),
+	maplist(comparative_text,RELATED_PAIRS,RELATION_WORDS),
+	maplist(descriptive_text,FRESH_BIRDS,FRESH_WORDS),
 	append(FRESH_BIRDS,RELATED_BIRDS,NEW_BIRDS),
 	append(RELATION_WORDS,FRESH_WORDS,NEW_WORDS).
 
 % Don't ask me about existent birds though. I own the latest
 % edition of the Sibley Guide, but have only used it to
-% identify some kind of swallow that was filling up the nearby tres, and
-% one common crane. I took a class on animal diversity and we did a unit
-% on birds of paradise - their varying calls, the particular excesses of
-% their tails and plumage - but I skipped class that week and never got
-% around to making up the reading. I did like birds of prey when young,
-% but mostly because of their speed and killing. But I do stop, even
-% when a little late, to stare a moment at a thrush in a tree, or to
-% watch a chicken, it's head bouncing up from grubs.
+% identify some kind of swallow that was filling up the nearby trees,
+% and one common crane. I took a class on animal diversity and we did a
+% unit on birds of paradise - their varying calls, the particular
+% excesses of their tails and plumage - but I skipped class that week
+% and never got around to making up the reading. I did like birds of
+% prey when young, but mostly because of their speed and killing. But I
+% do stop, even when a little late, to stare a moment at a thrush in a
+% tree, or to watch a chicken, it's head bouncing up with grubs.
 
 fibonacci_birds(1,[[BIRD,WORDS]],[[BIRD,WORDS]]):-
 	first_bird([BIRD],WORDS).
+
+% I did airplanes though - the two engined, the four-engined, the now
+% mostly extinct three-engined; the curve of nose telling Airbus from
+% Boeing; the presence or absence of winglets
+
 
 fibonacci_birds(N,ALL_BIRDS_WITH_WORDS,NEW_PAIRS):-
 	N >= 2,
@@ -970,10 +1052,11 @@ fibonacci_birds(N,ALL_BIRDS_WITH_WORDS,NEW_PAIRS):-
 	make_pairs(NEW_BIRDS,NEW_WORDS,NEW_PAIRS),
 	append(ALL_OLD_BIRDS,NEW_PAIRS,ALL_BIRDS_WITH_WORDS).
 
-lots_of_words(LOTS_OF_WORDS):-
-	fibonacci_birds(7,THE_BIRDS_WORDS,_),
+lots_of_words(N):-
+	fibonacci_birds(N,THE_BIRDS_WORDS,_),
 	maplist(get_second,THE_BIRDS_WORDS,THE_WORDS),
-	strs_flatten(THE_WORDS,LOTS_OF_WORDS).
+	strs_flatten(THE_WORDS,LOTS_OF_WORDS),
+	writef(LOTS_OF_WORDS).
 
 
 
