@@ -110,7 +110,7 @@ cardDirs(["north","south","east","west"]).
 rarities(["common","uncommon","rare"]).
 descTypes([coloredPart,clime,cardDir,rarity]).
 partFeatures(["speckled","mottled","tufted","striped","narrow","large","bright"]).
-birdDiets(small_vegetarian,omnivorous,carnivorous,pescatarian).
+birdDiets([small_vegetarian,omnivorous,carnivorous,pescatarian]).
 
 clime_climePlaces("tropical",["swamps","undergrowth","canopies","rivers"]).
 clime_climePlaces("arctic",["tundra","mountain tops","conifers"]).
@@ -142,7 +142,7 @@ clime(CLIME):- climes(THE_CLIMES), member(CLIME,THE_CLIMES).
 cardDir(CARD_DIR):- cardDirs(THE_CARD_DIRS), member(CARD_DIR,THE_CARD_DIRS).
 rarity(RARITY):- rarities(THE_RARITIES), member(RARITY,THE_RARITIES).
 descType(DESC_TYPE):- descTypes(THE_DESC_TYPES), member(DESC_TYPE,THE_DESC_TYPES).
-birdDiet(DIET):-birdDiets(THE_DIETS), member(DIET,THE_DIETS).
+birdDiet(DIET):- birdDiets(THE_DIETS), member(DIET,THE_DIETS).
 partFeature(PART_FEATURE):- partFeatures(THE_PART_FEATURES), member(PART_FEATURE,THE_PART_FEATURES).
 
 /*
@@ -995,16 +995,20 @@ first_bird([BIRD],WORDS):-
 % beyond the scope of this particular project.
 
 comparative_text([LIST_BIRD1,LIST_BIRD2],COMP_TEXT):-
+	birdList_birdName(LIST_BIRD1,A_NAME),
+	string_upper(A_NAME,A_TITLE),
 	comparative_sentence(LIST_BIRD1,LIST_BIRD2,COMP_SENT),
 	identificatory_sentence(LIST_BIRD1,ID_SENT),
 	distribution_sentence(LIST_BIRD1,DIST_SENT),
-	strs_flatten([COMP_SENT,ID_SENT,DIST_SENT,'\n \n'],COMP_TEXT).
+	strs_flatten([A_TITLE,'\n',COMP_SENT,ID_SENT,DIST_SENT,'\n \n'],COMP_TEXT).
 
 descriptive_text(LISTED_BIRD,DESC_TEXT):-
+	birdList_birdName(LISTED_BIRD,A_NAME),
+	string_upper(A_NAME,A_TITLE),
 	descriptive_sentence(LISTED_BIRD,DESC_SENT),
 	identificatory_sentence(LISTED_BIRD,ID_SENT),
 	distribution_sentence(LISTED_BIRD,DIST_SENT),
-	strs_flatten([DESC_SENT,ID_SENT,DIST_SENT,'\n \n'],DESC_TEXT).
+	strs_flatten([A_TITLE,'\n',DESC_SENT,ID_SENT,DIST_SENT,'\n \n'],DESC_TEXT).
 
 new_birds(0,WHAT_OLD_BIRDS,RELATED_BIRDS,RELATION_WORDS):-
 	maplist(a_relationList,WHAT_OLD_BIRDS,RELATED_BIRDS),
@@ -1052,8 +1056,8 @@ fibonacci_birds(N,ALL_BIRDS_WITH_WORDS,NEW_PAIRS):-
 	make_pairs(NEW_BIRDS,NEW_WORDS,NEW_PAIRS),
 	append(ALL_OLD_BIRDS,NEW_PAIRS,ALL_BIRDS_WITH_WORDS).
 
-lots_of_words(n):-
-	fibonacci_birds(n,THE_BIRDS_WORDS,_),
+lots_ofBirdWords(N):-
+	fibonacci_birds(N,THE_BIRDS_WORDS,_),
 	maplist(get_second,THE_BIRDS_WORDS,THE_WORDS),
 	strs_flatten(THE_WORDS,LOTS_OF_WORDS),
 	writef(LOTS_OF_WORDS).
