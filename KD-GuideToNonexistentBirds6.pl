@@ -10,7 +10,8 @@
  * entirety but only once, skip the Keats except for a few lines for
  * atmosphere, the Bukowski won't take up too much of your time, skim 13
  * or so birds, and don't bother with the code except for a few
- * carefully named variables)
+ * carefully named variables; it's up to you what to do with the rest
+ * of it)
  */
 
 /*
@@ -52,6 +53,16 @@
 % inconvenience this causes and, pending venture capital funding,
 % are working on developing a solution to this problem.
 
+fibonacci(0,0).
+fibonacci(1,1).
+fibonacci(N, FIB_N):-
+	N >= 2,
+	NMONE is N-1,
+	NMTWO is N-2,
+	fibonacci(NMONE,FIB_NMONE),
+	fibonacci(NMTWO,FIB_NMTWO),
+	FIB_N is FIB_NMONE + FIB_NMTWO.
+
 strs_flatten(STR_LIST,FLAT_STR) :-
 	maplist(string_chars, STR_LIST, CHAR_LISTS),
 	flatten(CHAR_LISTS, FLAT_CHARS),
@@ -74,17 +85,6 @@ capitalize_first(STR,STR_START_CAPITALIZED):-
 
 get_head([H|_],H).
 get_second([_,S],S).
-
-fibonacci(0,0).
-fibonacci(1,1).
-fibonacci(N, FIB_N):-
-	N >= 2,
-	NMONE is N-1,
-	NMTWO is N-2,
-	fibonacci(NMONE,FIB_NMONE),
-	fibonacci(NMTWO,FIB_NMTWO),
-	FIB_N is FIB_NMONE + FIB_NMTWO.
-
 
 /*
  * THIRTEEN WAYS OF LOOKING AT A BLACKBIRD
@@ -372,7 +372,7 @@ desc_name(family, [THE_FAMILY], THE_DESC_STR):-
 
 that_piece_of_that_bird_in_that_color(THAT_PIECE_OF_THAT_BIRD,[THAT_PIECE_OF_THAT_BIRD,IN_THAT_COLOR]):-
 	birdPart(THAT_PIECE_OF_THAT_BIRD),
-	color(IN_THAT_COLOR),
+-	color(IN_THAT_COLOR),
 	attribute_desc(coloredPart,[THAT_PIECE_OF_THAT_BIRD,IN_THAT_COLOR]).
 
 colors_of_parts_of_that_bird(THE_PIECES_IN_COLORS):-
@@ -1215,7 +1215,17 @@ lots_ofBirdWords(N):-
 % Lord, I can't change.
 % Won't you fly high, free bird, yeah?
 
+% Lightening -
 
+% Heron's
+
+% cry
+
+% Stabs
+
+% the
+
+% darkness
 
 
 
