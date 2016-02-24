@@ -8,7 +8,7 @@
  * debate on this question - read the Neruda poem, all the comments I
  * wrote (I'm attached to a few of them), the Wallace Stevens in its
  * entirety but only once, skip the Keats except for a few lines for
- * atmosphere, the Bukowski won't take up too much of your time, read 13
+ * atmosphere, the Bukowski won't take up too much of your time, skim 13
  * or so birds, and don't bother with the code except for a few
  * carefully named variables)
  */
@@ -291,7 +291,7 @@ attribute_desc(cardDir,[THAT_BIRDS_PREFERENCE_IN_COMPASSES]):-
 % Standing in a city rock doves with green glimmering throats
 % twitter around you; under the ornamental bridge, gliding mallards
 % congregate; to the dead hedgehog flesh-headed vultures swoop; on
-% imagined branches that flicker wingless blackbirds land
+% imagined branches that flicker, wingless blackbirds land
 
 an_attribute_desc(family,[A_FAMILY_FOR_THAT_BIRD_AUNTS_UNCLES_SIBLINGS]):-
 	a_birdFamily(A_FAMILY_FOR_THAT_BIRD_AUNTS_UNCLES_SIBLINGS).
@@ -366,7 +366,9 @@ desc_name(family, [THE_FAMILY], THE_DESC_STR):-
 
 % Now sit behind your backyard window, grab an extra page accidentally
 % printed - find a pencil, and start making its shape. Take out the
-% watercolors, and brush in, moving from light to dark, quick washes.
+% watercolors, and brush in, moving from light to dark, quick washes. It
+% will fly away before you're done, but probably no one will notice the
+% imprecisions of pigment and proportion its absence leaves.
 
 that_piece_of_that_bird_in_that_color(THAT_PIECE_OF_THAT_BIRD,[THAT_PIECE_OF_THAT_BIRD,IN_THAT_COLOR]):-
 	birdPart(THAT_PIECE_OF_THAT_BIRD),
@@ -584,9 +586,6 @@ a_relationList(OLD_BIRD,RELATED_BIRD):-
  *
  */
 
-%  birdFamilies(["thrush","tinamou","egret","hawk","eagle","duck","partridge","brush-turkey","grebe","coot","swallow","grouse","guineafowl","shellduck","barbet","woodpecker","vulture","gull","flycatcher","swift","albatross"]).
-
-
 birdFamily_diet(FAMILY,small_vegetarian):-
 	FAMILY = "thrush";
 	FAMILY = "swallow";
@@ -763,12 +762,16 @@ bird_chirps(["ki","rik","chi","er","tee","oo"]).
 %    Was it a vision, or a waking dream?
 %       Fled is that music:-Do I wake or sleep?
 
+
+
 % The sound of beak on wood,
 % clear air, the sun-hot dirt;
 % quick clicks frantic as footsteps.
 %
 % Elsewhere a chirping,
 % as microwaves or cellphones do.
+
+
 
 
 % (So sing thing, sing)
@@ -1002,6 +1005,11 @@ comparative_text([LIST_BIRD1,LIST_BIRD2],COMP_TEXT):-
 	distribution_sentence(LIST_BIRD1,DIST_SENT),
 	strs_flatten([A_TITLE,'\n',COMP_SENT,ID_SENT,DIST_SENT,'\n \n'],COMP_TEXT).
 
+% For a birdwatcher, we ought to say something about the males and
+% females - more often than not one large, one small, one resplendant,
+% one gray fluff - but for nonexistent birds we will do nothing of the
+% sort
+
 descriptive_text(LISTED_BIRD,DESC_TEXT):-
 	birdList_birdName(LISTED_BIRD,A_NAME),
 	string_upper(A_NAME,A_TITLE),
@@ -1010,10 +1018,25 @@ descriptive_text(LISTED_BIRD,DESC_TEXT):-
 	distribution_sentence(LISTED_BIRD,DIST_SENT),
 	strs_flatten([A_TITLE,'\n',DESC_SENT,ID_SENT,DIST_SENT,'\n \n'],DESC_TEXT).
 
+% Don't ask me about existent birds. I own the latest
+% edition of the Sibley Guide, but have only used it to
+% identify some kind of swallow that was filling up the nearby trees,
+% and one common crane. I took a class on animal diversity and we did a
+% unit on birds of paradise - their varying calls, the particular
+% excesses of their tails and plumage - but I skipped class that week
+% and never got around to making up the reading. I did like birds of
+% prey when 8 or 9, but mostly because of their speed and killing. But I
+% do stop, even when a little late, to stare a moment at a thrush in a
+% tree, or to watch a chicken, it's head bouncing up with grubs.
+
 new_birds(0,WHAT_OLD_BIRDS,RELATED_BIRDS,RELATION_WORDS):-
 	maplist(a_relationList,WHAT_OLD_BIRDS,RELATED_BIRDS),
 	make_pairs(RELATED_BIRDS,WHAT_OLD_BIRDS,RELATED_PAIRS),
 	maplist(comparative_text,RELATED_PAIRS,RELATION_WORDS).
+
+% I did airplanes though - the two engined, the four-engined, the now
+% mostly extinct three-engined; the curve of nose telling Airbus from
+% Boeing; the presence or absence of winglets
 
 new_birds(HOW_MANY,WHAT_OLD_BIRDS,NEW_BIRDS,NEW_WORDS):-
 	HOW_MANY > 0,
@@ -1026,23 +1049,55 @@ new_birds(HOW_MANY,WHAT_OLD_BIRDS,NEW_BIRDS,NEW_WORDS):-
 	append(FRESH_BIRDS,RELATED_BIRDS,NEW_BIRDS),
 	append(RELATION_WORDS,FRESH_WORDS,NEW_WORDS).
 
-% Don't ask me about existent birds though. I own the latest
-% edition of the Sibley Guide, but have only used it to
-% identify some kind of swallow that was filling up the nearby trees,
-% and one common crane. I took a class on animal diversity and we did a
-% unit on birds of paradise - their varying calls, the particular
-% excesses of their tails and plumage - but I skipped class that week
-% and never got around to making up the reading. I did like birds of
-% prey when young, but mostly because of their speed and killing. But I
-% do stop, even when a little late, to stare a moment at a thrush in a
-% tree, or to watch a chicken, it's head bouncing up with grubs.
+% Caged Bird
+% BY MAYA ANGELOU
+% A free bird leaps
+% on the back of the wind
+% and floats downstream
+% till the current ends
+% and dips his wing
+% in the orange sun rays
+% and dares to claim the sky.
+%
+% But a bird that stalks
+% down his narrow cage
+% can seldom see through
+% his bars of rage
+% his wings are clipped and
+% his feet are tied
+% so he opens his throat to sing.
+%
+% The caged bird sings
+% with a fearful trill
+% of things unknown
+% but longed for still
+% and his tune is heard
+% on the distant hill
+% for the caged bird
+% sings of freedom.
+%
+% The free bird thinks of another breeze
+% and the trade winds soft through the sighing trees
+% and the fat worms waiting on a dawn bright lawn
+% and he names the sky his own
+%
+% But a caged bird stands on the grave of dreams
+% his shadow shouts on a nightmare scream
+% his wings are clipped and his feet are tied
+% so he opens his throat to sing.
+%
+% The caged bird sings
+% with a fearful trill
+% of things unknown
+% but longed for still
+% and his tune is heard
+% on the distant hill
+% for the caged bird
+% sings of freedom.
 
 fibonacci_birds(1,[[BIRD,WORDS]],[[BIRD,WORDS]]):-
 	first_bird([BIRD],WORDS).
 
-% I did airplanes though - the two engined, the four-engined, the now
-% mostly extinct three-engined; the curve of nose telling Airbus from
-% Boeing; the presence or absence of winglets
 
 
 fibonacci_birds(N,ALL_BIRDS_WITH_WORDS,NEW_PAIRS):-
@@ -1056,15 +1111,53 @@ fibonacci_birds(N,ALL_BIRDS_WITH_WORDS,NEW_PAIRS):-
 	make_pairs(NEW_BIRDS,NEW_WORDS,NEW_PAIRS),
 	append(ALL_OLD_BIRDS,NEW_PAIRS,ALL_BIRDS_WITH_WORDS).
 
+% Something i think i am particularly troubled by is a sense of
+% mechanicity - not so much that I am a machanichal thing (as my
+% language is, as my mathematics and metaphor and desiring), but that i
+% am a particularly small and poorly made one, a few rusting pulleys
+% roped together and held up by tape and cardboard. Birds strike me as
+% the sort of machines - for watching from trees, flapping, and odd song
+% - that i might enjoy being.
+
+
 lots_ofBirdWords(N):-
 	fibonacci_birds(N,THE_BIRDS_WORDS,_),
 	maplist(get_second,THE_BIRDS_WORDS,THE_WORDS),
 	strs_flatten(THE_WORDS,LOTS_OF_WORDS),
 	writef(LOTS_OF_WORDS).
 
-
-
-
+% Freebird
+% LYNRYD SKYNYRD
+%
+% If I leave here tomorrow
+% Would you still remember me?
+% For I must be traveling on now
+% 'Cause there's too many places I've got to see.
+%
+% But if I stayed here with you, girl,
+% Things just couldn't be the same.
+% 'Cause I'm as free as a bird now,
+% And this bird you can not change, oh, oh, oh, oh.
+% And this bird you can not change.
+% And this bird you can not change.
+% Lord knows I can't change.
+%
+% Bye, bye, baby, it's been a sweet love, yeah,
+% Though this feeling I can't change.
+% But please don't take it so badly,
+% 'Cause Lord knows I'm to blame.
+%
+% But if I stayed here with you, girl,
+% Things just couldn't be the same.
+% 'Cause I'm as free as a bird now,
+% And this bird you'll never change, oh, oh, oh, oh.
+% And this bird you cannot change.
+% And this bird you cannot change.
+% Lord knows, I can't change.
+% Lord, help me, I can't change.
+%
+% Lord, I can't change.
+% Won't you fly high, free bird, yeah?
 
 
 

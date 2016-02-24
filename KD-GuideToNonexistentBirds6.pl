@@ -1034,6 +1034,10 @@ new_birds(0,WHAT_OLD_BIRDS,RELATED_BIRDS,RELATION_WORDS):-
 	make_pairs(RELATED_BIRDS,WHAT_OLD_BIRDS,RELATED_PAIRS),
 	maplist(comparative_text,RELATED_PAIRS,RELATION_WORDS).
 
+% I did airplanes though - the two engined, the four-engined, the now
+% mostly extinct three-engined; the curve of nose telling Airbus from
+% Boeing; the presence or absence of winglets
+
 new_birds(HOW_MANY,WHAT_OLD_BIRDS,NEW_BIRDS,NEW_WORDS):-
 	HOW_MANY > 0,
 	numlist(1,HOW_MANY,NEW_NUMBERS),
@@ -1044,24 +1048,6 @@ new_birds(HOW_MANY,WHAT_OLD_BIRDS,NEW_BIRDS,NEW_WORDS):-
 	maplist(descriptive_text,FRESH_BIRDS,FRESH_WORDS),
 	append(FRESH_BIRDS,RELATED_BIRDS,NEW_BIRDS),
 	append(RELATION_WORDS,FRESH_WORDS,NEW_WORDS).
-
-% I did airplanes though - the two engined, the four-engined, the now
-% mostly extinct three-engined; the curve of nose telling Airbus from
-% Boeing; the presence or absence of winglets
-
-fibonacci_birds(1,[[BIRD,WORDS]],[[BIRD,WORDS]]):-
-	first_bird([BIRD],WORDS).
-
-fibonacci_birds(N,ALL_BIRDS_WITH_WORDS,NEW_PAIRS):-
-	N >= 2,
-	NMONE is N - 1,
-	NMTWO is N - 2,
-	fibonacci(NMTWO,FIB_NMTWO),
-	fibonacci_birds(NMONE,ALL_OLD_BIRDS,OLD_BIRDS_WITH_WORDS),
-	maplist(get_head,OLD_BIRDS_WITH_WORDS,JUST_BIRDS),
-	new_birds(FIB_NMTWO,JUST_BIRDS,NEW_BIRDS,NEW_WORDS),
-	make_pairs(NEW_BIRDS,NEW_WORDS,NEW_PAIRS),
-	append(ALL_OLD_BIRDS,NEW_PAIRS,ALL_BIRDS_WITH_WORDS).
 
 % Caged Bird
 % BY MAYA ANGELOU
@@ -1108,6 +1094,87 @@ fibonacci_birds(N,ALL_BIRDS_WITH_WORDS,NEW_PAIRS):-
 % on the distant hill
 % for the caged bird
 % sings of freedom.
+
+fibonacci_birds(1,[[BIRD,WORDS]],[[BIRD,WORDS]]):-
+	first_bird([BIRD],WORDS).
+
+% Surfin' Bird
+% THE TRASHMEN
+%
+% A-well-a, everybody's heard about the bird
+% Bird, bird, bird, b-bird's the word
+% A-well-a, bird, bird, bird, the bird is the word
+% A-well-a, bird, bird, bird, well, the bird is the word
+% A-well-a, bird, bird, bird, b-bird's the word
+% A-well-a, bird, bird, bird, well, the bird is the word
+% A-well-a, bird, bird, b-bird's the word
+% A-well-a, bird, bird, bird, b-bird's the word
+% A-well-a, bird, bird, bird, well, the bird is the word
+% A-well-a, bird, bird, b-bird's the word
+% A-well-a, don't you know about the bird
+% Well, everybody knows that the bird is the word
+% A-well-a, bird, bird, b-bird's the word
+% A-well-a
+% A-well-a, everybody's heard about the bird
+% Bird, bird, bird, b-bird's the word
+% A-well-a, bird, bird, bird, b-bird's the word
+% A-well-a, bird, bird, bird, b-bird's the word
+% A-well-a, bird, bird, b-bird's the word
+% A-well-a, bird, bird, bird, b-bird's the word
+% A-well-a, bird, bird, bird, b-bird's the word
+% A-well-a, bird, bird, bird, b-bird's the word
+% A-well-a, bird, bird, bird, b-bird's the word
+% A-well-a, don't you know about the bird
+% Well, everybody's talking about the bird
+% A-well-a, bird, bird, b-bird's the word
+% A-well-a, bird
+% Surfin' bird
+% Bbbbbbbbbbbbbbbbbb, aaah
+% Pa-pa-pa-pa-pa-pa-pa-pa-pa-pa-pa-pa-pa-pa-pa-pa
+% Pa-pa-pa-pa-pa-pa-pa-pa-pa-pa-pa-pa-pa-pa-ooma-mow-mow
+% Papa-ooma-mow-mow
+% Papa-ooma-mow-mow, papa-ooma-mow-mow
+% Papa-ooma-mow-mow, papa-ooma-mow-mow
+% Ooma-mow-mow, papa-ooma-mow-mow
+% Papa-ooma-mow-mow, papa-ooma-mow-mow
+% Papa-ooma-mow-mow, papa-ooma-mow-mow
+% Oom-oom-oom-oom-ooma-mow-mow
+% Papa-ooma-mow-mow, papa-oom-oom-oom
+% Oom-ooma-mow-mow, papa-ooma-mow-mow
+% Ooma-mow-mow, papa-ooma-mow-mow
+% Papa-a-mow-mow, papa-ooma-mow-mow
+% Papa-ooma-mow-mow, ooma-mow-mow
+% Papa-ooma-mow-mow, ooma-mow-mow
+% Papa-oom-oom-oom-oom-ooma-mow-mow
+% Oom-oom-oom-oom-ooma-mow-mow
+% Ooma-mow-mow, papa-ooma-mow-mow
+% Papa-ooma-mow-mow, ooma-mow-mow
+% Well, don't you know about the bird
+% Well, everybody knows that the bird is the word
+% A-well-a, bird, bird, b-bird's the word
+% Papa-ooma-mow-mow, papa-ooma-mow-mow
+% Papa-ooma-mow-mow, papa-ooma-mow-mow
+% Papa-ooma-mow-mow, papa-ooma-mow-mow...
+
+fibonacci_birds(N,ALL_BIRDS_WITH_WORDS,NEW_PAIRS):-
+	N >= 2,
+	NMONE is N - 1,
+	NMTWO is N - 2,
+	fibonacci(NMTWO,FIB_NMTWO),
+	fibonacci_birds(NMONE,ALL_OLD_BIRDS,OLD_BIRDS_WITH_WORDS),
+	maplist(get_head,OLD_BIRDS_WITH_WORDS,JUST_BIRDS),
+	new_birds(FIB_NMTWO,JUST_BIRDS,NEW_BIRDS,NEW_WORDS),
+	make_pairs(NEW_BIRDS,NEW_WORDS,NEW_PAIRS),
+	append(ALL_OLD_BIRDS,NEW_PAIRS,ALL_BIRDS_WITH_WORDS).
+
+% Something i think i am particularly troubled by is a sense of
+% mechanicity - not so much that I am a machanichal thing (as my
+% language is, as my mathematics and metaphor and desiring), but that i
+% am a particularly small and poorly made one, a few rusting pulleys
+% roped together and held up by tape and cardboard. Birds strike me as
+% the sort of machines - for watching from trees, flapping, and odd song
+% - that i might enjoy being.
+
 
 lots_ofBirdWords(N):-
 	fibonacci_birds(N,THE_BIRDS_WORDS,_),
