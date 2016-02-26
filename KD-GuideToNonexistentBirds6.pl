@@ -4,7 +4,7 @@
  */
 
 
-/* (How I would reccomend reading this thing, though there is room for
+/* (How I would recommend reading this thing, though there is room for
  * debate on this question - read the Neruda poem, all the comments I
  * wrote (I'm attached to a few of them), the Wallace Stevens in its
  * entirety but only once, skip the Keats except for a few lines for
@@ -640,7 +640,7 @@ comparison_intensifier(NUM1,NUM2,INTS_STR):-
 	integer(NUM1), integer(NUM2),
 	DIFF = abs(NUM1 - NUM2),
 	3 < DIFF, DIFF =< 4,
-	INTS_STR = " ".
+	INTS_STR = "".
 
 comparison_intensifier(NUM1,NUM2,INTS_STR):-
 	integer(NUM1), integer(NUM2),
@@ -770,10 +770,7 @@ bird_chirps(["ki","rik","chi","er","tee","oo"]).
 %
 % Elsewhere a chirping,
 % as microwaves or cellphones do.
-
-
-
-
+%
 % (So sing thing, sing)
 
 part_phrase(PART,LIST_THE_BIRD,TALK_ABOUT_THAT):-
@@ -792,17 +789,35 @@ a_part_phrase(LIST_THE_BIRD,TALK_ABOUT_IT):-
 % overhead and a swift in a bush.
 
 comparative_phrase(LIST_BIRD1,LIST_BIRD2,COMP_PHR):-
-	birdList_birdName(LIST_BIRD2,B2_NAME),
 	birdList_birdSize(LIST_BIRD1,B1_SIZE),
 	birdList_birdSize(LIST_BIRD2,B2_SIZE),
 	comparison_str(B1_SIZE,B2_SIZE,COMP_STR),
-	strs_flatten([" is", COMP_STR," the ",B2_NAME],COMP_PHR).
+	strs_flatten([" is", COMP_STR],COMP_PHR).
 
-comparativeInfo_sentence(B1_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
-	strs_flatten(["The ",B1_NAME,COMP_PHR," with a ",DESC1," and ",DESC2,". "],COMP_SENT).
+numCompSentTypes(4).
+
+% All this all is flipping a bunch of switches, but the right
+% question i think is, what switches and why, how can we, with them,
+% draw a bluebird or a draw a blackbird better
+
+
+comparativeInfo_sentence(B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
+	numCompSentTypes(NUM_SENT_TYPES),
+	random_between(1,NUM_SENT_TYPES,SENT_TYPE), comparativeInfo_sentence(SENT_TYPE,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT).
+
+comparativeInfo_sentence(1,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
+	strs_flatten(["The ",B1_NAME,COMP_PHR," the ",B2_NAME," with a ",DESC1," and ",DESC2,". "],COMP_SENT).
+comparativeInfo_sentence(2,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
+	strs_flatten(["The ",B1_NAME, " most closely resembles the ",B2_NAME," but",COMP_PHR," it, with a ",DESC1," and ",DESC2,". "],COMP_SENT).
+comparativeInfo_sentence(3,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
+	strs_flatten(["With a ",DESC1," and ",DESC2,", the ",B1_NAME,COMP_PHR," the ",B2_NAME,". "],COMP_SENT).
+
+comparativeInfo_sentence(4,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
+	strs_flatten(["The ",B1_NAME,COMP_PHR," the ",B2_NAME," and is notable for its ",DESC1," and ",DESC2,". "],COMP_SENT).
 
 comparative_sentence(LIST_BIRD1,LIST_BIRD2,COMP_SENT):-
 	birdList_birdName(LIST_BIRD1,B1_NAME),
+	birdList_birdName(LIST_BIRD2,B2_NAME),
 	birdParts(B_PARTS),
 	random_member(PART1,B_PARTS),
 	delete(B_PARTS,PART1,OTHER_B_PARTS),
@@ -810,23 +825,37 @@ comparative_sentence(LIST_BIRD1,LIST_BIRD2,COMP_SENT):-
 	part_phrase(PART1,LIST_BIRD1,DESC1),
 	part_phrase(PART2,LIST_BIRD1,DESC2),
 	comparative_phrase(LIST_BIRD1,LIST_BIRD2,COMP_PHR),
-	comparativeInfo_sentence(B1_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT).
+	comparativeInfo_sentence(B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT).
 
 comparative_sentence([LIST_BIRD1,LIST_BIRD2],COMP_SENT):-
 	comparative_sentence(LIST_BIRD1,LIST_BIRD2,COMP_SENT).
 
-descriptiveInfo_sentence(BIRD_NAME,DESC1,DESC2,DESC_SENT):-
+numDescSentTypes(3).
+
+descriptiveInfo_sentence(BIRD_NAME,BFAMILY,DESC1,DESC2,DESC_SENT):-
+	numDescSentTypes(NUM_SENT_TYPES),
+	random_between(1,NUM_SENT_TYPES,SENT_TYPE),
+	descriptiveInfo_sentence(SENT_TYPE,BIRD_NAME,BFAMILY,DESC1,DESC2,DESC_SENT).
+
+descriptiveInfo_sentence(1,BIRD_NAME,_,DESC1,DESC2,DESC_SENT):-
 	strs_flatten(["The ",BIRD_NAME," has a ",DESC1," and a ",DESC2,". "],DESC_SENT).
+
+descriptiveInfo_sentence(2,BIRD_NAME,_,DESC1,DESC2,DESC_SENT):-
+	strs_flatten(["The ",BIRD_NAME," is notable for its ",DESC1," and its ",DESC2,". "],DESC_SENT).
+
+descriptiveInfo_sentence(3,BIRD_NAME,[ITS_FAMILY],DESC1,DESC2,DESC_SENT):-
+	strs_flatten(["A ",ITS_FAMILY," with a ",DESC1," and a ",DESC2," is the ",BIRD_NAME,". "],DESC_SENT).
 
 descriptive_sentence(LISTED_BIRD,DESC_SENT):-
 	birdList_birdName(LISTED_BIRD,BIRD_NAME),
 	birdParts(B_PARTS),
+	birdList_birdFamily(LISTED_BIRD,BFAMILY),
 	random_member(PART1,B_PARTS),
 	delete(B_PARTS,PART1,OTHER_B_PARTS),
 	random_member(PART2,OTHER_B_PARTS),
 	part_phrase(PART1,LISTED_BIRD,DESC1),
 	part_phrase(PART2,LISTED_BIRD,DESC2),
-	descriptiveInfo_sentence(BIRD_NAME,DESC1,DESC2,DESC_SENT).
+	descriptiveInfo_sentence(BIRD_NAME,BFAMILY,DESC1,DESC2,DESC_SENT).
 
 identificatoryInfo_sentence(PART1_FEATURE, PART1, PART2_FEATURE, PART2, ID_SENT):-
 	strs_flatten(["One can be identified by its ", PART1_FEATURE," ", PART1, " and its ", PART2_FEATURE," ",PART2,". "],ID_SENT).
@@ -849,7 +878,11 @@ identificatory_sentence(_,ID_SENT):-
 % billions, overall. Someone sits on the rocky beach in rain-pants
 % twisting bands round roughly feathered legs.
 
-rarity_advRarity(RARE,RARELY):-
+rarity_advRarity("common","often").
+rarity_advRarity("uncommon","sometimes").
+rarity_advRarity("rare","occasionally").
+
+rarity_Rarityly(RARE,RARELY):-
 	strs_flatten([RARE,"ly"],RARELY).
 
 clime_somePlace(THE_CLIME,THE_PLACE):- clime_climePlaces(THE_CLIME,POSSIBLE_PLACES), random_member(THE_PLACE,POSSIBLE_PLACES).
@@ -901,7 +934,7 @@ distribution_sentence(LISTED_BIRD,DIST_SENT):-
 	distributionInfo_sentence(THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,DIST_SENT).
 
 distributionInfo_sentence(THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,DIST_SENT):-
-	strs_flatten([THEM_NAMED,"s are ",HOW_MANYLY," found in ",WHERE_POINTED," ",WHERE," or ",WHERE_ELSE,"."],DIST_SENT).
+	strs_flatten([THEM_NAMED,"s can ",HOW_MANYLY," be found in ",WHERE_POINTED," ",WHERE," or ",WHERE_ELSE,"."],DIST_SENT).
 
 
 /*
@@ -989,34 +1022,39 @@ distributionInfo_sentence(THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,D
  * In the cedar-limbs.
  */
 
-first_bird([BIRD],WORDS):-
-	a_birdList(BIRD),
-	descriptive_text(BIRD,WORDS).
-
 % Some birds names are people's names. But to invent the names of birds,
 % named after people, would requiring inventing people, and that is
 % beyond the scope of this particular project.
 
-comparative_text([LIST_BIRD1,LIST_BIRD2],COMP_TEXT):-
-	birdList_birdName(LIST_BIRD1,A_NAME),
-	string_upper(A_NAME,A_TITLE),
+ofBirds_ofTypes_text(_,_,[],"").
+ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,[comparative|OTHER_TYPES],THE_TEXT):-
 	comparative_sentence(LIST_BIRD1,LIST_BIRD2,COMP_SENT),
+	ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,OTHER_TYPES,REMAINING_TEXT),
+	string_concat(COMP_SENT,REMAINING_TEXT,THE_TEXT).
+ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,[identificatory|OTHER_TYPES],THE_TEXT):-
 	identificatory_sentence(LIST_BIRD1,ID_SENT),
+	ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,OTHER_TYPES,REMAINING_TEXT),
+	string_concat(ID_SENT,REMAINING_TEXT,THE_TEXT).
+ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,[distribution|OTHER_TYPES],THE_TEXT):-
 	distribution_sentence(LIST_BIRD1,DIST_SENT),
-	strs_flatten([A_TITLE,'\n',COMP_SENT,ID_SENT,DIST_SENT,'\n \n'],COMP_TEXT).
+	ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,OTHER_TYPES,REMAINING_TEXT),
+	string_concat(DIST_SENT,REMAINING_TEXT,THE_TEXT).
+ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,[descriptive|OTHER_TYPES],THE_TEXT):-
+	descriptive_sentence(LIST_BIRD1,DESC_SENT),
+	ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,OTHER_TYPES,REMAINING_TEXT),
+	string_concat(DESC_SENT,REMAINING_TEXT,THE_TEXT).
 
 % For a birdwatcher, we ought to say something about the males and
 % females - more often than not one large, one small, one resplendant,
 % one gray fluff - but for nonexistent birds we will do nothing of the
 % sort
 
-descriptive_text(LISTED_BIRD,DESC_TEXT):-
-	birdList_birdName(LISTED_BIRD,A_NAME),
+comparative_text([LIST_BIRD1,LIST_BIRD2],THE_TEXT):-
+	birdList_birdName(LIST_BIRD1,A_NAME),
 	string_upper(A_NAME,A_TITLE),
-	descriptive_sentence(LISTED_BIRD,DESC_SENT),
-	identificatory_sentence(LISTED_BIRD,ID_SENT),
-	distribution_sentence(LISTED_BIRD,DIST_SENT),
-	strs_flatten([A_TITLE,'\n',DESC_SENT,ID_SENT,DIST_SENT,'\n \n'],DESC_TEXT).
+	COMP_TEXT_PATTERN = [comparative,identificatory,distribution],
+	ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,COMP_TEXT_PATTERN,COMP_TEXT),
+	strs_flatten([A_TITLE,'\n',COMP_TEXT,'\n \n'],THE_TEXT).
 
 % Don't ask me about existent birds. I own the latest
 % edition of the Sibley Guide, but have only used it to
@@ -1029,25 +1067,31 @@ descriptive_text(LISTED_BIRD,DESC_TEXT):-
 % do stop, even when a little late, to stare a moment at a thrush in a
 % tree, or to watch a chicken, it's head bouncing up with grubs.
 
-new_birds(0,WHAT_OLD_BIRDS,RELATED_BIRDS,RELATION_WORDS):-
-	maplist(a_relationList,WHAT_OLD_BIRDS,RELATED_BIRDS),
-	make_pairs(RELATED_BIRDS,WHAT_OLD_BIRDS,RELATED_PAIRS),
-	maplist(comparative_text,RELATED_PAIRS,RELATION_WORDS).
+ofBird_ofTypes_text(_,[],"").
 
 % I did airplanes though - the two engined, the four-engined, the now
 % mostly extinct three-engined; the curve of nose telling Airbus from
 % Boeing; the presence or absence of winglets
 
-new_birds(HOW_MANY,WHAT_OLD_BIRDS,NEW_BIRDS,NEW_WORDS):-
-	HOW_MANY > 0,
-	numlist(1,HOW_MANY,NEW_NUMBERS),
-	maplist(a_birdList,NEW_NUMBERS,FRESH_BIRDS),
-	maplist(a_relationList,WHAT_OLD_BIRDS,RELATED_BIRDS),
-	make_pairs(RELATED_BIRDS,WHAT_OLD_BIRDS,RELATED_PAIRS),
-	maplist(comparative_text,RELATED_PAIRS,RELATION_WORDS),
-	maplist(descriptive_text,FRESH_BIRDS,FRESH_WORDS),
-	append(FRESH_BIRDS,RELATED_BIRDS,NEW_BIRDS),
-	append(RELATION_WORDS,FRESH_WORDS,NEW_WORDS).
+ofBird_ofTypes_text(LIST_BIRD,[identificatory|OTHER_TYPES],THE_TEXT):-
+	identificatory_sentence(LIST_BIRD,ID_SENT),
+	ofBird_ofTypes_text(LIST_BIRD,OTHER_TYPES,REMAINING_TEXT),
+	string_concat(ID_SENT,REMAINING_TEXT,THE_TEXT).
+ofBird_ofTypes_text(LIST_BIRD,[distribution|OTHER_TYPES],THE_TEXT):-
+	distribution_sentence(LIST_BIRD,DIST_SENT),
+	ofBird_ofTypes_text(LIST_BIRD,OTHER_TYPES,REMAINING_TEXT),
+	string_concat(DIST_SENT,REMAINING_TEXT,THE_TEXT).
+ofBird_ofTypes_text(LIST_BIRD,[descriptive|OTHER_TYPES],THE_TEXT):-
+	descriptive_sentence(LIST_BIRD,DESC_SENT),
+	ofBird_ofTypes_text(LIST_BIRD,OTHER_TYPES,REMAINING_TEXT),
+	string_concat(DESC_SENT,REMAINING_TEXT,THE_TEXT).
+
+descriptive_text(LISTED_BIRD,THE_TEXT):-
+	birdList_birdName(LISTED_BIRD,A_NAME),
+	string_upper(A_NAME,A_TITLE),
+	DESC_TEXT_PATTERN = [descriptive,identificatory,distribution],
+	ofBird_ofTypes_text(LISTED_BIRD,DESC_TEXT_PATTERN,DESC_TEXT),
+	strs_flatten([A_TITLE,'\n',DESC_TEXT,'\n \n'],THE_TEXT).
 
 % Caged Bird
 % BY MAYA ANGELOU
@@ -1095,8 +1139,14 @@ new_birds(HOW_MANY,WHAT_OLD_BIRDS,NEW_BIRDS,NEW_WORDS):-
 % for the caged bird
 % sings of freedom.
 
-fibonacci_birds(1,[[BIRD,WORDS]],[[BIRD,WORDS]]):-
-	first_bird([BIRD],WORDS).
+first_bird([BIRD],WORDS):-
+	a_birdList(BIRD),
+	descriptive_text(BIRD,WORDS).
+
+new_birds(0,WHAT_OLD_BIRDS,RELATED_BIRDS,RELATION_WORDS):-
+	maplist(a_relationList,WHAT_OLD_BIRDS,RELATED_BIRDS),
+	make_pairs(RELATED_BIRDS,WHAT_OLD_BIRDS,RELATED_PAIRS),
+	maplist(comparative_text,RELATED_PAIRS,RELATION_WORDS).
 
 % Surfin' Bird
 % THE TRASHMEN
@@ -1156,6 +1206,28 @@ fibonacci_birds(1,[[BIRD,WORDS]],[[BIRD,WORDS]]):-
 % Papa-ooma-mow-mow, papa-ooma-mow-mow
 % Papa-ooma-mow-mow, papa-ooma-mow-mow...
 
+new_birds(HOW_MANY,WHAT_OLD_BIRDS,NEW_BIRDS,NEW_WORDS):-
+	HOW_MANY > 0,
+	numlist(1,HOW_MANY,NEW_NUMBERS),
+	maplist(a_birdList,NEW_NUMBERS,FRESH_BIRDS),
+	maplist(a_relationList,WHAT_OLD_BIRDS,RELATED_BIRDS),
+	make_pairs(RELATED_BIRDS,WHAT_OLD_BIRDS,RELATED_PAIRS),
+	maplist(comparative_text,RELATED_PAIRS,RELATION_WORDS),
+	maplist(descriptive_text,FRESH_BIRDS,FRESH_WORDS),
+	append(FRESH_BIRDS,RELATED_BIRDS,NEW_BIRDS),
+	append(RELATION_WORDS,FRESH_WORDS,NEW_WORDS).
+
+% Something i think i am particularly troubled by is a sense of
+% mechanicity - not so much that I am a mechanichal thing (as my
+% language is, as my mathematics and metaphor and desiring), but that i
+% am a particularly small and poorly made one, a few rusting pulleys
+% roped together and held up by tape and cardboard. Birds strike me as
+% the sort of machines - for watching from trees, for flapping and odd
+% song - that i might enjoy being.
+
+fibonacci_birds(1,[[BIRD,WORDS]],[[BIRD,WORDS]]):-
+	first_bird([BIRD],WORDS).
+
 fibonacci_birds(N,ALL_BIRDS_WITH_WORDS,NEW_PAIRS):-
 	N >= 2,
 	NMONE is N - 1,
@@ -1167,20 +1239,21 @@ fibonacci_birds(N,ALL_BIRDS_WITH_WORDS,NEW_PAIRS):-
 	make_pairs(NEW_BIRDS,NEW_WORDS,NEW_PAIRS),
 	append(ALL_OLD_BIRDS,NEW_PAIRS,ALL_BIRDS_WITH_WORDS).
 
-% Something i think i am particularly troubled by is a sense of
-% mechanicity - not so much that I am a machanichal thing (as my
-% language is, as my mathematics and metaphor and desiring), but that i
-% am a particularly small and poorly made one, a few rusting pulleys
-% roped together and held up by tape and cardboard. Birds strike me as
-% the sort of machines - for watching from trees, flapping, and odd song
-% - that i might enjoy being.
 
-
-lots_ofBirdWords(N):-
+lotsOfBirdWords(N):-
+% "Lightening -
 	fibonacci_birds(N,THE_BIRDS_WORDS,_),
+% Heron's
 	maplist(get_second,THE_BIRDS_WORDS,THE_WORDS),
+% cry
 	strs_flatten(THE_WORDS,LOTS_OF_WORDS),
+% Stabs
 	writef(LOTS_OF_WORDS).
+% the
+birdWords():-
+% darkness"
+	lotsOfBirdWords(7).
+
 
 % Freebird
 % LYNRYD SKYNYRD
@@ -1214,20 +1287,6 @@ lots_ofBirdWords(N):-
 %
 % Lord, I can't change.
 % Won't you fly high, free bird, yeah?
-
-% Lightening -
-
-% Heron's
-
-% cry
-
-% Stabs
-
-% the
-
-% darkness
-
-
 
 
 
