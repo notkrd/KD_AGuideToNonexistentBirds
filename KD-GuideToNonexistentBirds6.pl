@@ -101,7 +101,7 @@ get_second([_,S],S).
 % or bird-imaginer
 
 
-birdFamilies(["hummingbird","thrush","tinamou","egret","hawk","eagle","duck","partridge","brush-turkey","grebe","coot","swallow","grouse","guineafowl","woodpecker","shellduck","barbet","vulture","gull","flycatcher","swift","albatross"]).
+birdFamilies(["hummingbird","thrush","tinamou","egret","hawk","kestrel","eagle","duck","falcon","partridge","brush-turkey","grebe","coot","swallow","grouse","guineafowl","woodpecker","shellduck","barbet","vulture","gull","flycatcher","swift","albatross"]).
 
 /*
  * THIRTEEN WAYS OF LOOKING AT A BLACKBIRD
@@ -152,12 +152,25 @@ birdFamily_diet(FAMILY,pescatarian):-
 birdFamily_diet(FAMILY,carnivorous):-
 	FAMILY = "hawk";
 	FAMILY = "eagle";
+	FAMILY = "falcon";
+	FAMILY = "kestrel";
 	FAMILY = "vulture".
 
 birdFamily_diet(FAMILY,nectar):-
 	FAMILY = "hummingbird".
 
 climePlaces(["swamps","undergrowth","canopies","rivers","tundra","mountain tops","conifers","estuaries","beaches","bushes","treetops","shrubbery","lakes","reeds","ponds","branches","cliffsides","pine stands"]).
+
+birdFamily(FAMILY):- birdFamilies(THE_FAMS), member(FAMILY,THE_FAMS).
+color(COLOR):- colors(THE_COLORS), member(COLOR,THE_COLORS).
+birdPart(BIRD_PART):- birdParts(THE_BPARTS), member(BIRD_PART,THE_BPARTS).
+clime(CLIME):- climes(THE_CLIMES), member(CLIME,THE_CLIMES).
+cardDir(CARD_DIR):- cardDirs(THE_CARD_DIRS), member(CARD_DIR,THE_CARD_DIRS).
+rarity(RARITY):- rarities(THE_RARITIES), member(RARITY,THE_RARITIES).
+descType(DESC_TYPE):- descTypes(THE_DESC_TYPES), member(DESC_TYPE,THE_DESC_TYPES).
+partFeature(PART_FEATURE):- partFeatures(THE_PART_FEATURES), member(PART_FEATURE,THE_PART_FEATURES).
+birdDiet(DIET):- birdDiets(THE_DIETS), member(DIET,THE_DIETS).
+climePlace(THE_CLIME_PLACE):- climePlaces(THE_CLIME_PLACES), member(THE_CLIME_PLACE,THE_CLIME_PLACES).
 
 clime_climePlaces("tropical",["swamps","undergrowth","canopies","rivers"]).
 clime_climePlaces("arctic",["tundra","mountain tops","conifers"]).
@@ -183,7 +196,7 @@ diet_habitat_foodSource(omnivorous,"lakes","berries and aquatic insects").
 diet_habitat_foodSource(omnivorous,"reeds","grubs and worms").
 diet_habitat_foodSource(omnivorous,"ponds","insects").
 diet_habitat_foodSource(omnivorous,"branches","fruits and nuts").
-diet_habitat_foodSource(omnivorous,"cliffsides","seeds and ").
+diet_habitat_foodSource(omnivorous,"cliffsides","seeds and spiders").
 diet_habitat_foodSource(omnivorous,"pine stands","pine cones and small insects").
 
 diet_habitat_foodSource(carnivorous,"swamps","amphibians and fish").
@@ -226,17 +239,6 @@ diet_habitat_foodSource(pescatarian,"pine stands","freshwater fish").
 
 diet_habitat_foodSource(nectar,_,"the nectar of wildflowers").
 
-birdFamily(FAMILY):- birdFamilies(THE_FAMS), member(FAMILY,THE_FAMS).
-color(COLOR):- colors(THE_COLORS), member(COLOR,THE_COLORS).
-birdPart(BIRD_PART):- birdParts(THE_BPARTS), member(BIRD_PART,THE_BPARTS).
-clime(CLIME):- climes(THE_CLIMES), member(CLIME,THE_CLIMES).
-cardDir(CARD_DIR):- cardDirs(THE_CARD_DIRS), member(CARD_DIR,THE_CARD_DIRS).
-rarity(RARITY):- rarities(THE_RARITIES), member(RARITY,THE_RARITIES).
-descType(DESC_TYPE):- descTypes(THE_DESC_TYPES), member(DESC_TYPE,THE_DESC_TYPES).
-partFeature(PART_FEATURE):- partFeatures(THE_PART_FEATURES), member(PART_FEATURE,THE_PART_FEATURES).
-birdDiet(DIET):- birdDiets(THE_DIETS), member(DIET,THE_DIETS).
-climePlace(THE_CLIME_PLACE):- climePlaces(THE_CLIME_PLACES), member(THE_CLIME_PLACE,THE_CLIME_PLACES).
-
 /*
  * THIRTEEN WAYS OF LOOKING AT A BLACKBIRD
  * Wallace Stevens
@@ -261,9 +263,11 @@ birdFamily_seed("hummingbird",SEED):- SEED =< 0.01.
 birdFamily_seed("thrush",SEED):- SEED >= 0.01, SEED < 0.08.
 birdFamily_seed("tinamou",SEED):- SEED >= 0.08, SEED < 0.1.
 birdFamily_seed("egret",SEED):- SEED >= 0.1, SEED < 0.15.
-birdFamily_seed("hawk",SEED):- SEED >= 0.15, SEED < 0.3.
+birdFamily_seed("hawk",SEED):- SEED >= 0.15, SEED < 0.28.
+birdFamily_seed("kestrel",SEED):- SEED >= 0.28, SEED < 0.3.
 birdFamily_seed("eagle",SEED):- SEED >= 0.3, SEED < 0.35.
-birdFamily_seed("duck",SEED):- SEED >= 0.35, SEED < 0.42.
+birdFamily_seed("duck",SEED):- SEED >= 0.35, SEED < 0.41.
+birdFamily_seed("falcon",SEED):- SEED >= 0.41, SEED < 0.42.
 birdFamily_seed("partridge",SEED):- SEED >= 0.42, SEED < 0.45.
 birdFamily_seed("brush-turkey",SEED):- SEED >= 0.45, SEED < 0.46.
 birdFamily_seed("grebe",SEED):- SEED >= 0.46, SEED < 0.5.
@@ -277,8 +281,8 @@ birdFamily_seed("barbet",SEED):- SEED >= 0.75, SEED < 0.76.
 birdFamily_seed("vulture",SEED):- SEED >= 0.76, SEED < 0.8.
 birdFamily_seed("gull",SEED):- SEED >= 0.8, SEED < 0.85.
 birdFamily_seed("flycatcher",SEED):- SEED >= 0.85, SEED < 0.90.
-birdFamily_seed("swift",SEED):- SEED >= 0.9, SEED < 0.98.
-birdFamily_seed("albatross",SEED):- SEED >= 0.98.
+birdFamily_seed("swift",SEED):- SEED >= 0.9, SEED < 0.99.
+birdFamily_seed("albatross",SEED):- SEED >= 0.99.
 
 color_seed("brown",SEED):- SEED < 0.15.
 color_seed("blue",SEED):- SEED >= 0.15, SEED < 0.2.
@@ -854,54 +858,8 @@ makeSomeSound(THE_SOUND):-
 	bird_chirps(ALL_POSSIBLE_SOUNDS),
 	random_member(THE_SOUND,ALL_POSSIBLE_SOUNDS).
 
-	% (So sing thing, sing)
+% (So sing thing, sing)
 
-sing_now([],_,"").
-
-sing_now([pause | REST_OF_SONG],MELODIC_THEME,THE_SUNG_SONG):-
-	string_concat(" ",SING_THE_REST_OF_IT,THE_SUNG_SONG),
-	sing_now(REST_OF_SONG,MELODIC_THEME,SING_THE_REST_OF_IT).
-
-sing_now([make_a_noise | REST_OF_SONG],MELODIC_THEME,THE_SUNG_SONG):-
-	sing_now(REST_OF_SONG,MELODIC_THEME,SING_THE_REST_OF_IT),
-	makeSomeSound(THE_SOUND),
-	string_upper(THE_SOUND,LOUD_SOUND),
-	strs_flatten([" ",LOUD_SOUND,"-",SING_THE_REST_OF_IT],THE_SUNG_SONG).
-
-sing_now([syllable | [syllable | REST_OF_SONG]],OLD_THEME,THE_SUNG_SONG):-
-	makeSomeSound(THE_SOUND),
-	makeSomeSound(ANOTHER_SOUND),
-	strs_flatten([THE_SOUND,"-",ANOTHER_SOUND,SING_THE_REST_OF_IT],THE_SUNG_SONG),
-	strs_flatten([THE_SOUND,"-",ANOTHER_SOUND,OLD_THEME],NEW_THEME),
-	sing_now(REST_OF_SONG,NEW_THEME,SING_THE_REST_OF_IT).
-
-sing_now([syllable | REST_OF_SONG],OLD_THEME,THE_SUNG_SONG):-
-	makeSomeSound(THE_SOUND),
-	strs_flatten([THE_SOUND,"-",SING_THE_REST_OF_IT],THE_SUNG_SONG),
-	strs_flatten([THE_SOUND,"-",OLD_THEME],NEW_THEME),
-	sing_now(REST_OF_SONG,NEW_THEME,SING_THE_REST_OF_IT).
-
-
-sing_now(START_SHOUTING,OLD_THEME,THE_SUNG_SONG):-
-	append([shout,syllable],REST_OF_SONG,START_SHOUTING),
-	makeSomeSound(THE_SOUND),
-	string_upper(THE_SOUND,LOUD_SOUND),
-	strs_flatten([LOUD_SOUND,"-",SING_THE_REST_OF_IT],THE_SUNG_SONG),
-	strs_flatten([THE_SOUND,"-",OLD_THEME],NEW_THEME),
-	sing_now(REST_OF_SONG,NEW_THEME,SING_THE_REST_OF_IT).
-
-sing_now([echo | REST_OF_SONG],THE_THEME,THE_SUNG_SONG):-
-	strs_flatten([THE_THEME,SING_THE_REST_OF_IT],THE_SUNG_SONG),
-	strs_flatten([THE_THEME,THE_THEME],REST_OF_THE_MELODY),
-	sing_now(REST_OF_SONG,REST_OF_THE_MELODY,SING_THE_REST_OF_IT).
-
-sing_now([silently],_,"").
-
-sing_now([and_again],THE_THEME,THE_THEME).
-
-sing_now([but_with_a_chirp],THE_THEME,THEME_CHIRP):-
-	makeSomeSound(THE_SOUND),
-	strs_flatten([THE_THEME," ",THE_SOUND],THEME_CHIRP).
 
 part_phrase(PART,LIST_THE_BIRD,TALK_ABOUT_THAT):-
 	birdList_birdColors(LIST_THE_BIRD,ALL_THE_BIRD),
@@ -982,7 +940,7 @@ distributionAndDiet_sentence(LISTED_BIRD,DIST_SENT):-
 	capitalize_first(NAME_FOR_EM,THEM_NAMED),
 	distributionDietInfo_sentence(THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,FOOD,DIST_SENT).
 
-numDistSentTypes(5).
+numDistSentTypes(7).
 
 % When they stop writing, they find that they are walking in a forest; I
 % can't tell you who they are or hear what they are saying, but I can
@@ -995,20 +953,28 @@ distributionDietInfo_sentence(THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_EL
 	random_between(1,NUM_SENT_TYPES,SENT_TYPE),
 	distributionDietInfo_sentence(SENT_TYPE,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,FOOD,DIST_SENT).
 
-distributionDietInfo_sentence(1,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,_,DIST_SENT):-
-	strs_flatten([THEM_NAMED,"s ",HOW_MANYLY," reside in ",WHERE_POINTED," ",WHERE," or ",WHERE_ELSE,". "],DIST_SENT).
+distributionDietInfo_sentence(1,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,FOOD,DIST_SENT):-
+	strs_flatten([THEM_NAMED,"s ",HOW_MANYLY," reside in ",WHERE_POINTED," ",WHERE_ELSE," or in ",WHERE," where they typically feed on ",FOOD,". "],DIST_SENT).
 
 distributionDietInfo_sentence(2,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,_,DIST_SENT):-
 	strs_flatten([THEM_NAMED,"s can ",HOW_MANYLY," be found around ",WHERE_POINTED," ",WHERE," or at times in ",WHERE_POINTED," ",WHERE_ELSE,". "],DIST_SENT).
 
-distributionDietInfo_sentence(3,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,_,_,DIST_SENT):-
-	strs_flatten([THEM_NAMED,"s may ",HOW_MANYLY," be found in ",WHERE_POINTED," ",WHERE,". "],DIST_SENT).
+distributionDietInfo_sentence(3,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,_,FOOD,DIST_SENT):-
+	strs_flatten(["You are most likely to discover ",THEM_NAMED,"s in ",WHERE_POINTED," ",WHERE,". There, they can ",HOW_MANYLY," be found feeding on ",FOOD,". "],DIST_SENT).
 
 distributionDietInfo_sentence(4,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,_,FOOD,DIST_SENT):-
 	strs_flatten([THEM_NAMED,"s may ",HOW_MANYLY," be found in ",WHERE_POINTED," ",WHERE," searching for ",FOOD,". "],DIST_SENT).
 
-distributionDietInfo_sentence(5,THEM_NAMED,HOW_MANYLY,_,_,_,FOOD,DIST_SENT):-
-	strs_flatten([THEM_NAMED,"s can ",HOW_MANYLY," be found feeding on ",FOOD,". "],DIST_SENT).
+distributionDietInfo_sentence(5,THEM_NAMED,_,_,_,_,FOOD,DIST_SENT):-
+	strs_flatten([THEM_NAMED,"s feed on ",FOOD,". "],DIST_SENT).
+
+distributionDietInfo_sentence(6,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,FOOD,DIST_SENT):-
+	strs_flatten([THEM_NAMED,"s may ",HOW_MANYLY," be spotted in ",WHERE_POINTED," ",WHERE_ELSE," or in ",WHERE,". Their diet consists primarily of ",FOOD,". "],DIST_SENT).
+
+distributionDietInfo_sentence(7,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,FOOD,DIST_SENT):-
+	strs_flatten([THEM_NAMED,"s can ",HOW_MANYLY," be spotted eating ",FOOD," in ",WHERE_POINTED," ",WHERE,", or now and then in ",WHERE_ELSE,". "],DIST_SENT).
+
+
 
 comparative_phrase(LIST_BIRD1,LIST_BIRD2,COMP_PHR):-
 	birdList_birdSize(LIST_BIRD1,B1_SIZE),
@@ -1231,7 +1197,7 @@ ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,[descriptive|OTHER_TYPES],THE_TEXT):-
 % one gray fluff - but for nonexistent birds we will do nothing of the
 % sort.
 
-comp_text_patterns([[comparative,identificatory,distribution],[comparative,identificatory,distribution],[comparative,distribution],[comparative,identificatory],[descriptive,identificatory,distribution],[comparative,distribution,identificatory]]).
+comp_text_patterns([[comparative,identificatory,distribution],[comparative,identificatory,distribution],[comparative,distribution],[descriptive,identificatory,distribution],[comparative,distribution,identificatory]]).
 
 comparative_text([LIST_BIRD1,LIST_BIRD2],THE_TEXT):-
 	birdList_birdName(LIST_BIRD1,A_NAME),
@@ -1272,7 +1238,7 @@ ofBird_ofTypes_text(LIST_BIRD,[descriptive|OTHER_TYPES],THE_TEXT):-
 	ofBird_ofTypes_text(LIST_BIRD,OTHER_TYPES,REMAINING_TEXT),
 	string_concat(DESC_SENT,REMAINING_TEXT,THE_TEXT).
 
-desc_text_patterns([[descriptive,identificatory,distribution],[descriptive,identificatory,distribution],[descriptive,distribution],[distribution,identificatory],[descriptive,distribution]]).
+desc_text_patterns([[descriptive,identificatory,distribution],[descriptive,identificatory,distribution],[descriptive,distribution]]).
 
 descriptive_text(LISTED_BIRD,THE_TEXT):-
 	birdList_birdName(LISTED_BIRD,A_NAME),
