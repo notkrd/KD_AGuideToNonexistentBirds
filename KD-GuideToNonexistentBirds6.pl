@@ -687,7 +687,7 @@ a_relationList(OLD_BIRD,RELATED_BIRD):-
 
 % Weigh a pile of feathers against an egg; measure wingspan in talons;
 % look for stripes and count spots; compare speckling and distinguish
-% bluebirds' blue hues
+% blackbirds' black hues
 
 comparison_intensifier(NUM1,NUM2,INTS_STR):-
 	integer(NUM1), integer(NUM2),
@@ -833,19 +833,22 @@ bird_chirps(["ki","rik","chi","er","tee","oo"]).
 %    Was it a vision, or a waking dream?
 %       Fled is that music:-Do I wake or sleep?
 
-chirp(lower) --> [syllable].
-chirp(upper) --> [shout],chirp(lower).
-separator --> [pause].
-separator --> [make_a_noise].
-melody(basic) --> chirp(_).
-melody(simple) --> melody(basic), [encore].
-melody(simple) --> chirp(_), melody(basic).
-melody(complex) --> chirp(_), melody(simple).
-melody(complex) --> melody(complex), melody(simple).
-echo --> [and_again].
-echo --> [silently].
-echo --> [but_with_a_chirp].
-song --> melody(_), separator, echo.
+word --> [chirp].
+word --> [shriek].
+
+tweet --> [first_chirp], word.
+tweet --> [first_chirp], word, word.
+
+melody --> tweet.
+melody --> [shriek], tweet.
+
+structure --> [echo_shriek].
+structure --> [but_with_a_chirp].
+structure --> [].
+structure --> [chirp_echo].
+
+song --> melody, structure.
+song --> melody, [pause], song.
 
 % The sound of beak on wood,
 % clear air, the sun-hot dirt;
@@ -858,8 +861,38 @@ makeSomeSound(THE_SOUND):-
 	bird_chirps(ALL_POSSIBLE_SOUNDS),
 	random_member(THE_SOUND,ALL_POSSIBLE_SOUNDS).
 
+parse_song([],SUNG_SONG,SUNG_SONG).
+parse_song([first_chirp|REST_OF_SONG],SUNG_SO_FAR,WHOLE_SUNG_SONG):-
+	makeSomeSound(THE_SOUND),
+	strs_flatten([SUNG_SO_FAR,THE_SOUND],MORE_SUNG),
+	parse_song(REST_OF_SONG,MORE_SUNG,WHOLE_SUNG_SONG).
+parse_song([chirp|REST_OF_SONG],SUNG_SO_FAR,WHOLE_SUNG_SONG):-
+	makeSomeSound(THE_SOUND),
+	strs_flatten([SUNG_SO_FAR,"-",THE_SOUND],MORE_SUNG),
+	parse_song(REST_OF_SONG,MORE_SUNG,WHOLE_SUNG_SONG).
+parse_song([pause|REST_OF_SONG],SUNG_SO_FAR,WHOLE_SUNG_SONG):-
+	strs_flatten([SUNG_SO_FAR," "],SUNG_PAUSED),
+	parse_song(REST_OF_SONG,SUNG_PAUSED,WHOLE_SUNG_SONG).
+parse_song([shriek|REST_OF_SONG],SUNG_SO_FAR,WHOLE_SUNG_SONG):-
+	makeSomeSound(THE_SOUND),
+	string_upper(THE_SOUND,LOUD_SOUND),
+	strs_flatten([SUNG_SO_FAR,LOUD_SOUND],MORE_SUNG),
+	parse_song(REST_OF_SONG,MORE_SUNG,WHOLE_SUNG_SONG).
+
+parse_song([echo_shriek],SUNG,WHOLE_SONG):-
+	makeSomeSound(THE_SOUND),
+	string_upper(THE_SOUND,LOUD_SOUND),
+	strs_flatten([SUNG," ",SUNG,LOUD_SOUND],WHOLE_SONG).
+parse_song([but_with_a_chirp],SUNG,WHOLE_SONG):-
+	makeSomeSound(THE_SOUND),
+	strs_flatten([SUNG," ",THE_SOUND],WHOLE_SONG).
+parse_song([chirp_echo],SUNG,WHOLE_SONG):-
+	makeSomeSound(THE_SOUND),
+	strs_flatten([SUNG," ",THE_SOUND," ",SUNG],WHOLE_SONG).
+
 % (So sing thing, sing)
 
+bird_birdSong(_,"").
 
 part_phrase(PART,LIST_THE_BIRD,TALK_ABOUT_THAT):-
 	birdList_birdColors(LIST_THE_BIRD,ALL_THE_BIRD),
@@ -1085,6 +1118,8 @@ descriptive_sentence(LISTED_BIRD,DESC_SENT):-
 	part_phrase(PART2,LISTED_BIRD,DESC2),
 	descriptiveInfo_sentence(BIRD_NAME,BFAMILY,DESC1,DESC2,DESC_SENT).
 
+song_sentence(LISTED_BIRD,SONG_SENT):- bird_birdSong(LISTED_BIRD,THE_SONG), strs_flatten(["CALL: ",THE_SONG,". "],SONG_SENT).
+
 /*
  * THIRTEEN WAYS OF LOOKING AT A BLACKBIRD
  * Wallace Stevens
@@ -1191,18 +1226,51 @@ ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,[descriptive|OTHER_TYPES],THE_TEXT):-
 	descriptive_sentence(LIST_BIRD1,DESC_SENT),
 	ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,OTHER_TYPES,REMAINING_TEXT),
 	string_concat(DESC_SENT,REMAINING_TEXT,THE_TEXT).
+ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,[song|OTHER_TYPES],THE_TEXT):-
+	song_sentence(LIST_BIRD1,SONG_SENT),
+	ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,OTHER_TYPES,REMAINING_TEXT),
+	string_concat(SONG_SENT,REMAINING_TEXT,THE_TEXT).
+
 
 % For a birdwatcher, we ought to say something about the males and
 % females - more often than not one large, one small, one resplendant,
 % one gray fluff - but for nonexistent birds we will do nothing of the
 % sort.
 
-comp_text_patterns([[comparative,identificatory,distribution],[comparative,identificatory,distribution],[comparative,distribution],[descriptive,identificatory,distribution],[comparative,distribution,identificatory]]).
+compTextPatterns([[comparative,identificatory,distribution,song],[comparative,identificatory,distribution,song],[comparative,distribution,song],[descriptive,identificatory,distribution,song],[comparative,distribution,identificatory,song]]).
+
+% LIKE A BIRD ON THE WIRE - Leonard Cohen
+%
+% Like a bird on the wire,
+% Like a drunk in a midnight choir
+% I have tried, in my way, to be free.
+% Like a worm on a hook,
+% Like a knight from some old fashioned book
+% I have saved all my ribbons for thee.
+% If I, if I have been unkind,
+% I hope that you can just let it go, by.
+% If I, if I have been untrue
+% I hope you know it was never to you.
+%
+% Like a baby, stillborn,
+% Like a beast with his horn
+% I have torn everyone who reached out for me.
+% But I swear by this song
+% And by all that I have done wrong
+% I will make it all up to thee.
+% I saw a beggar leaning on his wooden crutch,
+% He said to me, "You must not ask for so much."
+% And a pretty woman leaning in her darkened door,
+% She cried to me, "Hey, why not ask for more?"
+%
+% Oh like a bird on the wire,
+% Like a drunk in a midnight choir
+% I have tried, in my way, to be free.
 
 comparative_text([LIST_BIRD1,LIST_BIRD2],THE_TEXT):-
 	birdList_birdName(LIST_BIRD1,A_NAME),
 	string_upper(A_NAME,A_TITLE),
-	comp_text_patterns(COMP_TEXT_PATTERNS),
+	compTextPatterns(COMP_TEXT_PATTERNS),
 	random_member(COMP_TEXT_PATTERN,COMP_TEXT_PATTERNS),
 	ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,COMP_TEXT_PATTERN,COMP_TEXT),
 	strs_flatten([A_TITLE,'\n',COMP_TEXT,'\n \n'],THE_TEXT).
@@ -1237,8 +1305,12 @@ ofBird_ofTypes_text(LIST_BIRD,[descriptive|OTHER_TYPES],THE_TEXT):-
 	descriptive_sentence(LIST_BIRD,DESC_SENT),
 	ofBird_ofTypes_text(LIST_BIRD,OTHER_TYPES,REMAINING_TEXT),
 	string_concat(DESC_SENT,REMAINING_TEXT,THE_TEXT).
+ofBird_ofTypes_text(LIST_BIRD,[song|OTHER_TYPES],THE_TEXT):-
+	song_sentence(LIST_BIRD,SONG_SENT),
+	ofBird_ofTypes_text(LIST_BIRD,OTHER_TYPES,REMAINING_TEXT),
+	string_concat(SONG_SENT,REMAINING_TEXT,THE_TEXT).
 
-desc_text_patterns([[descriptive,identificatory,distribution],[descriptive,identificatory,distribution],[descriptive,distribution]]).
+desc_text_patterns([[descriptive,identificatory,distribution,song],[descriptive,identificatory,distribution,song],[descriptive,distribution,song]]).
 
 descriptive_text(LISTED_BIRD,THE_TEXT):-
 	birdList_birdName(LISTED_BIRD,A_NAME),
@@ -1394,21 +1466,17 @@ fibonacci_birds(N,ALL_BIRDS_WITH_WORDS,NEW_PAIRS):-
 	make_pairs(NEW_BIRDS,NEW_WORDS,NEW_PAIRS),
 	append(ALL_OLD_BIRDS,NEW_PAIRS,ALL_BIRDS_WITH_WORDS).
 
+birdWords(THEIR_WORDS):-
+	lots_OfBirdWords(7,THEIR_WORDS).
 
 lots_OfBirdWords(N,LOTS_OF_WORDS):-
 % "Lightening -
 	fibonacci_birds(N,THE_BIRDS_WORDS,_),
-% Heron's
+% Heron's cry
 	maplist(get_second,THE_BIRDS_WORDS,THE_WORDS),
-% cry
 	strs_flatten(THE_WORDS,LOTS_OF_WORDS),
-% Stabs
+% Stabs the darkness
 	writef(LOTS_OF_WORDS).
-% the
-birdWords(THEIR_WORDS):-
-% darkness"
-	lots_OfBirdWords(7,THEIR_WORDS).
-
 
 % Freebird
 % LYNRYD SKYNYRD
