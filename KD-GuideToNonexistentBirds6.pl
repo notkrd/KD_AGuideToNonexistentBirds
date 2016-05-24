@@ -334,11 +334,11 @@ partFeature_seed("striped",SEED):- SEED >= 0.4, SEED < 0.6.
 partFeature_seed("narrow",SEED):- SEED >= 0.6, SEED < 0.8.
 partFeature_seed("oversized",SEED):- SEED >= 0.8.
 
-% Build the birdhouse, and paint it; buy from Lowe's or Home Depot a bag
-% of birdseeds; fill the little bowl with water; fill the floor with the
-% seeds; see if something comes; hope it isn't a squirrel (throw dirt
-% clods at it if it is, stand silently behind the tall window if not);
-% teach a chicken to scream.
+% Build the birdhouse, and paint it brown; buy from Lowe's or Home Depot
+% a bag of birdseeds; fill the little bowl with water; fill the floor
+% with the seeds; see if something comes (hope it isn't a squirrel;
+% throw dirt clods at it if it is; stand silently behind the tall
+% window if not); teach a chicken to scream.
 
 a_birdFamily(BIRD_FAMILY):- random(S), birdFamily_seed(BIRD_FAMILY,S).
 a_color(COLOR):- random(S), color_seed(COLOR,S).
@@ -412,7 +412,7 @@ an_attribute_desc(cardDir,[HOLD_A_COMPASS_UNDER_IT]):-
 % the name of a Picunche chief Tili, or which may be named from a
 % Mapuche word "chilli" for "where the land ends," a Quechua word
 % "chiri" or "tchilli" for "cold" or "snow," or for the onomatopoeic
-% "cheele-cheele" for the warble of a bird, known as the "trile"
+% "cheele-cheele" for the warble of a bird known as the "trile"
 
 desc_name(coloredPart,[THE_PART,THE_COLOR],THE_DESC_STR):-
 	strs_flatten([THE_COLOR,"-",THE_PART,"ed"],THE_DESC_STR).
@@ -465,10 +465,12 @@ desc_name(family, [THE_FAMILY], THE_DESC_STR):-
  */
 
 % Now sit behind your backyard window, grab an extra page accidentally
-% printed - find a pencil, and start finding the thing's shape. Take out
-% the watercolors, and brush in, moving from light to dark, quick
+% printed - find a pencil, and start finding the bird's shape. Take out
+% the watercolors, and brush in, moving from light to dark in quick
 % washes. It will fly away before you're done, but probably no one will
 % notice the imprecisions of pigment and proportion its absence leaves.
+% Pick a wall for its color and vacancies, within which to frame the
+% painted bird.
 
 that_piece_of_that_bird_in_that_color(THAT_PIECE_OF_THAT_BIRD,[THAT_PIECE_OF_THAT_BIRD,IN_THAT_COLOR]):-
 	birdPart(THAT_PIECE_OF_THAT_BIRD),
@@ -488,13 +490,13 @@ colors_of_parts_of_a_bird(THE_PIECES_IN_SOME_COLORS):-
 	maplist(that_piece_of_that_bird_in_a_color,THE_PIECES_OF_THAT_BIRD,THE_PIECES_IN_SOME_COLORS).
 
 % Now, it is well known that your blue and my blue may or may not be the
-% same blue, but, beyond thought experiment, after examining rods and
-% cones and counting them and wave lenghts, and some other such things,
-% we also know that most birds see some totally different shades of blue
-% and off-blue, particularly some ultraviolet ones, and possess plumage
-% reflecting some of these ultraviolet colors. You will not see this
-% ultraviolet stripe on a chickadee, and you will not have a word for
-% it.
+% same blue, but, beyond cliched thought experiment, after examining
+% rods and cones and counting them and wave lenghts, and some other such
+% things, we also know that most birds see some totally different shades
+% of blue and off-blue, particularly some ultraviolet ones, and possess
+% plumage reflecting some of these ultraviolet colors. You will not see
+% this ultraviolet stripe on a chickadee and you will not have a word
+% for it.
 
 name_for(clime,NAME_IT,_,_,LOCATE_IT,_,FIND_ITS_RELATIONS):-
 	desc_name(clime,LOCATE_IT,NAME_THE_PLACE),
@@ -541,8 +543,8 @@ a_name_ofType(coloredPart,NAME_IT,COLOR_IT,_,_,_,FIND_ITS_RELATIONS):-
 % One from the Spring flock on the nearby tree lands in front of you -
 % brown-winged, white-throated, large as a butternut squash. When you
 % step towards it, it leaps an equal amount back. When you step away, it
-% steps the same distance forward. When you step twice it flaps back up
-% into the big tree.
+% steps the same distance forward. When your steps approach it twice it
+% flaps back up into the crowded tree.
 
 bird(NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,WEIGH_IT,INDEX_IT):-
 	string(NAME_IT),
@@ -555,7 +557,7 @@ bird(NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,WEIGH_IT,INDEX
 	WEIGH_IT =< 10,
 	INDEX_IT >= 0.
 
-a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,1):-
+a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT):-
 	colors_of_parts_of_a_bird(COLORS),
 	an_attribute_desc(rarity,COUNT),
 	an_attribute_desc(clime,LOCATE),
@@ -563,17 +565,18 @@ a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,1):-
 	an_attribute_desc(family,FIND_RELATIONS),
 	a_descType(A_NAME_TYPE),
 	random_between(1,10,WEIGH_IT),
-	a_name_ofType(A_NAME_TYPE,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS).
+	a_name_ofType(A_NAME_TYPE,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS),
+	INDEX_IT >= 1.
 
-a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,1):-
+a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,INDEX_IT):-
 	colors_of_parts_of_a_bird(COLORS),
 	an_attribute_desc(rarity,COUNT),
 	an_attribute_desc(clime,LOCATE),
 	an_attribute_desc(cardDir,POINT),
 	a_descType(A_NAME_TYPE),
 	random_between(1,10,WEIGH_IT),
-	a_name_ofType(A_NAME_TYPE,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS).
-
+	a_name_ofType(A_NAME_TYPE,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS),
+	INDEX_IT >= 1.
 
 list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT):-
 	ABOUT_A_BIRD = [NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT].
@@ -609,16 +612,16 @@ birdList_birdIndex(LISTED_BIRD,ITS_SIZE):-
 % To identify a bird quickly, note the shape of the wings in profile,
 % black against sunlight; or count toes; forget the background tree,
 % forget the ruffle of feathers, but maybe count a flock; dappled
-% sunlight is distracting but forgetting it, as painters but not
-% cameras do, the distinction between speckled and striped is a sure
+% sunlight is distracting but removing it, as painters but not
+% cameras do, the distinction between speckled and striped is a good
 % way to tell thrush from thrush; the difference, between 2 and 5 cm, in
 % the length of a white brow stripe can identify Siberian from East
 % Asian variants of a swallow; plumage patterns of the juvenile are
 % different and require another chart.
 
 a_birdList(ABOUT_A_BIRD):-
-	a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT),
-	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT).
+	a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,1),
+	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,1).
 
 a_birdList(_,ABOUT_A_BIRD):-
 	a_birdList(ABOUT_A_BIRD).
@@ -628,8 +631,8 @@ a_birdListNum(ABOUT_A_BIRD,THE_INDEX):-
 	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,THE_INDEX).
 
 a_birdList_ofFamily(ITS_RELATIONS,ABOUT_A_BIRD):-
-	a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,INDEX_IT),
-	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,INDEX_IT).
+	a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,1),
+	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,1).
 
 a_birdList_ofFamilyNum(ITS_RELATIONS,ABOUT_A_BIRD,THE_INDEX):-
 	a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,THE_INDEX),
@@ -706,7 +709,9 @@ a_relationListNum(OLD_BIRD,RELATED_BIRD,THE_INDEX):-
 
 % Weigh a pile of feathers against an egg; measure wingspan in talons;
 % look for stripes and count spots; compare speckling and distinguish
-% blackbirds' black hues
+% blackbirds' black hues. (Names leak, it is well known. That somehow
+% systems of glimpses, observed differences in the sharpness of the V
+% of the bird's wings, still aggregate and knot into holding language)
 
 comparison_intensifier(NUM1,NUM2,INTS_STR):-
 	integer(NUM1), integer(NUM2),
@@ -908,16 +913,38 @@ parse_song([chirp_echo],SUNG,WHOLE_SONG):-
 	makeSomeSound(THE_SOUND),
 	strs_flatten([SUNG," ",THE_SOUND," ",SUNG],WHOLE_SONG).
 
+song_sung(SONG,SUNG):-
+	parse_song(SONG,"",SUNG).
+
+% Some of the things birds are about are freedom or grace, but also
+% the cackle of their crowd or the ugly grub in their mouth. One of the
+% things i wonder about then, about them, is about the distinction
+% between squawk and song, and who makes it and who hears it.
+%
 % (So sing thing, sing)
+% (Or squawk flock squawk, i suppose, at your
+% discretion and preference)
+
 nth_song(0,[]).
 
 nth_song(N,NTH_SONG):-
 	findnsols(N,THIS_SONG,song(THIS_SONG,[]),THE_SONGS),
 	NMONE is N - 1,
 	nth0(NMONE,THE_SONGS,NTH_CHIRPS),
-	parse_song(NTH_CHIRPS,"",NTH_SONG).
+	song_sung(NTH_CHIRPS,NTH_SONG).
 
-bird_birdSong(_,"").
+bird_birdSong(LISTED_BIRD,THE_SONG):-
+	birdList_birdIndex(LISTED_BIRD,THE_NUMBER),
+	nth_song(THE_NUMBER,THE_SONG).
+
+
+song_sentence(LISTED_BIRD,SONG_SENT):- bird_birdSong(LISTED_BIRD,THE_SONG), strs_flatten(["CALL: ",THE_SONG,". "],SONG_SENT).
+
+% When they stop writing about love and death, they find that they are
+% walking in a forest; I can't tell you who they are or hear what they
+% are saying, but I can tell you about the leaves on the branches and
+% the loam and orange light. Around them there are: 2 woodpeckers. 1
+% swallow. A vulture overhead and a swift in a bush.
 
 part_phrase(PART,LIST_THE_BIRD,TALK_ABOUT_THAT):-
 	birdList_birdColors(LIST_THE_BIRD,ALL_THE_BIRD),
@@ -971,9 +998,6 @@ rarity_advRarity("common","often").
 rarity_advRarity("uncommon","sometimes").
 rarity_advRarity("rare","occasionally").
 
-rarity_Rarityly(RARE,RARELY):-
-	strs_flatten([RARE,"ly"],RARELY).
-
 clime_somePlace(THE_CLIME,THE_PLACE):-
 	clime_climePlaces(THE_CLIME,POSSIBLE_PLACES),
 	random_member(THE_PLACE,POSSIBLE_PLACES).
@@ -998,13 +1022,17 @@ distributionAndDiet_sentence(LISTED_BIRD,DIST_SENT):-
 	capitalize_first(NAME_FOR_EM,THEM_NAMED),
 	distributionDietInfo_sentence(THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,FOOD,DIST_SENT).
 
-numDistSentTypes(7).
+% In the Splash Zone of the Monterey Bay Aquarium, the only exhibit to
+% feature international fish (as children require their foreign color
+% and striping), on the way to their room of penguins given both water
+% and a rocky plaster beach sans ice floe, there is a maze of coral and
+% anemonoes, where you, the child, may redirect the flow and crash of
+% the waves by placing blocks; all this all is is a bunch of switches,
+% but the question, i think, is, how we can we make, or make a better,
+% blackbird with them? how can we make the bird exuberant or melancholy?
+% how can we direct the next wave to splash our cousin's face?
 
-% When they stop writing about love and death, they find that they are
-% walking in a forest; I can't tell you who they are or hear what they
-% are saying, but I can tell you about the leaves on the branches and
-% the loam and orange light. Around them there are: 2 woodpeckers. 1
-% swallow. A vulture overhead and a swift in a bush.
+numDistSentTypes(7).
 
 distributionDietInfo_sentence(THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,FOOD,DIST_SENT):-
 	numDistSentTypes(NUM_SENT_TYPES),
@@ -1032,7 +1060,36 @@ distributionDietInfo_sentence(6,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_
 distributionDietInfo_sentence(7,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,FOOD,DIST_SENT):-
 	strs_flatten([THEM_NAMED,"s can ",HOW_MANYLY," be spotted eating ",FOOD," in ",WHERE_POINTED," ",WHERE,", or now and then in ",WHERE_ELSE,". "],DIST_SENT).
 
-
+% 8 COUNT
+% Charles Bukowski
+%
+% from my bed
+% I watch
+% 3 birds
+% on a telephone
+% wire.
+%
+% one flies
+% off.
+% then
+% another.
+%
+% one is left,
+% then
+% it too
+% is gone
+%
+% my typewriter is
+% tombstone still.
+%
+% and I am
+% reduced to bird
+% watching.
+%
+% just thought I'd
+% let you
+% know,
+% fucker.
 
 comparative_phrase(LIST_BIRD1,LIST_BIRD2,COMP_PHR):-
 	birdList_birdSize(LIST_BIRD1,B1_SIZE),
@@ -1041,16 +1098,6 @@ comparative_phrase(LIST_BIRD1,LIST_BIRD2,COMP_PHR):-
 	strs_flatten([" is", COMP_STR],COMP_PHR).
 
 numCompSentTypes(5).
-
-% In the Splash Zone of the Monterey Bay Aquarium, the only exhibit to
-% feature international fish (as children require their foreign color
-% and striping), on the way to their room of penguins given both water
-% and a rocky plaster beach sans ice floe, there is a maze of coral and
-% anemonoes, where you, the child, may redirect the flow and crash of
-% the waves by placing blocks; all this all is is a bunch of switches,
-% but the question, i think, is, how we can we make, or make a better,
-% blackbird with them? how can we make the bird exuberant or melancholy?
-% how can we direct the next wave to splash our cousin's face?
 
 comparativeInfo_sentence(B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
 	numCompSentTypes(NUM_SENT_TYPES),
@@ -1100,38 +1147,6 @@ descriptiveInfo_sentence(3,BIRD_NAME,[ITS_FAMILY],DESC1,_,DESC_SENT):-
 descriptiveInfo_sentence(4,BIRD_NAME,[ITS_FAMILY],DESC1,DESC2,DESC_SENT):-
 	strs_flatten(["The ",BIRD_NAME," is a ",ITS_FAMILY, " with a ", DESC1, " and a ", DESC2,". "],DESC_SENT).
 
-% 8 COUNT
-% Charles Bukowski
-%
-% from my bed
-% I watch
-% 3 birds
-% on a telephone
-% wire.
-%
-% one flies
-% off.
-% then
-% another.
-%
-% one is left,
-% then
-% it too
-% is gone
-%
-% my typewriter is
-% tombstone still.
-%
-% and I am
-% reduced to bird
-% watching.
-%
-% just thought I'd
-% let you
-% know,
-% fucker.
-
-
 descriptive_sentence(LISTED_BIRD,DESC_SENT):-
 	birdList_birdName(LISTED_BIRD,BIRD_NAME),
 	birdParts(B_PARTS),
@@ -1142,8 +1157,6 @@ descriptive_sentence(LISTED_BIRD,DESC_SENT):-
 	part_phrase(PART1,LISTED_BIRD,DESC1),
 	part_phrase(PART2,LISTED_BIRD,DESC2),
 	descriptiveInfo_sentence(BIRD_NAME,BFAMILY,DESC1,DESC2,DESC_SENT).
-
-song_sentence(LISTED_BIRD,SONG_SENT):- bird_birdSong(LISTED_BIRD,THE_SONG), strs_flatten(["CALL: ",THE_SONG,". "],SONG_SENT).
 
 /*
  * THIRTEEN WAYS OF LOOKING AT A BLACKBIRD
@@ -1273,7 +1286,7 @@ comparative_text([LIST_BIRD1,LIST_BIRD2],THE_TEXT):-
 	strs_flatten([A_TITLE,'\n',COMP_TEXT,'\n \n'],THE_TEXT).
 
 % Don't ask me about existent birds though. I own the latest
-% edition of the Sibley Guide, but have only used it to
+% edition of the Sibley Guide to Birds, but have only used it to
 % identify some kind of swallow that was filling up the nearby trees,
 % and one common crane. I took a class on animal diversity and we did a
 % unit on birds of paradise - their varying calls, the particular
@@ -1285,10 +1298,6 @@ comparative_text([LIST_BIRD1,LIST_BIRD2],THE_TEXT):-
 % grubs.
 
 ofBird_ofTypes_text(_,[],"").
-
-% I did airplanes though - the two engined, the four-engined, the now
-% mostly extinct three-engined; the curve of nose telling Airbus from
-% Boeing; the presence or absence of winglets
 
 ofBird_ofTypes_text(LIST_BIRD,[identificatory|OTHER_TYPES],THE_TEXT):-
 	identificatory_sentence(LIST_BIRD,ID_SENT),
@@ -1307,6 +1316,11 @@ ofBird_ofTypes_text(LIST_BIRD,[song|OTHER_TYPES],THE_TEXT):-
 	ofBird_ofTypes_text(LIST_BIRD,OTHER_TYPES,REMAINING_TEXT),
 	string_concat(SONG_SENT,REMAINING_TEXT,THE_TEXT).
 
+% I did airplanes though - the two engined, the four-engined, the now
+% mostly extinct three-engined; the curve of nose telling Airbus from
+% Boeing; the presence or absence of extra winglets distinguishing A320
+% and A340.
+
 desc_text_patterns([[descriptive,identificatory,distribution,song],[descriptive,identificatory,distribution,song],[descriptive,distribution,song]]).
 
 descriptive_text(LISTED_BIRD,THE_TEXT):-
@@ -1319,6 +1333,7 @@ descriptive_text(LISTED_BIRD,THE_TEXT):-
 
 % Caged Bird
 % BY MAYA ANGELOU
+%
 % A free bird leaps
 % on the back of the wind
 % and floats downstream
@@ -1367,10 +1382,52 @@ first_bird([BIRD],WORDS):-
 	a_birdList(BIRD),
 	descriptive_text(BIRD,WORDS).
 
+
+find_birds(0,[],_,[],_).
+
+find_birds(HOW_MANY,[],INDEX,BIRDS_FOUND,WORDS_FOUND):-
+	HOW_MANY >= 1,
+	INDEX >= 1,
+	a_birdListNum(FIRST_BIRD,INDEX),
+	descriptive_text(FIRST_BIRD,FIRST_WORDS),
+	ONE_LESS is HOW_MANY - 1,
+	NEXT_INDEX is INDEX + 1,
+	find_birds(ONE_LESS,[],NEXT_INDEX,OTHER_BIRDS,OTHER_WORDS),
+	append(OTHER_WORDS,[FIRST_WORDS],WORDS_FOUND),
+	append(OTHER_BIRDS,[FIRST_BIRD],BIRDS_FOUND).
+
+% Something that i think i am particularly troubled by is a sense of
+% mechanicity - not so much that I am a mechanichal thing (as my
+% language is, as my mathematics and metaphor and desiring), but that i
+% am a particularly small and poorly made one; a few rusting pulleys
+% roped together and held up by tape and cardboard. Birds strike me as
+% the sorts of machines - for watching from trees, for flapping and odd
+% song - that i could accept being.
+
+find_birds(HOW_MANY,[FIRST_OLD_BIRD|OTHER_OLD_BIRDS],INDEX,BIRDS_FOUND,WORDS_FOUND):-
+	INDEX >= 1,
+	a_relationListNum(FIRST_OLD_BIRD,FIRST_BIRD,INDEX),
+	NEXT_INDEX is INDEX + 1,
+	find_birds(HOW_MANY,OTHER_OLD_BIRDS,NEXT_INDEX,OTHER_BIRDS,OTHER_WORDS),
+	comparative_text([FIRST_BIRD,FIRST_OLD_BIRD],NEW_WORDS),
+	append(OTHER_WORDS,[NEW_WORDS],WORDS_FOUND),
+	append(OTHER_BIRDS,[FIRST_BIRD],BIRDS_FOUND).
+
 new_birds(0,WHAT_OLD_BIRDS,RELATED_BIRDS,RELATION_WORDS):-
 	maplist(a_relationList,WHAT_OLD_BIRDS,RELATED_BIRDS),
 	make_pairs(RELATED_BIRDS,WHAT_OLD_BIRDS,RELATED_PAIRS),
 	maplist(comparative_text,RELATED_PAIRS,RELATION_WORDS).
+
+new_birds(HOW_MANY,WHAT_OLD_BIRDS,NEW_BIRDS,NEW_WORDS):-
+	HOW_MANY > 0,
+	numlist(1,HOW_MANY,NEW_NUMBERS),
+	maplist(a_birdList,NEW_NUMBERS,FRESH_BIRDS),
+	maplist(a_relationList,WHAT_OLD_BIRDS,RELATED_BIRDS),
+	make_pairs(RELATED_BIRDS,WHAT_OLD_BIRDS,RELATED_PAIRS),
+	maplist(comparative_text,RELATED_PAIRS,RELATION_WORDS),
+	maplist(descriptive_text,FRESH_BIRDS,FRESH_WORDS),
+	append(FRESH_BIRDS,RELATED_BIRDS,NEW_BIRDS),
+	append(RELATION_WORDS,FRESH_WORDS,NEW_WORDS).
 
 % Surfin' Bird
 % THE TRASHMEN
@@ -1430,103 +1487,111 @@ new_birds(0,WHAT_OLD_BIRDS,RELATED_BIRDS,RELATION_WORDS):-
 % Papa-ooma-mow-mow, papa-ooma-mow-mow
 % Papa-ooma-mow-mow, papa-ooma-mow-mow...
 
-new_birds(HOW_MANY,WHAT_OLD_BIRDS,NEW_BIRDS,NEW_WORDS):-
-	HOW_MANY > 0,
-	numlist(1,HOW_MANY,NEW_NUMBERS),
-	maplist(a_birdList,NEW_NUMBERS,FRESH_BIRDS),
-	maplist(a_relationList,WHAT_OLD_BIRDS,RELATED_BIRDS),
-	make_pairs(RELATED_BIRDS,WHAT_OLD_BIRDS,RELATED_PAIRS),
-	maplist(comparative_text,RELATED_PAIRS,RELATION_WORDS),
-	maplist(descriptive_text,FRESH_BIRDS,FRESH_WORDS),
-	append(FRESH_BIRDS,RELATED_BIRDS,NEW_BIRDS),
-	append(RELATION_WORDS,FRESH_WORDS,NEW_WORDS).
+fibonacci_birds(0,[],"").
 
-% Something that i think i am particularly troubled by is a sense of
-% mechanicity - not so much that I am a mechanichal thing (as my
-% language is, as my mathematics and metaphor and desiring), but that i
-% am a particularly small and poorly made one, a few rusting pulleys
-% roped together and held up by tape and cardboard. Birds strike me as
-% the sort of machines - for watching from trees, for flapping and odd
-% song - that i could accept being.
+fibonacci_birds(1,BIRD,WORD):-
+	find_birds(1,[],1,BIRD,WORD).
 
-fibonacci_birds(1,[[BIRD,WORDS]],[[BIRD,WORDS]]):-
-	first_bird([BIRD],WORDS).
-
-fibonacci_birds(N,ALL_BIRDS_WITH_WORDS,NEW_PAIRS):-
+fibonacci_birds(N,BIRDS,WORDS):-
 	N >= 2,
 	NMONE is N - 1,
 	NMTWO is N - 2,
+	fibonacci(N,FIB_N),
 	fibonacci(NMTWO,FIB_NMTWO),
-	fibonacci_birds(NMONE,ALL_OLD_BIRDS,OLD_BIRDS_WITH_WORDS),
-	maplist(get_head,OLD_BIRDS_WITH_WORDS,JUST_BIRDS),
-	new_birds(FIB_NMTWO,JUST_BIRDS,NEW_BIRDS,NEW_WORDS),
-	make_pairs(NEW_BIRDS,NEW_WORDS,NEW_PAIRS),
-	append(ALL_OLD_BIRDS,NEW_PAIRS,ALL_BIRDS_WITH_WORDS).
+	fibonacci_birds(NMONE,OLD_BIRDS,OLD_WORDS),
+	find_birds(FIB_NMTWO,OLD_BIRDS,FIB_N,NEW_BIRDS,NEW_WORDS),
+	append(OLD_BIRDS,NEW_BIRDS,BIRDS),
+	append(OLD_WORDS,NEW_WORDS,WORDS).
 
 % Begin early with a bird in the hand, or one free in the sheet of the
 % sky, or two on the wire.
 %
-% What i am writing about is that i go home and we go on a hike up the
-% local public park mountain, and what we do is carry a laminated guide
-% to local Wildflowers and at each new blossom stop and cluster around
-% the pictures looking at the yellow white purple orange or red petals
-% comparing and looking at leaf lengths and saying into the wind
-% "California Milkworth,"
+%-
+%
+% What i am writing about is that i go home, and the next morning we go
+% on a hike up the local public park mountain and what we do is carry a
+% laminated guide to local Wildflowers and at each new blossom stop and
+% cluster around the pictures looking at the yellow white purple orange
+% or red petals comparing and looking at leaf lengths and saying into
+% the wind "California Milkworth,"
+%
+%-
 %
 % In the blurb of Inger Christensen's /Alphabet/, someone calls her a
-% "singer of syllables." There is that classic sort of wizardry
-% that operates by knowing and speaking, as distinguished from simply
-% recalling and recreating the sounds of, names: from Ursula Le Guin's
-% /Earthsea/ "My name, and yours, and the true name of the sun, or a
-% spring of water, or an unborn child, all are syllables of the great
-% word that is very slowly spoken by the shining of the stars. There is
-% no other power. No other name."
+% "singer of syllables." That's one thing i believe in i guess, the
+% saying of the names of things as a kind of prayer or assurance of your
+% place among them, walking through both the landscape and the syllables
+% for it.
 %
-% Code is language that does things. For all its silliness obscurity
-% and economics, in its sentences one can glimpse, every now and then,
-% through the for loops and careful architecture of parenthesis, in the
-% midst of the obscure formal spacing and odd capitalization, traces of
-% the old original magic: words that some obscure inhuman thing hears
-% and responds to. These programming languages are learned and made in
-% long documentation that list its words, describe their combinatory
-% grammar, and outline their meanings.
+% There is that classic sort of wizardry that operates by knowing and
+% speaking, as distinguished from simply recalling and recreating the
+% sounds of, names: from Ursula Le Guin's /Earthsea/ for instance "My
+% name, and yours, and the true name of the sun, or a spring of water,
+% or an unborn child, all are syllables of the great word that is very
+% slowly spoken by the shining of the stars. There is no other power. No
+% other name."
 %
-% The rhetoric of programming is that of either the imperative or of
-% the declarative - and this is the great debate in selecting
-% programming languages: in the first the programmer tells their
-% variables what they are, what they will do, what they will
+%-
+%
+% Code is language that does things.
+%
+% Code is not what this is about but it is one of the things that it is
+% about because, for all programming's silliness obscurity and
+% economics, in its sentences one can glimpse every now and then,
+% through the for loops and architectures of parenthesis, inside the
+% obscure formal spacing and odd capitalization, traces of the old
+% original magic: words, utterances that some opaque and inhuman thing
+% hears and responds to.
+%
+% The rhetoric of almost all programming is the rhetoric of either the
+% imperative or of the declarative - and this is the great debate in
+% selecting programming languages: in the first the programmer tells
+% their variables what they are, what they will do, what they will
 % mutate into, and eventually how they will be written or acted upon;
 % functional programming describes how one sort of code-thing makes
-% another code-thing, and the rules for these subtle growths and
-% transformations, until they find themselves writing rules about
-% rules, and even rules about rules about rules. Logic programming, as
-% this .pl document mostly is, is an attempt at a third approach: in
-% Prolog one describes a system of things, and if this constructed place
-% is a possible one the interpreter finds it, assembles it, and shows
-% you the discovered lanndscape.
+% another code-thing, and writes the rules for these subtle growths and
+% transformations until they find themselves writing rules about rules,
+% and rules about rules about rules. Logic programming however, as this
+% document mostly is, is an attempt at a third approach: in Prolog one
+% describes a system of things, and if this constructed place is a
+% possible one the interpreter finds it, assembles the pieces from
+% basic blocks, and shows you the discovered landscape.
 %
-% Imagine an eccentric aspiring ornithologist (supported by a
-% trust-fund) who absolutely refuses to step out of their room. Birds
-% occasionally fly past their window or rest on a distant branch, but
-% too quickly or at too much of a distance for the Ornithologist At
-% Their Window to do more than observe a single feature or a rough
-% outline of each bird. But this eccentric feels for whatever reason
-% compelled to sit for hours daily at their desk with a pen and a
-% notebook, assembling these remembered fragments into descriptions of
-% the birds which they imagine they might have seen. Eventually, someone
-% finds enormous stack of notebooks they leave behind, containing
-% nothing but potential birds. The content of the notebooks is
-% published.
+%-
 %
-% Now imagine walking outside with this guide, down to
-% the slough in Spring or into forested hills, and seeing a bird on a
-% branch of an oak, or wading into the muck. It takes time for you to
-% find maybe, but somewhere in this Book of Potential Birds you find an
-% entry which - though it's author never saw this animal - you know by
-% the stripe along the bird's torso and the way it hobbles and bobs
-% along that that the bird described by the entry in the book
-% corresponds exactly to the one you are watching.
+% Imagine an eccentric, aspiring, and trust-fund supported ornithologist
+% who absolutely refuses to step out of their room.
 %
+% Birds occasionally fly past their window or rest on a distant branch,
+% but each too quickly or at just too much of a distance for the
+% Ornithologist At Their Window to do more than observe one feature or a
+% rough outline of.
+%
+% However, this eccentric feels for whatever reason compelled to sit for
+% hours daily at their desk with a pen and a notebook, assembling these
+% remembered fragments into descriptions of the birds which they imagine
+% they might have seen. They might tell the way a blue neck
+% inflates and contracts over indigo wings, or the three
+% syllable screeching of certain hawks. Much later, someone finds the
+% enormous stack of notebooks they leave behind containing nothing but
+% potential birds. The contents of the notebooks are published on
+% someone else's whim.
+%
+% Now imagine walking outside with this guide, down to the slough in
+% Spring or into hills and seeing a bird on a branch of an oak, or
+% wading through the muck.
+%
+% You open the Book of Potential Birds and flip for a while through
+% its exhaustive pages, learning to navigate it's oddly ordered
+% sections. The bird is in no rush to get anywhere else, has a long
+% stripe accross its torso, and hobbles and bobs along. Now you find an
+% entry in the book that - though its author never saw the bird in front
+% of you, describes exactly its size, motion, and stripe. The book tells
+% you the bird will gnaw an acorn (or snatch up a fish); this time, the
+% bird you are watching 15 feet away gnaws an acorn (or snatches up a
+% fish).
+%
+% -
 %
 % Raymond Queneau’s motto: "Rats who build the labyrinth from which they
 % will try to escape"
@@ -1534,35 +1599,40 @@ fibonacci_birds(N,ALL_BIRDS_WITH_WORDS,NEW_PAIRS):-
 % Georges Perec's: "I set myself rules in order to be totally
 % free."
 %
-% There are birds in the backyard: after metaphor fact and background
-% noise. Over fig blossoms a green one hums. On the fence at
-% the back, seen through the leaves of the apricot tree are three gray
-% and brown animals, to my untrained eyes having no more precise
-% description for their shape than "bird": a sort of doubly bent curve,
-% simple beak, a bulge and suggestion of wings, the thin toes wrapped
-% around wood and the paper fan of tail behind. Their heads and torsos
-% turn occasionally and at once, they strut along the walk while two
-% sleek and brown-chested specimens pick at the fallen apricots or the
-% grubs buried in the fruits soft orange matter. Another with a black
-% crest, white neck, neatly triangulated tail, the kind of bird for
-% birdwatchers or the hikers at their cameras, rests a few moments in
-% another long-leaved tree, before setting the branch vibrating as the
-% blur of it dives up and swims into air.
+% There are birds in the backyard: after metaphor, fact and background
+% noise.
 %
-% Take a break now, find a window, there is a bird in it, give it a
+% Over fig blossoms a green one is humming.
+%
+% On the fence at the back of the property, seen through the leaves of
+% the apricot tree are three gray and brown animals, to my untrained
+% eyes having no more precise description for their shape than "bird": a
+% sort of doubly bent curve, simple beak, a bulge and suggestion of
+% wings, the thin toes wrapped around wood and the paper fan of tail
+% behind. Their heads and torsos turn occasionally and at once; they
+% strut along the walk.
+%
+% Two sleek and brown-chested specimens pick at the fallen apricots or
+% the grubs buried in the fruits opened orange matter.
+%
+% Another with a black crest, white neck, neatly splayed tail,
+% the kind of bird for birdwatchers or the hikers at their cameras,
+% rests a few moments in another long-leaved tree, before setting the
+% branch vibrating as the blur of it dives up and swims into air.
+%
+% Take a break now, find a window, find the bird in it, give it a
 % minute, come back after.
 
 birdWords(THEIR_WORDS):-
-	lots_OfBirdWords(7,THEIR_WORDS).
+	lots_OfBirdWords(5,THEIR_WORDS).
 
-lots_OfBirdWords(N,LOTS_OF_WORDS):-
+lots_OfBirdWords(N,THE_BOOK):-
 % "Lightning -
-	fibonacci_birds(N,THE_BIRDS_WORDS,_),
+	fibonacci_birds(N,_,THE_WORDS),
 % Heron's cry
-	maplist(get_second,THE_BIRDS_WORDS,THE_WORDS),
-	strs_flatten(THE_WORDS,LOTS_OF_WORDS),
+	strs_flatten(THE_WORDS,THE_BOOK),
 % Stabs the darkness
-	writef(LOTS_OF_WORDS).
+	writef(THE_BOOK).
 
 % Freebird
 % LYNRYD SKYNYRD
