@@ -5,7 +5,7 @@
 
 
 /* (How I would recommend reading this thing, though there is room for
- * debate on this question - read the Neruda poem, all the comments I
+ * debate on this question: read the Neruda poem, all the comments I
  * wrote (I'm attached to a few of them), the Wallace Stevens in its
  * entirety but only once, skip the Keats except for a few lines for
  * atmosphere, the Bukowski won't take up too much of your time, skim 13
@@ -126,6 +126,7 @@ rarities(["common","uncommon","rare"]).
 descTypes([coloredPart,clime,cardDir,rarity]).
 partFeatures(["speckled","mottled","tufted","striped","narrow","large","bright"]).
 birdDiets([omnivorous,pescatarian,carnivorous,nectar]).
+waysOfSinging(["squawking","singing","chattering","tweeting","screeching","whistling"]).
 
 birdFamily_diet(FAMILY,omnivorous):-
 	FAMILY = "thrush";
@@ -171,6 +172,7 @@ descType(DESC_TYPE):- descTypes(THE_DESC_TYPES), member(DESC_TYPE,THE_DESC_TYPES
 partFeature(PART_FEATURE):- partFeatures(THE_PART_FEATURES), member(PART_FEATURE,THE_PART_FEATURES).
 birdDiet(DIET):- birdDiets(THE_DIETS), member(DIET,THE_DIETS).
 climePlace(THE_CLIME_PLACE):- climePlaces(THE_CLIME_PLACES), member(THE_CLIME_PLACE,THE_CLIME_PLACES).
+wayOfSinging(WAY_OF_SINGING):- waysOfSinging(THE_WAYS_OF_SINGING), member(WAY_OF_SINGING,THE_WAYS_OF_SINGING).
 
 clime_climePlaces("tropical",["swamps","undergrowth","canopies","rivers"]).
 clime_climePlaces("arctic",["tundra","mountain tops","conifers"]).
@@ -323,9 +325,10 @@ rarity_seed("uncommon",SEED):- SEED >= 0.65, SEED < 0.85.
 rarity_seed("rare",SEED):- SEED >= 0.85.
 
 descType_seed(coloredPart,SEED):- SEED < 0.5.
-descType_seed(clime, SEED):- SEED >= 0.5, SEED < 0.75.
-descType_seed(cardDir, SEED):- SEED >= 0.75, SEED < 0.9.
-descType_seed(rarity, SEED):- SEED >= 0.9.
+descType_seed(clime, SEED):- SEED >= 0.5, SEED < 0.7.
+descType_seed(cardDir, SEED):- SEED >= 0.7, SEED < 0.85.
+descType_seed(rarity, SEED):- SEED >= 0.85, SEED < 0.95.
+descType_seed(wayOfSinging, SEED) :- SEED >= 0.95.
 
 partFeature_seed("speckled",SEED):- SEED < 0.2.
 partFeature_seed("mottled",SEED):- SEED >= 0.2, SEED < 0.3.
@@ -333,6 +336,13 @@ partFeature_seed("tufted",SEED):- SEED >= 0.3, SEED < 0.4.
 partFeature_seed("striped",SEED):- SEED >= 0.4, SEED < 0.6.
 partFeature_seed("narrow",SEED):- SEED >= 0.6, SEED < 0.8.
 partFeature_seed("oversized",SEED):- SEED >= 0.8.
+
+wayOfSinging_seed("squawking",SEED):- SEED < 0.25.
+wayOfSinging_seed("singing",SEED):- SEED >= 0.25, SEED < 0.55.
+wayOfSinging_seed("chattering",SEED):- SEED >= 0.55, SEED < 0.7.
+wayOfSinging_seed("tweeting",SEED):- SEED >= 0.7, SEED < 0.85.
+wayOfSinging_seed("screeching",SEED):- SEED >= 0.85, SEED < 0.95.
+wayOfSinging_seed("whistling",SEED):- SEED >= 0.95.
 
 % Build the birdhouse, and paint it brown; buy from Lowe's or Home Depot
 % a bag of birdseeds; fill the little bowl with water; fill the floor
@@ -348,8 +358,7 @@ a_cardDir(CARD_DIR):- random(S), cardDir(CARD_DIR), cardDir_seed(CARD_DIR,S).
 a_rarity(RARITY):- random(S), rarity_seed(RARITY,S).
 a_descType(DESC_TYPE):- random(S), descType_seed(DESC_TYPE,S).
 a_partFeature(PART_FEATURE):- random(S), partFeature_seed(PART_FEATURE,S).
-
-
+a_wayOfSinging(WAY_OF_SINGING):- random(S), wayOfSinging_seed(WAY_OF_SINGING,S).
 
 /*
  * THIRTEEN WAYS OF LOOKING AT A BLACKBIRD
@@ -387,6 +396,8 @@ attribute_desc(rarity,[THOSE_MULTITUDES]):-
 	rarity(THOSE_MULTITUDES).
 attribute_desc(cardDir,[THAT_BIRDS_PREFERENCE_IN_COMPASSES]):-
 	cardDir(THAT_BIRDS_PREFERENCE_IN_COMPASSES).
+attribute_desc(wayOfSinging,[THAT_BIRDS_NOISES]):-
+	wayOfSinging(THAT_BIRDS_NOISES).
 
 % Standing in a city rock doves with green glimmering throats
 % twitter around you; under the ornamental bridge, gliding mallards
@@ -403,6 +414,8 @@ an_attribute_desc(rarity,[WHAT_MULTITUDES]):-
 	a_rarity(WHAT_MULTITUDES).
 an_attribute_desc(cardDir,[HOLD_A_COMPASS_UNDER_IT]):-
 	a_cardDir(HOLD_A_COMPASS_UNDER_IT).
+an_attribute_desc(wayOfSinging,[DESCRIBE_ITS_NOISES]):-
+	a_wayOfSinging(DESCRIBE_ITS_NOISES).
 
 % The Juan Fernandez firecrown in the Juan Fernandez Islands, named
 % after the Spanish explorer Juan Fernandez, is a hummingbird only
@@ -424,7 +437,8 @@ desc_name(rarity, [THE_RARITY], THE_DESC_STR):-
 	THE_DESC_STR = THE_RARITY.
 desc_name(family, [THE_FAMILY], THE_DESC_STR):-
 	THE_DESC_STR = THE_FAMILY.
-
+desc_name(wayOfSinging, [THE_WAY_OF_SINGING], THE_DESC_STR):-
+	THE_DESC_STR = THE_WAY_OF_SINGING.
 
 /*
  * THIRTEEN WAYS OF LOOKING AT A BLACKBIRD
@@ -498,41 +512,47 @@ colors_of_parts_of_a_bird(THE_PIECES_IN_SOME_COLORS):-
 % this ultraviolet stripe on a chickadee and you will not have a word
 % for it.
 
-name_for(clime,NAME_IT,_,_,LOCATE_IT,_,FIND_ITS_RELATIONS):-
+name_for(clime,NAME_IT,_,_,LOCATE_IT,_,FIND_ITS_RELATIONS,_):-
 	desc_name(clime,LOCATE_IT,NAME_THE_PLACE),
 	desc_name(family,FIND_ITS_RELATIONS,NAME_THE_RELATIONS),
 	strs_flatten([NAME_THE_PLACE," ",NAME_THE_RELATIONS],NAME_IT).
 
-name_for(cardDir,NAME_IT,_,_,_,POINT,FIND_ITS_RELATIONS):-
+name_for(cardDir,NAME_IT,_,_,_,POINT,FIND_ITS_RELATIONS,_):-
 	desc_name(cardDir,POINT,NAME_THE_DIR),
 	desc_name(family,FIND_ITS_RELATIONS,NAME_THE_RELATIONS),
 	strs_flatten([NAME_THE_DIR," ",NAME_THE_RELATIONS],NAME_IT).
 
-name_for(rarity,NAME_IT,_,COUNT_IT,_,_,FIND_ITS_RELATIONS):-
+name_for(rarity,NAME_IT,_,COUNT_IT,_,_,FIND_ITS_RELATIONS,_):-
 	desc_name(rarity,COUNT_IT,NAME_THE_NUMBER),
 	desc_name(family,FIND_ITS_RELATIONS,NAME_THE_RELATIONS),
 	strs_flatten([NAME_THE_NUMBER," ",NAME_THE_RELATIONS],NAME_IT).
 
-name_for(coloredPart,NAME_IT,COLOR_IT,_,_,_,FIND_ITS_RELATIONS):-
+name_for(coloredPart,NAME_IT,COLOR_IT,_,_,_,FIND_ITS_RELATIONS,_):-
 	member(THE_COLORED_PART,COLOR_IT),
 	desc_name(coloredPart,THE_COLORED_PART,NAME_THE_COLORED_PART),
 	desc_name(family,FIND_ITS_RELATIONS,NAME_THE_RELATIONS),
 	strs_flatten([NAME_THE_COLORED_PART," ",NAME_THE_RELATIONS],NAME_IT).
 
+name_for(wayOfSinging,NAME_IT,_,_,_,_,FIND_ITS_RELATIONS,LISTEN_TO_IT):-
+	desc_name(wayOfSinging,LISTEN_TO_IT,HEAR_IT),
+	desc_name(family,FIND_ITS_RELATIONS,NAME_THE_RELATIONS),
+	strs_flatten([HEAR_IT," ",NAME_THE_RELATIONS],NAME_IT).
+
+
 % Consider a bird through a window. It's a small fluffed mass -
 % vibrating, folded up. Lacking better names for it, call it A Little
 % Brown Thing.
 
-a_name_ofType(clime,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS):-
-	name_for(clime,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS).
+a_name_ofType(clime,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,LISTEN_TO_IT):-
+	name_for(clime,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,LISTEN_TO_IT).
 
-a_name_ofType(cardDir,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS):-
-	name_for(cardDir,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS).
+a_name_ofType(cardDir,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,LISTEN_TO_IT):-
+	name_for(cardDir,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,LISTEN_TO_IT).
 
-a_name_ofType(rarity,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS):-
-	name_for(rarity,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS).
+a_name_ofType(rarity,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,LISTEN_TO_IT):-
+	name_for(rarity,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,LISTEN_TO_IT).
 
-a_name_ofType(coloredPart,NAME_IT,COLOR_IT,_,_,_,FIND_ITS_RELATIONS):-
+a_name_ofType(coloredPart,NAME_IT,COLOR_IT,_,_,_,FIND_ITS_RELATIONS,_):-
 	a_birdPart(SOME_PART),
 	THE_COLORED_PART = [SOME_PART,_],
 	member(THE_COLORED_PART,COLOR_IT),
@@ -540,50 +560,58 @@ a_name_ofType(coloredPart,NAME_IT,COLOR_IT,_,_,_,FIND_ITS_RELATIONS):-
 	desc_name(family,FIND_ITS_RELATIONS,NAME_THE_RELATIONS),
 	strs_flatten([NAME_THE_COLORED_PART," ",NAME_THE_RELATIONS],NAME_IT).
 
+a_name_ofType(wayOfSinging,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,LISTEN_TO_IT):-
+	name_for(wayOfSinging,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,LISTEN_TO_IT).
+
 % One from the Spring flock on the nearby tree lands in front of you -
 % brown-winged, white-throated, large as a butternut squash. When you
 % step towards it, it leaps an equal amount back. When you step away, it
 % steps the same distance forward. When your steps approach it twice it
 % flaps back up into the crowded tree.
 
-bird(NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,WEIGH_IT,INDEX_IT):-
+bird(NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,WEIGH_IT,INDEX_IT,LISTEN_TO_IT):-
 	string(NAME_IT),
 	colors_of_parts_of_that_bird(COLOR_IT),
 	attribute_desc(rarity,COUNT_IT),
 	attribute_desc(clime,LOCATE_IT),
 	attribute_desc(cardDir,POINT),
+	attribute_desc(wayOfSinging,LISTEN_TO_IT),
 	birdFamily(FIND_ITS_RELATIONS),
 	1 =< WEIGH_IT,
 	WEIGH_IT =< 10,
 	INDEX_IT >= 0.
 
-a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT):-
+a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT,LISTEN_TO_IT):-
 	colors_of_parts_of_a_bird(COLORS),
 	an_attribute_desc(rarity,COUNT),
 	an_attribute_desc(clime,LOCATE),
 	an_attribute_desc(cardDir,POINT),
 	an_attribute_desc(family,FIND_RELATIONS),
+	an_attribute_desc(wayOfSinging,HEAR_IT),
 	a_descType(A_NAME_TYPE),
 	random_between(1,10,WEIGH_IT),
-	a_name_ofType(A_NAME_TYPE,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS),
-	INDEX_IT >= 1.
+	a_name_ofType(A_NAME_TYPE,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,HEAR_IT),
+	INDEX_IT >= 1,
+	a_wayOfSinging(LISTEN_TO_IT).
 
-a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,INDEX_IT):-
+a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,INDEX_IT,LISTEN_TO_IT):-
 	colors_of_parts_of_a_bird(COLORS),
 	an_attribute_desc(rarity,COUNT),
 	an_attribute_desc(clime,LOCATE),
 	an_attribute_desc(cardDir,POINT),
+	an_attribute_desc(wayOfSinging,HEAR_IT),
+	a_wayOfSinging(LISTEN_TO_IT),
 	a_descType(A_NAME_TYPE),
 	random_between(1,10,WEIGH_IT),
-	a_name_ofType(A_NAME_TYPE,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS),
+	a_name_ofType(A_NAME_TYPE,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,HEAR_IT),
 	INDEX_IT >= 1.
 
-list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT):-
-	ABOUT_A_BIRD = [NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT].
+list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT,LISTEN_TO_IT):-
+	ABOUT_A_BIRD = [NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT,LISTEN_TO_IT].
 
 birdList(BIRD_LIST):-
-	bird(N,CP,CN,L,P,F,S,I),
-	list_bird(BIRD_LIST,N,CP,CN,L,P,F,S,I).
+	bird(N,CP,CN,L,P,F,S,I,SNG),
+	list_bird(BIRD_LIST,N,CP,CN,L,P,F,S,I,SNG).
 
 birdList_birdName(LISTED_BIRD,ITS_NAME):-
 	nth0(0,LISTED_BIRD,ITS_NAME).
@@ -609,6 +637,9 @@ birdList_birdSize(LISTED_BIRD,ITS_SIZE):-
 birdList_birdIndex(LISTED_BIRD,ITS_SIZE):-
 	nth0(7,LISTED_BIRD,ITS_SIZE).
 
+birdList_birdSong(LISTED_BIRD,ITS_SONG):-
+	nth0(8,LISTED_BIRD,ITS_SONG).
+
 % To identify a bird quickly, note the shape of the wings in profile,
 % black against sunlight; or count toes; forget the background tree,
 % forget the ruffle of feathers, but maybe count a flock; dappled
@@ -620,23 +651,23 @@ birdList_birdIndex(LISTED_BIRD,ITS_SIZE):-
 % different and require another chart.
 
 a_birdList(ABOUT_A_BIRD):-
-	a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,1),
-	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,1).
+	a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,1,SNG),
+	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,1,SNG).
 
 a_birdList(_,ABOUT_A_BIRD):-
 	a_birdList(ABOUT_A_BIRD).
 
 a_birdListNum(ABOUT_A_BIRD,THE_INDEX):-
-	a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,THE_INDEX),
-	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,THE_INDEX).
+	a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,THE_INDEX,LISTEN_TO_IT),
+	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,THE_INDEX,LISTEN_TO_IT).
 
 a_birdList_ofFamily(ITS_RELATIONS,ABOUT_A_BIRD):-
-	a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,1),
-	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,1).
+	a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,1,LISTEN_TO_IT),
+	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,1,LISTEN_TO_IT).
 
 a_birdList_ofFamilyNum(ITS_RELATIONS,ABOUT_A_BIRD,THE_INDEX):-
-	a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,THE_INDEX),
-	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,THE_INDEX).
+	a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,THE_INDEX,LISTEN_TO_IT),
+	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,THE_INDEX,LISTEN_TO_IT).
 
 
 a_relationList(OLD_BIRD,RELATED_BIRD):-
@@ -916,10 +947,13 @@ parse_song([chirp_echo],SUNG,WHOLE_SONG):-
 song_sung(SONG,SUNG):-
 	parse_song(SONG,"",SUNG).
 
-% Some of the things birds are about are freedom or grace, but also
-% the cackle of their crowd or the ugly grub in their mouth. One of the
-% things i wonder about then, about them, is about the distinction
+% Some of the things birds are typically about are freedom or grace, but
+% also the cackle of their crowd or the ugly grub in their mouth. One of
+% the things i wonder about then, about them, is about the distinction
 % between squawk and song, and who makes it and who hears it.
+%
+% The hope is to stand in hot air as sharp and scattered sections of
+% pitch follow and reiterate each other into music or nothing at all.
 %
 % (So sing thing, sing)
 % (Or squawk flock squawk, i suppose, at your
@@ -937,9 +971,6 @@ bird_birdSong(LISTED_BIRD,THE_SONG):-
 	birdList_birdIndex(LISTED_BIRD,THE_NUMBER),
 	nth_song(THE_NUMBER,THE_SONG).
 
-
-song_sentence(LISTED_BIRD,SONG_SENT):- bird_birdSong(LISTED_BIRD,THE_SONG), strs_flatten(["CALL: ",THE_SONG,". "],SONG_SENT).
-
 % When they stop writing about love and death, they find that they are
 % walking in a forest; I can't tell you who they are or hear what they
 % are saying, but I can tell you about the leaves on the branches and
@@ -955,11 +986,24 @@ a_part_phrase(LIST_THE_BIRD,TALK_ABOUT_IT):-
 	a_birdPart(A_PART),
 	part_phrase(A_PART,LIST_THE_BIRD,TALK_ABOUT_IT).
 
+% In the Splash Zone of the Monterey Bay Aquarium, the only exhibit to
+% feature international fish (as children require their foreign color
+% and striping), on the way to their room of penguins given both water
+% and a rocky plaster beach sans ice floe, there is a maze of coral and
+% anemonoes, where you, the child, may redirect the flow and crash of
+% the waves by placing blocks; all this all is is a bunch of switches,
+% but the question, i think, is, how we can we make, or make a better,
+% blackbird with them? how can we make the bird exuberant or melancholy?
+% how can we direct the next wave to splash our cousin's face?
+
 numIdSentTypes(6).
 
-typically_synonyms(["typically","usually","generally","most often"]).
-identified_synonyms(["identified","distinguished","told apart"]).
-notable_synonyms(["notable","conspicuous","remarkable"]).
+typically_synonym(TYPICALLY_SYNONYM):-
+	random_member(TYPICALLY_SYNONYM,["typically","usually","generally","most often"]).
+identified_synonym(IDENTIFIED_SYNONYM):-
+	random_member(IDENTIFIED_SYNONYM,["identified","distinguished","told apart"]).
+notable_synonym(NOTABLE_SYNONYM):-
+	random_member(NOTABLE_SYNONYM,["notable","conspicuous","remarkable"]).
 
 identificatoryInfo_sentence(PART1_FEATURE, PART1, PART2_FEATURE, PART2, ID_SENT):-
 	numIdSentTypes(NUM_SENT_TYPES),
@@ -967,40 +1011,31 @@ identificatoryInfo_sentence(PART1_FEATURE, PART1, PART2_FEATURE, PART2, ID_SENT)
 	identificatoryInfo_sentence(SENT_TYPE,PART1_FEATURE, PART1, PART2_FEATURE, PART2, ID_SENT).
 
 identificatoryInfo_sentence(1,PART1_FEATURE, PART1, PART2_FEATURE, PART2, ID_SENT):-
-	identified_synonyms(IDENTIFIED_SYNONYMS),
-	random_member(IDENTIFIED,IDENTIFIED_SYNONYMS),
+	identified_synonym(IDENTIFIED),
 	strs_flatten(["One can be ",IDENTIFIED," by its ", PART1_FEATURE," ", PART1, " and its' ", PART2_FEATURE," ",PART2,". "],ID_SENT).
 
 identificatoryInfo_sentence(2,PART1_FEATURE, PART1, _, _, ID_SENT):-
-	notable_synonyms(NOTABLE_SYNONYMS),
-	random_member(NOTABLE,NOTABLE_SYNONYMS),
+	notable_synonym(NOTABLE),
 	strs_flatten(["Their ", PART1_FEATURE," ", PART1, "s are ",NOTABLE,". "],ID_SENT).
 
 identificatoryInfo_sentence(3,PART1_FEATURE, PART1, PART2_FEATURE, PART2, ID_SENT):-
 	strs_flatten(["They have ", PART1_FEATURE," ", PART1, "s and ", PART2_FEATURE," ",PART2,"s. "],ID_SENT).
 
 identificatoryInfo_sentence(4,PART1_FEATURE, PART1, _, PART2, ID_SENT):-
-	typically_synonyms(TYPICALLY_SYNONYMS),
-	random_member(TYPICALLY,TYPICALLY_SYNONYMS),
-	identified_synonyms(IDENTIFIED_SYNONYMS),
-	random_member(IDENTIFIED,IDENTIFIED_SYNONYMS),
+	typically_synonym(TYPICALLY),
+	identified_synonym(IDENTIFIED),
 	strs_flatten(["They can ",TYPICALLY," be ",IDENTIFIED," by their ", PART1_FEATURE," ", PART1,"s and ",PART2,"s. "],ID_SENT).
 
 identificatoryInfo_sentence(5,PART1_FEATURE, PART1, _, _, ID_SENT):-
-	typically_synonyms(TYPICALLY_SYNONYMS),
-	random_member(TYPICALLY,TYPICALLY_SYNONYMS),
-	notable_synonyms(NOTABLE_SYNONYMS),
-	random_member(NOTABLE,NOTABLE_SYNONYMS),
+	typically_synonym(TYPICALLY),
+	notable_synonym(NOTABLE),
 	strs_flatten(["Its' ",NOTABLE," ",PART1_FEATURE," ", PART1, " ",TYPICALLY," lets you identify one. "],ID_SENT).
 
 identificatoryInfo_sentence(6,PART1_FEATURE, PART1, PART2_FEATURE, PART2, ID_SENT):-
-	typically_synonyms(TYPICALLY_SYNONYMS),
-	random_member(TYPICALLY_LOWER,TYPICALLY_SYNONYMS),
+	typically_synonym(TYPICALLY_LOWER),
 	capitalize_first(TYPICALLY_LOWER,TYPICALLY),
-	notable_synonyms(NOTABLE_SYNONYMS),
-	random_member(NOTABLE,NOTABLE_SYNONYMS),
-	identified_synonyms(IDENTIFIED_SYNONYMS),
-	random_member(IDENTIFIED,IDENTIFIED_SYNONYMS),
+	notable_synonym(NOTABLE),
+	identified_synonym(IDENTIFIED),
 	strs_flatten([TYPICALLY,", one can be ",IDENTIFIED," by its ",PART1_FEATURE," ", PART1, " and its' ",NOTABLE," ",PART2_FEATURE," ",PART2,". "],ID_SENT).
 
 identificatory_sentence(_,ID_SENT):-
@@ -1048,20 +1083,14 @@ distributionAndDiet_sentence(LISTED_BIRD,DIST_SENT):-
 	distributionDietInfo_sentence(NAME_FOR_EM,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,FOOD,DIST_SENT_ALMOST),
 	capitalize_first(DIST_SENT_ALMOST,DIST_SENT).
 
-% In the Splash Zone of the Monterey Bay Aquarium, the only exhibit to
-% feature international fish (as children require their foreign color
-% and striping), on the way to their room of penguins given both water
-% and a rocky plaster beach sans ice floe, there is a maze of coral and
-% anemonoes, where you, the child, may redirect the flow and crash of
-% the waves by placing blocks; all this all is is a bunch of switches,
-% but the question, i think, is, how we can we make, or make a better,
-% blackbird with them? how can we make the bird exuberant or melancholy?
-% how can we direct the next wave to splash our cousin's face?
-
 numDistSentTypes(7).
 
-residein_synonyms(["reside in","live in","occupy","inhabit"]).
-spotted_synonyms(["spotted","seen","observed","found"]).
+residein_synonym(RESIDEIN_SYNONYM):-
+	random_member(RESIDEIN_SYNONYM,["reside in","live in","occupy","inhabit"]).
+spotted_synonym(SPOTTED_SYNONYM):-
+	random_member(SPOTTED_SYNONYM,["spotted","found","seen","observed","found"]).
+feedingon_synonym(FEEDINGON_SYNONYM):-
+	random_member(FEEDINGON_SYNONYM,["feeding on","eating","consuming"]).
 
 distributionDietInfo_sentence(THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,FOOD,DIST_SENT):-
 	numDistSentTypes(NUM_SENT_TYPES),
@@ -1069,39 +1098,119 @@ distributionDietInfo_sentence(THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_EL
 	distributionDietInfo_sentence(SENT_TYPE,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,FOOD,DIST_SENT).
 
 distributionDietInfo_sentence(1,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,FOOD,DIST_SENT):-
-	typically_synonyms(TYPICALLY_SYNONYMS),
-	random_member(TYPICALLY,TYPICALLY_SYNONYMS),
-	residein_synonyms(RESIDEIN_SYNONYMS),
-	random_member(RESIDEIN,RESIDEIN_SYNONYMS),
-	strs_flatten([THEM_NAMED,"s ",HOW_MANYLY," ",RESIDEIN," ",WHERE_POINTED," ",WHERE_ELSE," or in ",WHERE," where they ",TYPICALLY," feed on ",FOOD,". "],DIST_SENT).
+	typically_synonym(TYPICALLY),
+	residein_synonym(RESIDEIN),
+	strs_flatten([THEM_NAMED,"s ",HOW_MANYLY," ",RESIDEIN," ",WHERE_POINTED," ",WHERE_ELSE," or in ",WHERE," where they ",TYPICALLY," subsist on on ",FOOD,". "],DIST_SENT).
 
 distributionDietInfo_sentence(2,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,_,DIST_SENT):-
-	spotted_synonyms(SPOTTED_SYNONYMS),
-	random_member(SPOTTED,SPOTTED_SYNONYMS),
+	spotted_synonym(SPOTTED),
 	strs_flatten([THEM_NAMED,"s can ",HOW_MANYLY," be ",SPOTTED," around ",WHERE_POINTED," ",WHERE," or at times in ",WHERE_POINTED," ",WHERE_ELSE,". "],DIST_SENT).
 
 distributionDietInfo_sentence(3,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,_,FOOD,DIST_SENT):-
-	spotted_synonyms(SPOTTED_SYNONYMS),
-	random_member(SPOTTED,SPOTTED_SYNONYMS),
-	strs_flatten(["You are most likely to discover ",THEM_NAMED,"s in ",WHERE_POINTED," ",WHERE,". There, they can ",HOW_MANYLY," be ",SPOTTED," feeding on ",FOOD,". "],DIST_SENT).
+	spotted_synonym(SPOTTED),
+	feedingon_synonym(FEEDINGON),
+	strs_flatten(["You are most likely to discover ",THEM_NAMED,"s in ",WHERE_POINTED," ",WHERE,". There, they can ",HOW_MANYLY," be ",SPOTTED," ",FEEDINGON," ",FOOD,". "],DIST_SENT).
 
 distributionDietInfo_sentence(4,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,_,FOOD,DIST_SENT):-
-	spotted_synonyms(SPOTTED_SYNONYMS),
-	random_member(SPOTTED,SPOTTED_SYNONYMS),
+	spotted_synonym(SPOTTED),
 	strs_flatten([THEM_NAMED,"s may ",HOW_MANYLY," be ",SPOTTED," in ",WHERE_POINTED," ",WHERE," searching for ",FOOD,". "],DIST_SENT).
 
 distributionDietInfo_sentence(5,THEM_NAMED,_,WHERE_POINTED,WHERE,_,FOOD,DIST_SENT):-
 	strs_flatten([THEM_NAMED,"s feed on ",FOOD," in ",WHERE_POINTED," ",WHERE,". "],DIST_SENT).
 
 distributionDietInfo_sentence(6,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,FOOD,DIST_SENT):-
-	spotted_synonyms(SPOTTED_SYNONYMS),
-	random_member(SPOTTED,SPOTTED_SYNONYMS),
+	spotted_synonym(SPOTTED),
 	strs_flatten([THEM_NAMED,"s may ",HOW_MANYLY," be ",SPOTTED," in ",WHERE_POINTED," ",WHERE_ELSE," or in ",WHERE,". Their diet consists primarily of ",FOOD,". "],DIST_SENT).
 
 distributionDietInfo_sentence(7,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_ELSE,FOOD,DIST_SENT):-
-	spotted_synonyms(SPOTTED_SYNONYMS),
-	random_member(SPOTTED,SPOTTED_SYNONYMS),
+	spotted_synonym(SPOTTED),
 	strs_flatten([THEM_NAMED,"s can ",HOW_MANYLY," be ",SPOTTED," eating ",FOOD," in ",WHERE_POINTED," ",WHERE,", or now and then in ",WHERE_ELSE,". "],DIST_SENT).
+
+comparative_phrase(LIST_BIRD1,LIST_BIRD2,COMP_PHR):-
+	birdList_birdSize(LIST_BIRD1,B1_SIZE),
+	birdList_birdSize(LIST_BIRD2,B2_SIZE),
+	comparison_str(B1_SIZE,B2_SIZE,COMP_STR),
+	strs_flatten([" is", COMP_STR],COMP_PHR).
+
+numCompSentTypes(6).
+
+comparativeInfo_sentence(B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
+	numCompSentTypes(NUM_SENT_TYPES),
+	random_between(1,NUM_SENT_TYPES,SENT_TYPE), comparativeInfo_sentence(SENT_TYPE,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT).
+
+with_synonym(WITH_SYNONYM):-
+	random_member(WITH_SYNONYM,["with","and has","having"]).
+mistakenfor_synonym(MISTAKENFOR_SYNONYM):-
+	random_member(MISTAKENFOR_SYNONYM,["mistaken for","confused with","incorrectly identified as"]).
+
+comparativeInfo_sentence(1,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
+	with_synonym(WITH),
+	strs_flatten(["The ",B1_NAME,COMP_PHR," the ",B2_NAME," ",WITH," a ",DESC1," and ",DESC2,". "],COMP_SENT).
+comparativeInfo_sentence(2,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
+	with_synonym(WITH),
+	strs_flatten(["The ",B1_NAME, " resembles the ",B2_NAME," but",COMP_PHR," it, ",WITH," a ",DESC1," and ",DESC2,". "],COMP_SENT).
+comparativeInfo_sentence(3,B1_NAME,B2_NAME,COMP_PHR,DESC1,_,COMP_SENT):-
+	strs_flatten(["With a ",DESC1,", the ",B1_NAME,COMP_PHR," the ",B2_NAME,". "],COMP_SENT).
+
+comparativeInfo_sentence(4,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
+	strs_flatten(["The ",B1_NAME,COMP_PHR," the ",B2_NAME," and is notable for its ",DESC1," and ",DESC2,". "],COMP_SENT).
+
+comparativeInfo_sentence(5,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
+	with_synonym(WITH),
+	strs_flatten(["A relative of the ", B2_NAME, ", the ", B1_NAME, COMP_PHR, " it, ",WITH," a ",DESC1," and ",DESC2,". "],COMP_SENT).
+comparativeInfo_sentence(6,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
+	mistakenfor_synonym(MISTAKENFOR),
+	strs_flatten(["The ", B1_NAME," is sometimes ",MISTAKENFOR," the ", B2_NAME," and", COMP_PHR, " it. The  ",B1_NAME," also has a ",DESC1," and ",DESC2,". "],COMP_SENT).
+
+comparative_sentence(LIST_BIRD1,LIST_BIRD2,COMP_SENT):-
+	birdList_birdName(LIST_BIRD1,B1_NAME),
+	birdList_birdName(LIST_BIRD2,B2_NAME),
+	birdParts(B_PARTS),
+	random_member(PART1,B_PARTS),
+	delete(B_PARTS,PART1,OTHER_B_PARTS),
+	random_member(PART2,OTHER_B_PARTS),
+	part_phrase(PART1,LIST_BIRD1,DESC1),
+	part_phrase(PART2,LIST_BIRD1,DESC2),
+	comparative_phrase(LIST_BIRD1,LIST_BIRD2,COMP_PHR),
+	comparativeInfo_sentence(B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT).
+
+numDescSentTypes(6).
+
+descriptiveInfo_sentence(BIRD_NAME,BFAMILY,DESC1,DESC2,DESC_SENT):-
+	numDescSentTypes(NUM_SENT_TYPES),
+	random_between(1,NUM_SENT_TYPES,SENT_TYPE),
+	descriptiveInfo_sentence(SENT_TYPE,BIRD_NAME,BFAMILY,DESC1,DESC2,DESC_SENT).
+
+descriptiveInfo_sentence(1,BIRD_NAME,_,DESC1,DESC2,DESC_SENT):-
+	strs_flatten(["The ",BIRD_NAME," has a ",DESC1," and a ",DESC2,". "],DESC_SENT).
+
+descriptiveInfo_sentence(2,BIRD_NAME,_,DESC1,DESC2,DESC_SENT):-
+	notable_synonym(NOTABLE),
+	strs_flatten(["The ",BIRD_NAME," is ",NOTABLE," for its ",DESC1," and its ",DESC2,". "],DESC_SENT).
+
+descriptiveInfo_sentence(3,BIRD_NAME,[ITS_FAMILY],DESC1,_,DESC_SENT):-
+	strs_flatten(["A ",ITS_FAMILY," with a ",DESC1," is the ",BIRD_NAME,". "],DESC_SENT).
+
+descriptiveInfo_sentence(4,BIRD_NAME,[ITS_FAMILY],DESC1,DESC2,DESC_SENT):-
+	strs_flatten(["The ",BIRD_NAME," is a ",ITS_FAMILY, " with a ", DESC1, " and a ", DESC2,". "],DESC_SENT).
+
+descriptiveInfo_sentence(5,BIRD_NAME,[ITS_FAMILY],DESC1,DESC2,DESC_SENT):-
+	notable_synonym(NOTABLE),
+	strs_flatten(["One kind of ",ITS_FAMILY," is the ",BIRD_NAME, ", a bird ",NOTABLE," for its ", DESC1, " and ", DESC2,". "],DESC_SENT).
+
+descriptiveInfo_sentence(6,BIRD_NAME,_,DESC1,DESC2,DESC_SENT):-
+	strs_flatten(["A bird with a ", DESC1, " and a ", DESC2," is the ",BIRD_NAME,". "],DESC_SENT).
+
+descriptive_sentence(LISTED_BIRD,DESC_SENT):-
+	birdList_birdName(LISTED_BIRD,BIRD_NAME),
+	birdParts(B_PARTS),
+	birdList_birdFamily(LISTED_BIRD,BFAMILY),
+	random_member(PART1,B_PARTS),
+	delete(B_PARTS,PART1,OTHER_B_PARTS),
+	random_member(PART2,OTHER_B_PARTS),
+	part_phrase(PART1,LISTED_BIRD,DESC1),
+	part_phrase(PART2,LISTED_BIRD,DESC2),
+	descriptiveInfo_sentence(BIRD_NAME,BFAMILY,DESC1,DESC2,DESC_SENT).
 
 % 8 COUNT
 % Charles Bukowski
@@ -1134,91 +1243,39 @@ distributionDietInfo_sentence(7,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_
 % know,
 % fucker.
 
-comparative_phrase(LIST_BIRD1,LIST_BIRD2,COMP_PHR):-
-	birdList_birdSize(LIST_BIRD1,B1_SIZE),
-	birdList_birdSize(LIST_BIRD2,B2_SIZE),
-	comparison_str(B1_SIZE,B2_SIZE,COMP_STR),
-	strs_flatten([" is", COMP_STR],COMP_PHR).
+a_style(SOME_STYLE):- random_member(SOME_STYLE,["low","high","tuneful","abrasive","melodic"]).
 
-numCompSentTypes(6).
+song_sentence(LISTED_BIRD,SONG_SENT):-
+	bird_birdSong(LISTED_BIRD,THE_SONG),
+	a_wayOfSinging(THE_WAY_OF_SINGING),
+	a_style(FIRST_STYLE),
+	a_style(SECOND_STYLE),
+	songInfo_sentence(THE_WAY_OF_SINGING,FIRST_STYLE,SECOND_STYLE,THE_SONG,SONG_SENT).
 
-comparativeInfo_sentence(B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
-	numCompSentTypes(NUM_SENT_TYPES),
-	random_between(1,NUM_SENT_TYPES,SENT_TYPE), comparativeInfo_sentence(SENT_TYPE,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT).
+numSongSentTypes(4).
 
-with_synonyms(["with","and has","having"]).
-mistakenfor_synonyms(["mistaken for","confused with","incorrectly identified as"]).
+sortof_synonym(SORT_OF_SYNONYM):- random_member(SORT_OF_SYNONYM,["sort of","kind of","type of"]).
+soundslike_synonym(SOUNDS_LIKE_SYNONYM):- random_member(SOUNDS_LIKE_SYNONYM,["sounds like","resembles","might be transcribed"]).
 
-comparativeInfo_sentence(1,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
-	with_synonyms(WITH_SYNONYMS),
-	random_member(WITH,WITH_SYNONYMS),
-	strs_flatten(["The ",B1_NAME,COMP_PHR," the ",B2_NAME," ",WITH," a ",DESC1," and ",DESC2,". "],COMP_SENT).
-comparativeInfo_sentence(2,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
-	with_synonyms(WITH_SYNONYMS),
-	random_member(WITH,WITH_SYNONYMS),
-	strs_flatten(["The ",B1_NAME, " resembles the ",B2_NAME," but",COMP_PHR," it, ",WITH," a ",DESC1," and ",DESC2,". "],COMP_SENT).
-comparativeInfo_sentence(3,B1_NAME,B2_NAME,COMP_PHR,DESC1,_,COMP_SENT):-
-	strs_flatten(["With a ",DESC1,", the ",B1_NAME,COMP_PHR," the ",B2_NAME,". "],COMP_SENT).
-
-comparativeInfo_sentence(4,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
-	strs_flatten(["The ",B1_NAME,COMP_PHR," the ",B2_NAME," and is notable for its ",DESC1," and ",DESC2,". "],COMP_SENT).
-
-comparativeInfo_sentence(5,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
-	with_synonyms(WITH_SYNONYMS),
-	random_member(WITH,WITH_SYNONYMS),
-	strs_flatten(["A relative of the ", B2_NAME, ", the ", B1_NAME, COMP_PHR, " it, ",WITH," a ",DESC1," and ",DESC2,". "],COMP_SENT).
-comparativeInfo_sentence(6,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
-	mistakenfor_synonyms(MISTAKENFOR_SYNONYMS),
-	random_member(MISTAKENFOR,MISTAKENFOR_SYNONYMS),
-	strs_flatten(["The ", B1_NAME," is sometimes ",MISTAKENFOR," the ", B2_NAME," and", COMP_PHR, " it. The  ",B1_NAME," also has a ",DESC1," and ",DESC2,". "],COMP_SENT).
-
-comparative_sentence(LIST_BIRD1,LIST_BIRD2,COMP_SENT):-
-	birdList_birdName(LIST_BIRD1,B1_NAME),
-	birdList_birdName(LIST_BIRD2,B2_NAME),
-	birdParts(B_PARTS),
-	random_member(PART1,B_PARTS),
-	delete(B_PARTS,PART1,OTHER_B_PARTS),
-	random_member(PART2,OTHER_B_PARTS),
-	part_phrase(PART1,LIST_BIRD1,DESC1),
-	part_phrase(PART2,LIST_BIRD1,DESC2),
-	comparative_phrase(LIST_BIRD1,LIST_BIRD2,COMP_PHR),
-	comparativeInfo_sentence(B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT).
-
-numDescSentTypes(6).
-
-descriptiveInfo_sentence(BIRD_NAME,BFAMILY,DESC1,DESC2,DESC_SENT):-
-	numDescSentTypes(NUM_SENT_TYPES),
+songInfo_sentence(THE_WAY_OF_SINGING,FIRST_STYLE,SECOND_STYLE,THE_SONG,SONG_SENT):-
+	numSongSentTypes(NUM_SENT_TYPES),
 	random_between(1,NUM_SENT_TYPES,SENT_TYPE),
-	descriptiveInfo_sentence(SENT_TYPE,BIRD_NAME,BFAMILY,DESC1,DESC2,DESC_SENT).
+	songInfo_sentence(SENT_TYPE,THE_WAY_OF_SINGING,FIRST_STYLE,SECOND_STYLE,THE_SONG,SONG_SENT).
 
-descriptiveInfo_sentence(1,BIRD_NAME,_,DESC1,DESC2,DESC_SENT):-
-	strs_flatten(["The ",BIRD_NAME," has a ",DESC1," and a ",DESC2,". "],DESC_SENT).
+songInfo_sentence(1,_,_,_,THE_SONG,SONG_SENT):-
+	sortof_synonym(SORTOF),
+	strs_flatten(["CALL: a ",SORTOF," \"",THE_SONG,"\". "],SONG_SENT).
 
-descriptiveInfo_sentence(2,BIRD_NAME,_,DESC1,DESC2,DESC_SENT):-
-	strs_flatten(["The ",BIRD_NAME," is notable for its ",DESC1," and its ",DESC2,". "],DESC_SENT).
+songInfo_sentence(2,_,FIRST_STYLE,_,THE_SONG,SONG_SENT):-
+	strs_flatten(["CALL: a ",FIRST_STYLE," \"",THE_SONG,"\". "],SONG_SENT).
 
-descriptiveInfo_sentence(3,BIRD_NAME,[ITS_FAMILY],DESC1,_,DESC_SENT):-
-	strs_flatten(["A ",ITS_FAMILY," with a ",DESC1," is the ",BIRD_NAME,". "],DESC_SENT).
+songInfo_sentence(3,WAY_OF_SINGING,FIRST_STYLE,_,THE_SONG,SONG_SENT):-
+	soundslike_synonym(SOUNDSLIKE),
+	strs_flatten(["CALL: a ",FIRST_STYLE," ",WAY_OF_SINGING," which ",SOUNDSLIKE," \"",THE_SONG,"\". "],SONG_SENT).
 
-descriptiveInfo_sentence(4,BIRD_NAME,[ITS_FAMILY],DESC1,DESC2,DESC_SENT):-
-	strs_flatten(["The ",BIRD_NAME," is a ",ITS_FAMILY, " with a ", DESC1, " and a ", DESC2,". "],DESC_SENT).
-
-descriptiveInfo_sentence(5,BIRD_NAME,[ITS_FAMILY],DESC1,DESC2,DESC_SENT):-
-	strs_flatten(["One kind of ",ITS_FAMILY," is the ",BIRD_NAME, ", a bird remarkable for its ", DESC1, " and ", DESC2,". "],DESC_SENT).
-
-descriptiveInfo_sentence(6,BIRD_NAME,_,DESC1,DESC2,DESC_SENT):-
-	strs_flatten(["A bird with a ", DESC1, " and a ", DESC2," is the ",BIRD_NAME,". "],DESC_SENT).
-
-descriptive_sentence(LISTED_BIRD,DESC_SENT):-
-	birdList_birdName(LISTED_BIRD,BIRD_NAME),
-	birdParts(B_PARTS),
-	birdList_birdFamily(LISTED_BIRD,BFAMILY),
-	random_member(PART1,B_PARTS),
-	delete(B_PARTS,PART1,OTHER_B_PARTS),
-	random_member(PART2,OTHER_B_PARTS),
-	part_phrase(PART1,LISTED_BIRD,DESC1),
-	part_phrase(PART2,LISTED_BIRD,DESC2),
-	descriptiveInfo_sentence(BIRD_NAME,BFAMILY,DESC1,DESC2,DESC_SENT).
+songInfo_sentence(4,WAY_OF_SINGING,FIRST_STYLE,SECOND_STYLE,THE_SONG,SONG_SENT):-
+	soundslike_synonym(SOUNDSLIKE),
+	strs_flatten(["CALL: a ",WAY_OF_SINGING," that starts ",FIRST_STYLE," and ends ",SECOND_STYLE,", which ",SOUNDSLIKE," \"",THE_SONG,"\". "],SONG_SENT).
 
 /*
  * THIRTEEN WAYS OF LOOKING AT A BLACKBIRD
@@ -1565,7 +1622,7 @@ fibonacci_birds(N,BIRDS,WORDS):-
 	append(OLD_BIRDS,NEW_BIRDS,BIRDS),
 	append(OLD_WORDS,NEW_WORDS,WORDS).
 
-% Begin early with a bird in the hand, or one free in the sheet of the
+% Begin early with a bird in the hand, one free in the sheet of the
 % sky, or two on the wire.
 %
 %-
@@ -1582,7 +1639,7 @@ fibonacci_birds(N,BIRDS,WORDS):-
 % In the blurb of Inger Christensen's /Alphabet/, someone calls her a
 % "singer of syllables." That's one thing i believe in i guess, the
 % saying of the names of things as a kind of prayer or assurance of your
-% place among them, walking through both the landscape and the syllables
+% place among them, walking through both the landscape and the words
 % for it.
 %
 % There is that classic sort of wizardry that operates by knowing and
@@ -1600,14 +1657,13 @@ fibonacci_birds(N,BIRDS,WORDS):-
 % Code is not what this is about but it is one of the things that it is
 % about because, for all programming's silliness obscurity and
 % economics, in its sentences one can glimpse every now and then,
-% through the for loops and architectures of parenthesis, inside the
+% through the For loops and architectures of parenthesis, inside the
 % obscure formal spacing and odd capitalization, traces of the old
-% original magic: words, utterances that some opaque and inhuman thing
+% original magic: words, utterances that some opaque and not human thing
 % hears and responds to.
 %
 % The rhetoric of almost all programming is the rhetoric of either the
-% imperative or of the declarative - and this is the great debate in
-% selecting programming languages: in the first the programmer tells
+% imperative or of the declarative: in the first the programmer tells
 % their variables what they are, what they will do, what they will
 % mutate into, and eventually how they will be written or acted upon;
 % functional programming describes how one sort of code-thing makes
@@ -1634,10 +1690,11 @@ fibonacci_birds(N,BIRDS,WORDS):-
 % remembered fragments into descriptions of the birds which they imagine
 % they might have seen. They might tell the way a blue neck
 % inflates and contracts over indigo wings, or the three
-% syllable screeching of certain hawks. Much later, someone finds the
-% enormous stack of notebooks they leave behind containing nothing but
-% potential birds. The contents of these notebooks are published on
-% someone else's whim.
+% syllable screeching of certain hawks. It is important for this story
+% that the only way we write about this author is to write about how
+% they write their birds; much later, someone finds the enormous stack
+% of notebooks they leave behind containing nothing but potential birds.
+% The contents of their notebooks are published on someone else's whim.
 %
 % Now imagine walking outside with this guide, down to the slough in
 % Spring or into hills and seeing a bird on a branch of an oak, or
@@ -1650,8 +1707,8 @@ fibonacci_birds(N,BIRDS,WORDS):-
 % entry in the book that - though its author never saw the bird in front
 % of you, describes exactly its size, motion, and one stripe. The book
 % tells you the bird will gnaw an acorn (or snatch up a fish); this
-% time, the bird you are watching 15 feet away gnaws an acorn (or
-% snatches up a fish).
+% time, the bird you are watching a body's length away gnaws an acorn
+% (or snatches up a fish).
 %
 % -
 %
@@ -1664,37 +1721,37 @@ fibonacci_birds(N,BIRDS,WORDS):-
 % There are birds in the backyard: after metaphor, fact and background
 % noise.
 %
-% Over fig blossoms a green one is humming.
+% Over fig blossoms a green one is humming, still as the landscape moves
+% around it.
 %
 % On the fence at the back of the property, seen through the leaves of
 % the apricot tree are three gray and brown animals, to my untrained
-% eyes the only description for their shape than "bird": a sort of
-% doubly bent curve, simple beak, a bulge and suggestion of wings, the
-% thin toes wrapped around wood and the paper fan of tail behind. Their
-% heads and torsos turn occasionally and at once; they strut along the
-% walk.
+% eyes the only description for their shape "bird": a doubly bent curve,
+% simple beak, a bulge and suggestion of wings, the thin toes wrapped
+% around wood and the paper fan of tail behind. Their heads and torsos
+% turn occasionally and at once; they strut along the walk.
 %
 % Two sleek and brown-chested specimens pick at the fallen apricots or
 % the grubs buried in the fruits opened orange matter.
 %
 % Another with a black crest, white neck, neatly splayed tail,
-% the kind of bird for birdwatchers or the hikers at their cameras,
+% the kind of bird for the birdwatchers or the hikers at their cameras,
 % rests a few moments in another long-leaved tree, before setting the
 % branch vibrating as the blur of it dives up and swims into air.
 %
 % Take a break now, find a window, find the bird in it, give it a
 % minute, come back after.
 
-birdWords(THEIR_WORDS):-
-	lots_OfBirdWords(5,THEIR_WORDS).
-
-lots_OfBirdWords(N,THE_BOOK):-
+lots_ofBirdWords(N,THE_BOOK):-
 % "Lightning -
 	fibonacci_birds(N,_,THE_WORDS),
 % Heron's cry
 	strs_flatten(THE_WORDS,THE_BOOK),
-% Stabs the darkness
+% Stabs the darkness" - BASHO (trans. unknown)
 	writef(THE_BOOK).
+
+guideToNonexistentBirds(BIRD_WORDS):-
+	lots_ofBirdWords(7,BIRD_WORDS).
 
 % Freebird
 % LYNRYD SKYNYRD
@@ -1728,46 +1785,3 @@ lots_OfBirdWords(N,THE_BOOK):-
 %
 % Lord, I can't change.
 % Won't you fly high, free bird, yeah?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
