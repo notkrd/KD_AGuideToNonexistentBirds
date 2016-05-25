@@ -325,9 +325,10 @@ rarity_seed("uncommon",SEED):- SEED >= 0.65, SEED < 0.85.
 rarity_seed("rare",SEED):- SEED >= 0.85.
 
 descType_seed(coloredPart,SEED):- SEED < 0.5.
-descType_seed(clime, SEED):- SEED >= 0.5, SEED < 0.75.
-descType_seed(cardDir, SEED):- SEED >= 0.75, SEED < 0.9.
-descType_seed(rarity, SEED):- SEED >= 0.9.
+descType_seed(clime, SEED):- SEED >= 0.5, SEED < 0.7.
+descType_seed(cardDir, SEED):- SEED >= 0.7, SEED < 0.85.
+descType_seed(rarity, SEED):- SEED >= 0.85, SEED < 0.95.
+descType_seed(wayOfSinging, SEED) :- SEED >= 0.95.
 
 partFeature_seed("speckled",SEED):- SEED < 0.2.
 partFeature_seed("mottled",SEED):- SEED >= 0.2, SEED < 0.3.
@@ -395,6 +396,8 @@ attribute_desc(rarity,[THOSE_MULTITUDES]):-
 	rarity(THOSE_MULTITUDES).
 attribute_desc(cardDir,[THAT_BIRDS_PREFERENCE_IN_COMPASSES]):-
 	cardDir(THAT_BIRDS_PREFERENCE_IN_COMPASSES).
+attribute_desc(wayOfSinging,[THAT_BIRDS_NOISES]):-
+	wayOfSinging(THAT_BIRDS_NOISES).
 
 % Standing in a city rock doves with green glimmering throats
 % twitter around you; under the ornamental bridge, gliding mallards
@@ -411,6 +414,8 @@ an_attribute_desc(rarity,[WHAT_MULTITUDES]):-
 	a_rarity(WHAT_MULTITUDES).
 an_attribute_desc(cardDir,[HOLD_A_COMPASS_UNDER_IT]):-
 	a_cardDir(HOLD_A_COMPASS_UNDER_IT).
+an_attribute_desc(wayOfSinging,[DESCRIBE_ITS_NOISES]):-
+	a_wayOfSinging(DESCRIBE_ITS_NOISES).
 
 % The Juan Fernandez firecrown in the Juan Fernandez Islands, named
 % after the Spanish explorer Juan Fernandez, is a hummingbird only
@@ -432,7 +437,8 @@ desc_name(rarity, [THE_RARITY], THE_DESC_STR):-
 	THE_DESC_STR = THE_RARITY.
 desc_name(family, [THE_FAMILY], THE_DESC_STR):-
 	THE_DESC_STR = THE_FAMILY.
-
+desc_name(wayOfSinging, [THE_WAY_OF_SINGING], THE_DESC_STR):-
+	THE_DESC_STR = THE_WAY_OF_SINGING.
 
 /*
  * THIRTEEN WAYS OF LOOKING AT A BLACKBIRD
@@ -506,41 +512,47 @@ colors_of_parts_of_a_bird(THE_PIECES_IN_SOME_COLORS):-
 % this ultraviolet stripe on a chickadee and you will not have a word
 % for it.
 
-name_for(clime,NAME_IT,_,_,LOCATE_IT,_,FIND_ITS_RELATIONS):-
+name_for(clime,NAME_IT,_,_,LOCATE_IT,_,FIND_ITS_RELATIONS,_):-
 	desc_name(clime,LOCATE_IT,NAME_THE_PLACE),
 	desc_name(family,FIND_ITS_RELATIONS,NAME_THE_RELATIONS),
 	strs_flatten([NAME_THE_PLACE," ",NAME_THE_RELATIONS],NAME_IT).
 
-name_for(cardDir,NAME_IT,_,_,_,POINT,FIND_ITS_RELATIONS):-
+name_for(cardDir,NAME_IT,_,_,_,POINT,FIND_ITS_RELATIONS,_):-
 	desc_name(cardDir,POINT,NAME_THE_DIR),
 	desc_name(family,FIND_ITS_RELATIONS,NAME_THE_RELATIONS),
 	strs_flatten([NAME_THE_DIR," ",NAME_THE_RELATIONS],NAME_IT).
 
-name_for(rarity,NAME_IT,_,COUNT_IT,_,_,FIND_ITS_RELATIONS):-
+name_for(rarity,NAME_IT,_,COUNT_IT,_,_,FIND_ITS_RELATIONS,_):-
 	desc_name(rarity,COUNT_IT,NAME_THE_NUMBER),
 	desc_name(family,FIND_ITS_RELATIONS,NAME_THE_RELATIONS),
 	strs_flatten([NAME_THE_NUMBER," ",NAME_THE_RELATIONS],NAME_IT).
 
-name_for(coloredPart,NAME_IT,COLOR_IT,_,_,_,FIND_ITS_RELATIONS):-
+name_for(coloredPart,NAME_IT,COLOR_IT,_,_,_,FIND_ITS_RELATIONS,_):-
 	member(THE_COLORED_PART,COLOR_IT),
 	desc_name(coloredPart,THE_COLORED_PART,NAME_THE_COLORED_PART),
 	desc_name(family,FIND_ITS_RELATIONS,NAME_THE_RELATIONS),
 	strs_flatten([NAME_THE_COLORED_PART," ",NAME_THE_RELATIONS],NAME_IT).
 
+name_for(wayOfSinging,NAME_IT,_,_,_,_,FIND_ITS_RELATIONS,LISTEN_TO_IT):-
+	desc_name(wayOfSinging,LISTEN_TO_IT,HEAR_IT),
+	desc_name(family,FIND_ITS_RELATIONS,NAME_THE_RELATIONS),
+	strs_flatten([HEAR_IT," ",NAME_THE_RELATIONS],NAME_IT).
+
+
 % Consider a bird through a window. It's a small fluffed mass -
 % vibrating, folded up. Lacking better names for it, call it A Little
 % Brown Thing.
 
-a_name_ofType(clime,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS):-
-	name_for(clime,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS).
+a_name_ofType(clime,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,LISTEN_TO_IT):-
+	name_for(clime,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,LISTEN_TO_IT).
 
-a_name_ofType(cardDir,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS):-
-	name_for(cardDir,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS).
+a_name_ofType(cardDir,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,LISTEN_TO_IT):-
+	name_for(cardDir,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,LISTEN_TO_IT).
 
-a_name_ofType(rarity,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS):-
-	name_for(rarity,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS).
+a_name_ofType(rarity,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,LISTEN_TO_IT):-
+	name_for(rarity,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,LISTEN_TO_IT).
 
-a_name_ofType(coloredPart,NAME_IT,COLOR_IT,_,_,_,FIND_ITS_RELATIONS):-
+a_name_ofType(coloredPart,NAME_IT,COLOR_IT,_,_,_,FIND_ITS_RELATIONS,_):-
 	a_birdPart(SOME_PART),
 	THE_COLORED_PART = [SOME_PART,_],
 	member(THE_COLORED_PART,COLOR_IT),
@@ -548,50 +560,58 @@ a_name_ofType(coloredPart,NAME_IT,COLOR_IT,_,_,_,FIND_ITS_RELATIONS):-
 	desc_name(family,FIND_ITS_RELATIONS,NAME_THE_RELATIONS),
 	strs_flatten([NAME_THE_COLORED_PART," ",NAME_THE_RELATIONS],NAME_IT).
 
+a_name_ofType(wayOfSinging,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,LISTEN_TO_IT):-
+	name_for(wayOfSinging,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,LISTEN_TO_IT).
+
 % One from the Spring flock on the nearby tree lands in front of you -
 % brown-winged, white-throated, large as a butternut squash. When you
 % step towards it, it leaps an equal amount back. When you step away, it
 % steps the same distance forward. When your steps approach it twice it
 % flaps back up into the crowded tree.
 
-bird(NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,WEIGH_IT,INDEX_IT):-
+bird(NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,WEIGH_IT,INDEX_IT,LISTEN_TO_IT):-
 	string(NAME_IT),
 	colors_of_parts_of_that_bird(COLOR_IT),
 	attribute_desc(rarity,COUNT_IT),
 	attribute_desc(clime,LOCATE_IT),
 	attribute_desc(cardDir,POINT),
+	attribute_desc(wayOfSinging,LISTEN_TO_IT),
 	birdFamily(FIND_ITS_RELATIONS),
 	1 =< WEIGH_IT,
 	WEIGH_IT =< 10,
 	INDEX_IT >= 0.
 
-a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT):-
+a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT,LISTEN_TO_IT):-
 	colors_of_parts_of_a_bird(COLORS),
 	an_attribute_desc(rarity,COUNT),
 	an_attribute_desc(clime,LOCATE),
 	an_attribute_desc(cardDir,POINT),
 	an_attribute_desc(family,FIND_RELATIONS),
+	an_attribute_desc(wayOfSinging,HEAR_IT),
 	a_descType(A_NAME_TYPE),
 	random_between(1,10,WEIGH_IT),
-	a_name_ofType(A_NAME_TYPE,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS),
-	INDEX_IT >= 1.
+	a_name_ofType(A_NAME_TYPE,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,HEAR_IT),
+	INDEX_IT >= 1,
+	a_wayOfSinging(LISTEN_TO_IT).
 
-a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,INDEX_IT):-
+a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,INDEX_IT,LISTEN_TO_IT):-
 	colors_of_parts_of_a_bird(COLORS),
 	an_attribute_desc(rarity,COUNT),
 	an_attribute_desc(clime,LOCATE),
 	an_attribute_desc(cardDir,POINT),
+	an_attribute_desc(wayOfSinging,HEAR_IT),
+	a_wayOfSinging(LISTEN_TO_IT),
 	a_descType(A_NAME_TYPE),
 	random_between(1,10,WEIGH_IT),
-	a_name_ofType(A_NAME_TYPE,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS),
+	a_name_ofType(A_NAME_TYPE,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,HEAR_IT),
 	INDEX_IT >= 1.
 
-list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT):-
-	ABOUT_A_BIRD = [NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT].
+list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT,LISTEN_TO_IT):-
+	ABOUT_A_BIRD = [NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT,LISTEN_TO_IT].
 
 birdList(BIRD_LIST):-
-	bird(N,CP,CN,L,P,F,S,I),
-	list_bird(BIRD_LIST,N,CP,CN,L,P,F,S,I).
+	bird(N,CP,CN,L,P,F,S,I,SNG),
+	list_bird(BIRD_LIST,N,CP,CN,L,P,F,S,I,SNG).
 
 birdList_birdName(LISTED_BIRD,ITS_NAME):-
 	nth0(0,LISTED_BIRD,ITS_NAME).
@@ -617,6 +637,9 @@ birdList_birdSize(LISTED_BIRD,ITS_SIZE):-
 birdList_birdIndex(LISTED_BIRD,ITS_SIZE):-
 	nth0(7,LISTED_BIRD,ITS_SIZE).
 
+birdList_birdSong(LISTED_BIRD,ITS_SONG):-
+	nth0(8,LISTED_BIRD,ITS_SONG).
+
 % To identify a bird quickly, note the shape of the wings in profile,
 % black against sunlight; or count toes; forget the background tree,
 % forget the ruffle of feathers, but maybe count a flock; dappled
@@ -628,23 +651,23 @@ birdList_birdIndex(LISTED_BIRD,ITS_SIZE):-
 % different and require another chart.
 
 a_birdList(ABOUT_A_BIRD):-
-	a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,1),
-	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,1).
+	a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,1,SNG),
+	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,1,SNG).
 
 a_birdList(_,ABOUT_A_BIRD):-
 	a_birdList(ABOUT_A_BIRD).
 
 a_birdListNum(ABOUT_A_BIRD,THE_INDEX):-
-	a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,THE_INDEX),
-	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,THE_INDEX).
+	a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,THE_INDEX,LISTEN_TO_IT),
+	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,THE_INDEX,LISTEN_TO_IT).
 
 a_birdList_ofFamily(ITS_RELATIONS,ABOUT_A_BIRD):-
-	a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,1),
-	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,1).
+	a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,1,LISTEN_TO_IT),
+	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,1,LISTEN_TO_IT).
 
 a_birdList_ofFamilyNum(ITS_RELATIONS,ABOUT_A_BIRD,THE_INDEX):-
-	a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,THE_INDEX),
-	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,THE_INDEX).
+	a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,THE_INDEX,LISTEN_TO_IT),
+	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,THE_INDEX,LISTEN_TO_IT).
 
 
 a_relationList(OLD_BIRD,RELATED_BIRD):-
@@ -1719,7 +1742,7 @@ fibonacci_birds(N,BIRDS,WORDS):-
 % Take a break now, find a window, find the bird in it, give it a
 % minute, come back after.
 
-lots_OfBirdWords(N,THE_BOOK):-
+lots_ofBirdWords(N,THE_BOOK):-
 % "Lightning -
 	fibonacci_birds(N,_,THE_WORDS),
 % Heron's cry
@@ -1728,7 +1751,7 @@ lots_OfBirdWords(N,THE_BOOK):-
 	writef(THE_BOOK).
 
 guideToNonexistentBirds(BIRD_WORDS):-
-	lots_OfBirdWords(7,BIRD_WORDS).
+	lots_ofBirdWords(7,BIRD_WORDS).
 
 % Freebird
 % LYNRYD SKYNYRD
