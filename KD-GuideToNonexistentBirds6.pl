@@ -68,23 +68,12 @@ strs_flatten(STR_LIST,FLAT_STR) :-
 	flatten(CHAR_LISTS, FLAT_CHARS),
 	string_chars(FLAT_STR,FLAT_CHARS).
 
-make_pairs([E1],[E2],[[E1,E2]]).
-
-make_pairs([H1|T1],[H2|T2],PAIRS):-
-	FIRST_PAIR = [H1,H2],
-	make_pairs(T1,T2,REST_OF_PAIRS),
-	PAIRS = [FIRST_PAIR|REST_OF_PAIRS].
-
 capitalize_first(STR,STR_START_CAPITALIZED):-
 	string_chars(STR,CHARS),
 	CHARS = [H|R],
 	upcase_atom(H,CH),
 	NEW_CHARS = [CH|R],
 	string_chars(STR_START_CAPITALIZED,NEW_CHARS).
-
-
-get_head([H|_],H).
-get_second([_,S],S).
 
 /*
  * THIRTEEN WAYS OF LOOKING AT A BLACKBIRD
@@ -173,38 +162,6 @@ birdFamily_diet(FAMILY,nectar):-
 climePlaces(["swamps","undergrowth","canopies","rivers","tundra","mountain tops",
 	     "conifers","estuaries","beaches","bushes","treetops","shrubbery",
 	     "lakes","reeds","ponds","branches","cliffsides","pine stands"]).
-
-birdFamily(FAMILY):-
-	birdFamilies(THE_FAMS),
-	member(FAMILY,THE_FAMS).
-color(COLOR):-
-	colors(THE_COLORS),
-	member(COLOR,THE_COLORS).
-birdPart(BIRD_PART):-
-	birdParts(THE_BPARTS),
-	member(BIRD_PART,THE_BPARTS).
-clime(CLIME):-
-	climes(THE_CLIMES),
-	member(CLIME,THE_CLIMES).
-cardDir(CARD_DIR):-
-	cardDirs(THE_CARD_DIRS),
-	member(CARD_DIR,THE_CARD_DIRS).
-rarity(RARITY):-
-	rarities(THE_RARITIES),
-	member(RARITY,THE_RARITIES).
-descType(DESC_TYPE):-
-	descTypes(THE_DESC_TYPES),
-	member(DESC_TYPE,THE_DESC_TYPES).
-partFeature(PART_FEATURE):-
-	partFeatures(THE_PART_FEATURES),
-	member(PART_FEATURE,THE_PART_FEATURES).
-birdDiet(DIET):- birdDiets(THE_DIETS), member(DIET,THE_DIETS).
-climePlace(THE_CLIME_PLACE):-
-	climePlaces(THE_CLIME_PLACES),
-	member(THE_CLIME_PLACE,THE_CLIME_PLACES).
-wayOfSinging(WAY_OF_SINGING):-
-	waysOfSinging(THE_WAYS_OF_SINGING),
-	member(WAY_OF_SINGING,THE_WAYS_OF_SINGING).
 
 clime_climePlaces("tropical",["swamps","undergrowth","canopies","rivers"]).
 clime_climePlaces("arctic",["tundra","mountain tops","conifers"]).
@@ -394,9 +351,9 @@ wayOfSinging_seed("groaning",SEED):- SEED >= 0.95.
 
 a_birdFamily(BIRD_FAMILY):- random(S), birdFamily_seed(BIRD_FAMILY,S).
 a_color(COLOR):- random(S), color_seed(COLOR,S).
-a_birdPart(BIRD_PART):- random(S), birdPart(BIRD_PART), birdPart_seed(BIRD_PART,S).
+a_birdPart(BIRD_PART):- random(S), birdPart_seed(BIRD_PART,S).
 a_clime(CLIME):- random(S), clime_seed(CLIME,S).
-a_cardDir(CARD_DIR):- random(S), cardDir(CARD_DIR), cardDir_seed(CARD_DIR,S).
+a_cardDir(CARD_DIR):- random(S), cardDir_seed(CARD_DIR,S).
 a_rarity(RARITY):- random(S), rarity_seed(RARITY,S).
 a_descType(DESC_TYPE):- random(S), descType_seed(DESC_TYPE,S).
 a_partFeature(PART_FEATURE):- random(S), partFeature_seed(PART_FEATURE,S).
@@ -426,19 +383,6 @@ a_wayOfSinging(WAY_OF_SINGING):- random(S), wayOfSinging_seed(WAY_OF_SINGING,S).
 % twigs; you place the binoculars over your eyes, and rub at the central
 % dials until you can distinguish leaf from leaf and feather from
 % feather.
-
-attribute_desc(family,[FAMILY_OF_THAT_BIRD_ITS_GRANDPARENTS_AND_NEICES]):-
-	birdFamily(FAMILY_OF_THAT_BIRD_ITS_GRANDPARENTS_AND_NEICES).
-attribute_desc(coloredPart,[PART_OF_A_BIRD,COLOR_OF_A_PART_OF_THAT_BIRD]):-
-	birdPart(PART_OF_A_BIRD), color(COLOR_OF_A_PART_OF_THAT_BIRD).
-attribute_desc(clime,[THEIR_PREFERRED_KIND_OF_WIND_AND_VEGETATION]):-
-	clime(THEIR_PREFERRED_KIND_OF_WIND_AND_VEGETATION).
-attribute_desc(rarity,[THOSE_MULTITUDES]):-
-	rarity(THOSE_MULTITUDES).
-attribute_desc(cardDir,[THAT_BIRDS_PREFERENCE_IN_COMPASSES]):-
-	cardDir(THAT_BIRDS_PREFERENCE_IN_COMPASSES).
-attribute_desc(wayOfSinging,[THAT_BIRDS_NOISES]):-
-	wayOfSinging(THAT_BIRDS_NOISES).
 
 % Standing in a city rock doves with green glimmering throats
 % twitter around you; under the ornamental bridge, gliding mallards
@@ -527,15 +471,9 @@ desc_name(wayOfSinging, [THE_WAY_OF_SINGING], THE_DESC_STR):-
 % its absence leaves. There is in the house one wall correct in its
 % color and vacancies, within which to frame the painted bird.
 
-that_piece_of_that_bird_in_that_color(THAT_PIECE_OF_THAT_BIRD,
-				      [THAT_PIECE_OF_THAT_BIRD,IN_THAT_COLOR]):-
-	birdPart(THAT_PIECE_OF_THAT_BIRD),
--	color(IN_THAT_COLOR),
-	attribute_desc(coloredPart,[THAT_PIECE_OF_THAT_BIRD,IN_THAT_COLOR]).
-
-colors_of_parts_of_that_bird(THE_PIECES_IN_COLORS):-
-	birdParts(THE_PIECES_OF_THAT_BIRD),
-	maplist(that_piece_of_that_bird_in_that_color,THE_PIECES_OF_THAT_BIRD,THE_PIECES_IN_COLORS).
+birdPart(BIRD_PART):-
+	birdParts(THE_BPARTS),
+	member(BIRD_PART,THE_BPARTS).
 
 that_piece_of_that_bird_in_a_color(THAT_PIECE_OF_THAT_BIRD,[THAT_PIECE_OF_THAT_BIRD,IN_A_COLOR]):-
 	birdPart(THAT_PIECE_OF_THAT_BIRD),
@@ -547,12 +485,11 @@ colors_of_parts_of_a_bird(THE_PIECES_IN_SOME_COLORS):-
 
 % Now, it is well known that your blue and my blue may or may not be the
 % same blue, but, beyond cliched thought experiment, after examining
-% rods and cones and counting them and wave lenghts, and some other such
-% things, we also know that most birds see some totally different shades
-% of blue and off-blue, particularly some ultraviolet ones, and possess
-% plumage reflecting some of these ultraviolet colors. You will not see
-% this ultraviolet stripe on a chickadee and you will not have a word
-% for it.
+% rods and cones and counting them and wave lenghts and performing some
+% similar procedures we also know that most birds see some different
+% and ultraviolet shades of blue and off-blue and possess plumage
+% reflecting some of these ultraviolet colors. You will not see this
+% ultraviolet stripe on a chickadee and you will not have a word for it.
 
 name_for(clime,NAME_IT,_,_,LOCATE_IT,_,FIND_ITS_RELATIONS,_):-
 	desc_name(clime,LOCATE_IT,NAME_THE_PLACE),
@@ -628,18 +565,6 @@ bird_behaviour(ITS_NAME,""):-
 % steps the same distance forward. When your steps approach it twice it
 % flaps back up into the crowded tree.
 
-bird(NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,WEIGH_IT,INDEX_IT,LISTEN_TO_IT):-
-	string(NAME_IT),
-	colors_of_parts_of_that_bird(COLOR_IT),
-	attribute_desc(rarity,COUNT_IT),
-	attribute_desc(clime,LOCATE_IT),
-	attribute_desc(cardDir,POINT),
-	attribute_desc(wayOfSinging,LISTEN_TO_IT),
-	birdFamily(FIND_ITS_RELATIONS),
-	1 =< WEIGH_IT,
-	WEIGH_IT =< 10,
-	INDEX_IT >= 0.
-
 a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT,HEAR_IT):-
 	colors_of_parts_of_a_bird(COLORS),
 	an_attribute_desc(rarity,COUNT),
@@ -665,10 +590,6 @@ a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,INDEX_IT,H
 
 list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT,LISTEN_TO_IT):-
 	ABOUT_A_BIRD = [NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,INDEX_IT,LISTEN_TO_IT].
-
-birdList(BIRD_LIST):-
-	bird(N,CP,CN,L,P,F,S,I,SNG),
-	list_bird(BIRD_LIST,N,CP,CN,L,P,F,S,I,SNG).
 
 birdList_birdName(LISTED_BIRD,ITS_NAME):-
 	nth0(0,LISTED_BIRD,ITS_NAME).
@@ -711,25 +632,13 @@ a_birdList(ABOUT_A_BIRD):-
 	a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,1,SNG),
 	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,1,SNG).
 
-a_birdList(_,ABOUT_A_BIRD):-
-	a_birdList(ABOUT_A_BIRD).
-
 a_birdListNum(ABOUT_A_BIRD,THE_INDEX):-
 	a_bird(NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,THE_INDEX,LISTEN_TO_IT),
 	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,FIND_RELATIONS,WEIGH_IT,THE_INDEX,LISTEN_TO_IT).
 
-a_birdList_ofFamily(ITS_RELATIONS,ABOUT_A_BIRD):-
-	a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,1,LISTEN_TO_IT),
-	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,1,LISTEN_TO_IT).
-
 a_birdList_ofFamilyNum(ITS_RELATIONS,ABOUT_A_BIRD,THE_INDEX):-
 	a_bird_ofFamily(NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,THE_INDEX,LISTEN_TO_IT),
 	list_bird(ABOUT_A_BIRD,NAME,COLORS,COUNT,LOCATE,POINT,ITS_RELATIONS,WEIGH_IT,THE_INDEX,LISTEN_TO_IT).
-
-
-a_relationList(OLD_BIRD,RELATED_BIRD):-
-	birdList_birdFamily(OLD_BIRD,THE_FAM),
-	a_birdList_ofFamily(THE_FAM,RELATED_BIRD).
 
 a_relationListNum(OLD_BIRD,RELATED_BIRD,THE_INDEX):-
 	birdList_birdFamily(OLD_BIRD,THE_FAM),
@@ -1041,10 +950,6 @@ part_phrase(PART,LIST_THE_BIRD,TALK_ABOUT_THAT):-
 	member([PART,ITS_COLOR], ALL_THE_BIRD),
 	strs_flatten([ITS_COLOR," ",PART],TALK_ABOUT_THAT).
 
-a_part_phrase(LIST_THE_BIRD,TALK_ABOUT_IT):-
-	a_birdPart(A_PART),
-	part_phrase(A_PART,LIST_THE_BIRD,TALK_ABOUT_IT).
-
 % In the Splash Zone of the Monterey Bay Aquarium, the only exhibit to
 % feature international fish (as children require their foreign color
 % and striping), on the way to their room of penguins given both water
@@ -1312,11 +1217,6 @@ descriptive_sentence(LISTED_BIRD,DESC_SENT):-
 	part_phrase(PART2,LISTED_BIRD,DESC2),
 	descriptiveInfo_sentence(BIRD_NAME,BFAMILY,DESC1,DESC2,DESC_SENT).
 
-behaviour_sentence(LISTED_BIRD,BEH_SENT):-
-	birdList_birdName(LISTED_BIRD,ITS_NAME),
-	bird_sociability(ITS_NAME,EXTRAVERSION),
-	behaviourInfo_sentence(EXTRAVERSION,BEH_SENT).
-
 numBehSentTypes(1).
 
 behaviourInfo_sentence(EXTRAVERSION,BEH_SENT):-
@@ -1537,8 +1437,8 @@ comparative_text([LIST_BIRD1,LIST_BIRD2],THE_TEXT):-
 % excesses of their tails and plumage - but I skipped class that week
 % and never got around to making up the reading. I did like birds of
 % prey when 8 or 9, but mostly because of their speed and killing. But I
-% do stop, even when a little late, to stare a moment at a thrush in a
-% tree, or to watch a chicken in the grass, it's head bouncing up with
+% do stop even when a little late to stare a moment at a thrush in a
+% tree or to watch a chicken in the grass, it's head bouncing up with
 % grubs.
 
 ofBird_ofTypes_text(_,[],"").
@@ -1624,11 +1524,6 @@ descriptive_text(LISTED_BIRD,THE_TEXT):-
 % for the caged bird
 % sings of freedom.
 
-first_bird([BIRD],WORDS):-
-	a_birdList(BIRD),
-	descriptive_text(BIRD,WORDS).
-
-
 find_birds(0,[],_,[],_).
 
 find_birds(HOW_MANY,[],INDEX,BIRDS_FOUND,WORDS_FOUND):-
@@ -1658,22 +1553,6 @@ find_birds(HOW_MANY,[FIRST_OLD_BIRD|OTHER_OLD_BIRDS],INDEX,BIRDS_FOUND,WORDS_FOU
 	comparative_text([FIRST_BIRD,FIRST_OLD_BIRD],NEW_WORDS),
 	append(OTHER_WORDS,[NEW_WORDS],WORDS_FOUND),
 	append(OTHER_BIRDS,[FIRST_BIRD],BIRDS_FOUND).
-
-new_birds(0,WHAT_OLD_BIRDS,RELATED_BIRDS,RELATION_WORDS):-
-	maplist(a_relationList,WHAT_OLD_BIRDS,RELATED_BIRDS),
-	make_pairs(RELATED_BIRDS,WHAT_OLD_BIRDS,RELATED_PAIRS),
-	maplist(comparative_text,RELATED_PAIRS,RELATION_WORDS).
-
-new_birds(HOW_MANY,WHAT_OLD_BIRDS,NEW_BIRDS,NEW_WORDS):-
-	HOW_MANY > 0,
-	numlist(1,HOW_MANY,NEW_NUMBERS),
-	maplist(a_birdList,NEW_NUMBERS,FRESH_BIRDS),
-	maplist(a_relationList,WHAT_OLD_BIRDS,RELATED_BIRDS),
-	make_pairs(RELATED_BIRDS,WHAT_OLD_BIRDS,RELATED_PAIRS),
-	maplist(comparative_text,RELATED_PAIRS,RELATION_WORDS),
-	maplist(descriptive_text,FRESH_BIRDS,FRESH_WORDS),
-	append(FRESH_BIRDS,RELATED_BIRDS,NEW_BIRDS),
-	append(RELATION_WORDS,FRESH_WORDS,NEW_WORDS).
 
 % Surfin' Bird
 % THE TRASHMEN
@@ -1733,21 +1612,22 @@ new_birds(HOW_MANY,WHAT_OLD_BIRDS,NEW_BIRDS,NEW_WORDS):-
 % Papa-ooma-mow-mow, papa-ooma-mow-mow
 % Papa-ooma-mow-mow, papa-ooma-mow-mow...
 
-fibonacci_birds(0,[],"").
+fibonacci_birds(0,[],_,"").
 
-fibonacci_birds(1,BIRD,WORD):-
+fibonacci_birds(1,BIRD,BIRD,WORD):-
 	find_birds(1,[],1,BIRD,WORD).
 
-fibonacci_birds(N,BIRDS,WORDS):-
+fibonacci_birds(N,NEW_BIRDS,BIRDS,WORDS):-
 	N >= 2,
 	NMONE is N - 1,
 	NMTWO is N - 2,
 	fibonacci(N,FIB_N),
 	fibonacci(NMTWO,FIB_NMTWO),
-	fibonacci_birds(NMONE,OLD_BIRDS,OLD_WORDS),
-	find_birds(FIB_NMTWO,OLD_BIRDS,FIB_N,NEW_BIRDS,NEW_WORDS),
+	fibonacci_birds(NMONE,RECENT_BIRDS,OLD_BIRDS,OLD_WORDS),
+	find_birds(FIB_NMTWO,RECENT_BIRDS,FIB_N,NEW_BIRDS,NEW_WORDS),
 	append(OLD_BIRDS,NEW_BIRDS,BIRDS),
-	append(OLD_WORDS,NEW_WORDS,WORDS).
+	append(OLD_WORDS,["- \n\n"],PREV_WORDS),
+	append(PREV_WORDS,NEW_WORDS,WORDS).
 
 % Begin early with an odd bird in the hand, one free in the sheet of the
 % sky, or two on the wire.
@@ -1866,8 +1746,8 @@ fibonacci_birds(N,BIRDS,WORDS):-
 % One small and dark and gray thrashes around somehow within air, as if
 % touching and thrown back by invisible walls its wings find and shove.
 %
-% A long way up two bent flecks, black in making - somewhere - small
-% running shadows, drift.
+% A long way up two bent flecks, making somewhere small running shadows,
+% drift.
 %
 % Another bird with a dark crest, white neck, neatly splayed tail,
 % the kind of bird for the birdwatchers or the hikers at their cameras,
@@ -1876,7 +1756,7 @@ fibonacci_birds(N,BIRDS,WORDS):-
 %
 % The background noise, as it almost invariably is, is [REASONABLY
 % ACCURATE DESCRIPTION OF BIRDSONG] with an undertone of insects
-% vibrating, and, if you listen very carefully, the refrigerator.
+% vibrating and, if you listen very carefully, the refrigerator.
 %
 % -
 %
@@ -1941,14 +1821,14 @@ fibonacci_birds(N,BIRDS,WORDS):-
 % things line up; where, for the length of such a song, the landscape
 % and its language can be figure and ground of the same place: a
 % rabbit running from the hawk's shadow, the bird directing the
-% directing the darkening of grass after the rabbit.
+% darkening of grass after the rabbit.
 %
 % You are taking a break now, finding a window, finding the bird in it,
 % giving it a minute, coming back after.
 
 lots_ofBirdWords(N,THE_BOOK):-
 % "Lightning -
-	fibonacci_birds(N,_,THE_WORDS),
+	fibonacci_birds(N,_,_,THE_WORDS),
 % Heron's cry
 	strs_flatten(THE_WORDS,THE_BOOK),
 % Stabs the darkness" - BASHO (trans. unknown)
