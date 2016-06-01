@@ -68,6 +68,7 @@ strs_flatten(STR_LIST,FLAT_STR) :-
 	flatten(CHAR_LISTS, FLAT_CHARS),
 	string_chars(FLAT_STR,FLAT_CHARS).
 
+capitalize_first("","").
 capitalize_first(STR,STR_START_CAPITALIZED):-
 	string_chars(STR,CHARS),
 	CHARS = [H|R],
@@ -384,11 +385,6 @@ a_wayOfSinging(WAY_OF_SINGING):- random(S), wayOfSinging_seed(WAY_OF_SINGING,S).
 % dials until you can distinguish leaf from leaf and feather from
 % feather.
 
-% Standing in a city rock doves with green glimmering throats
-% twitter around you; under the ornamental bridge, gliding mallards
-% congregate; to the dead hedgehog flesh-headed vultures swoop; on
-% imagined branches that flicker, wingless blackbirds land
-
 an_attribute_desc(family,[A_FAMILY_FOR_THAT_BIRD_AUNTS_UNCLES_SIBLINGS]):-
 	a_birdFamily(A_FAMILY_FOR_THAT_BIRD_AUNTS_UNCLES_SIBLINGS).
 an_attribute_desc(coloredPart,[A_PART_OF_THAT_BIRD, A_COLOR_OF_A_PART_OF_THAT_BIRD]):-
@@ -402,15 +398,10 @@ an_attribute_desc(cardDir,[HOLD_A_COMPASS_UNDER_IT]):-
 an_attribute_desc(wayOfSinging,[DESCRIBE_ITS_NOISES]):-
 	a_wayOfSinging(DESCRIBE_ITS_NOISES).
 
-% The Juan Fernandez firecrown in the Juan Fernandez Islands, named
-% after the Spanish explorer Juan Fernandez, is a hummingbird only
-% spotted on the island Isla de Robinson Crusoe, named after Robinson
-% Crusoe, owned by Chile which was named "Chile" by the Spanish
-% possibly from the Incan naming of a valley "Chili," a corruption of
-% the name of a Picunche chief Tili, or which may be named from a
-% Mapuche word "chilli" for "where the land ends," a Quechua word
-% "chiri" or "tchilli" for "cold" or "snow," or for the onomatopoeic
-% "cheele-cheele" for the warble of a bird known as the "trile"
+% Standing in a city rock doves with green glimmering throats
+% twitter around you; under the ornamental bridge, gliding mallards
+% congregate; to the dead hedgehog flesh-headed vultures swoop. On
+% imagined branches that flicker, wingless blackbirds land
 
 desc_name(coloredPart,[THE_PART,THE_COLOR],THE_DESC_STR):-
 	strs_flatten([THE_COLOR,"-",THE_PART,"ed"],THE_DESC_STR).
@@ -424,6 +415,17 @@ desc_name(family, [THE_FAMILY], THE_DESC_STR):-
 	THE_DESC_STR = THE_FAMILY.
 desc_name(wayOfSinging, [THE_WAY_OF_SINGING], THE_DESC_STR):-
 	THE_DESC_STR = THE_WAY_OF_SINGING.
+
+% The Juan Fernandez firecrown in the Juan Fernandez Islands, named
+% after the Spanish explorer Juan Fernandez, is a hummingbird only
+% spotted on the island Isla de Robinson Crusoe, named after Robinson
+% Crusoe, owned by Chile which was named "Chile" by the Spanish
+% possibly from the Incan naming of a valley "Chili," a corruption of
+% the name of a Picunche chief Tili, or which may be named from a
+% Mapuche word "chilli" for "where the land ends," a Quechua word
+% "chiri" or "tchilli" for "cold" or "snow," or for the onomatopoeic
+% "cheele-cheele" for the warble of a bird known as the "trile"
+
 
 /*
  * THIRTEEN WAYS OF LOOKING AT A BLACKBIRD
@@ -555,9 +557,37 @@ bird_sociability(ITS_NAME,"flocking"):-
 	10 =< NAME_LENGTH,
 	16 >= NAME_LENGTH.
 
-bird_behaviour(ITS_NAME,""):-
+behaviour_type(BEHAVIOUR_INT,"inter-species"):-
+	0 is BEHAVIOUR_INT mod 5.
+
+behaviour_type(BEHAVIOUR_INT,"nesting"):-
+	1 is BEHAVIOUR_INT mod 5.
+
+behaviour_type(BEHAVIOUR_INT,"flight"):-
+	2 is BEHAVIOUR_INT mod 5.
+
+behaviour_type(BEHAVIOUR_INT,"migratory"):-
+	3 is BEHAVIOUR_INT mod 5.
+
+behaviour_type(BEHAVIOUR_INT,"misc"):-
+	4 is BEHAVIOUR_INT mod 5.
+
+of_type_behaviour(BEHAVIOUR_INT,"inter-species",ITS_BEHAVIOUR):-
+	0 is BEHAVIOUR_INT mod 2,
+	a_birdListNum(1,SOME_OTHER_BIRD),
+	birdList_birdName(SOME_OTHER_BIRD,OTHER_NAME),
+	strs_flatten(["found around the homes of the ",OTHER_NAME],ITS_BEHAVIOUR).
+
+of_type_behaviour(BEHAVIOUR_INT,"inter-species","a brood parasite, leaving its eggs in the nests of other birds rather than raising its own young"):-
+	1 is BEHAVIOUR_INT mod 3.
+
+of_type_behaviour(_,_,"").
+
+bird_behaviour(ITS_NAME,ITS_BEHAVIOUR):-
 	string_codes(ITS_NAME,ITS_NUMBERS),
-	sum_list(ITS_NUMBERS,BEHAVIOUR_INT).
+	sum_list(ITS_NUMBERS,BEHAVIOUR_INT),
+	behaviour_type(BEHAVIOUR_INT,BEHAVIOUR_TYPE),
+	of_type_behaviour(BEHAVIOUR_INT,BEHAVIOUR_TYPE,ITS_BEHAVIOUR).
 
 % One from the Spring flock on the nearby tree lands in front of you -
 % brown-winged, white-throated, large as a butternut squash. When you
@@ -1077,7 +1107,7 @@ distributionDietInfo_sentence(1,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,WHERE_
 	typically_synonym(TYPICALLY),
 	residein_synonym(RESIDEIN),
 	strs_flatten([THEM_NAMED,"s ",HOW_MANYLY," ",RESIDEIN," ",WHERE_POINTED," ",
-		      WHERE_ELSE," or in ",WHERE," where they ",TYPICALLY,
+		      WHERE_ELSE," or ",WHERE," where they ",TYPICALLY,
 		      " subsist on ",FOOD,". "],DIST_SENT).
 
 distributionDietInfo_sentence(2,THEM_NAMED,HOW_MANYLY,WHERE_POINTED,WHERE,
@@ -1267,7 +1297,7 @@ song_sentence(LISTED_BIRD,SONG_SENT):-
 	a_style(SECOND_STYLE),
 	songInfo_sentence(THE_WAY_OF_SINGING,FIRST_STYLE,SECOND_STYLE,THE_SONG,SONG_SENT).
 
-numSongSentTypes(4).
+numSongSentTypes(6).
 
 sortof_synonym(SORT_OF_SYNONYM):- random_member(SORT_OF_SYNONYM,
 						["sort of","kind of","type of"]).
@@ -1297,6 +1327,15 @@ songInfo_sentence(4,WAY_OF_SINGING,FIRST_STYLE,SECOND_STYLE,THE_SONG,SONG_SENT):
 	soundslike_synonym(SOUNDSLIKE),
 	strs_flatten(["CALL: a ",WAY_OF_SINGING," that starts ",FIRST_STYLE," and ends ",
 		      SECOND_STYLE,", which ",SOUNDSLIKE," \"",THE_SONG,"\". "],SONG_SENT).
+
+songInfo_sentence(5,WAY_OF_SINGING,FIRST_STYLE,SECOND_STYLE,THE_SONG,SONG_SENT):-
+	sortof_synonym(SORTOF),
+	strs_flatten(["CALL: a ",SORTOF," ",WAY_OF_SINGING," - first ",FIRST_STYLE," then ",
+		      SECOND_STYLE," \"",THE_SONG,"\". "],SONG_SENT).
+
+songInfo_sentence(6,_,_,_,THE_SONG,SONG_SENT):-
+	strs_flatten(["CALL: a \"",THE_SONG,"\". "],SONG_SENT).
+
 
 /*
  * THIRTEEN WAYS OF LOOKING AT A BLACKBIRD
@@ -1657,11 +1696,11 @@ fibonacci_birds(N,NEW_BIRDS,BIRDS,WORDS):-
 % or an unborn child, all are syllables of the great word that is very
 % slowly spoken by the shining of the stars. There is no other power. No
 % other name." Something else i like about this kind of Young Adult
-% wizardry is the discussion of power in it: the knowledge of a person's
-% actual name gives a total and dangerous kind of control over them. The
-% namer of birds, there, is a list-maker but at the same time
-% responsible for the unpredictable and at times explosive consequences
-% of speaking their grimoire.
+% wizardry is the discussion of power in it: how the knowledge of a
+% person's actual name gives a total and dangerous kind of control over
+% them. The namer of birds, there, is a list-maker but at the same time
+% responsible for the unpredictable and at times explosive or
+% incendiary results of speaking their grimoire.
 %
 %-
 %
@@ -1704,13 +1743,13 @@ fibonacci_birds(N,NEW_BIRDS,BIRDS,WORDS):-
 % they might have seen. They might tell the way a blue neck inflates and
 % contracts over indigo wings, or the three syllable screeching of
 % certain hawks. It is important for this story that the only way we can
-% write about this author is to talk about how they write their birds;
-% much later, someone finds the enormous stack of notebooks they leave
-% behind containing nothing but potential birds. The contents of their
-% notebooks are published on someone else's whim.
+% write about this author is to talk about how they write their
+% ornithology; much later, someone finds the enormous stack of notebooks
+% they leave behind containing nothing but potential birds. The contents
+% of their notebooks are published on someone else's whim.
 %
 % Now imagine walking outside with this guide, down to the slough in
-% Spring or into hills and seeing a bird on a branch of an oak, or
+% Spring or into hills, and seeing a bird on a branch of an oak, or
 % wading through the muck.
 %
 % You open the Book of Potential Birds and flip for a while through
@@ -1735,10 +1774,10 @@ fibonacci_birds(N,NEW_BIRDS,BIRDS,WORDS):-
 % the apricot tree are three gray and brown animals, to my untrained
 % eyes the only description for their shape "bird": a doubly bent curve,
 % simple beak, a bulge and suggestion of wings, the thin toes wrapped
-% around wood and the paper fan of tail behind. Their heads and torsos
+% round wood and the paper fan of tail behind. Their heads and torsos
 % turn occasionally and at once; they strut along the walk. They
-% stop. Then, they fly up at my approach and land back three feet down
-% along the wood.
+% pause. Then, they fly up at my approach and land back three feet
+% further down along the wood.
 %
 % Two sleek and brown-chested specimens pick at the fallen apricots or
 % the grubs buried in the fruits opened orange matter.
@@ -1754,17 +1793,15 @@ fibonacci_birds(N,NEW_BIRDS,BIRDS,WORDS):-
 % rests a few moments in another long-leaved tree, before setting the
 % branch vibrating as the blur of it dives up and swims in air.
 %
-% The background noise, as it almost invariably is, is [REASONABLY
-% ACCURATE DESCRIPTION OF BIRDSONG] with an undertone of insects
-% vibrating and, if you listen very carefully, the refrigerator.
+% The background noise, as it almost invariably is, is a  mountain range
+% of bird whistles, chirps, and chittering - the apparent peaks each
+% with their own jagged and private contour - that stand against
+% each other; now a wail that comes in threes, rising, dropping, while
+% from another ear's side of the yard a full paragraph of evenly spaced
+% and paper-thin notes scatters, with an undertone of insects vibrating
+% and, if you listen very carefully, the refrigerator.
 %
 % -
-%
-% Raymond Queneau’s motto: "Rats who build the labyrinth from which they
-% will try to escape"
-%
-% Georges Perec's: "I set myself rules in order to be totally
-% free."
 %
 % There is a 13 paragraph story-shaped hole here, and what i am doing is
 % looking for the noises or meanings that could succesfully fill out or
@@ -1777,7 +1814,7 @@ fibonacci_birds(N,NEW_BIRDS,BIRDS,WORDS):-
 % less, but the place somehow seems empty as a page, as though it was
 % existing before to hold birds, as though while watching this landscape
 % you are really waiting for the birds and their utterances to inhabit
-% it, and are now looking for where they will enter it again, on the
+% it, and are now looking for where they will enter it again: on the
 % branches, along the fence, or clutching the wire.
 %
 % Maybe birds are parralel and alternate societies, civilizations we
@@ -1787,32 +1824,61 @@ fibonacci_birds(N,NEW_BIRDS,BIRDS,WORDS):-
 % watch of nightingales. To sit in the parliamentary chamber observing
 % unceasing arguments in an unspoken language.
 %
-% Consider a sendentary creature, who returns through all seasons to the
-% same three or four perches (i'm trying to avoid autobiography, but
-% also only end up explaining what i do and do not understand
-% of myself; let me be this bird, let the perches be the three or four
-% things i have to talk about: those things are something about
-% structure and language, a rambling explanation of mathematics, and
-% something about the smudged out repulsion of myself and my fear of
-% aquariums).
+% Alternately, maybe single birds are instead examples of the
+% metamorphosed bodies an inacessible person becomes: the understanding
+% of herons and cruelty of ravens; wisdom of owls, grace of swans, and
+% morbid despair of vultures. The way the animal cannot protest the
+% story told of it without its call being made back into story, or to
+% praise.
 %
 % Something else i like and look for is the moment when a metaphor gets
 % so involved in its details that it no longer appears to be a map to
 % somewhere else, but its own place - parables that get lost in
 % themselves, like Aesop's Fables or Calvino's /Cosmicomics/; i believe
 % in maps, in the possibility of paraphrase, that at the end of the day,
-% our explanations usually work - but also that there is something else
-% to be found in the contour of the drawn coastline, a way in which the
-% pencil finding the inlets and little islands also begins to undertand
-% the possible joy and reasons behind its own motion.
+% our explanations usually can do what we need them to - but also that
+% there is something else to be found in the contour of the drawn
+% coastline, a way in which the pencil finding the inlets and little
+% islands also begins to undertand the possible joy and reasons behind
+% its own motion. I think i would still read The Sibley Guide to Birds,
+% as a magic-realist collection of prose-poetry now, if there were no
+% birds around at all.
 %
-% This is not the logic of birds, but the logic of a mind hoping to
-% make a logic for birds: i do not hope to learn the actual patterns of
-% ornithology, but to consider some of the odd extravagent and
-% particular birds of a logic; it is not the still polygon of the
-% stuffed specimen but the blur of the hovering hummingbird's wings that
-% i want to watch and understand: or maybe what is interesting is
-% actually the counterpoint between polygon and motion.
+% Consider a sendentary creature who returns through all seasons to the
+% same three or four perches (i'm trying to avoid autobiography, but
+% in the end only find myself explaining what i imagine i do and do not
+% understand of myself; let me be this bird, let the perches be the
+% three or four things i have to talk about: they are something about
+% structure and language, a rambling explanation of mathematics, and
+% something about the smudged out repulsion of myself, my fear of
+% aquariums).
+%
+% Raymond Queneau’s motto: "Rats who build the labyrinth from which they
+% will try to escape"
+%
+% Georges Perec's: "I set myself rules in order to be totally
+% free."
+%
+% This is not the logic of birds of course, but the logic of a mind
+% hoping to make a logic for birds: i dare not hope to learn the actual
+% patterns of ornithology, but only to consider some of the odd
+% extravagant and particular birds of a logic; it is not the still
+% polygon of the stuffed specimen but the blur of the hovering
+% hummingbird's wings that i want to watch and understand: or maybe what
+% is interesting is actually the counterpoint between polygon and
+% motion.
+%
+% I do remember walking through the coastal forest where an osprey was
+% and the binoculars on a string around my neck. I do not really
+% remember the bird beyond the flash of some section of white and the
+% presence of wings, but i remember talking and reading about it
+% afterwards, in our place a rare bird, fish-eater and diver, nesting
+% on large sticks placed in a dead tree. I remember kestrels on
+% telephone wires and boring vultures. A hawk or swift that one morning
+% we found after a thunderclap from the living room window: shaking in a
+% pile there for some minutes as we wondered whether there was someone
+% one is supposed to call about dying birds, when it just stood up and
+% flapped off.
 %
 % A speculation (not true or untrue but perhaps with the sound of
 % potentially resonant things, that can catch and keep an ear for the
@@ -1820,11 +1886,17 @@ fibonacci_birds(N,NEW_BIRDS,BIRDS,WORDS):-
 % repeating a variation on): birdsong is the place where names and
 % things line up; where, for the length of such a song, the landscape
 % and its language can be figure and ground of the same place: a
-% rabbit running from the hawk's shadow, the bird directing the
+% rabbit running from the hawk's shadow, the hawk directing the
 % darkening of grass after the rabbit.
 %
 % You are taking a break now, finding a window, finding the bird in it,
 % giving it a minute, coming back after.
+%
+% "Maybe sparrow it's too late / Moonlight glanced off metal wings / In
+% a thunderstorm above the clouds / The engine hums a sparrow's phrase
+% / For those who cannot hear the words / For those who will not hear
+% the words / For those who will not hear the words / La di da di da di
+% da / La di da di da di da" - Neko Case
 
 lots_ofBirdWords(N,THE_BOOK):-
 % "Lightning -
