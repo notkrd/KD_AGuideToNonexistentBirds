@@ -510,6 +510,12 @@ name_for(rarity,NAME_IT,_,COUNT_IT,_,_,FIND_ITS_RELATIONS,_):-
 
 name_for(coloredPart,NAME_IT,COLOR_IT,_,_,_,FIND_ITS_RELATIONS,_):-
 	member(THE_COLORED_PART,COLOR_IT),
+
+% One from the Spring flock on the nearby tree lands in front of you -
+% brown-winged, white-throated, large as a butternut squash. When you
+% step towards it, it leaps an equal amount back. When you step away, it
+% steps the same distance forward. When your steps approach it twice it
+% flaps back up into the crowded tree.
 	desc_name(coloredPart,THE_COLORED_PART,NAME_THE_COLORED_PART),
 	desc_name(family,FIND_ITS_RELATIONS,NAME_THE_RELATIONS),
 	strs_flatten([NAME_THE_COLORED_PART," ",NAME_THE_RELATIONS],NAME_IT).
@@ -538,56 +544,6 @@ a_name_ofType(coloredPart,NAME_IT,COLOR_IT,_,_,_,FIND_ITS_RELATIONS,_):-
 
 a_name_ofType(wayOfSinging,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,LISTEN_TO_IT):-
 	name_for(wayOfSinging,NAME_IT,COLOR_IT,COUNT_IT,LOCATE_IT,POINT,FIND_ITS_RELATIONS,LISTEN_TO_IT).
-
-% Consider a bird through a window. It's a small fluffed mass -
-% vibrating, folded up. Lacking better names for it, call it A Little
-% Brown Thing.
-
-bird_sociability(ITS_NAME,"solitary"):-
-	string_length(ITS_NAME,NAME_LENGTH),
-	10 >= NAME_LENGTH.
-
-bird_sociability(ITS_NAME,"semi-solitary"):-
-	string_length(ITS_NAME,NAME_LENGTH),
-	10 =< NAME_LENGTH,
-	16 >= NAME_LENGTH.
-
-bird_sociability(ITS_NAME,"flocking"):-
-	string_length(ITS_NAME,NAME_LENGTH),
-	10 =< NAME_LENGTH,
-	16 >= NAME_LENGTH.
-
-behaviour_type(BEHAVIOUR_INT,"inter-species"):-
-	0 is BEHAVIOUR_INT mod 5.
-
-behaviour_type(BEHAVIOUR_INT,"nesting"):-
-	1 is BEHAVIOUR_INT mod 5.
-
-behaviour_type(BEHAVIOUR_INT,"flight"):-
-	2 is BEHAVIOUR_INT mod 5.
-
-behaviour_type(BEHAVIOUR_INT,"migratory"):-
-	3 is BEHAVIOUR_INT mod 5.
-
-behaviour_type(BEHAVIOUR_INT,"misc"):-
-	4 is BEHAVIOUR_INT mod 5.
-
-of_type_behaviour(BEHAVIOUR_INT,"inter-species",ITS_BEHAVIOUR):-
-	0 is BEHAVIOUR_INT mod 2,
-	a_birdListNum(1,SOME_OTHER_BIRD),
-	birdList_birdName(SOME_OTHER_BIRD,OTHER_NAME),
-	strs_flatten(["found around the homes of the ",OTHER_NAME],ITS_BEHAVIOUR).
-
-of_type_behaviour(BEHAVIOUR_INT,"inter-species","a brood parasite, leaving its eggs in the nests of other birds rather than raising its own young"):-
-	1 is BEHAVIOUR_INT mod 3.
-
-of_type_behaviour(_,_,"").
-
-bird_behaviour(ITS_NAME,ITS_BEHAVIOUR):-
-	string_codes(ITS_NAME,ITS_NUMBERS),
-	sum_list(ITS_NUMBERS,BEHAVIOUR_INT),
-	behaviour_type(BEHAVIOUR_INT,BEHAVIOUR_TYPE),
-	of_type_behaviour(BEHAVIOUR_INT,BEHAVIOUR_TYPE,ITS_BEHAVIOUR).
 
 % One from the Spring flock on the nearby tree lands in front of you -
 % brown-winged, white-throated, large as a butternut squash. When you
@@ -673,6 +629,84 @@ a_birdList_ofFamilyNum(ITS_RELATIONS,ABOUT_A_BIRD,THE_INDEX):-
 a_relationListNum(OLD_BIRD,RELATED_BIRD,THE_INDEX):-
 	birdList_birdFamily(OLD_BIRD,THE_FAM),
 	a_birdList_ofFamilyNum(THE_FAM,RELATED_BIRD,THE_INDEX).
+
+% Consider a bird through a window. It's a small fluffed mass -
+% vibrating, folded up. Lacking better names for it, call it A Little
+% Brown Thing.
+
+bird_sociability(ITS_NAME,"solitary"):-
+	string_length(ITS_NAME,NAME_LENGTH),
+	10 >= NAME_LENGTH.
+
+bird_sociability(ITS_NAME,"semi-solitary"):-
+	string_length(ITS_NAME,NAME_LENGTH),
+	10 =< NAME_LENGTH,
+	16 >= NAME_LENGTH.
+
+bird_sociability(ITS_NAME,"flocking"):-
+	string_length(ITS_NAME,NAME_LENGTH),
+	10 =< NAME_LENGTH,
+	16 >= NAME_LENGTH.
+
+behaviour_type(BEHAVIOUR_INT,"inter-species"):-
+	0 is BEHAVIOUR_INT mod 7.
+
+behaviour_type(BEHAVIOUR_INT,"nesting"):-
+	1 is BEHAVIOUR_INT mod 7.
+
+behaviour_type(BEHAVIOUR_INT,"flight"):-
+	2 is BEHAVIOUR_INT mod 7.
+
+behaviour_type(BEHAVIOUR_INT,"migratory"):-
+	3 is BEHAVIOUR_INT mod 7.
+
+behaviour_type(BEHAVIOUR_INT,"mating"):-
+	4 is BEHAVIOUR_INT mod 7.
+
+behaviour_type(BEHAVIOUR_INT,"human"):-
+	5 is BEHAVIOUR_INT mod 7.
+
+behaviour_type(BEHAVIOUR_INT,"misc"):-
+	6 is BEHAVIOUR_INT mod 7.
+
+nesting_material(SEED_INT,THE_MATERIAL):-
+	MOD3 is SEED_INT mod 3,
+	nth0(MOD3,["dead twigs and leaves","branches","moss, wool, fabric, plant fluff, or string"],THE_MATERIAL).
+
+nest_type(SEED_INT,NEST_TYPE):-
+	MOD5 is SEED_INT mod 5,
+	nth0(MOD5,["flat platforms composed of ","suspended structures woven from ","natural cavities in trees filled out with ", "depressions in the ground covered over by ", "tall and loosely built nests of "],NEST_TYPE).
+
+of_type_behaviour(BEHAVIOUR_INT,"inter-species",ITS_BEHAVIOUR):-
+	0 is BEHAVIOUR_INT mod 2,
+	a_birdListNum(1,SOME_OTHER_BIRD),
+	birdList_birdName(SOME_OTHER_BIRD,OTHER_NAME),
+	strs_flatten(["found around the homes of the ",OTHER_NAME],ITS_BEHAVIOUR).
+
+of_type_behaviour(BEHAVIOUR_INT,"inter-species",ITS_BEHAVIOUR):-
+	1 is BEHAVIOUR_INT mod 2,
+	a_birdListNum(1,SOME_OTHER_BIRD),
+	birdList_birdName(SOME_OTHER_BIRD,OTHER_NAME),
+	strs_flatten(["It is found around the homes of the ",OTHER_NAME],ITS_BEHAVIOUR).
+
+of_type_behaviour(BEHAVIOUR_INT,"inter-species",ITS_BEHAVIOUR):-
+	2 is BEHAVIOUR_INT mod 3,
+	a_birdListNum(1,SOME_OTHER_BIRD),
+	birdList_birdName(SOME_OTHER_BIRD,OTHER_NAME),
+	strs_flatten(["It is a brood parasite, leaving its eggs in nests of the ",OTHER_NAME, " rather than raising its own young."],ITS_BEHAVIOUR).
+
+of_type_behaviour(BEHAVIOUR_INT,"nesting",ITS_BEHAVIOUR):-
+	nesting_material(BEHAVIOUR_INT,THE_MATERIAL),
+	nest_type(BEHAVIOUR_INT,NEST_TYPE),
+	strs_flatten(["They make their homes in ",NEST_TYPE,THE_MATERIAL,"."],ITS_BEHAVIOUR).
+
+of_type_behaviour(_,_,"").
+
+bird_behaviour(ITS_NAME,ITS_BEHAVIOUR):-
+	string_codes(ITS_NAME,ITS_NUMBERS),
+	sum_list(ITS_NUMBERS,BEHAVIOUR_INT),
+	behaviour_type(BEHAVIOUR_INT,BEHAVIOUR_TYPE),
+	of_type_behaviour(BEHAVIOUR_INT,BEHAVIOUR_TYPE,ITS_BEHAVIOUR).
 
 /*
  * THIRTEEN WAYS OF LOOKING AT A BLACKBIRD
@@ -1678,7 +1712,9 @@ fibonacci_birds(N,NEW_BIRDS,BIRDS,WORDS):-
 % laminated guide to local Wildflowers and at each new blossom stop and
 % cluster around the pictures looking at the yellow white purple orange
 % or red petals comparing and looking at leaf lengths and saying into
-% the wind "California Milkworth,"
+% the wind "California Milkworth," "Purple Larkspur," "Baby Blue Eyes,"
+% "Mugwort," "Morning Glory," "Fiddleneck," "Yellow Monkeyflower,"
+% "Linseed"
 %
 %-
 %
@@ -1698,9 +1734,9 @@ fibonacci_birds(N,NEW_BIRDS,BIRDS,WORDS):-
 % other name." Something else i like about this kind of Young Adult
 % wizardry is the discussion of power in it: how the knowledge of a
 % person's actual name gives a total and dangerous kind of control over
-% them. The namer of birds, there, is a list-maker but at the same time
-% responsible for the unpredictable and at times explosive or
-% incendiary results of speaking their grimoire.
+% them; the namer of birds, there, is a maker of lists but also
+% responsible for the unpredictable and at times explosive or incendiary
+% results of speaking their grimoire.
 %
 %-
 %
@@ -1783,7 +1819,8 @@ fibonacci_birds(N,NEW_BIRDS,BIRDS,WORDS):-
 % the grubs buried in the fruits opened orange matter.
 %
 % One small and dark and gray thrashes around somehow within air, as if
-% touching and thrown back by invisible walls its wings find and shove.
+% touching and thrown back by invisible walls which its wings find and
+% shove.
 %
 % A long way up two bent flecks, making somewhere small running shadows,
 % drift.
@@ -1793,13 +1830,13 @@ fibonacci_birds(N,NEW_BIRDS,BIRDS,WORDS):-
 % rests a few moments in another long-leaved tree, before setting the
 % branch vibrating as the blur of it dives up and swims in air.
 %
-% The background noise, as it almost invariably is, is a  mountain range
-% of bird whistles, chirps, and chittering - the apparent peaks each
-% with their own jagged and private contour - that stand against
-% each other; now a wail that comes in threes, rising, dropping, while
-% from another ear's side of the yard a full paragraph of evenly spaced
-% and paper-thin notes scatters, with an undertone of insects vibrating
-% and, if you listen very carefully, the refrigerator.
+% The background noise, as it almost invariably is, is a range of bird
+% whistles, chirps, and chittering - the apparent peaks each with their
+% own jagged and private contour - that stand against each other; now a
+% wail that comes in threes, rising, dropping, while from another ear's
+% side of the yard a full paragraph of evenly spaced and paper-thin
+% notes scatters, with an undertone of insects vibrating and, if you
+% listen very carefully, the refrigerator.
 %
 % -
 %
@@ -1835,12 +1872,12 @@ fibonacci_birds(N,NEW_BIRDS,BIRDS,WORDS):-
 % so involved in its details that it no longer appears to be a map to
 % somewhere else, but its own place - parables that get lost in
 % themselves, like Aesop's Fables or Calvino's /Cosmicomics/; i believe
-% in maps, in the possibility of paraphrase, that at the end of the day,
-% our explanations usually can do what we need them to - but also that
-% there is something else to be found in the contour of the drawn
+% in maps, in the possibility of paraphrase - that, at the end of the
+% day, our explanations usually can do what we need them to - but also
+% that there is something else to be found in the contour of the drawn
 % coastline, a way in which the pencil finding the inlets and little
 % islands also begins to undertand the possible joy and reasons behind
-% its own motion. I think i would still read The Sibley Guide to Birds,
+% its own motion. I think one could read The Sibley Guide to Birds,
 % as a magic-realist collection of prose-poetry now, if there were no
 % birds around at all.
 %
@@ -1854,13 +1891,18 @@ fibonacci_birds(N,NEW_BIRDS,BIRDS,WORDS):-
 % aquariums).
 %
 % Raymond Queneau’s motto: "Rats who build the labyrinth from which they
-% will try to escape"
+% will try to escape" Georges Perec's: "I set myself rules in order to
+% be totally free."
 %
-% Georges Perec's: "I set myself rules in order to be totally
-% free."
+% These little birds do not really dare to comment on Wittgenstein, but
+% maybe the question is as to how to find my way through language-games,
+% the game of telling birds that might or might not be, or barring
+% succesful play, to participate in them with something like joy. The
+% rules are not these rules but the play of finding them, and the next
+% rules, for naming the following as yet ignored birds.
 %
 % This is not the logic of birds of course, but the logic of a mind
-% hoping to make a logic for birds: i dare not hope to learn the actual
+% hoping to make a logic for birds: i do not hope to learn the actual
 % patterns of ornithology, but only to consider some of the odd
 % extravagant and particular birds of a logic; it is not the still
 % polygon of the stuffed specimen but the blur of the hovering
@@ -1877,8 +1919,8 @@ fibonacci_birds(N,NEW_BIRDS,BIRDS,WORDS):-
 % telephone wires and boring vultures. A hawk or swift that one morning
 % we found after a thunderclap from the living room window: shaking in a
 % pile there for some minutes as we wondered whether there was someone
-% one is supposed to call about dying birds, when it just stood up and
-% flapped off.
+% one is supposed to call about dying birds, when it just gathered
+% itself up and flapped off.
 %
 % A speculation (not true or untrue but perhaps with the sound of
 % potentially resonant things, that can catch and keep an ear for the
