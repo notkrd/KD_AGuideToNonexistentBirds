@@ -109,8 +109,8 @@ birdFamilies(["hummingbird","thrush","tinamou","egret","hawk","kestrel",
  */
 
 % And start naming them - maybe pointing in a room of taxidermied
-% coots and grebes, eagles and egrets, watching you from paper-mached
-% perches.
+% coots and grebes, eagles and egrets watching you from
+% their paper-mached perches.
 
 colors(["brown","blue","red","golden","crimson","white","black","gray",
 	"yellow","violet"]).
@@ -380,10 +380,10 @@ a_wayOfSinging(WAY_OF_SINGING):- random(S), wayOfSinging_seed(WAY_OF_SINGING,S).
  * ...
  */
 
-% Walking towards the feathery thing a step at a time, crunching no
-% twigs; you place the binoculars over your eyes, and rub at the central
+% Walking towards the feathered thing a step at a time, crunching no
+% twigs, you place the binoculars over your eyes and rub at the central
 % dials until you can distinguish leaf from leaf and feather from
-% feather.
+% feather in the crook of the old oak.
 
 an_attribute_desc(family,[A_FAMILY_FOR_THAT_BIRD_AUNTS_UNCLES_SIBLINGS]):-
 	a_birdFamily(A_FAMILY_FOR_THAT_BIRD_AUNTS_UNCLES_SIBLINGS).
@@ -465,7 +465,7 @@ desc_name(wayOfSinging, [THE_WAY_OF_SINGING], THE_DESC_STR):-
  * still be stuck in human time and things))
  */
 
-% Now sitting behind your backyard window, with an extra page
+% Now, sitting behind your backyard window, with an extra page
 % accidentally printed - you get a pencil, and start finding the bird's
 % shape. Taking out the watercolors, you brush in, moving from light to
 % dark in quick washes. It will fly away before you're done, but
@@ -510,12 +510,6 @@ name_for(rarity,NAME_IT,_,COUNT_IT,_,_,FIND_ITS_RELATIONS,_):-
 
 name_for(coloredPart,NAME_IT,COLOR_IT,_,_,_,FIND_ITS_RELATIONS,_):-
 	member(THE_COLORED_PART,COLOR_IT),
-
-% One from the Spring flock on the nearby tree lands in front of you -
-% brown-winged, white-throated, large as a butternut squash. When you
-% step towards it, it leaps an equal amount back. When you step away, it
-% steps the same distance forward. When your steps approach it twice it
-% flaps back up into the crowded tree.
 	desc_name(coloredPart,THE_COLORED_PART,NAME_THE_COLORED_PART),
 	desc_name(family,FIND_ITS_RELATIONS,NAME_THE_RELATIONS),
 	strs_flatten([NAME_THE_COLORED_PART," ",NAME_THE_RELATIONS],NAME_IT).
@@ -636,17 +630,29 @@ a_relationListNum(OLD_BIRD,RELATED_BIRD,THE_INDEX):-
 
 bird_sociability(ITS_NAME,"solitary"):-
 	string_length(ITS_NAME,NAME_LENGTH),
-	10 >= NAME_LENGTH.
+	13 >= NAME_LENGTH.
 
 bird_sociability(ITS_NAME,"semi-solitary"):-
 	string_length(ITS_NAME,NAME_LENGTH),
-	10 =< NAME_LENGTH,
-	16 >= NAME_LENGTH.
+	NAME_LENGTH > 13,
+	17 >= NAME_LENGTH.
 
 bird_sociability(ITS_NAME,"flocking"):-
 	string_length(ITS_NAME,NAME_LENGTH),
-	10 =< NAME_LENGTH,
-	16 >= NAME_LENGTH.
+	NAME_LENGTH >= 17.
+
+sociability_descriptor("solitary",DESCRIPTOR):-
+	random_member(DESCRIPTOR,["alone","in solitude","singley"]).
+
+sociability_descriptor("semi-solitary",DESCRIPTOR):-
+	random_member(DESCRIPTOR,["in pairs","with a few of their kind","individually or in small groups"]).
+
+sociability_descriptor("flocking",DESCRIPTOR):-
+	random_member(DESCRIPTOR,["with many of their kind","in flocks","in large congregations"]).
+
+bird_sociabilityDescriptor(ITS_NAME,ITS_DESCRIPTOR):-
+	bird_sociability(ITS_NAME,ITS_SOCIABILITY),
+	sociability_descriptor(ITS_SOCIABILITY,ITS_DESCRIPTOR).
 
 behaviour_type(BEHAVIOUR_INT,"inter-species"):-
 	0 is BEHAVIOUR_INT mod 7.
@@ -678,27 +684,126 @@ nest_type(SEED_INT,NEST_TYPE):-
 	nth0(MOD5,["flat platforms composed of ","suspended structures woven from ","natural cavities in trees filled out with ", "depressions in the ground covered over by ", "tall and loosely built nests of "],NEST_TYPE).
 
 of_type_behaviour(BEHAVIOUR_INT,"inter-species",ITS_BEHAVIOUR):-
-	0 is BEHAVIOUR_INT mod 2,
-	a_birdListNum(1,SOME_OTHER_BIRD),
+	0 is BEHAVIOUR_INT mod 3,
+	a_birdList(SOME_OTHER_BIRD),
 	birdList_birdName(SOME_OTHER_BIRD,OTHER_NAME),
-	strs_flatten(["found around the homes of the ",OTHER_NAME],ITS_BEHAVIOUR).
+	random_member(MINGLE,["mingle with","walk among","stand around"]),
+	strs_flatten(["often ",MINGLE," groups of ",OTHER_NAME,"s"],ITS_BEHAVIOUR).
 
 of_type_behaviour(BEHAVIOUR_INT,"inter-species",ITS_BEHAVIOUR):-
-	1 is BEHAVIOUR_INT mod 2,
-	a_birdListNum(1,SOME_OTHER_BIRD),
+	1 is BEHAVIOUR_INT mod 3,
+	a_birdList(SOME_OTHER_BIRD),
 	birdList_birdName(SOME_OTHER_BIRD,OTHER_NAME),
-	strs_flatten(["It is found around the homes of the ",OTHER_NAME],ITS_BEHAVIOUR).
+	strs_flatten(["are found around the homes of the ",OTHER_NAME],ITS_BEHAVIOUR).
 
 of_type_behaviour(BEHAVIOUR_INT,"inter-species",ITS_BEHAVIOUR):-
 	2 is BEHAVIOUR_INT mod 3,
-	a_birdListNum(1,SOME_OTHER_BIRD),
+	a_birdList(SOME_OTHER_BIRD),
 	birdList_birdName(SOME_OTHER_BIRD,OTHER_NAME),
-	strs_flatten(["It is a brood parasite, leaving its eggs in nests of the ",OTHER_NAME, " rather than raising its own young."],ITS_BEHAVIOUR).
+	strs_flatten(["are a brood parasite, leaving their eggs in nests of the ",OTHER_NAME, " rather than raising their own young"],ITS_BEHAVIOUR).
 
 of_type_behaviour(BEHAVIOUR_INT,"nesting",ITS_BEHAVIOUR):-
 	nesting_material(BEHAVIOUR_INT,THE_MATERIAL),
 	nest_type(BEHAVIOUR_INT,NEST_TYPE),
-	strs_flatten(["They make their homes in ",NEST_TYPE,THE_MATERIAL,"."],ITS_BEHAVIOUR).
+	strs_flatten(["make their homes in ",NEST_TYPE,THE_MATERIAL],ITS_BEHAVIOUR).
+
+of_type_behaviour(BEHAVIOUR_INT,"flight","have lost the capacity for flight"):-
+	0 is BEHAVIOUR_INT mod 3.
+
+of_type_behaviour(BEHAVIOUR_INT,"flight",ITS_BEHAVIOUR):-
+	1 is BEHAVIOUR_INT mod 3,
+	MOD5 is BEHAVIOUR_INT mod 5,
+	nth0(MOD5,["high","low","rapidly","slowly","zigzaggingly"],FLIGHT_KIND),
+	strs_flatten(["fly ",FLIGHT_KIND],ITS_BEHAVIOUR).
+
+of_type_behaviour(BEHAVIOUR_INT,"flight",ITS_BEHAVIOUR):-
+	2 is BEHAVIOUR_INT mod 3,
+	MOD4 is BEHAVIOUR_INT mod 4,
+	MOD5 is BEHAVIOUR_INT mod 5,
+	nth0(MOD4,["hot","rising","cold","vorticial"],AIR_TYPE),
+	nth0(MOD5,["high","low","rapidly","slowly","zigzaggingly"],FLIGHT_KIND),
+	strs_flatten(["seek ",AIR_TYPE, " currents of wind to fly ",FLIGHT_KIND, " on"],ITS_BEHAVIOUR).
+
+of_type_behaviour(BEHAVIOUR_INT,"migratory",ITS_BEHAVIOUR):-
+	MOD3 is BEHAVIOUR_INT mod 3,
+	MOD4 is BEHAVIOUR_INT mod 4,
+	MOD5 is BEHAVIOUR_INT mod 5,
+	MOD6 is BEHAVIOUR_INT mod 6,
+	cardDirs(CARD_DIRS),
+	nth0(MOD4,CARD_DIRS,WHICH_DIR),
+	capitalize_first(WHICH_DIR,MIGRATION_DIR),
+	nth0(MOD5,["around a pond, across a field, or to the other side of a mountain to the ",
+		 "short distances to better nesting grounds further ",
+		 "reasonable distances ",
+		 "long distances annualy to the same sites in the ",
+		 "without rest accross continents and over oceans "],
+	     MIGRATION_DIST),
+	nth0(MOD6,[", to raise their young ",", to mate ",
+		   ", to withstand the weather ",
+		   ", to find food ",", to avoid predators ",", to perish"],
+	     MIGRATION_REASONS),
+	nth0(MOD3,["winter","spring","fall"],MIGRATION_SEASON),
+	strs_flatten(["travel ",MIGRATION_DIST,MIGRATION_DIR,
+		      " in the ",MIGRATION_SEASON, MIGRATION_REASONS],
+		     ITS_BEHAVIOUR).
+
+of_type_behaviour(BEHAVIOUR_INT,"human",ITS_BEHAVIOUR):-
+	1450 >= BEHAVIOUR_INT,
+	MOD3 is BEHAVIOUR_INT mod 3,
+	nth0(MOD3,["cities","towns","suburbs"],HUMAN_PLACE),
+	strs_flatten(["thrive in ",HUMAN_PLACE],ITS_BEHAVIOUR).
+
+of_type_behaviour(BEHAVIOUR_INT,"human",ITS_BEHAVIOUR):-
+	BEHAVIOUR_INT > 1450,
+	1650 >= BEHAVIOUR_INT,
+	MOD5 is BEHAVIOUR_INT mod 5,
+	nth0(MOD5,["conservation programs","environmental legislation",
+		   "the protection of their nesting grounds",
+		   "breeding and reintroduction programs",
+		   "the returning availability of their preferred foods"],
+	    HUMAN_HELP),
+	strs_flatten(["have begun to rebound due to ",HUMAN_HELP],ITS_BEHAVIOUR).
+
+of_type_behaviour(BEHAVIOUR_INT,"human",ITS_BEHAVIOUR):-
+	BEHAVIOUR_INT > 1650,
+	2000 >= BEHAVIOUR_INT,
+	MOD3 is BEHAVIOUR_INT mod 3,
+	MOD5 is BEHAVIOUR_INT mod 5,
+	nth0(MOD3,["farmland","backyards","ranches"],FIRST_OUTSKIRT),
+	nth0(MOD5,["lakesides","onto telephone wires","beaches","golf courses",
+		   "roofs"],SECOND_OUTSKIRT),
+	strs_flatten(["live on human outskirts, sometimes venturing into ",
+		      FIRST_OUTSKIRT," or ",SECOND_OUTSKIRT],ITS_BEHAVIOUR).
+
+of_type_behaviour(BEHAVIOUR_INT,"human","only survive far from human populations"):-
+	BEHAVIOUR_INT > 2000.
+
+of_type_behaviour(_,"mating","mate at the correct times with great theatrics and zeal").
+
+of_type_behaviour(BEHAVIOUR_INT,"misc","seem to to do nothing at all"):-
+	0 is BEHAVIOUR_INT mod 2,
+	0 is BEHAVIOUR_INT mod 3.
+
+of_type_behaviour(BEHAVIOUR_INT,"misc","are very shy birds, almost impossible to approach"):-
+	1 is BEHAVIOUR_INT mod 2,
+	0 is BEHAVIOUR_INT mod 3.
+
+of_type_behaviour(BEHAVIOUR_INT,"misc","will congregate and gratefully eat if fed"):-
+	0 is BEHAVIOUR_INT mod 2,
+	1 is BEHAVIOUR_INT mod 3.
+
+of_type_behaviour(BEHAVIOUR_INT,"misc","will steal sandwiches"):-
+	1 is BEHAVIOUR_INT mod 2,
+	1 is BEHAVIOUR_INT mod 3.
+
+of_type_behaviour(BEHAVIOUR_INT,"misc","can always find their way home"):-
+	0 is BEHAVIOUR_INT mod 2,
+	2 is BEHAVIOUR_INT mod 3.
+
+of_type_behaviour(BEHAVIOUR_INT,"misc","collect bright trinkets found in the dirt"):-
+	1 is BEHAVIOUR_INT mod 2,
+	2 is BEHAVIOUR_INT mod 3.
+
 
 of_type_behaviour(_,_,"").
 
@@ -764,13 +869,13 @@ bird_behaviour(ITS_NAME,ITS_BEHAVIOUR):-
  * ...
  *
  * (same conflicts and confusions present themselves in VII; the same
- * easy and unsatisfying answers (new wings))
+ * easy and unsatisfying answers (new beaks))
  *
  */
 
 % One weighs a pile of feathers against an egg; measures wingspan in
-% talons; looks for stripes and count spots; compares speckling and
-% distinguish blackbirds' black hues. (Names leak, it is well known.
+% talons; looks for stripes and counts spots; compares speckling and
+% distinguishes blackbirds' black hues. (Names leak, it is well known.
 % That somehow systems of glimpses, observed differences in the
 % sharpness of the V or ^ of the bird's wings, still aggregate and knot
 % into holding language)
@@ -1089,7 +1194,7 @@ identificatory_sentence(_,ID_SENT):-
 % million great spotted woodpeckers, over 40,000,000 willow ptarmigans
 % and 1679 flightless cormorants. Some billions, maybe hundreds of
 % billions, overall. Someone sits on the rocky beach in rain-pants
-% twisting bands round roughly feathered legs.
+% twisting bands round wet-feathered legs.
 
 rarity_advRarity("common","often").
 rarity_advRarity("uncommon","sometimes").
@@ -1203,7 +1308,7 @@ mistakenfor_synonym(MISTAKENFOR_SYNONYM):-
 
 comparativeInfo_sentence(1,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
 	with_synonym(WITH),
-	strs_flatten(["The ",B1_NAME,COMP_PHR," the ",B2_NAME," ",WITH," a ",
+	strs_flatten(["The ",B1_NAME,COMP_PHR," the ",B2_NAME,", ",WITH," a ",
 		      DESC1," and ",DESC2,". "],COMP_SENT).
 comparativeInfo_sentence(2,B1_NAME,B2_NAME,COMP_PHR,DESC1,DESC2,COMP_SENT):-
 	with_synonym(WITH),
@@ -1281,14 +1386,30 @@ descriptive_sentence(LISTED_BIRD,DESC_SENT):-
 	part_phrase(PART2,LISTED_BIRD,DESC2),
 	descriptiveInfo_sentence(BIRD_NAME,BFAMILY,DESC1,DESC2,DESC_SENT).
 
-numBehSentTypes(1).
+numBehSentTypes(3).
 
-behaviourInfo_sentence(EXTRAVERSION,BEH_SENT):-
+behaviour_sentence(LISTED_BIRD,BEH_SENT):-
+	birdList_birdName(LISTED_BIRD,BIRD_NAME),
+	bird_behaviour(BIRD_NAME,BEHAVIOUR),
+	bird_sociability(BIRD_NAME,EXTRAVERSION),
+	behaviourInfo_sentence(EXTRAVERSION,BEHAVIOUR,BEH_SENT).
+
+behaviourInfo_sentence(EXTRAVERSION,BEHAVIOUR,BEH_SENT):-
 	numBehSentTypes(NUM_SENT_TYPES),
 	random_between(1,NUM_SENT_TYPES,SENT_TYPE),
-	behaviourInfo_sentence(SENT_TYPE,EXTRAVERSION,BEH_SENT).
+	behaviourInfo_sentence(SENT_TYPE,EXTRAVERSION,BEHAVIOUR,BEH_SENT).
 
-behaviourInfo_sentence(1,_,"").
+behaviourInfo_sentence(1,EXTRAVERSION,BEHAVIOUR,BEH_SENT):-
+	sociability_descriptor(EXTRAVERSION,SOC_DESC),
+	capitalize_first(SOC_DESC,CAP_SOC_DESC),
+	strs_flatten([CAP_SOC_DESC,", they ",BEHAVIOUR,". "],BEH_SENT).
+
+behaviourInfo_sentence(2,EXTRAVERSION,BEHAVIOUR,BEH_SENT):-
+	sociability_descriptor(EXTRAVERSION,SOC_DESC),
+	strs_flatten(["A bird living ",SOC_DESC,", they ",BEHAVIOUR,". "],BEH_SENT).
+
+behaviourInfo_sentence(3,EXTRAVERSION,BEHAVIOUR,BEH_SENT):-
+	strs_flatten(["These ",EXTRAVERSION," birds ",BEHAVIOUR,". "],BEH_SENT).
 
 % 8 COUNT
 % Charles Bukowski
@@ -1477,6 +1598,10 @@ ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,[descriptive|OTHER_TYPES],THE_TEXT):-
 	descriptive_sentence(LIST_BIRD1,DESC_SENT),
 	ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,OTHER_TYPES,REMAINING_TEXT),
 	string_concat(DESC_SENT,REMAINING_TEXT,THE_TEXT).
+ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,[behaviour|OTHER_TYPES],THE_TEXT):-
+	behaviour_sentence(LIST_BIRD1,BEH_SENT),
+	ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,OTHER_TYPES,REMAINING_TEXT),
+	string_concat(BEH_SENT,REMAINING_TEXT,THE_TEXT).
 ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,[song|OTHER_TYPES],THE_TEXT):-
 	song_sentence(LIST_BIRD1,SONG_SENT),
 	ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,OTHER_TYPES,REMAINING_TEXT),
@@ -1488,11 +1613,10 @@ ofBirds_ofTypes_text(LIST_BIRD1,LIST_BIRD2,[song|OTHER_TYPES],THE_TEXT):-
 % one gray fluff - but for nonexistent birds we will do nothing of the
 % sort.
 
-compTextPatterns([[comparative,identificatory,distribution,song],
-		  [comparative,identificatory,distribution,song],
-		  [comparative,distribution,song],
-		  [descriptive,identificatory,distribution,song],
-		  [comparative,distribution,identificatory,song]]).
+compTextPatterns([[comparative,identificatory,distribution,behaviour,song],
+		  [comparative,identificatory,distribution,behaviour,song],
+		  [comparative,distribution,behaviour,song],
+		  [comparative,distribution,identificatory,behaviour,song]]).
 
 comparative_text([LIST_BIRD1,LIST_BIRD2],THE_TEXT):-
 	birdList_birdName(LIST_BIRD1,A_NAME),
@@ -1528,6 +1652,10 @@ ofBird_ofTypes_text(LIST_BIRD,[descriptive|OTHER_TYPES],THE_TEXT):-
 	descriptive_sentence(LIST_BIRD,DESC_SENT),
 	ofBird_ofTypes_text(LIST_BIRD,OTHER_TYPES,REMAINING_TEXT),
 	string_concat(DESC_SENT,REMAINING_TEXT,THE_TEXT).
+ofBird_ofTypes_text(LIST_BIRD,[behaviour|OTHER_TYPES],THE_TEXT):-
+	behaviour_sentence(LIST_BIRD,BEH_SENT),
+	ofBird_ofTypes_text(LIST_BIRD,OTHER_TYPES,REMAINING_TEXT),
+	string_concat(BEH_SENT,REMAINING_TEXT,THE_TEXT).
 ofBird_ofTypes_text(LIST_BIRD,[song|OTHER_TYPES],THE_TEXT):-
 	song_sentence(LIST_BIRD,SONG_SENT),
 	ofBird_ofTypes_text(LIST_BIRD,OTHER_TYPES,REMAINING_TEXT),
@@ -1538,9 +1666,9 @@ ofBird_ofTypes_text(LIST_BIRD,[song|OTHER_TYPES],THE_TEXT):-
 % Boeing; the presence or absence of extra winglets distinguishing A320
 % and A340.
 
-desc_text_patterns([[descriptive,identificatory,distribution,song],
-		    [descriptive,identificatory,distribution,song],
-		    [descriptive,distribution,song]]).
+desc_text_patterns([[descriptive,identificatory,distribution,behaviour,song],
+		    [descriptive,identificatory,distribution,behaviour,song],
+		    [descriptive,distribution,behaviour,song]]).
 
 descriptive_text(LISTED_BIRD,THE_TEXT):-
 	birdList_birdName(LISTED_BIRD,A_NAME),
@@ -1882,38 +2010,33 @@ fibonacci_birds(N,NEW_BIRDS,BIRDS,WORDS):-
 % birds around at all.
 %
 % Consider a sendentary creature who returns through all seasons to the
-% same three or four perches (i'm trying to avoid autobiography, but
-% in the end only find myself explaining what i imagine i do and do not
+% same three or four perches (i'm trying to avoid autobiography,
+% but only find myself explaining what i imagine i do and do not
 % understand of myself; let me be this bird, let the perches be the
 % three or four things i have to talk about: they are something about
 % structure and language, a rambling explanation of mathematics, and
 % something about the smudged out repulsion of myself, my fear of
-% aquariums).
+% aquariums). Consider a language-game between an amateur A and a
+% birdwatcher B.
 %
 % Raymond Queneau’s motto: "Rats who build the labyrinth from which they
-% will try to escape" Georges Perec's: "I set myself rules in order to
-% be totally free."
+% will try to escape"
 %
-% These little birds do not really dare to comment on Wittgenstein, but
-% maybe the question is as to how to find my way through language-games,
-% the game of telling birds that might or might not be, or barring
-% succesful play, to participate in them with something like joy. The
-% rules are not these rules but the play of finding them, and the next
-% rules, for naming the following as yet ignored birds.
+% Georges Perec's: "I set myself rules in order to be totally free."
 %
 % This is not the logic of birds of course, but the logic of a mind
-% hoping to make a logic for birds: i do not hope to learn the actual
-% patterns of ornithology, but only to consider some of the odd
-% extravagant and particular birds of a logic; it is not the still
-% polygon of the stuffed specimen but the blur of the hovering
-% hummingbird's wings that i want to watch and understand: or maybe what
-% is interesting is actually the counterpoint between polygon and
-% motion.
+% making a logic for the birds already in its private landscape: i do
+% not hope to find the actual patterns of ornithology, but only to
+% consider some of the odd extravagant and particular birds of a logic;
+% it is not the still polygon of the stuffed specimen but the blur of
+% the hovering hummingbird's wings that i want to watch and understand:
+% or maybe what is interesting is actually the counterpoint between
+% polygon and motion.
 %
 % I do remember walking through the coastal forest where an osprey was
 % and the binoculars on a string around my neck. I do not really
 % remember the bird beyond the flash of some section of white and the
-% presence of wings, but i remember talking and reading about it
+% signification of wings, but i remember talking and reading about it
 % afterwards, in our place a rare bird, fish-eater and diver, nesting
 % on large sticks placed in a dead tree. I remember kestrels on
 % telephone wires and boring vultures. A hawk or swift that one morning
@@ -1949,7 +2072,7 @@ lots_ofBirdWords(N,THE_BOOK):-
 	writef(THE_BOOK).
 
 guideToNonexistentBirds(BIRD_WORDS):-
-	lots_ofBirdWords(7,BIRD_WORDS).
+	lots_ofBirdWords(6,BIRD_WORDS).
 
 % Freebird
 % LYNRYD SKYNYRD
