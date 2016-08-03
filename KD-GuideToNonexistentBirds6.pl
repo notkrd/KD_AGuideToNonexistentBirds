@@ -5,7 +5,7 @@
 
 
 /* (How I would recommend reading this thing, though there is room for
- * debate on this question: read the Neruda poem, all the comments I
+ * debate on this question - read the Neruda poem, all the comments I
  * wrote (I'm attached to a few of them), the Wallace Stevens in its
  * entirety but only once, skip the Keats except for a few lines for
  * atmosphere, the Bukowski won't take up too much of your time, skim 13
@@ -738,9 +738,9 @@ of_type_behaviour(BEHAVIOUR_INT,"migratory",ITS_BEHAVIOUR):-
 		 "long distances annualy to the same sites in the ",
 		 "without rest accross continents and over oceans "],
 	     MIGRATION_DIST),
-	nth0(MOD6,[", to raise their young ",", to mate ",
-		   ", to withstand the weather ",
-		   ", to find food ",", to avoid predators ",", to perish"],
+	nth0(MOD6,[", to raise their young",", to mate",
+		   ", to withstand the weather",
+		   ", to find food",", to avoid predators",", to perish"],
 	     MIGRATION_REASONS),
 	nth0(MOD3,["winter","spring","fall"],MIGRATION_SEASON),
 	strs_flatten(["travel ",MIGRATION_DIST,MIGRATION_DIR,
@@ -929,7 +929,9 @@ comparison_str(NUM1,NUM2,COMP_STR):-
 
 % And now, a brief break for ode-singing -
 
-bird_chirps(["ai","ou","ka","rik","chi","er","tee","oo","wee"]).
+bird_chirps(["ai","ou","ka","rik","chi","er","tee","oo",
+	     "wee","kraa","coo","kyik","ah","per","pip",
+	     "chip","klip","kok"]).
 
 % Ode to a Nightingale
 %    John Keats
@@ -2009,15 +2011,21 @@ fibonacci_birds(N,NEW_BIRDS,BIRDS,WORDS):-
 % as a magic-realist collection of prose-poetry now, if there were no
 % birds around at all.
 %
-% Consider a sendentary creature who returns through all seasons to the
-% same three or four perches (i'm trying to avoid autobiography,
-% but only find myself explaining what i imagine i do and do not
-% understand of myself; let me be this bird, let the perches be the
-% three or four things i have to talk about: they are something about
-% structure and language, a rambling explanation of mathematics, and
-% something about the smudged out repulsion of myself, my fear of
-% aquariums). Consider a language-game between an amateur A and a
-% birdwatcher B.
+% 'Consider a language-game between a birdwatcher A and a
+% nature photographer B. A is photographing birds: there are grebes,
+% thrushes, swallows, and wrens. B has to find and name the birds in the
+% order in which A wants to photograph them. For this purpose, they use
+% a language consisting of the words "grebe,"thrush," "swallow," and
+% "wren." A calls them out; B finds and points to the bird they have
+% learned to find at such-and-such a call. Concieve this as a complete
+% primitive language.' Consider a sendentary creature who returns
+% through all seasons to the same three or four perches (i'm trying to
+% avoid autobiography, but only find myself explaining what i imagine i
+% do and do not understand of myself; let me be this bird, let the
+% perches be the three or four things i have to talk about: they are
+% something about structure and language, a rambling explanation of
+% mathematics, and something about the smudged out repulsion of myself,
+% my fear of aquariums).
 %
 % Raymond Queneau’s motto: "Rats who build the labyrinth from which they
 % will try to escape"
@@ -2063,16 +2071,26 @@ fibonacci_birds(N,NEW_BIRDS,BIRDS,WORDS):-
 % the words / For those who will not hear the words / La di da di da di
 % da / La di da di da di da" - Neko Case
 
-lots_ofBirdWords(N,THE_BOOK):-
+lots_ofBirdWords(N,THE_TEXT):-
+	get_time(NOW),
 % "Lightning -
 	fibonacci_birds(N,_,_,THE_WORDS),
 % Heron's cry
-	strs_flatten(THE_WORDS,THE_BOOK),
+	append([["The Guide to Nonexistent Birds:",
+		 " an Ornithological Logic",
+		 "\n\nSECTION ",NOW,":\n\n",
+		 "* * ** *** ***** ******** *************",
+		 "\n\n"],
+		THE_WORDS],ALL_WORDS),
+	strs_flatten(ALL_WORDS,THE_TEXT),
 % Stabs the darkness" - BASHO (trans. unknown)
-	writef(THE_BOOK).
+	writef(THE_TEXT).
 
 guideToNonexistentBirds(BIRD_WORDS):-
-	lots_ofBirdWords(6,BIRD_WORDS).
+	lots_ofBirdWords(7,BIRD_WORDS),
+	open('GuideToNonexistentBirds.txt',write,THE_BOOK),
+	write(THE_BOOK,BIRD_WORDS),
+	close(THE_BOOK).
 
 % Freebird
 % LYNRYD SKYNYRD
