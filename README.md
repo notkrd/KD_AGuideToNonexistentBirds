@@ -1,4 +1,24 @@
 # KD_AGuideToNonexistentBirds
+TO READ:
+
+1. Get SWI prolog here: http://www.swi-prolog.org/download/stable
+
+2. Install and run prolog.
+
+3. Download the file KD-GuideToNonexistentBirds6.pl, or the directory if you prefer
+
+4. Launch prolog. Click [File/Edit] and open KD-GuideToNonexistentBirds6.pl.
+
+5. Click [Compile/Compile Buffer] in the editor.
+
+6. Place the code on the left side, and the prolog window on the right.
+
+7. type "GuideToNonexistentBirds(_)." and press enter.
+
+8. Read the code and the birds that appear. If the birds are truncated, you can find
+the entirety of them in a file called "GuideToNonexistentBirds.txt" in your Prolog directory.
+
+HERE are all the existent birds:
 
 *********************************************************************
 
