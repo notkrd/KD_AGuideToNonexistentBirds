@@ -13,7 +13,7 @@ TO READ:
 
 6. Place the code on the left side, and the prolog window on the right.
 
-7. type "guideToNonexistentBirds(_)." and press enter.
+7. type "guideToNonexistentBirds(_)." then press enter.
 
 8. Read the code and the birds that appear. If the birds are truncated, you can find
 the entirety of them in a file called "guideToNonexistentBirds.txt" in your Prolog directory.
