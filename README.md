@@ -1,4 +1,7 @@
 # KD_AGuideToNonexistentBirds
+
+A draft demo website can be found here: http://qfwfqandfriends.com/nonexistentBirds.html
+
 TO READ:
 
 1. Get SWI prolog here: http://www.swi-prolog.org/download/stable
