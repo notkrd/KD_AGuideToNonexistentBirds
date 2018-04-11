@@ -1,6 +1,6 @@
 # KD_AGuideToNonexistentBirds
 
-A draft demo website can be found here: http://qfwfqandfriends.com/nonexistentBirds.html
+A website can be found here: http://ornithological.kavid.xyz
 
 TO READ:
 
