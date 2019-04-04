@@ -1,6 +1,6 @@
 # KD_AGuideToNonexistentBirds
 
-A website can be found here: http://ornithological.kavid.xyz
+A website can be found here: http://titleduntitled.name/ornithological
 
 TO READ:
 
